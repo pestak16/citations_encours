@@ -8,7 +8,7 @@ class Database extends PDO
 {
     static $instance;
 
-    private function __construct(){
+    protected function __construct(){
         require_once ROOT . '/conf/bdd.php';
         
         $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME;

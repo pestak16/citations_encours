@@ -2,7 +2,8 @@
 
 use App\Autoloader as AppAutoloader;
 use Core\Autoloader as CoreAutoloader;
-use Core\BDD\Database;
+
+use Core\BDD\Model;
 
 define('ROOT', dirname(__DIR__));
 require_once ROOT. '/conf/constantes.php';
@@ -15,7 +16,8 @@ require_once ROOT . '/Core/Autoloader.php';
 CoreAutoloader::register();
 require_once ROOT . '/vendor/autoload.php';
 
-$db  = Database::getInstance();
+$model  = new Model;
+dump($model->findBy(['id'=>2]));
 
-var_dump($db);
+
 
