@@ -2,5 +2,5 @@
 
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'citations');
-define('DB_USER', 'root');
+define('DB_USER', 'rootine');
 define('DB_PASS', '');
