@@ -5,6 +5,9 @@ use Exception;
 use PDO;
 use PDOException;
 
+/**
+ * DAO Singleton
+ */
 class Database extends PDO
 {
     static $instance;

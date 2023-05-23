@@ -11,4 +11,4 @@ require_once ROOT . '/autoload.php';
 use App\Models\AuteursModel;
 $model = new AuteursModel;
 
-dump($model->findAll());
+var_dump($model->update(['auteur'=>'david', 'bio'=>'boit du cafe'], 6));
