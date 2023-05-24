@@ -7,6 +7,6 @@ require 'dao.php';
 
 
 $manager = new AuteurManager($dao);
-$auteurs = $manager->findBy(['id'=>1]);
-Debug::print_r($auteurs);
-
+//$auteurs = $manager->findBy(['id'=>1]);
+//Debug::print_r($auteurs);
+Debug::print_r($manager->findAll());

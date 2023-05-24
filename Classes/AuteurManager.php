@@ -69,4 +69,16 @@ class AuteurManager
 
         return $q->fetchAll();
     }
+
+    /**
+     * REtourne tous les auteurs 
+     *
+     * @return array
+     */
+    public function findAll():array
+    {
+        $q = $this->db->query('SELECT * FROM auteurs');
+        return $q->fetchAll();
+
+    }
 }
