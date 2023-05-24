@@ -67,7 +67,12 @@ class AuteurManager
             echo $e->getMessage();
         }
 
-        return $q->fetchAll();
+        $auteurs = [];
+        
+       while($tuple = $q->fetch(PDO::FETCH_ASSOC)){
+            $auteurs[] = new AuteurEntity($tuple);
+       }
+      return $auteurs;
     }
 
     /**
@@ -79,6 +84,17 @@ class AuteurManager
     {
         $q = $this->db->query('SELECT * FROM auteurs');
         return $q->fetchAll();
+
+    }
+
+    public function delete(AuteurEntity $auteur)
+    {
+        //Debug::var_dump($auteur);
+
+        //DELETE FROM auteurs
+        //WHERE
+        $sql = 'DELETE FROM auteurs WHERE id=' . $auteur->getId();
+       return $this->db->exec($sql);
 
     }
 }

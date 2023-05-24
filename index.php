@@ -9,4 +9,10 @@ require 'dao.php';
 $manager = new AuteurManager($dao);
 //$auteurs = $manager->findBy(['id'=>1]);
 //Debug::print_r($auteurs);
-Debug::print_r($manager->findAll());
+$anh = $manager->findBy(['auteur'=>'jonathan']);
+
+var_dump($manager->delete($anh[0]));
+
+
+
+
