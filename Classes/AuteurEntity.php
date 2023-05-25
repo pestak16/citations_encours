@@ -83,13 +83,4 @@ class AuteurEntity
         return $this;
     }
 }
-/*
-//Test
 
-$philippe = new AuteurEntity;
-$philippe->hydrate([
-    'auteur'=>'philippe',
-    'bio'=>'Formation CDA option mécanique en 2023'
-]);
-var_dump($philippe);
-*/

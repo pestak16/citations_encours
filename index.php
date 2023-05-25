@@ -1,22 +1,24 @@
 
 <?php
 require 'Classes/AuteurEntity.php';
+require 'Classes/UtilisateurEntity.php';
 require 'Classes/AuteurManager.php';
 require 'Classes/Debug.php';
 require 'dao.php';
 
 
-$manager = new AuteurManager($dao);
-//$auteurs = $manager->findBy(['id'=>1]);
-//Debug::print_r($auteurs);
+$anh = new UtilisateurEntity(
+    [
+        'prenom'=>'anh',
+        'mail'=>'nia1512@gmail.com',
+        'is_admin'=>true,
+        'a_de_la_barbe'=>true
+    ]
+);
 
-//
 
-/*
-$anh->setBio(' Elle vit en france depuis 2017');
+Debug::var_dump($anh);
 
-$manager->update($anh);
-*/
 
 
 
