@@ -1,6 +1,8 @@
 <?php
-use App\Auteur\AuteurEntity;
+
 use \Core\Debug;
+use Core\Manager;
+use App\Auteur\AuteurManager;
 
 
 //initialisation du projet
@@ -17,6 +19,16 @@ App\Autoloader::register();
 require ROOT . '/Core/Autoloader.php';
 Core\Autoloader::register();
 
-\Core\Debug::var_dump(new AuteurEntity());
+
+
+
+$manager = new AuteurManager();
+Debug::print_r($manager->findAll());
+
+
+
+
+
+
 
 
