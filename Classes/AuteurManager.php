@@ -97,4 +97,23 @@ class AuteurManager
        return $this->db->exec($sql);
 
     }
+
+    public function update(AuteurEntity $auteur)
+    {
+        //UPDATE auteurs SET champs1=?, champs2=? WHERE id= ?
+        //execute([])
+        $sql = 'UPDATE auteurs SET  auteur = :auteur, bio= :bio WHERE id=:id';
+        $q = $this->db->prepare($sql);
+        $q->bindValue(':auteur', $auteur->getAuteur(), PDO::PARAM_STR);
+        $q->bindValue(':bio', $auteur->getBio(), PDO::PARAM_STR);
+        $q->bindValue(':id', $auteur->getId(), PDO::PARAM_INT);
+
+        try{
+            $q->execute();
+            return $this->find($auteur->getId());
+        }catch(Exception $e){
+            echo $e->getMessage();
+        }
+
+    }
 }
