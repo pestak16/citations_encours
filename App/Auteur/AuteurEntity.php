@@ -1,5 +1,5 @@
 <?php
-
+namespace App\Auteur;
 class AuteurEntity
 {
     private  int|null $id=null;
