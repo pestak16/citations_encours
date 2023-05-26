@@ -23,6 +23,7 @@ Core\Autoloader::register();
 
 
 $manager = new AuteurManager();
-Debug::var_dump($manager->findAll());
+//Debug::var_dump($manager->findAll());
+Debug::var_dump($manager->findBy(['id'=>2])[0]);
 
 
