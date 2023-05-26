@@ -1,10 +1,11 @@
 <?php
 
 use App\Auteur\AuteurEntity;
-use \Core\Debug;
+use App\Utilisateur\UtilisateurEntity;
 use \App\Auteur\AuteurManager;
-use \Core\Database\PDOMysql;
-use Core\Database\PDOFactory;
+
+
+
 
 
 //initialisation du projet
@@ -24,10 +25,13 @@ require ROOT . '/vendor/autoload.php';
 
 
 
-$manager = new AuteurManager();
+//$manager = new AuteurManager();
 //Debug::var_dump($manager->findAll());
 //Debug::var_dump($manager->findBy(['id'=>2])[0]);
 
-dump($manager->create(new AuteurEntity(['auteur'=>'delphine', 'bio'=>'40 ans'])));
+//dump($manager->update(new AuteurEntity(['auteur'=>'delphine', 'bio'=>'39 ans', 'id'=>20])));
 
 
+//var_dump($manager->delete(18));
+
+$manager = new UtilisateurEntity();
