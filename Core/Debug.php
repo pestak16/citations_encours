@@ -3,10 +3,10 @@ namespace Core;
 
 class Debug
 {
-    public static function var_dump($param){
+    public static function var_dump(...$param){
         echo '<pre>';
 
-            var_dump($param);
+            var_dump(...$param);
         echo '</pre>';
     }
 

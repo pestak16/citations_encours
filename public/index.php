@@ -1,8 +1,9 @@
 <?php
 
 use \Core\Debug;
-use Core\Manager;
-use App\Auteur\AuteurManager;
+use \App\Auteur\AuteurManager;
+use \Core\Database\PDOMysql;
+use Core\Database\PDOFactory;
 
 
 //initialisation du projet
@@ -21,14 +22,7 @@ Core\Autoloader::register();
 
 
 
-
 $manager = new AuteurManager();
-Debug::print_r($manager->findAll());
-
-
-
-
-
-
+Debug::var_dump($manager->findAll());
 
 
