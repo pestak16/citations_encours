@@ -1,6 +1,7 @@
 <?php
 namespace App\Auteur;
-class AuteurEntity
+use Core\Entity;
+class AuteurEntity extends Entity
 {
     private  int|null $id=null;
     private string|null $auteur=null;

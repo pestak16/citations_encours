@@ -1,5 +1,6 @@
 <?php
 
+use App\Auteur\AuteurEntity;
 use \Core\Debug;
 use \App\Auteur\AuteurManager;
 use \Core\Database\PDOMysql;
@@ -24,6 +25,8 @@ Core\Autoloader::register();
 
 $manager = new AuteurManager();
 //Debug::var_dump($manager->findAll());
-Debug::var_dump($manager->findBy(['id'=>2])[0]);
+//Debug::var_dump($manager->findBy(['id'=>2])[0]);
+
+$manager->create(new AuteurEntity(['auteur'=>'jeremy']));
 
 
