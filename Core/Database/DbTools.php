@@ -15,9 +15,8 @@ class DbTools
        
         $all = $q->fetchAll(PDO::FETCH_ASSOC);
         foreach ($all as $value) {
-            if ($value['Field'] != 'id') {
+            
                 $columns[] = $value['Field'];
-            }
         }
         return $columns;
     }

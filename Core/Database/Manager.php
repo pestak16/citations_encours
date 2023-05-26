@@ -68,7 +68,31 @@ class Manager
     {
         if (!$entity->est_nouveau()) trigger_error('Déjà enregistré', E_USER_ERROR);
         
+        $champs=[];
+        $interrogation=[];
+        $valeurs=[];
         $columns = DbTools::getFields($this->table);
-        die(Debug::print_r($columns));
+        foreach($columns as $column){
+            $getter = 'get' . ucfirst($column);
+            if(!is_null($entity->$getter())){
+               $champs[] = $column;
+               $interrogation[] = '?';
+               $valeurs[] = $entity->$getter();
+            }
+        }
+
+        $sql = 'INSERT INTO '.$this->table . '(' . implode(', ', $champs) . ')';
+        $sql .= ' VALUES (' . implode(', ', $interrogation) . ')';
+        try{
+            $q = $this->statement($sql, $valeurs);
+            $id = DbFactory::getDb(DbFactory::MY_SQL)->lastInsertId();
+            return $this->find($id);
+        }catch(PDOException $e){
+            if(DEBUG){
+                echo $e->getMessage();
+            }
+        }
+        
+        
     }
 }

@@ -20,6 +20,7 @@ require ROOT . '/App/Autoloader.php';
 App\Autoloader::register();
 require ROOT . '/Core/Autoloader.php';
 Core\Autoloader::register();
+require ROOT . '/vendor/autoload.php';
 
 
 
@@ -27,6 +28,6 @@ $manager = new AuteurManager();
 //Debug::var_dump($manager->findAll());
 //Debug::var_dump($manager->findBy(['id'=>2])[0]);
 
-$manager->create(new AuteurEntity(['auteur'=>'jeremy']));
+dump($manager->create(new AuteurEntity(['auteur'=>'delphine', 'bio'=>'40 ans'])));
 
 

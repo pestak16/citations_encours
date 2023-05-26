@@ -33,7 +33,7 @@ class AuteurEntity extends Entity
        return !isset($this->id);
     }
 
-    public function getId(): int
+    public function getId(): int|null
     {
         return $this->id;
     }
@@ -74,7 +74,7 @@ class AuteurEntity extends Entity
         return $this;
     }
 
-    public function getDate_modif():string{
+    public function getDate_modif():string|null{
         return $this->date_modif;
     }
 
