@@ -4,6 +4,7 @@ namespace Core\Database;
 
 use \PDO;
 use \PDOException;
+use \PDOStatement;
 use \Core\Debug;
 use \Core\Entity;
 use \Core\Database\DbTools;
@@ -107,11 +108,15 @@ class Manager
      * Description : Récupère un enregistrement  en fonction de l'ID.
      *
      * @param int $id L'ID de l'enregistrement à rechercher.
-     * @return mixed L'enregistrement correspondant sous forme d'objet de l'entité associée.
+     * @return mixed L'enregistrement correspondant sous forme d'objet de l'entité associée ou faux.
      */
     public function find(int $id)
     {
-        return $this->findBy(['id' => $id])[0];
+        $list = $this->findBy(['id' => $id]);
+        if(isset($list[0])){
+            return $list[0];
+        }
+        return false;
     }
 
 

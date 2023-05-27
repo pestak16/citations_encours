@@ -16,6 +16,10 @@ class DbFactory
      */
     const MY_SQL = 'PDOMysql';
 
+
+    //constante à venir
+    //SQLITE, POSTGRE
+
     /**
      * Instance de la classe DbFactory
      * 

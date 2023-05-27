@@ -26,7 +26,10 @@ class UtilisateurEntity extends Entity
      */
     public function __construct(array $data=null)
     {
-        $this->hydrate($data);
+        if(!is_null($data)){
+            $this->hydrate($data);
+        }
+     
     }
 
     /**

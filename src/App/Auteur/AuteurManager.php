@@ -7,6 +7,5 @@ class AuteurManager extends Manager
 {
     public function __construct(){
         $this->table = 'auteurs';
-     
     }
 }
