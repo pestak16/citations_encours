@@ -1,0 +1,422 @@
+\hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper}{}\doxysection{Cli\+Dumper Class Reference}
+\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper}\index{CliDumper@{CliDumper}}
+Inheritance diagram for Cli\+Dumper\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a3cfd1fbe1716f3d1e49dd2a0de64c8bd}{\+\_\+\+\_\+construct}} (\$output=null, \$charset=null, \$flags=0)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7b739251528776e163c5272246ce0e3f}{set\+Colors}} (\$colors)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a118b058df3c96ec8b0014c271d9fca41}{set\+Max\+String\+Width}} (\$max\+String\+Width)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a202f8d900759705e30fd968017cb3a9b}{set\+Styles}} (array \$styles)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_add42458fcc51cd6c92fbfab62bc7c5fe}{dump\+Scalar}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$type, \$value)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a06a24429c48c30ba1f579de698fd8853}{dump\+String}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$str, \$bin, \$cut)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a9b9ec353aaf82757fb3d8b221266759f}{enter\+Hash}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$type, \$class, \$has\+Child)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_afe9a3bb766900568a92604df854c7658}{leave\+Hash}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$type, \$class, \$has\+Child, \$cut)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a000dc403b7bc6d30e314e0b6f9e65754}{\$default\+Colors}}
+\item 
+static \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a4a780e221a0398ba659d278ae41c5bc6}{\$default\+Output}} = \textquotesingle{}php\+://stdout\textquotesingle{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aa8cb9d295355404a19697ed6833378f2}{dump\+Ellipsis}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$has\+Child, \$cut)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aeae46a3c4a9e911022017125cbb1339e}{dump\+Key}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a2fc73094d50c145bb907c5386d84be31}{style}} (\$style, \$value, \$attr=\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a388c164e14126c9d673f399673730da5}{supports\+Colors}} ()
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aa6bd1f10fdb3968ed17a4d12e9269ae9}{dump\+Line}} (\$depth, \$end\+Of\+Value=false)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_ac8c8abea44ca5fba5d1b3c60851ae447}{end\+Value}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7bb8af4e80c138d129aaa0e892ba4cbf}{\$colors}}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a963b756f9dbf9fadb1c32eaa11fa3455}{\$max\+String\+Width}} = 0
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a920c320068535c09e154c6707eb42ded}{\$styles}}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a1ed9472a6140abe1277407f66587d29b}{\$collapse\+Next\+Hash}} = false
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7c4be83492312758642599e9be5d5f4f}{\$expand\+Next\+Hash}} = false
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a22a990230f758458c0422e5c52317660}{\$control\+Chars\+Rx}} = \textquotesingle{}/\mbox{[}\textbackslash{}x00-\/\textbackslash{}x1\+F\textbackslash{}x7F\mbox{]}+/\textquotesingle{}
+\item 
+static \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_af7f03abdc9daf331624d80344d23f334}{\$control\+Chars\+Map}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper}{Cli\+Dumper}} dumps variables for command line output.
+
+\begin{DoxyAuthor}{Author}
+Nicolas Grekas \href{mailto:p@tchwork.com}{\texttt{ p@tchwork.\+com}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a3cfd1fbe1716f3d1e49dd2a0de64c8bd}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a3cfd1fbe1716f3d1e49dd2a0de64c8bd}} 
+\index{CliDumper@{CliDumper}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$output = {\ttfamily null},  }\item[{}]{\$charset = {\ttfamily null},  }\item[{}]{\$flags = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\{
+\begin{DoxyParams}[1]{Parameters}
+callable | resource | string | null & {\em \$output} & A line dumper callable, an opened stream or an output path, defaults to static\+::\$default\+Output \\
+\hline
+string | null & {\em \$charset} & The default character encoding to use for non-\/\+UTF8 strings \\
+\hline
+int & {\em \$flags} & A bit field of static\+::\+DUMP\+\_\+$\ast$ constants to fine tune dumps representation\\
+\hline
+\end{DoxyParams}
+\} 
+
+Reimplemented from \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_a3cfd1fbe1716f3d1e49dd2a0de64c8bd}{Abstract\+Dumper}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_a3cfd1fbe1716f3d1e49dd2a0de64c8bd}{Html\+Dumper}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aa8cb9d295355404a19697ed6833378f2}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aa8cb9d295355404a19697ed6833378f2}} 
+\index{CliDumper@{CliDumper}!dumpEllipsis@{dumpEllipsis}}
+\index{dumpEllipsis@{dumpEllipsis}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{dumpEllipsis()}{dumpEllipsis()}}
+{\footnotesize\ttfamily dump\+Ellipsis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$has\+Child,  }\item[{}]{\$cut }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Dumps an ellipsis for cut children.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Cursor & {\em \$cursor} & The Cursor position in the dump \\
+\hline
+bool & {\em \$has\+Child} & When the dump of the hash has child item \\
+\hline
+int & {\em \$cut} & The number of items the hash has been cut by \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aeae46a3c4a9e911022017125cbb1339e}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aeae46a3c4a9e911022017125cbb1339e}} 
+\index{CliDumper@{CliDumper}!dumpKey@{dumpKey}}
+\index{dumpKey@{dumpKey}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{dumpKey()}{dumpKey()}}
+{\footnotesize\ttfamily dump\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Dumps a key in a hash structure.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Cursor & {\em \$cursor} & The Cursor position in the dump \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aa6bd1f10fdb3968ed17a4d12e9269ae9}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_aa6bd1f10fdb3968ed17a4d12e9269ae9}} 
+\index{CliDumper@{CliDumper}!dumpLine@{dumpLine}}
+\index{dumpLine@{dumpLine}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{dumpLine()}{dumpLine()}}
+{\footnotesize\ttfamily dump\+Line (\begin{DoxyParamCaption}\item[{}]{\$depth,  }\item[{}]{\$end\+Of\+Value = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\{\} 
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_aa6bd1f10fdb3968ed17a4d12e9269ae9}{Html\+Dumper}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_add42458fcc51cd6c92fbfab62bc7c5fe}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_add42458fcc51cd6c92fbfab62bc7c5fe}} 
+\index{CliDumper@{CliDumper}!dumpScalar@{dumpScalar}}
+\index{dumpScalar@{dumpScalar}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{dumpScalar()}{dumpScalar()}}
+{\footnotesize\ttfamily dump\+Scalar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$type,  }\item[{}]{\$value }\end{DoxyParamCaption})}
+
+\{Dumps a scalar value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+string & {\em \$type} & The PHP type of the value being dumped \\
+\hline
+string | int | float | bool & {\em \$value} & The scalar value being dumped\\
+\hline
+\end{DoxyParams}
+\} 
+
+Implements \mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_add42458fcc51cd6c92fbfab62bc7c5fe}{Dumper\+Interface}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a06a24429c48c30ba1f579de698fd8853}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a06a24429c48c30ba1f579de698fd8853}} 
+\index{CliDumper@{CliDumper}!dumpString@{dumpString}}
+\index{dumpString@{dumpString}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{dumpString()}{dumpString()}}
+{\footnotesize\ttfamily dump\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$str,  }\item[{}]{\$bin,  }\item[{}]{\$cut }\end{DoxyParamCaption})}
+
+\{Dumps a string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+string & {\em \$str} & The string being dumped \\
+\hline
+bool & {\em \$bin} & Whether \$str is UTF-\/8 or binary encoded \\
+\hline
+int & {\em \$cut} & The number of characters \$str has been cut by\\
+\hline
+\end{DoxyParams}
+\} 
+
+Implements \mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a06a24429c48c30ba1f579de698fd8853}{Dumper\+Interface}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_ac8c8abea44ca5fba5d1b3c60851ae447}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_ac8c8abea44ca5fba5d1b3c60851ae447}} 
+\index{CliDumper@{CliDumper}!endValue@{endValue}}
+\index{endValue@{endValue}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{endValue()}{endValue()}}
+{\footnotesize\ttfamily end\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a9b9ec353aaf82757fb3d8b221266759f}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a9b9ec353aaf82757fb3d8b221266759f}} 
+\index{CliDumper@{CliDumper}!enterHash@{enterHash}}
+\index{enterHash@{enterHash}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{enterHash()}{enterHash()}}
+{\footnotesize\ttfamily enter\+Hash (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$type,  }\item[{}]{\$class,  }\item[{}]{\$has\+Child }\end{DoxyParamCaption})}
+
+\{Dumps while entering an hash.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+int & {\em \$type} & A Cursor\+::\+HASH\+\_\+$\ast$ const for the type of hash \\
+\hline
+string | int & {\em \$class} & The object class, resource type or array count \\
+\hline
+bool & {\em \$has\+Child} & When the dump of the hash has child item\\
+\hline
+\end{DoxyParams}
+\} 
+
+Implements \mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a9b9ec353aaf82757fb3d8b221266759f}{Dumper\+Interface}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_a9b9ec353aaf82757fb3d8b221266759f}{Html\+Dumper}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_afe9a3bb766900568a92604df854c7658}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_afe9a3bb766900568a92604df854c7658}} 
+\index{CliDumper@{CliDumper}!leaveHash@{leaveHash}}
+\index{leaveHash@{leaveHash}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{leaveHash()}{leaveHash()}}
+{\footnotesize\ttfamily leave\+Hash (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$type,  }\item[{}]{\$class,  }\item[{}]{\$has\+Child,  }\item[{}]{\$cut }\end{DoxyParamCaption})}
+
+\{Dumps while leaving an hash.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+int & {\em \$type} & A Cursor\+::\+HASH\+\_\+$\ast$ const for the type of hash \\
+\hline
+string | int & {\em \$class} & The object class, resource type or array count \\
+\hline
+bool & {\em \$has\+Child} & When the dump of the hash has child item \\
+\hline
+int & {\em \$cut} & The number of items the hash has been cut by\\
+\hline
+\end{DoxyParams}
+\} 
+
+Implements \mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_afe9a3bb766900568a92604df854c7658}{Dumper\+Interface}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_afe9a3bb766900568a92604df854c7658}{Html\+Dumper}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7b739251528776e163c5272246ce0e3f}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7b739251528776e163c5272246ce0e3f}} 
+\index{CliDumper@{CliDumper}!setColors@{setColors}}
+\index{setColors@{setColors}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{setColors()}{setColors()}}
+{\footnotesize\ttfamily set\+Colors (\begin{DoxyParamCaption}\item[{}]{\$colors }\end{DoxyParamCaption})}
+
+Enables/disables colored output.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$colors} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a118b058df3c96ec8b0014c271d9fca41}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a118b058df3c96ec8b0014c271d9fca41}} 
+\index{CliDumper@{CliDumper}!setMaxStringWidth@{setMaxStringWidth}}
+\index{setMaxStringWidth@{setMaxStringWidth}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{setMaxStringWidth()}{setMaxStringWidth()}}
+{\footnotesize\ttfamily set\+Max\+String\+Width (\begin{DoxyParamCaption}\item[{}]{\$max\+String\+Width }\end{DoxyParamCaption})}
+
+Sets the maximum number of characters per line for dumped strings.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$max\+String\+Width} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a202f8d900759705e30fd968017cb3a9b}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a202f8d900759705e30fd968017cb3a9b}} 
+\index{CliDumper@{CliDumper}!setStyles@{setStyles}}
+\index{setStyles@{setStyles}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{setStyles()}{setStyles()}}
+{\footnotesize\ttfamily set\+Styles (\begin{DoxyParamCaption}\item[{array}]{\$styles }\end{DoxyParamCaption})}
+
+Configures styles.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$styles} & A map of style names to style definitions \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_a202f8d900759705e30fd968017cb3a9b}{Html\+Dumper}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a2fc73094d50c145bb907c5386d84be31}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a2fc73094d50c145bb907c5386d84be31}} 
+\index{CliDumper@{CliDumper}!style@{style}}
+\index{style@{style}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{style()}{style()}}
+{\footnotesize\ttfamily style (\begin{DoxyParamCaption}\item[{}]{\$style,  }\item[{}]{\$value,  }\item[{}]{\$attr = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Decorates a value with some style.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$style} & The type of style being applied \\
+\hline
+string & {\em \$value} & The value being styled \\
+\hline
+array & {\em \$attr} & Optional context information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The value with style decoration 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_a2fc73094d50c145bb907c5386d84be31}{Html\+Dumper}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a388c164e14126c9d673f399673730da5}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a388c164e14126c9d673f399673730da5}} 
+\index{CliDumper@{CliDumper}!supportsColors@{supportsColors}}
+\index{supportsColors@{supportsColors}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{supportsColors()}{supportsColors()}}
+{\footnotesize\ttfamily supports\+Colors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyReturn}{Returns}
+bool Tells if the current output stream supports ANSI colors or not 
+\end{DoxyReturn}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a1ed9472a6140abe1277407f66587d29b}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a1ed9472a6140abe1277407f66587d29b}} 
+\index{CliDumper@{CliDumper}!\$collapseNextHash@{\$collapseNextHash}}
+\index{\$collapseNextHash@{\$collapseNextHash}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$collapseNextHash}{$collapseNextHash}}
+{\footnotesize\ttfamily \$collapse\+Next\+Hash = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7bb8af4e80c138d129aaa0e892ba4cbf}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7bb8af4e80c138d129aaa0e892ba4cbf}} 
+\index{CliDumper@{CliDumper}!\$colors@{\$colors}}
+\index{\$colors@{\$colors}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$colors}{$colors}}
+{\footnotesize\ttfamily \$colors\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_af7f03abdc9daf331624d80344d23f334}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_af7f03abdc9daf331624d80344d23f334}} 
+\index{CliDumper@{CliDumper}!\$controlCharsMap@{\$controlCharsMap}}
+\index{\$controlCharsMap@{\$controlCharsMap}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$controlCharsMap}{$controlCharsMap}}
+{\footnotesize\ttfamily \$control\+Chars\+Map\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= [}
+\DoxyCodeLine{        \textcolor{stringliteral}{"{}\(\backslash\)t"{}} => \textcolor{charliteral}{'\(\backslash\)t'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{"{}\(\backslash\)n"{}} => \textcolor{charliteral}{'\(\backslash\)n'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{"{}\(\backslash\)v"{}} => \textcolor{charliteral}{'\(\backslash\)v'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{"{}\(\backslash\)f"{}} => \textcolor{charliteral}{'\(\backslash\)f'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{"{}\(\backslash\)r"{}} => \textcolor{charliteral}{'\(\backslash\)r'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{"{}\(\backslash\)033"{}} => \textcolor{charliteral}{'\(\backslash\)e'},}
+\DoxyCodeLine{    ]}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a22a990230f758458c0422e5c52317660}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a22a990230f758458c0422e5c52317660}} 
+\index{CliDumper@{CliDumper}!\$controlCharsRx@{\$controlCharsRx}}
+\index{\$controlCharsRx@{\$controlCharsRx}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$controlCharsRx}{$controlCharsRx}}
+{\footnotesize\ttfamily \$control\+Chars\+Rx = \textquotesingle{}/\mbox{[}\textbackslash{}x00-\/\textbackslash{}x1\+F\textbackslash{}x7F\mbox{]}+/\textquotesingle{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a000dc403b7bc6d30e314e0b6f9e65754}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a000dc403b7bc6d30e314e0b6f9e65754}} 
+\index{CliDumper@{CliDumper}!\$defaultColors@{\$defaultColors}}
+\index{\$defaultColors@{\$defaultColors}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$defaultColors}{$defaultColors}}
+{\footnotesize\ttfamily \$default\+Colors\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a4a780e221a0398ba659d278ae41c5bc6}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a4a780e221a0398ba659d278ae41c5bc6}} 
+\index{CliDumper@{CliDumper}!\$defaultOutput@{\$defaultOutput}}
+\index{\$defaultOutput@{\$defaultOutput}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$defaultOutput}{$defaultOutput}}
+{\footnotesize\ttfamily \$default\+Output = \textquotesingle{}php\+://stdout\textquotesingle{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7c4be83492312758642599e9be5d5f4f}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a7c4be83492312758642599e9be5d5f4f}} 
+\index{CliDumper@{CliDumper}!\$expandNextHash@{\$expandNextHash}}
+\index{\$expandNextHash@{\$expandNextHash}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$expandNextHash}{$expandNextHash}}
+{\footnotesize\ttfamily \$expand\+Next\+Hash = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a963b756f9dbf9fadb1c32eaa11fa3455}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a963b756f9dbf9fadb1c32eaa11fa3455}} 
+\index{CliDumper@{CliDumper}!\$maxStringWidth@{\$maxStringWidth}}
+\index{\$maxStringWidth@{\$maxStringWidth}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$maxStringWidth}{$maxStringWidth}}
+{\footnotesize\ttfamily \$max\+String\+Width = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a920c320068535c09e154c6707eb42ded}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a920c320068535c09e154c6707eb42ded}} 
+\index{CliDumper@{CliDumper}!\$styles@{\$styles}}
+\index{\$styles@{\$styles}!CliDumper@{CliDumper}}
+\doxysubsubsection{\texorpdfstring{\$styles}{$styles}}
+{\footnotesize\ttfamily \$styles\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= [}
+\DoxyCodeLine{        }
+\DoxyCodeLine{        \textcolor{stringliteral}{'default'} => \textcolor{stringliteral}{'0;38;5;208'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'num'} => \textcolor{stringliteral}{'1;38;5;38'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'const'} => \textcolor{stringliteral}{'1;38;5;208'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'str'} => \textcolor{stringliteral}{'1;38;5;113'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'note'} => \textcolor{stringliteral}{'38;5;38'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'ref'} => \textcolor{stringliteral}{'38;5;247'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'public'} => \textcolor{stringliteral}{''},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'protected'} => \textcolor{stringliteral}{''},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'private'} => \textcolor{stringliteral}{''},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'meta'} => \textcolor{stringliteral}{'38;5;170'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'key'} => \textcolor{stringliteral}{'38;5;113'},}
+\DoxyCodeLine{        \textcolor{stringliteral}{'index'} => \textcolor{stringliteral}{'38;5;38'},}
+\DoxyCodeLine{    ]}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/wamp64/www/citations\+\_\+encours/src/vendor/symfony/var-\/dumper/\+Dumper/\mbox{\hyperlink{_cli_dumper_8php}{Cli\+Dumper.\+php}}\end{DoxyCompactItemize}

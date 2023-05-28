@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_b769565b66e42beec2aa4a40b371da5a" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony</compoundname>
+    <innerdir refid="dir_931bc5a5251aa6d320e21fcd86a752ee">C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring</innerdir>
+    <innerdir refid="dir_b340b5dbf3d1e55b18f9ee3066748022">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/"/>
+  </compounddef>
+</doxygen>

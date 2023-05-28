@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="rdehnhardt_2var-dumper_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>VAR<sp/>DUMPER</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>package<sp/>enable<sp/>dd()<sp/>function<sp/>for<sp/>projects<sp/>without<sp/>laravel.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Installation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Run<sp/>the<sp/>following<sp/>command<sp/>to<sp/>get<sp/>the<sp/>latest<sp/>version<sp/>package</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">composer<sp/>require<sp/>rdehnhardt/var-dumper<sp/>--dev</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```php</highlight></codeline>
+<codeline><highlight class="normal">dd($yourVar);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">OR</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">dd($yourVar1,<sp/>$yourVar2,<sp/>..,<sp/>$yourVarN);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/README.md"/>
+  </compounddef>
+</doxygen>

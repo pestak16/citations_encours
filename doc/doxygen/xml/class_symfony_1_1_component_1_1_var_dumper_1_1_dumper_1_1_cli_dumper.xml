@@ -1,0 +1,968 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Dumper::CliDumper</compoundname>
+    <basecompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper" prot="public" virt="non-virtual">AbstractDumper</basecompoundref>
+    <derivedcompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper" prot="public" virt="non-virtual">HtmlDumper</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a000dc403b7bc6d30e314e0b6f9e65754" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$defaultColors</definition>
+        <argsstring></argsstring>
+        <name>$defaultColors</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$defaultColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="24" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a4a780e221a0398ba659d278ae41c5bc6" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$defaultOutput</definition>
+        <argsstring></argsstring>
+        <name>$defaultOutput</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$defaultOutput</qualifiedname>
+        <initializer>= &apos;php://stdout&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="25" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7bb8af4e80c138d129aaa0e892ba4cbf" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$colors</definition>
+        <argsstring></argsstring>
+        <name>$colors</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="27" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a963b756f9dbf9fadb1c32eaa11fa3455" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$maxStringWidth</definition>
+        <argsstring></argsstring>
+        <name>$maxStringWidth</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$maxStringWidth</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="28" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a920c320068535c09e154c6707eb42ded" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$styles</definition>
+        <argsstring></argsstring>
+        <name>$styles</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$styles</qualifiedname>
+        <initializer>= [
+        
+        &apos;default&apos; =&gt; &apos;0;38;5;208&apos;,
+        &apos;num&apos; =&gt; &apos;1;38;5;38&apos;,
+        &apos;const&apos; =&gt; &apos;1;38;5;208&apos;,
+        &apos;str&apos; =&gt; &apos;1;38;5;113&apos;,
+        &apos;note&apos; =&gt; &apos;38;5;38&apos;,
+        &apos;ref&apos; =&gt; &apos;38;5;247&apos;,
+        &apos;public&apos; =&gt; &apos;&apos;,
+        &apos;protected&apos; =&gt; &apos;&apos;,
+        &apos;private&apos; =&gt; &apos;&apos;,
+        &apos;meta&apos; =&gt; &apos;38;5;170&apos;,
+        &apos;key&apos; =&gt; &apos;38;5;113&apos;,
+        &apos;index&apos; =&gt; &apos;38;5;38&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="29" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a1ed9472a6140abe1277407f66587d29b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$collapseNextHash</definition>
+        <argsstring></argsstring>
+        <name>$collapseNextHash</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$collapseNextHash</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="55" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7c4be83492312758642599e9be5d5f4f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$expandNextHash</definition>
+        <argsstring></argsstring>
+        <name>$expandNextHash</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$expandNextHash</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="56" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a22a990230f758458c0422e5c52317660" prot="protected" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$controlCharsRx</definition>
+        <argsstring></argsstring>
+        <name>$controlCharsRx</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$controlCharsRx</qualifiedname>
+        <initializer>= &apos;/[\x00-\x1F\x7F]+/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="45" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1af7f03abdc9daf331624d80344d23f334" prot="protected" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$controlCharsMap</definition>
+        <argsstring></argsstring>
+        <name>$controlCharsMap</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\$controlCharsMap</qualifiedname>
+        <initializer>= [
+        &quot;\t&quot; =&gt; &apos;\t&apos;,
+        &quot;\n&quot; =&gt; &apos;\n&apos;,
+        &quot;\v&quot; =&gt; &apos;\v&apos;,
+        &quot;\f&quot; =&gt; &apos;\f&apos;,
+        &quot;\r&quot; =&gt; &apos;\r&apos;,
+        &quot;\033&quot; =&gt; &apos;\e&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="46" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($output=null, $charset=null, $flags=0)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\__construct</qualifiedname>
+        <reimplements refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd">__construct</reimplements>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd">__construct</reimplementedby>
+        <param>
+          <declname>$output</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$charset</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametertype>resource</parametertype>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A line dumper callable, an opened stream or an output path, defaults to static::$defaultOutput </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$charset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default character encoding to use for non-UTF8 strings </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bit field of static::DUMP_* constants to fine tune dumps representation</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="61" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="61" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7b739251528776e163c5272246ce0e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setColors</definition>
+        <argsstring>($colors)</argsstring>
+        <name>setColors</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\setColors</qualifiedname>
+        <param>
+          <declname>$colors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enables/disables colored output.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$colors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="86" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a118b058df3c96ec8b0014c271d9fca41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setMaxStringWidth</definition>
+        <argsstring>($maxStringWidth)</argsstring>
+        <name>setMaxStringWidth</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\setMaxStringWidth</qualifiedname>
+        <param>
+          <declname>$maxStringWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the maximum number of characters per line for dumped strings.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxStringWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="96" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a202f8d900759705e30fd968017cb3a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setStyles</definition>
+        <argsstring>(array $styles)</argsstring>
+        <name>setStyles</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\setStyles</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a202f8d900759705e30fd968017cb3a9b">setStyles</reimplementedby>
+        <param>
+          <type>array</type>
+          <declname>$styles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures styles.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$styles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A map of style names to style definitions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="106" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1add42458fcc51cd6c92fbfab62bc7c5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpScalar</definition>
+        <argsstring>(Cursor $cursor, $type, $value)</argsstring>
+        <name>dumpScalar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\dumpScalar</qualifiedname>
+        <reimplements refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1add42458fcc51cd6c92fbfab62bc7c5fe">dumpScalar</reimplements>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para>Dumps a scalar value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The PHP type of the value being dumped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametertype>float</parametertype>
+<parametertype>bool</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scalar value being dumped</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="114" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="114" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a06a24429c48c30ba1f579de698fd8853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpString</definition>
+        <argsstring>(Cursor $cursor, $str, $bin, $cut)</argsstring>
+        <name>dumpString</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\dumpString</qualifiedname>
+        <reimplements refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a06a24429c48c30ba1f579de698fd8853">dumpString</reimplements>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$bin</declname>
+        </param>
+        <param>
+          <declname>$cut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para>Dumps a string.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string being dumped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$bin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether $str is UTF-8 or binary encoded </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of characters $str has been cut by</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="168" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="168" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a9b9ec353aaf82757fb3d8b221266759f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>enterHash</definition>
+        <argsstring>(Cursor $cursor, $type, $class, $hasChild)</argsstring>
+        <name>enterHash</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\enterHash</qualifiedname>
+        <reimplements refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a9b9ec353aaf82757fb3d8b221266759f">enterHash</reimplements>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a9b9ec353aaf82757fb3d8b221266759f">enterHash</reimplementedby>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$hasChild</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para>Dumps while entering an hash.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Cursor::HASH_* const for the type of hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object class, resource type or array count </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$hasChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When the dump of the hash has child item</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="256" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="256" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1afe9a3bb766900568a92604df854c7658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>leaveHash</definition>
+        <argsstring>(Cursor $cursor, $type, $class, $hasChild, $cut)</argsstring>
+        <name>leaveHash</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\leaveHash</qualifiedname>
+        <reimplements refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1afe9a3bb766900568a92604df854c7658">leaveHash</reimplements>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1afe9a3bb766900568a92604df854c7658">leaveHash</reimplementedby>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$hasChild</declname>
+        </param>
+        <param>
+          <declname>$cut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para>Dumps while leaving an hash.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Cursor::HASH_* const for the type of hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object class, resource type or array count </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$hasChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When the dump of the hash has child item </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items the hash has been cut by</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="296" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="296" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aa8cb9d295355404a19697ed6833378f2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpEllipsis</definition>
+        <argsstring>(Cursor $cursor, $hasChild, $cut)</argsstring>
+        <name>dumpEllipsis</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\dumpEllipsis</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$hasChild</declname>
+        </param>
+        <param>
+          <declname>$cut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps an ellipsis for cut children.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Cursor</parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Cursor position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$hasChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When the dump of the hash has child item </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items the hash has been cut by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="310" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="310" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aeae46a3c4a9e911022017125cbb1339e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpKey</definition>
+        <argsstring>(Cursor $cursor)</argsstring>
+        <name>dumpKey</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\dumpKey</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps a key in a hash structure.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Cursor</parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Cursor position in the dump </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="328" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="328" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a2fc73094d50c145bb907c5386d84be31" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>style</definition>
+        <argsstring>($style, $value, $attr=[])</argsstring>
+        <name>style</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\style</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a2fc73094d50c145bb907c5386d84be31">style</reimplementedby>
+        <param>
+          <declname>$style</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$attr</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decorates a value with some style.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of style being applied </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being styled </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$attr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional context information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The value with style decoration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="416" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="416" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a388c164e14126c9d673f399673730da5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>supportsColors</definition>
+        <argsstring>()</argsstring>
+        <name>supportsColors</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\supportsColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Tells if the current output stream supports ANSI colors or not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="471" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="471" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aa6bd1f10fdb3968ed17a4d12e9269ae9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpLine</definition>
+        <argsstring>($depth, $endOfValue=false)</argsstring>
+        <name>dumpLine</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\dumpLine</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1aa6bd1f10fdb3968ed17a4d12e9269ae9">dumpLine</reimplementedby>
+        <param>
+          <declname>$depth</declname>
+        </param>
+        <param>
+          <declname>$endOfValue</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="511" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="511" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1ac8c8abea44ca5fba5d1b3c60851ae447" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>endValue</definition>
+        <argsstring>(Cursor $cursor)</argsstring>
+        <name>endValue</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\endValue</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="519" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="519" bodyend="530"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a4355373a0f10d170a768da5a28d3c4ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hasColorSupport</definition>
+        <argsstring>($stream)</argsstring>
+        <name>hasColorSupport</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\hasColorSupport</qualifiedname>
+        <param>
+          <declname>$stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the stream supports colorization.</para>
+<para>Reference: <ref refid="namespace_composer" kindref="compound">Composer</ref>\XdebugHandler\Process::supportsColor <ulink url="https://github.com/composer/xdebug-handler">https://github.com/composer/xdebug-handler</ulink></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$stream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A CLI output stream</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="542" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="542" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a52047c306b0cb3cb00592e07ae28d61d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isWindowsTrueColor</definition>
+        <argsstring>()</argsstring>
+        <name>isWindowsTrueColor</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\CliDumper\isWindowsTrueColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the Windows terminal supports true color.</para>
+<para>Note that this does not check an output stream, but relies on environment variables from known implementations, or a PHP and Windows version that supports true color.</para>
+<para><simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="582" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="582" bodyend="600"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper" kindref="compound">CliDumper</ref> dumps variables for command line output.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CliDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>HtmlDumper</label>
+        <link refid="class_rdehnhardt_1_1_debug_1_1_html_dumper"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface"/>
+      </node>
+      <node id="2">
+        <label>AbstractDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DataDumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface"/>
+      </node>
+      <node id="5">
+        <label>HtmlDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CliDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface"/>
+      </node>
+      <node id="2">
+        <label>AbstractDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DataDumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" line="22" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/CliDumper.php" bodystart="23" bodyend="601"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a1ed9472a6140abe1277407f66587d29b" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$collapseNextHash</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7bb8af4e80c138d129aaa0e892ba4cbf" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$colors</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1af7f03abdc9daf331624d80344d23f334" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$controlCharsMap</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a22a990230f758458c0422e5c52317660" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$controlCharsRx</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a088698d9762b110c19feddc3e1e60050" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$decimalPoint</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a000dc403b7bc6d30e314e0b6f9e65754" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$defaultColors</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a4a780e221a0398ba659d278ae41c5bc6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$defaultOutput</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7c4be83492312758642599e9be5d5f4f" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$expandNextHash</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a78556f0dc6bf3c1adae410a73d632caf" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$flags</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1aed0fe7774981153400848e92a85e2d64" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$indentPad</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a52f469b0182d9abac2d0f20548680c9c" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$line</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a29cde694dda741013cc8211d5009d035" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$lineDumper</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a963b756f9dbf9fadb1c32eaa11fa3455" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$maxStringWidth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af3ec40ee5a0a32955027aa155b5aa0b0" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$outputStream</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a920c320068535c09e154c6707eb42ded" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>$styles</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>__construct</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a336020af9d35d129f3a482d440af97c6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dump</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface_1ac42028578ae35f8c9a903043ef590585" prot="public" virt="non-virtual" ambiguityscope="Symfony::Component::VarDumper::Dumper::DataDumperInterface::"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dump</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a439f032a2eb60ea22be786963448ab55" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>DUMP_COMMA_SEPARATOR</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3339492fcd7bb347832e8413d8a7ea4f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>DUMP_LIGHT_ARRAY</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1afa3ef705b42a3f556410c82d20019fad" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>DUMP_STRING_LENGTH</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cebf2da4f0de2076a23602004d1224f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>DUMP_TRAILING_COMMA</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aa8cb9d295355404a19697ed6833378f2" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dumpEllipsis</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aeae46a3c4a9e911022017125cbb1339e" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dumpKey</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aa6bd1f10fdb3968ed17a4d12e9269ae9" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dumpLine</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a5bf4d020f5980b55ae57f1cf3e4de617" prot="protected" virt="non-virtual" ambiguityscope="Symfony::Component::VarDumper::Dumper::AbstractDumper::"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dumpLine</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1add42458fcc51cd6c92fbfab62bc7c5fe" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dumpScalar</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a06a24429c48c30ba1f579de698fd8853" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>dumpString</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a68bed13831d15c2d4d08efb8c2d964d5" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>echoLine</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1ac8c8abea44ca5fba5d1b3c60851ae447" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>endValue</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a9b9ec353aaf82757fb3d8b221266759f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>enterHash</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a4355373a0f10d170a768da5a28d3c4ea" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>hasColorSupport</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a52047c306b0cb3cb00592e07ae28d61d" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>isWindowsTrueColor</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1afe9a3bb766900568a92604df854c7658" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>leaveHash</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a81ee11b0f5fadecaece55170fea54b29" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>setCharset</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7b739251528776e163c5272246ce0e3f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>setColors</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a8de92bbdcf2089dc189cefe12723efec" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>setIndentPad</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a118b058df3c96ec8b0014c271d9fca41" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>setMaxStringWidth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a66f0ef8e212dc186b2efa1098c2e3eeb" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>setOutput</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a202f8d900759705e30fd968017cb3a9b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>setStyles</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a2fc73094d50c145bb907c5386d84be31" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>style</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a388c164e14126c9d673f399673730da5" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>supportsColors</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a33104dcc52aef07d7cc5f64bf5db97bc" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::CliDumper</scope><name>utf8Encode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

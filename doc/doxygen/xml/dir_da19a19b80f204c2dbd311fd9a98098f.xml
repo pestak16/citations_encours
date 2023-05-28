@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_da19a19b80f204c2dbd311fd9a98098f" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Resources</compoundname>
+    <innerdir refid="dir_9ce4d475349512bb9e02679e5c610ffa">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Resources/functions</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Resources/"/>
+  </compounddef>
+</doxygen>

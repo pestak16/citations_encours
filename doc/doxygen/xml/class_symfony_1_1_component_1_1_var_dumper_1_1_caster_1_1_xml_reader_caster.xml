@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::XmlReaderCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster_1af2bd1e22e540d79a7e17fc5dbbe098aa" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$nodeTypes</definition>
+        <argsstring></argsstring>
+        <name>$nodeTypes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\XmlReaderCaster\$nodeTypes</qualifiedname>
+        <initializer>= [
+        \XMLReader::NONE =&gt; &apos;NONE&apos;,
+        \XMLReader::ELEMENT =&gt; &apos;ELEMENT&apos;,
+        \XMLReader::ATTRIBUTE =&gt; &apos;ATTRIBUTE&apos;,
+        \XMLReader::TEXT =&gt; &apos;TEXT&apos;,
+        \XMLReader::CDATA =&gt; &apos;CDATA&apos;,
+        \XMLReader::ENTITY_REF =&gt; &apos;ENTITY_REF&apos;,
+        \XMLReader::ENTITY =&gt; &apos;ENTITY&apos;,
+        \XMLReader::PI =&gt; &apos;PI (Processing Instruction)&apos;,
+        \XMLReader::COMMENT =&gt; &apos;COMMENT&apos;,
+        \XMLReader::DOC =&gt; &apos;DOC&apos;,
+        \XMLReader::DOC_TYPE =&gt; &apos;DOC_TYPE&apos;,
+        \XMLReader::DOC_FRAGMENT =&gt; &apos;DOC_FRAGMENT&apos;,
+        \XMLReader::NOTATION =&gt; &apos;NOTATION&apos;,
+        \XMLReader::WHITESPACE =&gt; &apos;WHITESPACE&apos;,
+        \XMLReader::SIGNIFICANT_WHITESPACE =&gt; &apos;SIGNIFICANT_WHITESPACE&apos;,
+        \XMLReader::END_ELEMENT =&gt; &apos;END_ELEMENT&apos;,
+        \XMLReader::END_ENTITY =&gt; &apos;END_ENTITY&apos;,
+        \XMLReader::XML_DECLARATION =&gt; &apos;XML_DECLARATION&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" line="22" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster_1a0c9a803a99386a2769eea4101b61af03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castXmlReader</definition>
+        <argsstring>(\XMLReader $reader, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castXmlReader</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\XmlReaderCaster\castXmlReader</qualifiedname>
+        <param>
+          <type>\XMLReader</type>
+          <declname>$reader</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" line="43" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" bodystart="43" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts XmlReader class to array representation.</para>
+<para><simplesect kind="author"><para>Baptiste Clavié <ulink url="mailto:clavie.b@gmail.com">clavie.b@gmail.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" line="20" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" bodystart="21" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster_1af2bd1e22e540d79a7e17fc5dbbe098aa" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::XmlReaderCaster</scope><name>$nodeTypes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster_1a0c9a803a99386a2769eea4101b61af03" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::XmlReaderCaster</scope><name>castXmlReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

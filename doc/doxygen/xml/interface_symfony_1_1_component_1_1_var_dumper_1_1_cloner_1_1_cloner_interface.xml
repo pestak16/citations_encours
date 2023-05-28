@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface" kind="interface" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Cloner::ClonerInterface</compoundname>
+    <derivedcompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner" prot="public" virt="non-virtual">AbstractCloner</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface_1a9585669ab758ae5aafa76b3b73955df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cloneVar</definition>
+        <argsstring>($var)</argsstring>
+        <name>cloneVar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\ClonerInterface\cloneVar</qualifiedname>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clones a PHP variable.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$var</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any PHP variable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kindref="compound">Data</ref> The cloned variable represented by a <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kindref="compound">Data</ref> object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/ClonerInterface.php" line="26" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ClonerInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface"/>
+      </node>
+      <node id="2">
+        <label>AbstractCloner</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>VarCloner</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/ClonerInterface.php" line="17" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/ClonerInterface.php" bodystart="18" bodyend="27"/>
+    <listofallmembers>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface_1a9585669ab758ae5aafa76b3b73955df3" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::ClonerInterface</scope><name>cloneVar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

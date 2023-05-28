@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Caster::MyArrayIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayIterator</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator_1a7a1efa8a0f6183fb3a5e8e8b0696526c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$foo</definition>
+        <argsstring></argsstring>
+        <name>$foo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\MyArrayIterator\$foo</qualifiedname>
+        <initializer>= 123</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" line="230" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ArrayIterator</label>
+      </node>
+      <node id="1">
+        <label>MyArrayIterator</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ArrayIterator</label>
+      </node>
+      <node id="1">
+        <label>MyArrayIterator</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" line="228" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" bodystart="229" bodyend="231"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator_1a7a1efa8a0f6183fb3a5e8e8b0696526c" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::MyArrayIterator</scope><name>$foo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+\hypertarget{class_core_1_1_entity}{}\doxysection{Entity Class Reference}
+\label{class_core_1_1_entity}\index{Entity@{Entity}}
+Inheritance diagram for Entity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_core_1_1_entity}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_core_1_1_entity_ae93ec1a4f6dcae36c9b3a4775d003329}{est\+\_\+nouveau}} ()
+\item 
+\mbox{\hyperlink{class_core_1_1_entity_a4ffd29b37acdf3a126f9d79d63f1e04e}{hydrate}} (array \$data)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe abstraite \mbox{\hyperlink{class_core_1_1_entity}{Entity}}. Représente une entité de base avec des méthodes abstraites pour la gestion des nouvelles entités et l\textquotesingle{}hydratation des données. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_core_1_1_entity_ae93ec1a4f6dcae36c9b3a4775d003329}\label{class_core_1_1_entity_ae93ec1a4f6dcae36c9b3a4775d003329}} 
+\index{Entity@{Entity}!est\_nouveau@{est\_nouveau}}
+\index{est\_nouveau@{est\_nouveau}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{est\_nouveau()}{est\_nouveau()}}
+{\footnotesize\ttfamily est\+\_\+nouveau (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Vérifie si l\textquotesingle{}entité est nouvelle.
+
+\begin{DoxyReturn}{Returns}
+bool Retourne true si l\textquotesingle{}entité est nouvelle, sinon false. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_app_1_1_auteur_1_1_auteur_entity_ae93ec1a4f6dcae36c9b3a4775d003329}{Auteur\+Entity}}, \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_entity_ae93ec1a4f6dcae36c9b3a4775d003329}{Citation\+Entity}}, and \mbox{\hyperlink{class_app_1_1_utilisateur_1_1_utilisateur_entity_ae93ec1a4f6dcae36c9b3a4775d003329}{Utilisateur\+Entity}}.
+
+\mbox{\Hypertarget{class_core_1_1_entity_a4ffd29b37acdf3a126f9d79d63f1e04e}\label{class_core_1_1_entity_a4ffd29b37acdf3a126f9d79d63f1e04e}} 
+\index{Entity@{Entity}!hydrate@{hydrate}}
+\index{hydrate@{hydrate}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{hydrate()}{hydrate()}}
+{\footnotesize\ttfamily hydrate (\begin{DoxyParamCaption}\item[{array}]{\$data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Hydrate l\textquotesingle{}entité avec les données fournies.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & Les données à utiliser pour l\textquotesingle{}hydratation de l\textquotesingle{}entité. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+self Retourne l\textquotesingle{}instance de l\textquotesingle{}entité hydratée. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_app_1_1_auteur_1_1_auteur_entity_a4ffd29b37acdf3a126f9d79d63f1e04e}{Auteur\+Entity}}, \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_entity_a4ffd29b37acdf3a126f9d79d63f1e04e}{Citation\+Entity}}, and \mbox{\hyperlink{class_app_1_1_utilisateur_1_1_utilisateur_entity_ae3d7e348ef2dbe7040f080e4f617e800}{Utilisateur\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/wamp64/www/citations\+\_\+encours/src/\+Core/\mbox{\hyperlink{_entity_8php}{Entity.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::XmlResourceCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster_1a9a7d848aa214b9d39c0779e2c302eef8" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$xmlErrors</definition>
+        <argsstring></argsstring>
+        <name>$xmlErrors</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\XmlResourceCaster\$xmlErrors</qualifiedname>
+        <initializer>= [
+        \XML_ERROR_NONE =&gt; &apos;XML_ERROR_NONE&apos;,
+        \XML_ERROR_NO_MEMORY =&gt; &apos;XML_ERROR_NO_MEMORY&apos;,
+        \XML_ERROR_SYNTAX =&gt; &apos;XML_ERROR_SYNTAX&apos;,
+        \XML_ERROR_NO_ELEMENTS =&gt; &apos;XML_ERROR_NO_ELEMENTS&apos;,
+        \XML_ERROR_INVALID_TOKEN =&gt; &apos;XML_ERROR_INVALID_TOKEN&apos;,
+        \XML_ERROR_UNCLOSED_TOKEN =&gt; &apos;XML_ERROR_UNCLOSED_TOKEN&apos;,
+        \XML_ERROR_PARTIAL_CHAR =&gt; &apos;XML_ERROR_PARTIAL_CHAR&apos;,
+        \XML_ERROR_TAG_MISMATCH =&gt; &apos;XML_ERROR_TAG_MISMATCH&apos;,
+        \XML_ERROR_DUPLICATE_ATTRIBUTE =&gt; &apos;XML_ERROR_DUPLICATE_ATTRIBUTE&apos;,
+        \XML_ERROR_JUNK_AFTER_DOC_ELEMENT =&gt; &apos;XML_ERROR_JUNK_AFTER_DOC_ELEMENT&apos;,
+        \XML_ERROR_PARAM_ENTITY_REF =&gt; &apos;XML_ERROR_PARAM_ENTITY_REF&apos;,
+        \XML_ERROR_UNDEFINED_ENTITY =&gt; &apos;XML_ERROR_UNDEFINED_ENTITY&apos;,
+        \XML_ERROR_RECURSIVE_ENTITY_REF =&gt; &apos;XML_ERROR_RECURSIVE_ENTITY_REF&apos;,
+        \XML_ERROR_ASYNC_ENTITY =&gt; &apos;XML_ERROR_ASYNC_ENTITY&apos;,
+        \XML_ERROR_BAD_CHAR_REF =&gt; &apos;XML_ERROR_BAD_CHAR_REF&apos;,
+        \XML_ERROR_BINARY_ENTITY_REF =&gt; &apos;XML_ERROR_BINARY_ENTITY_REF&apos;,
+        \XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF =&gt; &apos;XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF&apos;,
+        \XML_ERROR_MISPLACED_XML_PI =&gt; &apos;XML_ERROR_MISPLACED_XML_PI&apos;,
+        \XML_ERROR_UNKNOWN_ENCODING =&gt; &apos;XML_ERROR_UNKNOWN_ENCODING&apos;,
+        \XML_ERROR_INCORRECT_ENCODING =&gt; &apos;XML_ERROR_INCORRECT_ENCODING&apos;,
+        \XML_ERROR_UNCLOSED_CDATA_SECTION =&gt; &apos;XML_ERROR_UNCLOSED_CDATA_SECTION&apos;,
+        \XML_ERROR_EXTERNAL_ENTITY_HANDLING =&gt; &apos;XML_ERROR_EXTERNAL_ENTITY_HANDLING&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster_1abe7ec64a06257dc0aa3ba82b43dffa34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castXml</definition>
+        <argsstring>($h, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castXml</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\XmlResourceCaster\castXml</qualifiedname>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" line="48" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" bodystart="48" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts XML resources to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" bodystart="22" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster_1a9a7d848aa214b9d39c0779e2c302eef8" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::XmlResourceCaster</scope><name>$xmlErrors</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster_1abe7ec64a06257dc0aa3ba82b43dffa34" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::XmlResourceCaster</scope><name>castXml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

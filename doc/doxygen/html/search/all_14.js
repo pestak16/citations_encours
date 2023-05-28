@@ -1,6 +1,15 @@
 var searchData=
 [
-  ['xmlreadercaster_0',['XmlReaderCaster',['../class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster.html',1,'Symfony::Component::VarDumper::Caster']]],
-  ['xmlreadercastertest_1',['XmlReaderCasterTest',['../class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test.html',1,'Symfony::Component::VarDumper::Tests::Caster']]],
-  ['xmlresourcecaster_2',['XmlResourceCaster',['../class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster.html',1,'Symfony::Component::VarDumper::Caster']]]
+  ['var_20dumper_0',['VAR DUMPER',['../md__c__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper__r_e_a_d_m_e.html',1,'']]],
+  ['var_5fdump_1',['var_dump',['../class_core_1_1_debug.html#a26cf1a9b616bb78e40e4904ea816baa9',1,'Core::Debug']]],
+  ['varcloner_2',['VarCloner',['../class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner.html',1,'Symfony::Component::VarDumper::Cloner']]],
+  ['varcloner_2ephp_3',['VarCloner.php',['../_var_cloner_8php.html',1,'']]],
+  ['varclonertest_4',['VarClonerTest',['../class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test.html',1,'Symfony::Component::VarDumper::Tests::Cloner']]],
+  ['varclonertest_2ephp_5',['VarClonerTest.php',['../_var_cloner_test_8php.html',1,'']]],
+  ['vardumper_6',['VarDumper',['../class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper.html',1,'Symfony::Component::VarDumper']]],
+  ['vardumper_20component_7',['VarDumper Component',['../md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__r_e_a_d_m_e.html',1,'']]],
+  ['vardumper_2ephp_8',['VarDumper.php',['../_var_dumper_8php.html',1,'']]],
+  ['vardumpertesttrait_2ephp_9',['VarDumperTestTrait.php',['../_var_dumper_test_trait_8php.html',1,'']]],
+  ['vardumpertesttraittest_10',['VarDumperTestTraitTest',['../class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test.html',1,'Symfony::Component::VarDumper::Tests::Test']]],
+  ['vardumpertesttraittest_2ephp_11',['VarDumperTestTraitTest.php',['../_var_dumper_test_trait_test_8php.html',1,'']]]
 ];

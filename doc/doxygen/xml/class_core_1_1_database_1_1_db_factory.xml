@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_core_1_1_database_1_1_db_factory" kind="class" language="PHP" prot="public">
+    <compoundname>Core::Database::DbFactory</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_core_1_1_database_1_1_db_factory_1a1b7635e2106e6640e3deef313b282969" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MY_SQL</definition>
+        <argsstring></argsstring>
+        <name>MY_SQL</name>
+        <qualifiedname>Core\Database\DbFactory\MY_SQL</qualifiedname>
+        <initializer>= &apos;PDOMysql&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constante MY_SQL</para>
+<para>Constante représentant le type de base de données MySQL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" line="17" column="11" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_core_1_1_database_1_1_db_factory_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$instance</definition>
+        <argsstring></argsstring>
+        <name>$instance</name>
+        <qualifiedname>Core\Database\DbFactory\$instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" line="28" column="12" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1_1_database_1_1_db_factory_1ad36f106200b6c87b317de8a9dca337e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getDb</definition>
+        <argsstring>($type)</argsstring>
+        <name>getDb</name>
+        <qualifiedname>Core\Database\DbFactory\getDb</qualifiedname>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getDb</para>
+<para>Crée et retourne une instance de base de données du type spécifié.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le type de base de données. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed L&apos;instance de la base de données du type spécifié. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" line="38" column="28" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" bodystart="38" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_core_1_1_database_1_1_db_factory" kindref="compound">DbFactory</ref></para>
+<para>Cette classe est responsable de la création d&apos;instances de base de données. </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" line="10" column="1" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" bodystart="11" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_database_1_1_db_factory_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="public" virt="non-virtual"><scope>Core::Database::DbFactory</scope><name>$instance</name></member>
+      <member refid="class_core_1_1_database_1_1_db_factory_1ad36f106200b6c87b317de8a9dca337e9" prot="public" virt="non-virtual"><scope>Core::Database::DbFactory</scope><name>getDb</name></member>
+      <member refid="class_core_1_1_database_1_1_db_factory_1a1b7635e2106e6640e3deef313b282969" prot="public" virt="non-virtual"><scope>Core::Database::DbFactory</scope><name>MY_SQL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

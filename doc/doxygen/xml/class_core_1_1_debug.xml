@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_core_1_1_debug" kind="class" language="PHP" prot="public">
+    <compoundname>Core::Debug</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1_1_debug_1a26cf1a9b616bb78e40e4904ea816baa9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static var_dump</definition>
+        <argsstring>(... $param)</argsstring>
+        <name>var_dump</name>
+        <qualifiedname>Core\Debug\var_dump</qualifiedname>
+        <param>
+          <type>...</type>
+          <declname>$param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode var_dump</para>
+<para>Affiche le contenu d&apos;une ou plusieurs variables en utilisant la fonction var_dump de PHP.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>...$param Les variables à afficher. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Debug.php" line="19" column="28" bodyfile="C:/wamp64/www/citations_encours/src/Core/Debug.php" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_debug_1ad4a18e9f86945181101f0c8a0934aa03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static print_r</definition>
+        <argsstring>(array $data)</argsstring>
+        <name>print_r</name>
+        <qualifiedname>Core\Debug\print_r</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode print_r</para>
+<para>Affiche le contenu d&apos;un tableau en utilisant la fonction print_r de PHP.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le tableau à afficher. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Debug.php" line="33" column="28" bodyfile="C:/wamp64/www/citations_encours/src/Core/Debug.php" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_core_1_1_debug" kindref="compound">Debug</ref></para>
+<para>Cette classe fournit des méthodes utilitaires pour le débogage et l&apos;affichage de variables. </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Debug.php" line="10" column="1" bodyfile="C:/wamp64/www/citations_encours/src/Core/Debug.php" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_debug_1ad4a18e9f86945181101f0c8a0934aa03" prot="public" virt="non-virtual"><scope>Core::Debug</scope><name>print_r</name></member>
+      <member refid="class_core_1_1_debug_1a26cf1a9b616bb78e40e4904ea816baa9" prot="public" virt="non-virtual"><scope>Core::Debug</scope><name>var_dump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

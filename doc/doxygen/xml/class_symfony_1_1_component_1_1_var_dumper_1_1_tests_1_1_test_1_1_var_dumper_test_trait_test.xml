@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Test::VarDumperTestTraitTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test_1a98faca269694b003af1bea1701f30328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testItComparesLargeData</definition>
+        <argsstring>()</argsstring>
+        <name>testItComparesLargeData</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Test\VarDumperTestTraitTest\testItComparesLargeData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php" line="21" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php" bodystart="21" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>VarDumperTestTraitTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>VarDumperTestTraitTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php" line="17" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php" bodystart="18" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test_1a98faca269694b003af1bea1701f30328" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Test::VarDumperTestTraitTest</scope><name>testItComparesLargeData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

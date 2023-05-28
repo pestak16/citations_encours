@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__c_h_a_n_g_e_l_o_g" kind="page">
+    <compoundname>md_C__wamp64_www_citations_encours_src_vendor_symfony_var_dumper_CHANGELOG</compoundname>
+    <title>CHANGELOG</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__c_h_a_n_g_e_l_o_g_1autotoc_md4">
+<title>3.4.0</title>
+<para><itemizedlist>
+<listitem><para>added <computeroutput>AbstractCloner::setMinDepth()</computeroutput> function to ensure minimum tree depth</para>
+</listitem><listitem><para>deprecated <computeroutput>MongoCaster</computeroutput></para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__c_h_a_n_g_e_l_o_g_1autotoc_md5">
+<title>2.7.0</title>
+<para><itemizedlist>
+<listitem><para>deprecated Cloner\Data::getLimitedClone(). Use withMaxDepth, withMaxItemsPerDepth or withRefHandles instead. </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/CHANGELOG.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_0e874e6153d86b291a72bd5a1750959a" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures</compoundname>
+    <innerfile refid="_date_time_child_8php">DateTimeChild.php</innerfile>
+    <innerfile refid="dumb-var_8php">dumb-var.php</innerfile>
+    <innerfile refid="_foo_interface_8php">FooInterface.php</innerfile>
+    <innerfile refid="_generator_demo_8php">GeneratorDemo.php</innerfile>
+    <innerfile refid="_not_loadable_class_8php">NotLoadableClass.php</innerfile>
+    <innerfile refid="_php74_8php">Php74.php</innerfile>
+    <innerfile refid="_twig_8php">Twig.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/"/>
+  </compounddef>
+</doxygen>

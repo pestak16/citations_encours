@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="md__c__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper_README</compoundname>
+    <title>VAR DUMPER</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This package enable dd() function for projects without laravel.</para>
+<sect1 id="md__c__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper__r_e_a_d_m_e_1autotoc_md1">
+<title>Installation</title>
+<para>Run the following command to get the latest version package</para>
+<para><programlisting><codeline><highlight class="normal">composer<sp/>require<sp/>rdehnhardt/var-dumper<sp/>--dev</highlight></codeline>
+</programlisting></para>
+</sect1>
+<sect1 id="md__c__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper__r_e_a_d_m_e_1autotoc_md2">
+<title>Usage</title>
+<para><programlisting filename=".php"><codeline><highlight class="normal">dd($yourVar);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">OR</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">dd($yourVar1,<sp/>$yourVar2,<sp/>..,<sp/>$yourVarN);</highlight></codeline>
+</programlisting> </para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/README.md"/>
+  </compounddef>
+</doxygen>

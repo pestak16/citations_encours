@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unregister_0',['unregister',['../class_composer_1_1_autoload_1_1_class_loader.html#a501cedfa611556a0100e024a0e102d9d',1,'Composer::Autoload::ClassLoader']]],
-  ['update_1',['update',['../class_core_1_1_database_1_1_manager.html#aed990bda984d72af2224e06dd61507a0',1,'Core::Database::Manager']]],
-  ['utf8encode_2',['utf8Encode',['../class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper.html#a33104dcc52aef07d7cc5f64bf5db97bc',1,'Symfony::Component::VarDumper::Dumper::AbstractDumper']]]
+  ['reflectionparameterfixture_0',['reflectionParameterFixture',['../namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster.html#ab40554452e660886f23446429d20394d',1,'Symfony::Component::VarDumper::Tests::Caster']]],
+  ['register_1',['register',['../class_app_1_1_autoloader.html#a610b9c89b82e11ea426e1804874a6ef4',1,'App\Autoloader\register()'],['../class_core_1_1_autoloader.html#a610b9c89b82e11ea426e1804874a6ef4',1,'Core\Autoloader\register()'],['../class_composer_1_1_autoload_1_1_class_loader.html#a3968965f178f6a5ef212b31b72231e69',1,'Composer\Autoload\ClassLoader\register()']]],
+  ['reload_2',['reload',['../class_composer_1_1_installed_versions.html#a01b4ca6bbbb1e3337f987c9461405985',1,'Composer::InstalledVersions']]]
 ];

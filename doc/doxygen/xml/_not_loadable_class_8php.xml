@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_not_loadable_class_8php" kind="file" language="PHP">
+    <compoundname>NotLoadableClass.php</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::NotLoadableClass</innerclass>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures">Symfony::Component::VarDumper::Tests::Fixtures</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures" kindref="compound">Symfony\Component\VarDumper\Tests\Fixtures</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" kindref="compound">NotLoadableClass</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" kindref="compound">NotLoadableClass</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/NotLoadableClass.php"/>
+  </compounddef>
+</doxygen>

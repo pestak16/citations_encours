@@ -1,0 +1,1297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="en-US">
+  <compound refid="class_____twig_template___var_dumper_fixture__u75a09" kind="class"><name>__TwigTemplate_VarDumperFixture_u75a09</name>
+    <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a0a4baf0b22973c07685c3981f0d17fc4" kind="variable"><name>$path</name></member>
+    <member refid="class_____twig_template___var_dumper_fixture__u75a09_1adec5bdcba6da170f4af0c3827b198a57" kind="function"><name>__construct</name></member>
+    <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a621a3ccd148ed8b9e937da6959c98f39" kind="function"><name>getTemplateName</name></member>
+    <member refid="class_____twig_template___var_dumper_fixture__u75a09_1abd0ecb0136f4228db2bd963bfc1e20d7" kind="function"><name>getDebugInfo</name></member>
+    <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a38152512ea69c5f598112d1e1064e4b5" kind="function"><name>getSourceContext</name></member>
+    <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a63838feffe0078170623921cf966c66b" kind="function"><name>doDisplay</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner" kind="class"><name>Symfony::Component::VarDumper::Cloner::AbstractCloner</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1addcee39d7c035bdcb6828007c3ada11a" kind="variable"><name>$defaultCasters</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a7891ab712e9f07d9529a6b9a9f3ddde1" kind="variable"><name>$maxItems</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a6829eaf9f88edab12b711f69175cb227" kind="variable"><name>$maxString</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a0f953a3be9b4f750ec8952807d67fb00" kind="variable"><name>$minDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1ada19b5ede649a3d57b6ddacbb19b3c8c" kind="variable"><name>$useExt</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a84575a2ad528a4d927cd874498ef51b7" kind="variable"><name>$casters</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a384f0054cda1ac136e5820346320d076" kind="variable"><name>$prevErrorHandler</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1af4a17734901f1430720ea78bd6065995" kind="variable"><name>$classInfo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1aac53bdb48bdd96ff9c20e2a86f48ce5f" kind="variable"><name>$filter</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a53245e1418d2f78f1ac128b463086394" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1ac00193d681def5217ffa183f3874829c" kind="function"><name>addCasters</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1ac0509f765fb4ce2a02078ee2dd752643" kind="function"><name>setMaxItems</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a1ec0fcbe516576a3be43fa2ff68f9722" kind="function"><name>setMaxString</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a8cad2e561c5a12de723dd3040ecb374e" kind="function"><name>setMinDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1afdec6ca56233e5dc012e14d46c6c5644" kind="function"><name>cloneVar</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a3a5f526269ccf782728ba9330a5b68c4" kind="function"><name>doClone</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a96c399eba98408cf306d2707b41daeaa" kind="function"><name>castObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a6be17c682e1aacc06ae1db8ccd84e5e9" kind="function"><name>castResource</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper" kind="class"><name>Symfony::Component::VarDumper::Dumper::AbstractDumper</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3339492fcd7bb347832e8413d8a7ea4f" kind="variable"><name>DUMP_LIGHT_ARRAY</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1afa3ef705b42a3f556410c82d20019fad" kind="variable"><name>DUMP_STRING_LENGTH</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a439f032a2eb60ea22be786963448ab55" kind="variable"><name>DUMP_COMMA_SEPARATOR</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cebf2da4f0de2076a23602004d1224f" kind="variable"><name>DUMP_TRAILING_COMMA</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a4a780e221a0398ba659d278ae41c5bc6" kind="variable"><name>$defaultOutput</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a52f469b0182d9abac2d0f20548680c9c" kind="variable"><name>$line</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a29cde694dda741013cc8211d5009d035" kind="variable"><name>$lineDumper</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af3ec40ee5a0a32955027aa155b5aa0b0" kind="variable"><name>$outputStream</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a088698d9762b110c19feddc3e1e60050" kind="variable"><name>$decimalPoint</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1aed0fe7774981153400848e92a85e2d64" kind="variable"><name>$indentPad</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a78556f0dc6bf3c1adae410a73d632caf" kind="variable"><name>$flags</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af10158dd74b75f1d337e83102d6b82ce" kind="variable"><name>$charset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a66f0ef8e212dc186b2efa1098c2e3eeb" kind="function"><name>setOutput</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a81ee11b0f5fadecaece55170fea54b29" kind="function"><name>setCharset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a8de92bbdcf2089dc189cefe12723efec" kind="function"><name>setIndentPad</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a336020af9d35d129f3a482d440af97c6" kind="function"><name>dump</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a5bf4d020f5980b55ae57f1cf3e4de617" kind="function"><name>dumpLine</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a68bed13831d15c2d4d08efb8c2d964d5" kind="function"><name>echoLine</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a33104dcc52aef07d7cc5f64bf5db97bc" kind="function"><name>utf8Encode</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::AmqpCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a78556f0dc6bf3c1adae410a73d632caf" kind="variable"><name>$flags</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a4a2c8e5a1c21fe764864494887c5e0bb" kind="variable"><name>$exchangeTypes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1ad3dc19f2208f87fc535edcc92c408779" kind="function"><name>castConnection</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a50d30e615b3618ca1f30cc3f329dc98e" kind="function"><name>castChannel</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a74791db88f040c5bda7fe5a3696603dd" kind="function"><name>castQueue</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1afdab03225f10b038ce17f36f09b49a57" kind="function"><name>castExchange</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1ad5c26204ec1f317f7f66233824653f1e" kind="function"><name>castEnvelope</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1afcd59e7b32fd0447295f806ad56446c8" kind="function"><name>extractFlags</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::ArgsStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1ab79d246480c4ac3a0db6bbceca92ad32" kind="variable"><name>$parameters</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1a11c3029cf7d6055fe7ced24897daa372" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1a39921b7018849fc494b9b099ee10ed69" kind="function"><name>getParameters</name></member>
+  </compound>
+  <compound refid="class_app_1_1_auteur_1_1_auteur_entity" kind="class"><name>App::Auteur::AuteurEntity</name>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1a3587bd00e5602c1800515b6f9ffbebc5" kind="variable"><name>$id</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1ac4fc5a98efdd665fcd730466080c1982" kind="variable"><name>$auteur</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1a306e3397b65dc86d0999260372cb1c1e" kind="variable"><name>$bio</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1af985479c8cdcf813023872277f14f7bd" kind="variable"><name>$date_modif</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1aec047a4c71fbfb67e1784b86c63ccf7c" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" kind="function"><name>hydrate</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" kind="function"><name>est_nouveau</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1a87313ad678fb2a2a8efb435cf0bdb9a0" kind="function"><name>setId</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1ad9cbe4cd4561e831bf6a59bdf8571a3b" kind="function"><name>getAuteur</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1ab197e072aa5e82c1076f845343cb64e1" kind="function"><name>setAuteur</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1acca061fffb247bb1448878dd7135cd05" kind="function"><name>getBio</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1abdad944cb7d942c01264797d46eefbf2" kind="function"><name>setBio</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1a244f6a5c0e365a080da30e632f8e9fd5" kind="function"><name>getDate_modif</name></member>
+    <member refid="class_app_1_1_auteur_1_1_auteur_entity_1ab196c106113df1ab712a046e875ca54f" kind="function"><name>setDate_modif</name></member>
+  </compound>
+  <compound refid="class_app_1_1_auteur_1_1_auteur_manager" kind="class"><name>App::Auteur::AuteurManager</name>
+    <member refid="class_app_1_1_auteur_1_1_auteur_manager_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_app_1_1_autoloader" kind="class"><name>App::Autoloader</name>
+    <member refid="class_app_1_1_autoloader_1a610b9c89b82e11ea426e1804874a6ef4" kind="function"><name>register</name></member>
+    <member refid="class_app_1_1_autoloader_1a30bf91b5da26f397624b25446be7fa2b" kind="function"><name>autoload</name></member>
+  </compound>
+  <compound refid="class_core_1_1_autoloader" kind="class"><name>Core::Autoloader</name>
+    <member refid="class_core_1_1_autoloader_1a610b9c89b82e11ea426e1804874a6ef4" kind="function"><name>register</name></member>
+    <member refid="class_core_1_1_autoloader_1a30bf91b5da26f397624b25446be7fa2b" kind="function"><name>autoload</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_bad_spl_file_info" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::BadSplFileInfo</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_bad_spl_file_info_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::Caster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aad33c911ea989e3d2bdea48a6b1cfaf5" kind="variable"><name>EXCLUDE_VERBOSE</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a56d6d30318d1cd0fdc22d6d8695adcdb" kind="variable"><name>EXCLUDE_VIRTUAL</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a848fd0689d189bd196060cfa8fc6d5a8" kind="variable"><name>EXCLUDE_DYNAMIC</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a9cd2df28c08724d99ab6d30cce0b644f" kind="variable"><name>EXCLUDE_PUBLIC</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1acfccb18d43528b55f1311a14c76e4c44" kind="variable"><name>EXCLUDE_PROTECTED</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aef732b9643baf9a3e70006cad07d8cec" kind="variable"><name>EXCLUDE_PRIVATE</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a343aa097ba13005dfc43c8d9aa392b18" kind="variable"><name>EXCLUDE_NULL</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a49e2e1bd4a1d569f291951778ac78884" kind="variable"><name>EXCLUDE_EMPTY</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a96493de580706d318bef76fc00c50015" kind="variable"><name>EXCLUDE_NOT_IMPORTANT</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a0aaddfb25e2288bc8fa42261eecd8868" kind="variable"><name>EXCLUDE_STRICT</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a234d00196816918f54ad83a612574b53" kind="variable"><name>PREFIX_VIRTUAL</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aaab0636212652299287443cb9fca0256" kind="variable"><name>PREFIX_DYNAMIC</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a155c777333d953a544f610075ab4d183" kind="variable"><name>PREFIX_PROTECTED</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1abfb90c113bb72da4380cd238aa0322e8" kind="function"><name>castObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a0e19abbf48c519d4c3d006baff1cc9eb" kind="function"><name>filter</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1abf36ec1da500a607e0aada265ab1b62b" kind="function"><name>castPhpIncompleteClass</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::CasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a778327744af6fb1060e30cca03ad84d5" kind="variable"><name>$referenceArray</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a4744fbc7823dfbcff194ae88ed9bfce8" kind="function"><name>testFilter</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a625b2fd9d011cbf9d304642420972244" kind="function"><name>provideFilter</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a33d281014940834327e33bb3760b888b" kind="function"><name>testAnonymousClass</name></member>
+  </compound>
+  <compound refid="class_app_1_1_citation_1_1_citation_entity" kind="class"><name>App::Citation::CitationEntity</name>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a3587bd00e5602c1800515b6f9ffbebc5" kind="variable"><name>$id</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a1e7377ceebe23508faf7f0378fdc3be9" kind="variable"><name>$citation</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a55b6030886a684c6b1588a26e65caf6a" kind="variable"><name>$explication</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1af985479c8cdcf813023872277f14f7bd" kind="variable"><name>$date_modif</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1ae1a8681141cce1ea881d2557e2873fcf" kind="variable"><name>$auteurs_id</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a7ca6ee0652b7e1b559adeba5b614bf3b" kind="variable"><name>$auteur</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1aec047a4c71fbfb67e1784b86c63ccf7c" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" kind="function"><name>hydrate</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" kind="function"><name>est_nouveau</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a02a5667ab1839b99445c63ed76e3eb39" kind="function"><name>setId</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1add1135415ad93d53f557ce386d60af7d" kind="function"><name>getCitation</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1ac7c6106446d1f7692516d7563948f088" kind="function"><name>setCitation</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a621f1329a507d66037f8cd5e96031eff" kind="function"><name>getExplication</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a4c4a4be37b6c36d0549d835b017cc175" kind="function"><name>setExplication</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1a244f6a5c0e365a080da30e632f8e9fd5" kind="function"><name>getDate_modif</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1af5914eea38197bd9a318165c89a603ba" kind="function"><name>setDate_modif</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1af1137068838d1eaeae59c9dabb9a90ac" kind="function"><name>getAuteurs_id</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1accd4d2efeb943b07aced5e17fcf74e85" kind="function"><name>setAuteurs_id</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1ad9cbe4cd4561e831bf6a59bdf8571a3b" kind="function"><name>getAuteur</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_entity_1adad178376033296444a0efeff41bfb81" kind="function"><name>setAuteur</name></member>
+  </compound>
+  <compound refid="class_app_1_1_citation_1_1_citation_manager" kind="class"><name>App::Citation::CitationManager</name>
+    <member refid="class_app_1_1_citation_1_1_citation_manager_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_manager_1a73a1b0348919b6755e4f69dcc70eba64" kind="function"><name>findAll</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_manager_1a1ba50cbde423b0b17031ea550a599ae8" kind="function"><name>find</name></member>
+    <member refid="class_app_1_1_citation_1_1_citation_manager_1a366015c91c87b9c498877021a3716d73" kind="function"><name>findBy</name></member>
+  </compound>
+  <compound refid="class_composer_1_1_autoload_1_1_class_loader" kind="class"><name>Composer::Autoload::ClassLoader</name>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7fbc3633c79d7461383710e09d497fb0" kind="variable"><name>$vendorDir</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a8a73e9adb9ac5eb77041801645646ff3" kind="variable"><name>$prefixLengthsPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a923378483704151b859f5398efa4cb5b" kind="variable"><name>$prefixDirsPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a51bda3aa8f4ff0d15f78f9c1e5e9a645" kind="variable"><name>$fallbackDirsPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a585a4d160be80e548731fd58b6483a36" kind="variable"><name>$prefixesPsr0</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a9edca20eb483c964c957d715ba77da50" kind="variable"><name>$fallbackDirsPsr0</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a1b45628b8a3e511c445d836d2f5da08f" kind="variable"><name>$useIncludePath</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1adc083f7e1f2dd14ca2ddbaa63c2faf46" kind="variable"><name>$classMap</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a94320b00b1d01dc8c9f9f8d8e6599b20" kind="variable"><name>$classMapAuthoritative</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a90261e0d3cfd6840f5e306ac62c8ac4d" kind="variable"><name>$missingClasses</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7880f6cc65bb910c9eedd57b631a306f" kind="variable"><name>$apcuPrefix</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a5aeb07934b31aecbc0dbb2306b883070" kind="variable"><name>$registeredLoaders</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1ae3b73b1b7333e81be32ceeaf622945f9" kind="function"><name>__construct</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a102069675f7a94f8917f44acc2390687" kind="function"><name>getPrefixes</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1aa51c60813356de68739dbc9047976ceb" kind="function"><name>getPrefixesPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1ae15bf208c8df574932ed0db749d5447b" kind="function"><name>getFallbackDirs</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a1f1f85b44a8d01987ad2b6cd78f268bd" kind="function"><name>getFallbackDirsPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7e9a9730c400820ee2b1c995cd5134fe" kind="function"><name>getClassMap</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a164966b8bcb9bf5470152bb5707a28af" kind="function"><name>addClassMap</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a5c0f76dc6dde6d1209d78b2fa27db0af" kind="function"><name>add</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a264d8845526646ebc3725f219949baca" kind="function"><name>addPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a558e395314f41f94b501b189ae74dcae" kind="function"><name>set</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7f92172519c08357430e7da877a88995" kind="function"><name>setPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1aed3e96782322ebc7352f1e62de1cc38c" kind="function"><name>setUseIncludePath</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a21c8a2ce47b9ab8184cce5949496414c" kind="function"><name>getUseIncludePath</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1aa3d6610396da6f5bef836d4fc5547816" kind="function"><name>setClassMapAuthoritative</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a5187f29c880def2863b3592d2cce5844" kind="function"><name>isClassMapAuthoritative</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1aad0640d28c755d32a9c4d13322959848" kind="function"><name>setApcuPrefix</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a570c1269e2a739a2849b7e579e7d83b9" kind="function"><name>getApcuPrefix</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a3968965f178f6a5ef212b31b72231e69" kind="function"><name>register</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a501cedfa611556a0100e024a0e102d9d" kind="function"><name>unregister</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a8326a997d0cfe76d80196f60d240d144" kind="function"><name>loadClass</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a4f8534c9205630e4b9c61e47ebf2867a" kind="function"><name>findFile</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1a738068f1e3ab7211bee77d49db47c0fc" kind="function"><name>getRegisteredLoaders</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_class_loader_1aec97617fc6dcb26a5219ba08e6ecec93" kind="function"><name>findFileWithExtension</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_class_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::ClassStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_class_stub_1ad68cf0caf7fa08633008139eac698fae" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_class_stub_1acdbfdcaa08ee11bbb4cf21098deca119" kind="function"><name>wrapCallable</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper" kind="class"><name>Symfony::Component::VarDumper::Dumper::CliDumper</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a000dc403b7bc6d30e314e0b6f9e65754" kind="variable"><name>$defaultColors</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a4a780e221a0398ba659d278ae41c5bc6" kind="variable"><name>$defaultOutput</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7bb8af4e80c138d129aaa0e892ba4cbf" kind="variable"><name>$colors</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a963b756f9dbf9fadb1c32eaa11fa3455" kind="variable"><name>$maxStringWidth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a920c320068535c09e154c6707eb42ded" kind="variable"><name>$styles</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a1ed9472a6140abe1277407f66587d29b" kind="variable"><name>$collapseNextHash</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7c4be83492312758642599e9be5d5f4f" kind="variable"><name>$expandNextHash</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a22a990230f758458c0422e5c52317660" kind="variable"><name>$controlCharsRx</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1af7f03abdc9daf331624d80344d23f334" kind="variable"><name>$controlCharsMap</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a7b739251528776e163c5272246ce0e3f" kind="function"><name>setColors</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a118b058df3c96ec8b0014c271d9fca41" kind="function"><name>setMaxStringWidth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a202f8d900759705e30fd968017cb3a9b" kind="function"><name>setStyles</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1add42458fcc51cd6c92fbfab62bc7c5fe" kind="function"><name>dumpScalar</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a06a24429c48c30ba1f579de698fd8853" kind="function"><name>dumpString</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a9b9ec353aaf82757fb3d8b221266759f" kind="function"><name>enterHash</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1afe9a3bb766900568a92604df854c7658" kind="function"><name>leaveHash</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aa8cb9d295355404a19697ed6833378f2" kind="function"><name>dumpEllipsis</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aeae46a3c4a9e911022017125cbb1339e" kind="function"><name>dumpKey</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a2fc73094d50c145bb907c5386d84be31" kind="function"><name>style</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a388c164e14126c9d673f399673730da5" kind="function"><name>supportsColors</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1aa6bd1f10fdb3968ed17a4d12e9269ae9" kind="function"><name>dumpLine</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1ac8c8abea44ca5fba5d1b3c60851ae447" kind="function"><name>endValue</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a4355373a0f10d170a768da5a28d3c4ea" kind="function"><name>hasColorSupport</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a52047c306b0cb3cb00592e07ae28d61d" kind="function"><name>isWindowsTrueColor</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ac2d7c7125d2d3749e9ede4aa2ba6ba3b" kind="function"><name>testGet</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad9fdcbcd2813e1c3a85a8215ef43b990" kind="function"><name>testDumpWithCommaFlag</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a12ac9e06b073b6aa8a13f3bbf7f3e285" kind="function"><name>testDumpWithCommaFlagsAndExceptionCodeExcerpt</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a3fd58e52899689894bb2b448d0ec2f06" kind="function"><name>provideDumpWithCommaFlagTests</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1abc9a0f557041a77e67363e82b7fbca0e" kind="function"><name>testXmlResource</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ab860a852cfc04505b79fbe868211e2bd" kind="function"><name>testJsonCast</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a0fb70daf6319ea40eb432d6ef5f30a23" kind="function"><name>testObjectCast</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a4ad5e0a3d6877e1899f1946f3c446a39" kind="function"><name>testClosedResource</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aafb504be2037fbb131ff329dc2e47472" kind="function"><name>testFlags</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aef712d12de79a56009b87abb6c04b03d" kind="function"><name>testThrowingCaster</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a136b7581a65b69d39a4393738fdb2121" kind="function"><name>testRefsInProperties</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a3c65fad7e8e618f1490ba86e6ebce325" kind="function"><name>testSpecialVars56</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad05c5c02b220a427231b571428ef8c5f" kind="function"><name>testGlobalsNoExt</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad291cdda0712a3e7506c9aadedd416c3" kind="function"><name>testBuggyRefs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ae07e23c992613b036162970f42d8f672" kind="function"><name>testIncompleteClass</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ac4b2b554d0fb0512f9e502ca7540bc3c" kind="function"><name>provideDumpArrayWithColor</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aee8992165119c55d9890e16d62676ec8" kind="function"><name>testDumpArrayWithColor</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ace2d22a772c6a4bda9328d21c45d93a2" kind="function"><name>getSpecialVars</name></member>
+  </compound>
+  <compound refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface" kind="interface"><name>Symfony::Component::VarDumper::Cloner::ClonerInterface</name>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface_1a9585669ab758ae5aafa76b3b73955df3" kind="function"><name>cloneVar</name></member>
+  </compound>
+  <compound refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a" kind="class"><name>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a</name>
+    <member refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1ab832f4c463ee1c9ba2e9464265f7ea3b" kind="variable"><name>$loader</name></member>
+    <member refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a3ab1fc00c945e73b85a36acbb5d21530" kind="function"><name>loadClassLoader</name></member>
+    <member refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a4f29c9e935451ce6ea4e4b9821ba6280" kind="function"><name>getLoader</name></member>
+  </compound>
+  <compound refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a" kind="class"><name>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</name>
+    <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a9590b15215a21e9b42eb546aeef79704" kind="variable"><name>$files</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a8a73e9adb9ac5eb77041801645646ff3" kind="variable"><name>$prefixLengthsPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a923378483704151b859f5398efa4cb5b" kind="variable"><name>$prefixDirsPsr4</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1adc083f7e1f2dd14ca2ddbaa63c2faf46" kind="variable"><name>$classMap</name></member>
+    <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a43dabec9d94d3a81ef6434b0377bf161" kind="function"><name>getInitializer</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_const_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::ConstStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_const_stub_1afd499bc6d5b762833875b19806a0ade6" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_const_stub_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kind="class"><name>Symfony::Component::VarDumper::Cloner::Cursor</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a7d0da41c1419b52c6b436572cfb7c7ef" kind="variable"><name>HASH_INDEXED</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a34a6f131e1b9fcf24af7812f76cb2856" kind="variable"><name>HASH_ASSOC</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a08083a140c1390d3e50110b915044f4e" kind="variable"><name>HASH_OBJECT</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a1257a120b5bd2b6a475b6c75d040415c" kind="variable"><name>HASH_RESOURCE</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a0abb04e6a8a04e161eb4657f54848b18" kind="variable"><name>$depth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1ad9d48780b41461267478bf85bc33aa06" kind="variable"><name>$refIndex</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a77d2625444dc1a5d436fadefb339bacc" kind="variable"><name>$softRefTo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1acf63ddebdff42bbe3f57b2bbc8f02890" kind="variable"><name>$softRefCount</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a886bea69365883bbc46a7fdaee69fadf" kind="variable"><name>$softRefHandle</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a286d14c5e3e945263d1520ca752ac39e" kind="variable"><name>$hardRefTo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1ab82a6206694b90c3173b75385a25e047" kind="variable"><name>$hardRefCount</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a27f15e3d79675b0168e5fa2ada650387" kind="variable"><name>$hardRefHandle</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1ac568b82fde94d5bee7b303bcc27f8e33" kind="variable"><name>$hashType</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a3120e4545efce876bcbddb695cb5f448" kind="variable"><name>$hashKey</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a5011c5a9cb9f321032d4bb8fb1cc9e7f" kind="variable"><name>$hashKeyIsBinary</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a80cbbc17ee0c9987e5f18d00a309122c" kind="variable"><name>$hashIndex</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a031f1b8943ac741fbc6427ca9462f0e9" kind="variable"><name>$hashLength</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a386db5e9eda533ea807a761bcb3d7de2" kind="variable"><name>$hashCut</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1afec7403d7db1849b2bd2f3ce218f12a2" kind="variable"><name>$stop</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a0b41385738b43ee6b8668650e7a4c990" kind="variable"><name>$attr</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor_1a538ebc67432b1e5bf77ffc7076a0ff38" kind="variable"><name>$skipChildren</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_array_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::CutArrayStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_array_stub_1a879ef0d74d4e7ba7394c87d3ff92b17d" kind="variable"><name>$preservedSubset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_array_stub_1af01a6f11ca4d5ae3673f744a4af0091c" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::CutStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_stub_1a7e17a19b592345a03763f050fffe0ce7" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kind="class"><name>Symfony::Component::VarDumper::Cloner::Data</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6efc15b5a2314dd4b5aaa556a375c6d6" kind="variable"><name>$data</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6e88dcb746884d18f6c89eb9b9c14a42" kind="variable"><name>$position</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1aa60b0284e0dfa2463495481cf11e3cf4" kind="variable"><name>$key</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a9f16d8a89cf22fc718af7b8698aa5c2d" kind="variable"><name>$maxDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a707dd9bc4792455213129c4cc63344fc" kind="variable"><name>$maxItemsPerDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a0d2be2c3608812a4c9dab40856e9a886" kind="variable"><name>$useRefHandles</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae774ca9c47e24adfb104dabcb01156af" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a830b5c75df72b32396701bc563fbe3c7" kind="function"><name>getType</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a84aff701e28316ca4b911770b47e2827" kind="function"><name>getValue</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ac751e87b3d4c4bf2feb03bee8b092755" kind="function"><name>count</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a7a9f937c2958e6f4dd7b030f86fb70b7" kind="function"><name>getIterator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a4537dad3b44254124991341cc91b28fb" kind="function"><name>__get</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae858fed7cd2822fbceac154138b68baa" kind="function"><name>__isset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a72b9545b16ea105298bb0d2109bd2fbe" kind="function"><name>offsetExists</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6e8e2b3128ee9bd6be930cb296c02ac7" kind="function"><name>offsetGet</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a3199adfa66a63d34fb355f3ccf39bf0a" kind="function"><name>offsetSet</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a1d11d3dade07ef846d01a397abfaf0d9" kind="function"><name>offsetUnset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab2fc904496e1d2bc27e61ecd4586d7e8" kind="function"><name>getRawData</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab6fc20b3527338fa229f1ae941dc379b" kind="function"><name>withMaxDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a14adf4194cb5a70a8de3e5a1506d1dd3" kind="function"><name>withMaxItemsPerDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1adde33a936278427c491f13634274203a" kind="function"><name>withRefHandles</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a69752cec92060e86549366b00b25ed56" kind="function"><name>seek</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab56833f22a5a3949ed9b7d38190931ab" kind="function"><name>dump</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae8c329a4bb060e56f6a3264d2e32d60b" kind="function"><name>dumpItem</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a3d4f15ea185b1cc8719a57d5a11fb5bb" kind="function"><name>dumpChildren</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a8727bc74a623baa465e332af584fa579" kind="function"><name>getStub</name></member>
+  </compound>
+  <compound refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface" kind="interface"><name>Symfony::Component::VarDumper::Dumper::DataDumperInterface</name>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface_1ac42028578ae35f8c9a903043ef590585" kind="function"><name>dump</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Cloner::DataTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1af32b7df2a730c475f5c4335dfc8cacc1" kind="function"><name>testBasicData</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1af76abd73a109cb7bed61ca25aa5b8bc2" kind="function"><name>testObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1aef075d1f6e6ee3573332781dbb818653" kind="function"><name>testArray</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1acf6b81351f2f015957dd412dee01942f" kind="function"><name>testStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1a3d0847747346ee5dcfc3a88a2fda9736" kind="function"><name>testHardRefs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1a59d85d5f58ff83ee0c215b5f96fd43df" kind="function"><name>cloneVar</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::DateCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1a4e4322d94fa2e19a217cddeb05efc390" kind="function"><name>castDateTime</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aa04d2bdacd2cad97030f08401716936a" kind="function"><name>castInterval</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1ae57bbd660c790dbb318f4b7371ebf263" kind="function"><name>castTimeZone</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1ad03100e01be075d0eca25581fb936f0f" kind="function"><name>castPeriod</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aed7aaf71d2a84a763a3db65af4487bf9" kind="function"><name>formatInterval</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1a4d2528eed8fb341f54871e02691d8f3a" kind="function"><name>formatDateTime</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aadecd9e4932ad260dcf8f0994166a68a" kind="function"><name>formatSeconds</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::DateCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1ad15e059dabac035d48486f5b2bdaf7aa" kind="function"><name>testDumpDateTime</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1ab38c4a8e223c9edbf242ab506606dcfa" kind="function"><name>testCastDateTime</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1adefdee399c6b12c758ad99f8b70fd0b2" kind="function"><name>provideDateTimes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a2a403e074da418ccc012e428368b40d6" kind="function"><name>testCastDateTimeWithAdditionalChildProperty</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a1eeac26529682ada8a3072270661840b" kind="function"><name>testDumpInterval</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a83a00e0c4c45a00e5beab63ec08f3f0b" kind="function"><name>testDumpIntervalExcludingVerbosity</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a1b4ebde6a27548df4096670639ef8713" kind="function"><name>testCastInterval</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1ab45f072bcaf61a257f774ac9dd8b0a21" kind="function"><name>provideIntervals</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1aab001e3b36b4c560639d71c11f439dcd" kind="function"><name>testDumpTimeZone</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a36ffd1627700dc8d288cfcaf579ef72a" kind="function"><name>testDumpTimeZoneExcludingVerbosity</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a994befea1d833a8165512909d65a78ef" kind="function"><name>testCastTimeZone</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1aa86a6e2b4dfd41d1e38e99732090920f" kind="function"><name>provideTimeZones</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1ad02e7095e2b1d18a3378b5bb04494a33" kind="function"><name>testDumpPeriod</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a36bf2e30004e9909e59387c88262be8d" kind="function"><name>testCastPeriod</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a33efbeb0c420767b10f28dc701453d25" kind="function"><name>providePeriods</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test_1a5189843f03e9782b640bf9a9376acf7d" kind="function"><name>createInterval</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" kind="class"><name>Symfony::Component::VarDumper::Tests::Fixtures::DateTimeChild</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child_1a6112f329e74aad8aa66d974983faee54" kind="variable"><name>$addedProperty</name></member>
+  </compound>
+  <compound refid="class_core_1_1_database_1_1_db_factory" kind="class"><name>Core::Database::DbFactory</name>
+    <member refid="class_core_1_1_database_1_1_db_factory_1a1b7635e2106e6640e3deef313b282969" kind="variable"><name>MY_SQL</name></member>
+    <member refid="class_core_1_1_database_1_1_db_factory_1ad9d7ce33ebb142b70e58b68052ca0ea8" kind="variable"><name>$instance</name></member>
+    <member refid="class_core_1_1_database_1_1_db_factory_1ad36f106200b6c87b317de8a9dca337e9" kind="function"><name>getDb</name></member>
+  </compound>
+  <compound refid="class_core_1_1_database_1_1_db_tools" kind="class"><name>Core::Database::DbTools</name>
+    <member refid="class_core_1_1_database_1_1_db_tools_1a39a3209ef61c44c6b947d19c23ebc630" kind="function"><name>getFields</name></member>
+  </compound>
+  <compound refid="class_core_1_1_debug" kind="class"><name>Core::Debug</name>
+    <member refid="class_core_1_1_debug_1a26cf1a9b616bb78e40e4904ea816baa9" kind="function"><name>var_dump</name></member>
+    <member refid="class_core_1_1_debug_1ad4a18e9f86945181101f0c8a0934aa03" kind="function"><name>print_r</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::DoctrineCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a9aef4e1086a2c2eeb36e257547f7fa82" kind="function"><name>castCommonProxy</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a4bc6b34d74aab8c7fac2980ec694a5b5" kind="function"><name>castOrmProxy</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a709196b26c51a73a3e96345e1bf2d1b8" kind="function"><name>castPersistentCollection</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::DOMCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a3b93da793cd81d9e4667f7b3729d4f43" kind="variable"><name>$errorCodes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1af2bd1e22e540d79a7e17fc5dbbe098aa" kind="variable"><name>$nodeTypes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ab8b6bf6d3147d6a509bc3e3bd3af0940" kind="function"><name>castException</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a76643b2a53444ee85314bb9cde749fec" kind="function"><name>castLength</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a6ffd02e3ca59b99969464e522279c105" kind="function"><name>castImplementation</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ad5d0bef00669a6648c20153350a60163" kind="function"><name>castNode</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a893e830190cd968691510846b2e7ac46" kind="function"><name>castNameSpaceNode</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a40ae8fc21b1b8043249a9a15a0768a82" kind="function"><name>castDocument</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a97302c8bc169efd169174536729993a9" kind="function"><name>castCharacterData</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a059538088a0cea77a298c901a2ef5573" kind="function"><name>castAttr</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ae9236c35b302dc5f6d915607ae676a6e" kind="function"><name>castElement</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1abb3daa64216530041f90d4ca7dd8c094" kind="function"><name>castText</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a5c6178dcb4611d4c181c7af2c18c0600" kind="function"><name>castTypeinfo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ae1633c0aedf9fc5f5c8e3ed213827803" kind="function"><name>castDomError</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a00323a87352177aa327afd87a44cb261" kind="function"><name>castLocator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a72a16fbbd31f5e98f01f2089fabdd6b6" kind="function"><name>castDocumentType</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a1c3d4b935d60bc93ef8bc230dc6c3ff7" kind="function"><name>castNotation</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1adb8ca56f0140c51d754b8ea313da5d39" kind="function"><name>castEntity</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a0e98f12e83aa8ddccc90e3c8ca9409a2" kind="function"><name>castProcessingInstruction</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1aea61526b86c932658306db4eff2a8946" kind="function"><name>castXPath</name></member>
+  </compound>
+  <compound refid="class_rdehnhardt_1_1_debug_1_1_dumper" kind="class"><name>Rdehnhardt::Debug::Dumper</name>
+    <member refid="class_rdehnhardt_1_1_debug_1_1_dumper_1ac89652548dd2f5982d76c8de15e75df7" kind="function"><name>dump</name></member>
+  </compound>
+  <compound refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kind="interface"><name>Symfony::Component::VarDumper::Cloner::DumperInterface</name>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1add42458fcc51cd6c92fbfab62bc7c5fe" kind="function"><name>dumpScalar</name></member>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a06a24429c48c30ba1f579de698fd8853" kind="function"><name>dumpString</name></member>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a9b9ec353aaf82757fb3d8b221266759f" kind="function"><name>enterHash</name></member>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1afe9a3bb766900568a92604df854c7658" kind="function"><name>leaveHash</name></member>
+  </compound>
+  <compound refid="class_dumper_test" kind="class"><name>DumperTest</name>
+    <member refid="class_dumper_test_1a70fa663f2a48a640373aaba0415800c1" kind="function"><name>testClassExists</name></member>
+  </compound>
+  <compound refid="class_core_1_1_entity" kind="class"><name>Core::Entity</name>
+    <member refid="class_core_1_1_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" kind="function"><name>est_nouveau</name></member>
+    <member refid="class_core_1_1_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" kind="function"><name>hydrate</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::EnumStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub_1ad5e394667575c3c1f1e1cafb4123df8c" kind="variable"><name>$dumpKeys</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub_1a5b7d0892cbb9feb7254ce37f1973208a" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::ExceptionCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a1a3f49b24e774bdd30de52c976915754" kind="variable"><name>$srcContext</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac569c8f5880fbc7c14b524fb29fcc8b4" kind="variable"><name>$traceArgs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a8f09d17eed751ed811e11c17c70e4d83" kind="variable"><name>$errorTypes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a2313a3d9a901a46815afd937ce4916b5" kind="variable"><name>$framesCache</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aaa9cd278e434b73a29a256eca436af8a" kind="function"><name>castError</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a47f718563047392fb0fdf0dcf4119a5e" kind="function"><name>castException</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a820b890ebeba01c47889510189a1f35e" kind="function"><name>castErrorException</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a9109c518dfbf985fb19e36b66558a792" kind="function"><name>castThrowingCasterException</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a6574b0ae564fe747b4f0f2da921d331a" kind="function"><name>castSilencedErrorContext</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ad7b5fd48a137f9c3b6177c825c2d1035" kind="function"><name>castTraceStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aed28b0e9af9acc87f67d916374176361" kind="function"><name>castFrameStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a62bb3e709c0391b427756685343cba97" kind="function"><name>filterExceptionArray</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aacb216b8abcda950596454abf99106c2" kind="function"><name>traceUnshift</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac88a09ceb5c992adfc4222de77678c83" kind="function"><name>extractSource</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::ExceptionCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a72ff24fc5de736465cc2be4eaf1cc34e" kind="function"><name>getTestException</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a80fe3d17e658907fc75346a0ec9d6fc7" kind="function"><name>tearDown</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a5c9613a083ede9b5078dca26eb9459e6" kind="function"><name>testDefaultSettings</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1ad60bb77657a9c381f792daff486c0e65" kind="function"><name>testSeek</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1af0aec7a841ed56edfd5519912dd726b7" kind="function"><name>testNoArgs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1ab59c6a0cbd6a95fc485d4805ff179ca0" kind="function"><name>testNoSrcContext</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a8cb9a51772ca6acb4cb322c6e621330f" kind="function"><name>testHtmlDump</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1ab24ecb8e5ac569282a2b2d334e18ebb0" kind="function"><name>testFrameWithTwig</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a9ec7c3c26b8df44d07e7f84fff7493a5" kind="function"><name>testExcludeVerbosity</name></member>
+  </compound>
+  <compound refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" kind="interface"><name>Symfony::Component::VarDumper::Tests::Fixtures::FooInterface</name>
+    <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface_1a79418a120498dd9cf915655654607747" kind="function"><name>foo</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::FrameStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub_1a0006872b78bfabc58576542ad7f0d5a8" kind="variable"><name>$keepArgs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub_1afb961f1e668fca75d70cfa48d4adbfbc" kind="variable"><name>$inTraceStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub_1a60a0aa4cce4d64a93ec2af340813c01e" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Dumper::FunctionsTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1ab1932eac1cea1c78bc3cda8adde440a9" kind="function"><name>testDumpReturnsFirstArg</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1a1ee7559a9a8964119d1bf559f4fc57c5" kind="function"><name>testDumpReturnsAllArgsInArray</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1aca65f250c64f5afe76afb51dfb89f0a2" kind="function"><name>setupVarDumper</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo" kind="class"><name>Symfony::Component::VarDumper::Tests::Fixtures::GeneratorDemo</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo_1a3e3ffac9937b208f616f34f76e1dfd46" kind="function"><name>foo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo_1ae7a58e6eb64e3fa0d88ff421f558d8f4" kind="function"><name>baz</name></member>
+  </compound>
+  <compound refid="class_rdehnhardt_1_1_debug_1_1_html_dumper" kind="class"><name>Rdehnhardt::Debug::HtmlDumper</name>
+    <member refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_1a920c320068535c09e154c6707eb42ded" kind="variable"><name>$styles</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper" kind="class"><name>Symfony::Component::VarDumper::Dumper::HtmlDumper</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a4a780e221a0398ba659d278ae41c5bc6" kind="variable"><name>$defaultOutput</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1acb0ad5de053ec0ff3af4983de105bcac" kind="variable"><name>$dumpHeader</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a5d5b0c15eefd10d607b0e9ddb71ba31f" kind="variable"><name>$dumpPrefix</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1ab04e0a2b2ae440a26548422f8c9510c5" kind="variable"><name>$dumpSuffix</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a705ebe401120c116a6d23d7bd05fa2fa" kind="variable"><name>$dumpId</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a7bb8af4e80c138d129aaa0e892ba4cbf" kind="variable"><name>$colors</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a0e32de02188517437e4875d927558075" kind="variable"><name>$headerIsDumped</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a4ffdf5690681e43b9bc0c46c542bf72a" kind="variable"><name>$lastDepth</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a920c320068535c09e154c6707eb42ded" kind="variable"><name>$styles</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a2678566423bf67347fcaeda64941787e" kind="variable"><name>$displayOptions</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1ac6004f0cc2e941d28cd5b89f0db27efe" kind="variable"><name>$extraDisplayOptions</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a202f8d900759705e30fd968017cb3a9b" kind="function"><name>setStyles</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a4aeeebe2a990cb6adcfe0b97d7172b1a" kind="function"><name>setDisplayOptions</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1ac7d7fe591011744f6a90284c9f236ec8" kind="function"><name>setDumpHeader</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a931e270ca8db90b01f7d9c33cdaa1cf6" kind="function"><name>setDumpBoundaries</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a3721caaa3dfbdd9a4d89122914861deb" kind="function"><name>dump</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a9b9ec353aaf82757fb3d8b221266759f" kind="function"><name>enterHash</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1afe9a3bb766900568a92604df854c7658" kind="function"><name>leaveHash</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a1b3660ae862642b421fb9c59afff268f" kind="function"><name>getDumpHeader</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a2fc73094d50c145bb907c5386d84be31" kind="function"><name>style</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1aa6bd1f10fdb3968ed17a4d12e9269ae9" kind="function"><name>dumpLine</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a99f71bb135e01c33e0e1db4ae0072f1d" kind="function"><name>getSourceLink</name></member>
+  </compound>
+  <compound refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_test" kind="class"><name>Rdehnhardt::Debug::HtmlDumperTest</name>
+    <member refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_test_1a70fa663f2a48a640373aaba0415800c1" kind="function"><name>testClassExists</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_html_dumper_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Dumper::HtmlDumperTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_html_dumper_test_1ac2d7c7125d2d3749e9ede4aa2ba6ba3b" kind="function"><name>testGet</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_html_dumper_test_1a6f35a3c6c68fc96c297dc1ad374a271c" kind="function"><name>testCharset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_html_dumper_test_1a9732cc3e9ff5f6f40fa7fcd7da4fbb21" kind="function"><name>testAppend</name></member>
+  </compound>
+  <compound refid="class_composer_1_1_installed_versions" kind="class"><name>Composer::InstalledVersions</name>
+    <member refid="class_composer_1_1_installed_versions_1abedccaa71dcf3d3f5c392fad3b3df965" kind="variable"><name>$installed</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a1747f4d031d8cab56a9a542350bd8e68" kind="variable"><name>$canGetVendors</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a5c2b444d0d189bf7608b3c740bed6494" kind="variable"><name>$installedByVendor</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a9cb7471a8b6134787cbd06973c4336d3" kind="function"><name>getInstalledPackages</name></member>
+    <member refid="class_composer_1_1_installed_versions_1aa3ef32a5757a433a28cbe63ea9fff2df" kind="function"><name>getInstalledPackagesByType</name></member>
+    <member refid="class_composer_1_1_installed_versions_1ac9863ed3d65259cb0a9a5bcc5afffa7e" kind="function"><name>isInstalled</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a309342b07e5af8c14d76e2c50b7543d4" kind="function"><name>satisfies</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a6025d8d3ea9ca84bd6e2a7409b7404a6" kind="function"><name>getVersionRanges</name></member>
+    <member refid="class_composer_1_1_installed_versions_1af424daaec3a1ccfb2d1bbd55733c9121" kind="function"><name>getVersion</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a0e688c2f203f84ce4bddafdf3828144e" kind="function"><name>getPrettyVersion</name></member>
+    <member refid="class_composer_1_1_installed_versions_1abd701ad696ab5b5b77b6cc5e46a35f36" kind="function"><name>getReference</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a8ad0cf11b4859b96de3c34fd4851342f" kind="function"><name>getInstallPath</name></member>
+    <member refid="class_composer_1_1_installed_versions_1ac82ce683d4615705dc55ed67d2804e55" kind="function"><name>getRootPackage</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a6ecee8643c03c515b55686f03d117665" kind="function"><name>getRawData</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a3a09ac4f4e098f4c04c31cfb88a8e256" kind="function"><name>getAllRawData</name></member>
+    <member refid="class_composer_1_1_installed_versions_1a01b4ca6bbbb1e3337f987c9461405985" kind="function"><name>reload</name></member>
+    <member refid="class_composer_1_1_installed_versions_1aa6bc6a4daecd35bac0c38dba00e400c3" kind="function"><name>getInstalled</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::LinkStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub_1a731d490c510111abe58bd93e627c51b4" kind="variable"><name>$inVendor</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub_1a450d3e6304090de976e385e726c76dc6" kind="variable"><name>$vendorRoots</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub_1a61024ba05b12e8e8b1e703e1ce5d4442" kind="variable"><name>$composerRoots</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub_1af83e9066577287029b4d36c2304c5562" kind="function"><name>__construct</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub_1a84588255f39b21adb24f921dac014ba4" kind="function"><name>getComposerRoot</name></member>
+  </compound>
+  <compound refid="class_core_1_1_database_1_1_manager" kind="class"><name>Core::Database::Manager</name>
+    <member refid="class_core_1_1_database_1_1_manager_1ae8876a14058f368335baccf35af4a22b" kind="variable"><name>$table</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1a65d08ac56130a6a2c15430642afe0c27" kind="function"><name>statement</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1a73a1b0348919b6755e4f69dcc70eba64" kind="function"><name>findAll</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1a83fd2fc7e1de07d8f06df23372477c51" kind="function"><name>findBy</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1a1ba50cbde423b0b17031ea550a599ae8" kind="function"><name>find</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1a27c8282bd8a337c0d800bd2db6345bd2" kind="function"><name>create</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1aab788f559c9ebb763f9abd0d969face2" kind="function"><name>delete</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1aed990bda984d72af2224e06dd61507a0" kind="function"><name>update</name></member>
+    <member refid="class_core_1_1_database_1_1_manager_1a3172606ff70f04af88f64d235909d5dc" kind="function"><name>getEntityClassName</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring" kind="class"><name>Symfony::Polyfill::Mbstring::Mbstring</name>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a75524db562c45e6d46a7ca4bc6988aa5" kind="variable"><name>MB_CASE_FOLD</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1abd306ef64d41b78b18f3c5eb3a737c96" kind="variable"><name>CASE_FOLD</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a7188b31a7f68d7970b4c9cfa12ffc44b" kind="variable"><name>$encodingList</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a83170d318260a5a2e2a79dccdd371b10" kind="variable"><name>$language</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9b4630229a2b87ca0f1fef552d1bd921" kind="variable"><name>$internalEncoding</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a84d99dd1d7d8820af71edae7d97eb866" kind="function"><name>mb_convert_encoding</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a97f34c70f1a60e8329657ca02004671f" kind="function"><name>mb_convert_variables</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a59fca468dcbbab7c0d4cebce410553c9" kind="function"><name>mb_decode_mimeheader</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa67f9cc753f3e241d00609d9b5ae02de" kind="function"><name>mb_encode_mimeheader</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a3b8ae2be3e3b9c621b15bbefe0132746" kind="function"><name>mb_decode_numericentity</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a58adb7a1d0e7aa7eaa1d2a3e4d7fd446" kind="function"><name>mb_encode_numericentity</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a95a646eeac9e6ebf48c150a62526f2c2" kind="function"><name>mb_convert_case</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a67ac58e6c2555b1d7797f7e473a0fb33" kind="function"><name>mb_internal_encoding</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a99ab75b3eee86651a314e0c6d22b5f7e" kind="function"><name>mb_language</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8545f48c9859d5067686aaf1fd40ff79" kind="function"><name>mb_list_encodings</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ae18ef9f92abf7edf6c53ccf88e662ef3" kind="function"><name>mb_encoding_aliases</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a6757acdc010a4c72638af822d2342bbe" kind="function"><name>mb_check_encoding</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aad01538b14f3efa0d9c5cea4cd4c507d" kind="function"><name>mb_detect_encoding</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aceb5dad7107f3937cbcfd16104add294" kind="function"><name>mb_detect_order</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ab852281314426dd75499a0673c85db87" kind="function"><name>mb_strlen</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a24124a5eaea8ede2e7d44d8fd84b4058" kind="function"><name>mb_strpos</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1afe50237ad9c1ed920a8166a5458ae1cf" kind="function"><name>mb_strrpos</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa9cdb52e5d4f8e9f2763d3f54858f407" kind="function"><name>mb_str_split</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a7bdc9beffa5b1ba23c203987acba05fb" kind="function"><name>mb_strtolower</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a6e59eada26c79194acf7a139701041fe" kind="function"><name>mb_strtoupper</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ad48dc100280736ad272fc923f01fa1be" kind="function"><name>mb_substitute_character</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ade00c2aedaee40ae772eec3e055262be" kind="function"><name>mb_substr</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a26967603570e1dd43b65c27c2856ff6f" kind="function"><name>mb_stripos</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a5aef53f68586028a78f894b7f923681c" kind="function"><name>mb_stristr</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ad561e330e70cb4f2a233e7c2cb624c91" kind="function"><name>mb_strrchr</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1acd39b3830028a508b06080f8a38d5403" kind="function"><name>mb_strrichr</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9056dcc9df1d477cb03001adbb8a9497" kind="function"><name>mb_strripos</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a05052e4e0bab49cfe3a0c6dad91f66c8" kind="function"><name>mb_strstr</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9fdfc07707533f6258415211559b1034" kind="function"><name>mb_get_info</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa9e130c2420821c3fcf6ad2645a63efe" kind="function"><name>mb_http_input</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a387494572e7ce41ee7f0d5c99b72df4d" kind="function"><name>mb_http_output</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1afc98384ebc04d26f6e8a1abb88cce3af" kind="function"><name>mb_strwidth</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a0e1557ace6c7748126cc4e08067bdba2" kind="function"><name>mb_substr_count</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a1b552cf101641e067fffed656fd91179" kind="function"><name>mb_output_handler</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ae97531bdf938906edbb3d2fc524e6e63" kind="function"><name>mb_chr</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8984c6a38ccef2cf6a6bde439458e7b2" kind="function"><name>mb_ord</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a09d03e2bf8be82679647040966ea29ea" kind="function"><name>getSubpart</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a19e4787009836784c8dc12452009dbec" kind="function"><name>html_encoding_callback</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a00afe186880af74e59b8dc9d017a9365" kind="function"><name>title_case</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8a395460c6344ac2acf4341f84243f65" kind="function"><name>getData</name></member>
+    <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a317be02caaa69e9f3f80c69053b98dc9" kind="function"><name>getEncoding</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::MongoCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster_1a7827ba486ca9a8207f2e617891de7701" kind="function"><name>castCursor</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::MyArrayIterator</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator_1a7a1efa8a0f6183fb3a5e8e8b0696526c" kind="variable"><name>$foo</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" kind="class"><name>Symfony::Component::VarDumper::Tests::Fixtures::NotLoadableClass</name>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::PdoCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a8788ffd3318ae0ae7e54f85e830f96d9" kind="variable"><name>$pdoAttributes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a9b3c003aa64e23de20e9763214822d98" kind="function"><name>castPdo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a31bcd424274a3373464e3b3f6b089948" kind="function"><name>castPdoStatement</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_pdo_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::PdoCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_pdo_caster_test_1a9a7d54ffb0d4a1c9a686a3df1b5f6bd4" kind="function"><name>testCastPdo</name></member>
+  </compound>
+  <compound refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kind="class"><name>Core::Database::Db::PDOMysql</name>
+    <member refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ad9d7ce33ebb142b70e58b68052ca0ea8" kind="variable"><name>$instance</name></member>
+    <member refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ac93fbec81f07e5d15f80db907e63dc10" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::PgSqlCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1ae8b8de46f59c8cbd7e7eb6de9df46807" kind="variable"><name>$paramCodes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a4e54cfe3e63a7dc7fd68c07c8a818be4" kind="variable"><name>$transactionStatus</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1af1cab3ece3ea22f271b560b019efec42" kind="variable"><name>$resultStatus</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a7252eb18dc6f619c14b94157e6663586" kind="variable"><name>$diagCodes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a25c00fd5db077a504c94e7897d005eea" kind="function"><name>castLargeObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a5f97c7b27a214ff35d0d300905c70396" kind="function"><name>castLink</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a5a26ea3d12beace85f251a296e340148" kind="function"><name>castResult</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74" kind="class"><name>Symfony::Component::VarDumper::Tests::Fixtures::Php74</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1a5037c6a7971fe210d4d6c3a856d9df49" kind="variable"><name>$p1</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1ab98e40bf6f16089bcc38cdfe30fd1b7b" kind="variable"><name>$p2</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_redis_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::RedisCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_redis_caster_1a28c67e2682522dbcaa99e6b438bdbfdd" kind="variable"><name>$serializer</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_redis_caster_1aaba7e5aa5f136b1fb77b3b42fa9b202e" kind="function"><name>castRedis</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_redis_caster_1a7a3dde27dff2b9cf613d6595891b8b63" kind="function"><name>castRedisArray</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_redis_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::RedisCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_redis_caster_test_1ad6f7e77d943f4ec81b33ea98b7aee75f" kind="function"><name>testNotConnected</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_redis_caster_test_1a74b444e274b436196ae544eda6c4d182" kind="function"><name>testConnected</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::ReflectionCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1aa7000a83f84678e8369d947aa88e6f48" kind="variable"><name>$extraMap</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a8e810f7f8be03dfcad275c898e7c61c7" kind="function"><name>castClosure</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1aafced1ba81a3a770dbaafeddb43acee6" kind="function"><name>castGenerator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ab34baf5966aff5aae8eb4539399be90f" kind="function"><name>castType</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a18bb10e3cdba14e14671c13c5809443c" kind="function"><name>castReflectionGenerator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1acbb50c4fdd08a416fe88374092e22ad2" kind="function"><name>castClass</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a0177eeaf5e2cfa96896b34b7ee221d94" kind="function"><name>castFunctionAbstract</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a693851ea3d046ecdef13963b3df099e5" kind="function"><name>castMethod</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ac52f99b4f43996ec55e7b4a5f5144d87" kind="function"><name>castParameter</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a0eacdc2e6b79b874ad9e657b21d43409" kind="function"><name>castProperty</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ab7e0b23f4e60908c66d97455cdb7861e" kind="function"><name>castExtension</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a483605a363f32a2dca3cc7d61d694f9d" kind="function"><name>castZendExtension</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1af0ff44c374434808235d2dfff1731127" kind="function"><name>addExtra</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a33b91cdac2a4688717d6059eb03b74d0" kind="function"><name>addMap</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a03ff8ab41b3d4f8afb4663932b09f2b4" kind="function"><name>testReflectionCaster</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a49040bf075c8bce180f77ea855e156f4" kind="function"><name>testClosureCaster</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a59a06b0393b3ffaaf3332fe6be49b7bc" kind="function"><name>testFromCallableClosureCaster</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a4e7f814c55914b598717548d9b0bafbd" kind="function"><name>testClosureCasterExcludingVerbosity</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1aa1c053d047134fbb4a76bbd92e5ecebd" kind="function"><name>testReflectionParameter</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a5b9b7f25bfbce62f6b6c47b0172c1c4b" kind="function"><name>testReflectionParameterScalar</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a86167be875b8c8b181f5b65e93f02f18" kind="function"><name>testReturnType</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a4844a1a970aa1963827617c385313480" kind="function"><name>testGenerator</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::ResourceCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1aedd36c21345a05e9bb2482c974b0ae77" kind="function"><name>castCurl</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a5cdb19b40bf5f53afcbce94adbb088a9" kind="function"><name>castDba</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1aeac1509b023eb517e38a829466680151" kind="function"><name>castProcess</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a85b3c0338f96206de1caf92ab90e5778" kind="function"><name>castStream</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1ab48e9bdbdb9ac340a12bc4152ae4cf80" kind="function"><name>castStreamContext</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a467477edec3e7be7ea5e61a8bfef9f51" kind="function"><name>castGd</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1ad3410cf789a58fe0d3a05f8e0f8ebc34" kind="function"><name>castMysqlLink</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::SplCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a0fe375faf02daafd2d6f4a94921de1a6" kind="variable"><name>$splFileObjectFlags</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a0349881e2e4049ae8138428e5fecad7d" kind="function"><name>castArrayObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1acf1ccbdfb1997b249c6caa9c175cb288" kind="function"><name>castArrayIterator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a563128e09366a0f8eee9d3c187e7534f" kind="function"><name>castHeap</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1aff227d24d6d676ecc68710c7418de5f6" kind="function"><name>castDoublyLinkedList</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a7d7c27194e9d26a6267b542b3c39e41b" kind="function"><name>castFileInfo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a4c0990cc36d6d91ff6d04b422a50992c" kind="function"><name>castFileObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a34ccb4974d0aaddbe3b546470f608d6a" kind="function"><name>castObjectStorage</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a5f9f083055757929e85e526976d324c2" kind="function"><name>castOuterIterator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a63931e5c708d25b1561aa338c7f9df38" kind="function"><name>castSplArray</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::SplCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1ab151ba7ad7c3c2ab3af775677aea2d84" kind="function"><name>getCastFileInfoTests</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1a065f8e5e2e16e1cfe54cf3481215ea87" kind="function"><name>testCastFileInfo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1a78bbfaf024d8406e13bdd069e77dcaf5" kind="function"><name>testCastFileObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1a5fc8fd58353b4b91c555e3d7797e9a3b" kind="function"><name>testCastSplDoublyLinkedList</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1a7fde972827f6aca9b472d45f74716f7c" kind="function"><name>provideCastSplDoublyLinkedList</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1ac6ceb2c54e398ddcffb0c80f6c2880f5" kind="function"><name>testCastObjectStorageIsntModified</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1ab30df7af0d53535e0311143601d844bc" kind="function"><name>testCastObjectStorageDumpsInfo</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1a2d5d61d196036c1650f3c6ede4db5a11" kind="function"><name>testCastArrayObject</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1a3b6c9942e0e12a4e3c17bc4c497585ea" kind="function"><name>testArrayIterator</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test_1aedb6289a9992988b2e0663b1ea913b59" kind="function"><name>testBadSplFileInfo</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kind="class"><name>Symfony::Component::VarDumper::Cloner::Stub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a595346b7017a4bd48c2ff9557a00f7e9" kind="variable"><name>TYPE_REF</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a7b176bd55450d1c25a421b13dd484b4e" kind="variable"><name>TYPE_STRING</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a11563c517f16ce832ff4fed40928a12b" kind="variable"><name>TYPE_ARRAY</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a2365fd1fb1e6d6e994238955ce32a8ec" kind="variable"><name>TYPE_OBJECT</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ad07ab1c1105bca21101d66c32159b192" kind="variable"><name>TYPE_RESOURCE</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ad83ea6fcca51b069b97f9c81a05069bf" kind="variable"><name>STRING_BINARY</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a402b096553ff833218be412fae69da11" kind="variable"><name>STRING_UTF8</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a09964fa54a00a9c7db2654b0ab0b9d24" kind="variable"><name>ARRAY_ASSOC</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a89b7b7fe9e45b3c8cd52de21e497c2f9" kind="variable"><name>ARRAY_INDEXED</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a9a4a6fba2208984cabb3afacadf33919" kind="variable"><name>$type</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a252ba022809910ea710a068fc1bab657" kind="variable"><name>$class</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a0f298096f322952a72a50f98a74c7b60" kind="variable"><name>$value</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a5924770f076ba8a4bba0bd2a802a9d65" kind="variable"><name>$cut</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ad86c3fbc5672e1deeafc5229012b0b5d" kind="variable"><name>$handle</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ab1b6a30b6cc567c5b453c8039e10ca71" kind="variable"><name>$refCount</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a6e88dcb746884d18f6c89eb9b9c14a42" kind="variable"><name>$position</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a0b41385738b43ee6b8668650e7a4c990" kind="variable"><name>$attr</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a08ccd3ebd86db7f31e54a9e8fe1d11c5" kind="variable"><name>$defaultProperties</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1aaf11785905da71774e052912d784e3b4" kind="function"><name>__sleep</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::StubCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1a0cfcba3e9cc5d87fb16ba11b6e551839" kind="function"><name>castStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1aa3b496aaaaa27b3a0f2e4b5a5e374ebe" kind="function"><name>castCutArray</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1ac6c8b2578df2669a222d11c85901ced3" kind="function"><name>cutInternals</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1a30d65a8585217a00914a5a4b0ff03a11" kind="function"><name>castEnum</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1ad253b661b2ba2468461c40aa6d5f012f" kind="function"><name>testArgsStubWithDefaults</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1ac816ec57cad2d47614ea12e6e350eba9" kind="function"><name>testArgsStubWithExtraArgs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1abc2a7a5ead75948660eee49e97e69da9" kind="function"><name>testArgsStubNoParamWithExtraArgs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1a7cfc72732f5e055ec37202cb32cd24dd" kind="function"><name>testArgsStubWithClosure</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1a1d35340f3a61478894488643b98534ed" kind="function"><name>testLinkStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1acb94f21231498c9a592c384b429ef3de" kind="function"><name>testLinkStubWithNoFileLink</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1aec65d704ac10390ad5d8534127f7e414" kind="function"><name>testClassStub</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1aecfd8c3d09b70b0078b5ad874fb11933" kind="function"><name>testClassStubWithNotExistingClass</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1afc273d8134b93861dab3899162811035" kind="function"><name>testClassStubWithNotExistingMethod</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::SymfonyCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster_1a677c7339efb09b98075c4d70654eb7f4" kind="variable"><name>$requestGetters</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster_1ad117bd49689971efa38d57956dba2b5c" kind="function"><name>castRequest</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_exception_1_1_throwing_caster_exception" kind="class"><name>Symfony::Component::VarDumper::Exception::ThrowingCasterException</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_exception_1_1_throwing_caster_exception_1aa63eb7b8f6db4f1b15d8f2bd3996d514" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub" kind="class"><name>Symfony::Component::VarDumper::Caster::TraceStub</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub_1a0006872b78bfabc58576542ad7f0d5a8" kind="variable"><name>$keepArgs</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub_1a8c5f29a81ab9d87c4defa27291f688f0" kind="variable"><name>$sliceOffset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub_1a3d985a6d9695905fef2f83def5d0d26c" kind="variable"><name>$sliceLength</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub_1a170751bbda13c68c4900a2af756fc3c7" kind="variable"><name>$numberingOffset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub_1a17c25feabb1fb04dd601869a12cf603e" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kind="class"><name>App::Utilisateur::UtilisateurEntity</name>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a3587bd00e5602c1800515b6f9ffbebc5" kind="variable"><name>$id</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a202a88cc870edb6739ae922fd69c5178" kind="variable"><name>$prenom</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a0598dee0822971aef0f6a79d648943de" kind="variable"><name>$nom</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a31d8a4d4253ee1ddf2fea7fcae213091" kind="variable"><name>$mail</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1aaf7f59b862dced9b5e5b3574d3224b64" kind="variable"><name>$mot_de_passe</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1af985479c8cdcf813023872277f14f7bd" kind="variable"><name>$date_modif</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1aefa280e5a5586c9671664c695016babd" kind="variable"><name>$token</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a54235935852c246c3ecd7b256402f059" kind="variable"><name>$is_admin</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a1782381c34a158d42933ce2225c94791" kind="function"><name>__construct</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1afcf35c44eee557afedc89984465feff4" kind="function"><name>est_admin</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae3d7e348ef2dbe7040f080e4f617e800" kind="function"><name>hydrate</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" kind="function"><name>est_nouveau</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1af8e956b8b0343ff7d1b955c26cb0c780" kind="function"><name>setId</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a2a243ff78ccebcd417fd644325f44701" kind="function"><name>getPrenom</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a66191aa280b6a403dc96bf77cd6e7f15" kind="function"><name>setPrenom</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a184f2299ee4553fa0782ea87c9aed362" kind="function"><name>getNom</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a688e64a03eec368478de11c53761caf0" kind="function"><name>setNom</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae4923d9ec6cf4408080fc1c37e20e0ba" kind="function"><name>getMail</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ad5ba083b208ed11aa16938a8ba87a78c" kind="function"><name>setMail</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a0f3207dea00a5841f089daca73e543e0" kind="function"><name>getMot_de_passe</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a94caeec42c1a2f9c83131e8f4d433de2" kind="function"><name>setMot_de_passe</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a244f6a5c0e365a080da30e632f8e9fd5" kind="function"><name>getDate_modif</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a2d51fcc108c2c24d6f55c23f13bbda61" kind="function"><name>setDate_modif</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a211a2979c22afcd7d9056a2bb55aa449" kind="function"><name>getToken</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae2a509b9803e3cea8668d8a1d2f3d8d1" kind="function"><name>setToken</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a28460d5e7205720080c821a325ffeb78" kind="function"><name>getIs_admin</name></member>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ac7f54f93f9fba600ba9245ec50c91f66" kind="function"><name>setIs_admin</name></member>
+  </compound>
+  <compound refid="class_app_1_1_utilisateur_1_1_utilisateur_manager" kind="class"><name>App::Utilisateur::UtilisateurManager</name>
+    <member refid="class_app_1_1_utilisateur_1_1_utilisateur_manager_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner" kind="class"><name>Symfony::Component::VarDumper::Cloner::VarCloner</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a1b557ed232d0fbd11a858f1b60271a8d" kind="variable"><name>$gid</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a5f4874fa791886067a52dedaf7ef6123" kind="variable"><name>$hashMask</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1ab7316924655489883ff43d9fa9fd2f17" kind="variable"><name>$hashOffset</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a11239b91fc640dfe49331b989fd0019a" kind="variable"><name>$arrayCache</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a3a5f526269ccf782728ba9330a5b68c4" kind="function"><name>doClone</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a4fa7632f1fd5b4229aa8d9481ef1f574" kind="function"><name>initHashMask</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a74df5e2e228ca2aa4a56643c50fcfd3c" kind="function"><name>testMaxIntBoundary</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a169cda78ec381a09d398c510c1f14341" kind="function"><name>testClone</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a468ad76bc6517f39c725ae15cbb36a5c" kind="function"><name>testLimits</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1ab860a852cfc04505b79fbe868211e2bd" kind="function"><name>testJsonCast</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1ae508e7894aa69fa8dbf910627a678796" kind="function"><name>testCaster</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a1e1340a2ee9729858238744593532ddd" kind="function"><name>testPhp74</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper" kind="class"><name>Symfony::Component::VarDumper::VarDumper</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1a9285a7f684c72e9bb78fdef1bcbe3fd0" kind="variable"><name>$handler</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1af131d999535a716aff2eaf8851fbfce5" kind="function"><name>dump</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1a4d4d68c14f3efdb26a3cdaf32fbec2a2" kind="function"><name>setHandler</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Test::VarDumperTestTraitTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test_1_1_var_dumper_test_trait_test_1a98faca269694b003af1bea1701f30328" kind="function"><name>testItComparesLargeData</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::XmlReaderCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster_1af2bd1e22e540d79a7e17fc5dbbe098aa" kind="variable"><name>$nodeTypes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster_1a0c9a803a99386a2769eea4101b61af03" kind="function"><name>castXmlReader</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test" kind="class"><name>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a56ac4227ed0f1f20fd1d31918f3bd2ff" kind="variable"><name>$reader</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a0bc688732d2b3b162ffebaf7812e78da" kind="function"><name>setUp</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a80fe3d17e658907fc75346a0ec9d6fc7" kind="function"><name>tearDown</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a6e1c029a423de58a1293650a9c18fd9d" kind="function"><name>testParserProperty</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a0749b10dd03deedef73586f5f2a196a4" kind="function"><name>testNodes</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a2759294e7fc45f7834ca2692c1ea6773" kind="function"><name>provideNodes</name></member>
+  </compound>
+  <compound refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster" kind="class"><name>Symfony::Component::VarDumper::Caster::XmlResourceCaster</name>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster_1a9a7d848aa214b9d39c0779e2c302eef8" kind="variable"><name>$xmlErrors</name></member>
+    <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster_1abe7ec64a06257dc0aa3ba82b43dffa34" kind="function"><name>castXml</name></member>
+  </compound>
+  <compound refid="namespace_app" kind="namespace"><name>App</name>
+  </compound>
+  <compound refid="namespace_app_1_1_auteur" kind="namespace"><name>App::Auteur</name>
+  </compound>
+  <compound refid="namespace_app_1_1_auteur_1_1_auteur_entity" kind="namespace"><name>App::Auteur::AuteurEntity</name>
+  </compound>
+  <compound refid="namespace_app_1_1_auteur_1_1_auteur_manager" kind="namespace"><name>App::Auteur::AuteurManager</name>
+  </compound>
+  <compound refid="namespace_app_1_1_citation" kind="namespace"><name>App::Citation</name>
+  </compound>
+  <compound refid="namespace_app_1_1_citation_1_1_citation_entity" kind="namespace"><name>App::Citation::CitationEntity</name>
+  </compound>
+  <compound refid="namespace_app_1_1_citation_1_1_citation_manager" kind="namespace"><name>App::Citation::CitationManager</name>
+  </compound>
+  <compound refid="namespace_app_1_1_utilisateur" kind="namespace"><name>App::Utilisateur</name>
+  </compound>
+  <compound refid="namespace_app_1_1_utilisateur_1_1_utilisateur_entity" kind="namespace"><name>App::Utilisateur::UtilisateurEntity</name>
+  </compound>
+  <compound refid="namespace_app_1_1_utilisateur_1_1_utilisateur_manager" kind="namespace"><name>App::Utilisateur::UtilisateurManager</name>
+  </compound>
+  <compound refid="namespace_composer" kind="namespace"><name>Composer</name>
+  </compound>
+  <compound refid="namespace_composer_1_1_autoload" kind="namespace"><name>Composer::Autoload</name>
+    <member refid="namespace_composer_1_1_autoload_1ade0eb3081a1b30224fd6201805c0ff0c" kind="function"><name>includeFile</name></member>
+  </compound>
+  <compound refid="namespace_composer_1_1_autoload_1_1_class_loader" kind="namespace"><name>Composer::Autoload::ClassLoader</name>
+  </compound>
+  <compound refid="namespace_composer_1_1_semver_1_1_version_parser" kind="namespace"><name>Composer::Semver::VersionParser</name>
+  </compound>
+  <compound refid="namespace_core" kind="namespace"><name>Core</name>
+  </compound>
+  <compound refid="namespace_core_1_1_database" kind="namespace"><name>Core::Database</name>
+  </compound>
+  <compound refid="namespace_core_1_1_database_1_1_db" kind="namespace"><name>Core::Database::Db</name>
+  </compound>
+  <compound refid="namespace_core_1_1_database_1_1_db_tools" kind="namespace"><name>Core::Database::DbTools</name>
+  </compound>
+  <compound refid="namespace_core_1_1_database_1_1_manager" kind="namespace"><name>Core::Database::Manager</name>
+  </compound>
+  <compound refid="namespace_core_1_1_debug" kind="namespace"><name>Core::Debug</name>
+  </compound>
+  <compound refid="namespace_core_1_1_entity" kind="namespace"><name>Core::Entity</name>
+  </compound>
+  <compound refid="namespace_doctrine_1_1_o_r_m_1_1_persistent_collection" kind="namespace"><name>Doctrine::ORM::PersistentCollection</name>
+  </compound>
+  <compound refid="namespace_exception" kind="namespace"><name>Exception</name>
+  </compound>
+  <compound refid="namespace_p_d_o" kind="namespace"><name>PDO</name>
+  </compound>
+  <compound refid="namespace_p_d_o_exception" kind="namespace"><name>PDOException</name>
+  </compound>
+  <compound refid="namespace_p_d_o_statement" kind="namespace"><name>PDOStatement</name>
+  </compound>
+  <compound refid="namespace_p_h_p_unit_1_1_framework_1_1_test_case" kind="namespace"><name>PHPUnit::Framework::TestCase</name>
+  </compound>
+  <compound refid="namespace_rdehnhardt" kind="namespace"><name>Rdehnhardt</name>
+  </compound>
+  <compound refid="namespace_rdehnhardt_1_1_debug" kind="namespace"><name>Rdehnhardt::Debug</name>
+  </compound>
+  <compound refid="namespace_rdehnhardt_1_1_debug_1_1_dumper" kind="namespace"><name>Rdehnhardt::Debug::Dumper</name>
+  </compound>
+  <compound refid="namespace_symfony" kind="namespace"><name>Symfony</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component" kind="namespace"><name>Symfony::Component</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_debug_1_1_exception_1_1_silenced_error_context" kind="namespace"><name>Symfony::Component::Debug::Exception::SilencedErrorContext</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_http_foundation_1_1_request" kind="namespace"><name>Symfony::Component::HttpFoundation::Request</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper" kind="namespace"><name>Symfony::Component::VarDumper</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster" kind="namespace"><name>Symfony::Component::VarDumper::Caster</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub" kind="namespace"><name>Symfony::Component::VarDumper::Caster::ArgsStub</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster" kind="namespace"><name>Symfony::Component::VarDumper::Caster::Caster</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_class_stub" kind="namespace"><name>Symfony::Component::VarDumper::Caster::ClassStub</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster" kind="namespace"><name>Symfony::Component::VarDumper::Caster::DateCaster</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster" kind="namespace"><name>Symfony::Component::VarDumper::Caster::ExceptionCaster</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" kind="namespace"><name>Symfony::Component::VarDumper::Caster::FrameStub</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub" kind="namespace"><name>Symfony::Component::VarDumper::Caster::LinkStub</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster" kind="namespace"><name>Symfony::Component::VarDumper::Caster::PdoCaster</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner" kind="namespace"><name>Symfony::Component::VarDumper::Cloner</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kind="namespace"><name>Symfony::Component::VarDumper::Cloner::Cursor</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kind="namespace"><name>Symfony::Component::VarDumper::Cloner::Data</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kind="namespace"><name>Symfony::Component::VarDumper::Cloner::DumperInterface</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kind="namespace"><name>Symfony::Component::VarDumper::Cloner::Stub</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner" kind="namespace"><name>Symfony::Component::VarDumper::Cloner::VarCloner</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper" kind="namespace"><name>Symfony::Component::VarDumper::Dumper</name>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1a5c55a8c8fce867d0889971aaaf590040" kind="function"><name>esc</name></member>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper" kind="namespace"><name>Symfony::Component::VarDumper::Dumper::AbstractDumper</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper" kind="namespace"><name>Symfony::Component::VarDumper::Dumper::CliDumper</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper" kind="namespace"><name>Symfony::Component::VarDumper::Dumper::HtmlDumper</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_exception" kind="namespace"><name>Symfony::Component::VarDumper::Exception</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_exception_1_1_throwing_caster_exception" kind="namespace"><name>Symfony::Component::VarDumper::Exception::ThrowingCasterException</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_test" kind="namespace"><name>Symfony::Component::VarDumper::Test</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_test_1_1_var_dumper_test_trait" kind="namespace"><name>Symfony::Component::VarDumper::Test::VarDumperTestTrait</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests" kind="namespace"><name>Symfony::Component::VarDumper::Tests</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Caster</name>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1ab40554452e660886f23446429d20394d" kind="function"><name>reflectionParameterFixture</name></member>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Cloner</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Dumper</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixture</name>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a88a9a25153e572ce13ac3be4ac64c398" kind="variable"><name>$foo</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a231cb456d9f9a869fb4d3839c0ba4b57" kind="variable"><name>bar</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a9373e7fe0fdcf4c42f9e59cc9ede5f65" kind="variable"><name>$g</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a9184c9cf1f1e58b87296500a3c3a9291" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a8abe176bc41afd728f32ba8c506cbd98" kind="variable"><name>$r</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1add412568c7b15f2ecdfee49fb20aa0dd" kind="variable"><name>$r</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a5f0a7d8467fd661c1f2a0d9c726aab4d" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a162c144fcafc78998e2bd0c13fa62d75" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a07ffe7515970dcc075eb5669e35fa108" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1abb2fa9272e249c1756def604a128a5f8" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1aee3b9cc90a2355a214140878b20cff18" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a7dee89130d99aac81a2d56924e5d5262" kind="variable"><name>$var</name></member>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a59718539be7642221a1dc5bde6892a8b" kind="variable"><name>$var</name></member>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixtures</name>
+    <member refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1ad2e199af8a32cd5a9a5ba591aac8431c" kind="function"><name>bar</name></member>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixtures::DateTimeChild</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixtures::FooInterface</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixtures::GeneratorDemo</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixtures::NotLoadableClass</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Fixtures::Php74</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_test" kind="namespace"><name>Symfony::Component::VarDumper::Tests::Test</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper" kind="namespace"><name>Symfony::Component::VarDumper::VarDumper</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_polyfill" kind="namespace"><name>Symfony::Polyfill</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_polyfill_1_1_mbstring" kind="namespace"><name>Symfony::Polyfill::Mbstring</name>
+  </compound>
+  <compound refid="namespace_throwable" kind="namespace"><name>Throwable</name>
+  </compound>
+  <compound refid="namespace_twig" kind="namespace"><name>Twig</name>
+  </compound>
+  <compound refid="namespace_twig_1_1_environment" kind="namespace"><name>Twig::Environment</name>
+  </compound>
+  <compound refid="namespace_twig_1_1_loader_1_1_filesystem_loader" kind="namespace"><name>Twig::Loader::FilesystemLoader</name>
+  </compound>
+  <compound refid="namespace_var_dumper_test_trait" kind="namespace"><name>VarDumperTestTrait</name>
+  </compound>
+  <compound refid="_auteur_entity_8php" kind="file"><name>AuteurEntity.php</name>
+  </compound>
+  <compound refid="_auteur_manager_8php" kind="file"><name>AuteurManager.php</name>
+  </compound>
+  <compound refid="_app_2_autoloader_8php" kind="file"><name>Autoloader.php</name>
+  </compound>
+  <compound refid="_core_2_autoloader_8php" kind="file"><name>Autoloader.php</name>
+  </compound>
+  <compound refid="_citation_entity_8php" kind="file"><name>CitationEntity.php</name>
+  </compound>
+  <compound refid="_citation_manager_8php" kind="file"><name>CitationManager.php</name>
+  </compound>
+  <compound refid="_utilisateur_entity_8php" kind="file"><name>UtilisateurEntity.php</name>
+  </compound>
+  <compound refid="_utilisateur_manager_8php" kind="file"><name>UtilisateurManager.php</name>
+  </compound>
+  <compound refid="bdd_8php" kind="file"><name>bdd.php</name>
+    <member refid="bdd_8php_1a293363d7988627f671958e2d908c202a" kind="variable"><name>DB_HOST</name></member>
+    <member refid="bdd_8php_1ab5db0d3504f917f268614c50b02c53e2" kind="variable"><name>DB_NAME</name></member>
+    <member refid="bdd_8php_1a1d1d99f8e08f387d84fe9848f3357156" kind="variable"><name>DB_USER</name></member>
+    <member refid="bdd_8php_1a8bb9c4546d91667cfa61879d83127a92" kind="variable"><name>DB_PASS</name></member>
+  </compound>
+  <compound refid="constantes_8php" kind="file"><name>constantes.php</name>
+    <member refid="constantes_8php_1a18c0644836e196aed6d63779e14d6bd8" kind="variable"><name>ROOT</name></member>
+    <member refid="constantes_8php_1a758c150b67e476ecf77478f16b387c61" kind="variable"><name>DEBUG</name></member>
+    <member refid="constantes_8php_1aaaa2e6597e89b01b983f8a3f71d82eca" kind="variable"><name>FROM_INDEX</name></member>
+  </compound>
+  <compound refid="_p_d_o_mysql_8php" kind="file"><name>PDOMysql.php</name>
+  </compound>
+  <compound refid="_db_factory_8php" kind="file"><name>DbFactory.php</name>
+  </compound>
+  <compound refid="_db_tools_8php" kind="file"><name>DbTools.php</name>
+  </compound>
+  <compound refid="_manager_8php" kind="file"><name>Manager.php</name>
+  </compound>
+  <compound refid="_debug_8php" kind="file"><name>Debug.php</name>
+  </compound>
+  <compound refid="_entity_8php" kind="file"><name>Entity.php</name>
+  </compound>
+  <compound refid="index_8php" kind="file"><name>index.php</name>
+  </compound>
+  <compound refid="test_auteurs_8php" kind="file"><name>testAuteurs.php</name>
+  </compound>
+  <compound refid="test_citations_8php" kind="file"><name>testCitations.php</name>
+  </compound>
+  <compound refid="test_users_8php" kind="file"><name>testUsers.php</name>
+  </compound>
+  <compound refid="autoload_8php" kind="file"><name>autoload.php</name>
+  </compound>
+  <compound refid="autoload__classmap_8php" kind="file"><name>autoload_classmap.php</name>
+    <member refid="autoload__classmap_8php_1a7fbc3633c79d7461383710e09d497fb0" kind="variable"><name>$vendorDir</name></member>
+    <member refid="autoload__classmap_8php_1a873fc20cf44ad2f766893e95aab8df78" kind="variable"><name>$baseDir</name></member>
+  </compound>
+  <compound refid="autoload__files_8php" kind="file"><name>autoload_files.php</name>
+    <member refid="autoload__files_8php_1a7fbc3633c79d7461383710e09d497fb0" kind="variable"><name>$vendorDir</name></member>
+    <member refid="autoload__files_8php_1a873fc20cf44ad2f766893e95aab8df78" kind="variable"><name>$baseDir</name></member>
+  </compound>
+  <compound refid="autoload__namespaces_8php" kind="file"><name>autoload_namespaces.php</name>
+    <member refid="autoload__namespaces_8php_1a7fbc3633c79d7461383710e09d497fb0" kind="variable"><name>$vendorDir</name></member>
+    <member refid="autoload__namespaces_8php_1a873fc20cf44ad2f766893e95aab8df78" kind="variable"><name>$baseDir</name></member>
+  </compound>
+  <compound refid="autoload__psr4_8php" kind="file"><name>autoload_psr4.php</name>
+    <member refid="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" kind="variable"><name>$vendorDir</name></member>
+    <member refid="autoload__psr4_8php_1a873fc20cf44ad2f766893e95aab8df78" kind="variable"><name>$baseDir</name></member>
+  </compound>
+  <compound refid="autoload__real_8php" kind="file"><name>autoload_real.php</name>
+    <member refid="autoload__real_8php_1a90019f38a9eed630f71eb39b5016d5f9" kind="function"><name>composerRequire9f4fded4e2cf7a731c97de2473a9da9a</name></member>
+  </compound>
+  <compound refid="autoload__static_8php" kind="file"><name>autoload_static.php</name>
+  </compound>
+  <compound refid="_class_loader_8php" kind="file"><name>ClassLoader.php</name>
+  </compound>
+  <compound refid="installed_8php" kind="file"><name>installed.php</name>
+  </compound>
+  <compound refid="_installed_versions_8php" kind="file"><name>InstalledVersions.php</name>
+  </compound>
+  <compound refid="rdehnhardt_2var-dumper_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="symfony_2polyfill-mbstring_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="symfony_2var-dumper_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_dumper_8php" kind="file"><name>Dumper.php</name>
+  </compound>
+  <compound refid="rdehnhardt_2var-dumper_2src_2_debug_2_html_dumper_8php" kind="file"><name>HtmlDumper.php</name>
+  </compound>
+  <compound refid="symfony_2var-dumper_2_dumper_2_html_dumper_8php" kind="file"><name>HtmlDumper.php</name>
+  </compound>
+  <compound refid="helpers_8php" kind="file"><name>helpers.php</name>
+  </compound>
+  <compound refid="_dumper_test_8php" kind="file"><name>DumperTest.php</name>
+  </compound>
+  <compound refid="rdehnhardt_2var-dumper_2tests_2_html_dumper_test_8php" kind="file"><name>HtmlDumperTest.php</name>
+  </compound>
+  <compound refid="symfony_2var-dumper_2_tests_2_dumper_2_html_dumper_test_8php" kind="file"><name>HtmlDumperTest.php</name>
+  </compound>
+  <compound refid="bootstrap_8php" kind="file"><name>bootstrap.php</name>
+  </compound>
+  <compound refid="bootstrap80_8php" kind="file"><name>bootstrap80.php</name>
+  </compound>
+  <compound refid="_mbstring_8php" kind="file"><name>Mbstring.php</name>
+  </compound>
+  <compound refid="lower_case_8php" kind="file"><name>lowerCase.php</name>
+  </compound>
+  <compound refid="title_case_regexp_8php" kind="file"><name>titleCaseRegexp.php</name>
+    <member refid="title_case_regexp_8php_1a9717e7bbecb906637e86cef6da3d83c2" kind="variable"><name>return</name></member>
+  </compound>
+  <compound refid="upper_case_8php" kind="file"><name>upperCase.php</name>
+  </compound>
+  <compound refid="_amqp_caster_8php" kind="file"><name>AmqpCaster.php</name>
+  </compound>
+  <compound refid="_args_stub_8php" kind="file"><name>ArgsStub.php</name>
+  </compound>
+  <compound refid="_caster_8php" kind="file"><name>Caster.php</name>
+  </compound>
+  <compound refid="_class_stub_8php" kind="file"><name>ClassStub.php</name>
+  </compound>
+  <compound refid="_const_stub_8php" kind="file"><name>ConstStub.php</name>
+  </compound>
+  <compound refid="_cut_array_stub_8php" kind="file"><name>CutArrayStub.php</name>
+  </compound>
+  <compound refid="_cut_stub_8php" kind="file"><name>CutStub.php</name>
+  </compound>
+  <compound refid="_date_caster_8php" kind="file"><name>DateCaster.php</name>
+  </compound>
+  <compound refid="_doctrine_caster_8php" kind="file"><name>DoctrineCaster.php</name>
+  </compound>
+  <compound refid="_d_o_m_caster_8php" kind="file"><name>DOMCaster.php</name>
+  </compound>
+  <compound refid="_enum_stub_8php" kind="file"><name>EnumStub.php</name>
+  </compound>
+  <compound refid="_exception_caster_8php" kind="file"><name>ExceptionCaster.php</name>
+  </compound>
+  <compound refid="_frame_stub_8php" kind="file"><name>FrameStub.php</name>
+  </compound>
+  <compound refid="_link_stub_8php" kind="file"><name>LinkStub.php</name>
+  </compound>
+  <compound refid="_mongo_caster_8php" kind="file"><name>MongoCaster.php</name>
+  </compound>
+  <compound refid="_pdo_caster_8php" kind="file"><name>PdoCaster.php</name>
+  </compound>
+  <compound refid="_pg_sql_caster_8php" kind="file"><name>PgSqlCaster.php</name>
+  </compound>
+  <compound refid="_redis_caster_8php" kind="file"><name>RedisCaster.php</name>
+  </compound>
+  <compound refid="_reflection_caster_8php" kind="file"><name>ReflectionCaster.php</name>
+  </compound>
+  <compound refid="_resource_caster_8php" kind="file"><name>ResourceCaster.php</name>
+  </compound>
+  <compound refid="_spl_caster_8php" kind="file"><name>SplCaster.php</name>
+  </compound>
+  <compound refid="_stub_caster_8php" kind="file"><name>StubCaster.php</name>
+  </compound>
+  <compound refid="_symfony_caster_8php" kind="file"><name>SymfonyCaster.php</name>
+  </compound>
+  <compound refid="_trace_stub_8php" kind="file"><name>TraceStub.php</name>
+  </compound>
+  <compound refid="_xml_reader_caster_8php" kind="file"><name>XmlReaderCaster.php</name>
+  </compound>
+  <compound refid="_xml_resource_caster_8php" kind="file"><name>XmlResourceCaster.php</name>
+  </compound>
+  <compound refid="_c_h_a_n_g_e_l_o_g_8md" kind="file"><name>CHANGELOG.md</name>
+  </compound>
+  <compound refid="_abstract_cloner_8php" kind="file"><name>AbstractCloner.php</name>
+  </compound>
+  <compound refid="_cloner_interface_8php" kind="file"><name>ClonerInterface.php</name>
+  </compound>
+  <compound refid="_cursor_8php" kind="file"><name>Cursor.php</name>
+  </compound>
+  <compound refid="_data_8php" kind="file"><name>Data.php</name>
+  </compound>
+  <compound refid="_dumper_interface_8php" kind="file"><name>DumperInterface.php</name>
+  </compound>
+  <compound refid="_stub_8php" kind="file"><name>Stub.php</name>
+  </compound>
+  <compound refid="_var_cloner_8php" kind="file"><name>VarCloner.php</name>
+  </compound>
+  <compound refid="_abstract_dumper_8php" kind="file"><name>AbstractDumper.php</name>
+  </compound>
+  <compound refid="_cli_dumper_8php" kind="file"><name>CliDumper.php</name>
+  </compound>
+  <compound refid="_data_dumper_interface_8php" kind="file"><name>DataDumperInterface.php</name>
+  </compound>
+  <compound refid="_throwing_caster_exception_8php" kind="file"><name>ThrowingCasterException.php</name>
+  </compound>
+  <compound refid="dump_8php" kind="file"><name>dump.php</name>
+  </compound>
+  <compound refid="_var_dumper_test_trait_8php" kind="file"><name>VarDumperTestTrait.php</name>
+  </compound>
+  <compound refid="_caster_test_8php" kind="file"><name>CasterTest.php</name>
+  </compound>
+  <compound refid="_date_caster_test_8php" kind="file"><name>DateCasterTest.php</name>
+  </compound>
+  <compound refid="_exception_caster_test_8php" kind="file"><name>ExceptionCasterTest.php</name>
+  </compound>
+  <compound refid="_pdo_caster_test_8php" kind="file"><name>PdoCasterTest.php</name>
+  </compound>
+  <compound refid="_redis_caster_test_8php" kind="file"><name>RedisCasterTest.php</name>
+  </compound>
+  <compound refid="_reflection_caster_test_8php" kind="file"><name>ReflectionCasterTest.php</name>
+  </compound>
+  <compound refid="_spl_caster_test_8php" kind="file"><name>SplCasterTest.php</name>
+  </compound>
+  <compound refid="_stub_caster_test_8php" kind="file"><name>StubCasterTest.php</name>
+  </compound>
+  <compound refid="_xml_reader_caster_test_8php" kind="file"><name>XmlReaderCasterTest.php</name>
+  </compound>
+  <compound refid="_data_test_8php" kind="file"><name>DataTest.php</name>
+  </compound>
+  <compound refid="_var_cloner_test_8php" kind="file"><name>VarClonerTest.php</name>
+  </compound>
+  <compound refid="_cli_dumper_test_8php" kind="file"><name>CliDumperTest.php</name>
+  </compound>
+  <compound refid="_functions_test_8php" kind="file"><name>FunctionsTest.php</name>
+  </compound>
+  <compound refid="_date_time_child_8php" kind="file"><name>DateTimeChild.php</name>
+  </compound>
+  <compound refid="dumb-var_8php" kind="file"><name>dumb-var.php</name>
+  </compound>
+  <compound refid="_foo_interface_8php" kind="file"><name>FooInterface.php</name>
+  </compound>
+  <compound refid="_generator_demo_8php" kind="file"><name>GeneratorDemo.php</name>
+  </compound>
+  <compound refid="_not_loadable_class_8php" kind="file"><name>NotLoadableClass.php</name>
+  </compound>
+  <compound refid="_php74_8php" kind="file"><name>Php74.php</name>
+  </compound>
+  <compound refid="_twig_8php" kind="file"><name>Twig.php</name>
+  </compound>
+  <compound refid="_var_dumper_test_trait_test_8php" kind="file"><name>VarDumperTestTraitTest.php</name>
+  </compound>
+  <compound refid="_var_dumper_8php" kind="file"><name>VarDumper.php</name>
+  </compound>
+  <compound refid="md__c__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper__r_e_a_d_m_e" kind="page"><name>md_C__wamp64_www_citations_encours_src_vendor_rdehnhardt_var_dumper_README</name>
+  </compound>
+  <compound refid="md__c__wamp64_www_citations_encours_src_vendor_symfony_polyfill_mbstring__r_e_a_d_m_e" kind="page"><name>md_C__wamp64_www_citations_encours_src_vendor_symfony_polyfill_mbstring_README</name>
+  </compound>
+  <compound refid="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__c_h_a_n_g_e_l_o_g" kind="page"><name>md_C__wamp64_www_citations_encours_src_vendor_symfony_var_dumper_CHANGELOG</name>
+  </compound>
+  <compound refid="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__r_e_a_d_m_e" kind="page"><name>md_C__wamp64_www_citations_encours_src_vendor_symfony_var_dumper_README</name>
+  </compound>
+  <compound refid="deprecated" kind="page"><name>deprecated</name>
+  </compound>
+  <compound refid="dir_951f43124f8a9985ab7802551d674f01" kind="dir"><name>C:/wamp64/www/citations_encours/src/App</name>
+  </compound>
+  <compound refid="dir_1c4f94274235a6c7ee30707af5a65e47" kind="dir"><name>C:/wamp64/www/citations_encours/src/App/Auteur</name>
+  </compound>
+  <compound refid="dir_7256be772a989a508c0c3f29eba0a140" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster</name>
+  </compound>
+  <compound refid="dir_ba656d27230afbedf18ef293dfa9a95c" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster</name>
+  </compound>
+  <compound refid="dir_21c97d158db2a132f9d44ea937b97b15" kind="dir"><name>C:/wamp64/www/citations_encours/src/App/Citation</name>
+  </compound>
+  <compound refid="dir_7c99bc260b92ab2950b20b1df26eaff3" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner</name>
+  </compound>
+  <compound refid="dir_6f74c5483a7ce2c3ea309d1fcb0d261e" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner</name>
+  </compound>
+  <compound refid="dir_dd8be25b53f45d741f46a634829d5f48" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/composer</name>
+  </compound>
+  <compound refid="dir_2b24b6acc0bcd3a2b07b77bdad4017dd" kind="dir"><name>C:/wamp64/www/citations_encours/src/conf</name>
+  </compound>
+  <compound refid="dir_a2f0e5642e47e7ed59fe0f0829eafb5f" kind="dir"><name>C:/wamp64/www/citations_encours/src/Core</name>
+  </compound>
+  <compound refid="dir_2628d0f1ad1df2eb57f70d823aaf4d18" kind="dir"><name>C:/wamp64/www/citations_encours/src/Core/Database</name>
+  </compound>
+  <compound refid="dir_8e75300c1320c09523a070e6c77e9862" kind="dir"><name>C:/wamp64/www/citations_encours/src/Core/Database/Db</name>
+  </compound>
+  <compound refid="dir_e89553f2148dfeb7eaddca793fdeffe7" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug</name>
+  </compound>
+  <compound refid="dir_e434916e451414dded6332ef5e26baaf" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper</name>
+  </compound>
+  <compound refid="dir_d11fd84a0c68b2a7e2c3b07342630d2a" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper</name>
+  </compound>
+  <compound refid="dir_294f542ae0dc471f2762d531c77288ad" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Exception</name>
+  </compound>
+  <compound refid="dir_0e874e6153d86b291a72bd5a1750959a" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures</name>
+  </compound>
+  <compound refid="dir_9ce4d475349512bb9e02679e5c610ffa" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Resources/functions</name>
+  </compound>
+  <compound refid="dir_931bc5a5251aa6d320e21fcd86a752ee" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring</name>
+  </compound>
+  <compound refid="dir_408e3e109cd8ba6803532e2e583521a9" kind="dir"><name>C:/wamp64/www/citations_encours/src/public</name>
+  </compound>
+  <compound refid="dir_5953f4b55e8addac36282e82cdcbbb1c" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/rdehnhardt</name>
+  </compound>
+  <compound refid="dir_96687c57906eb968bfb30d2f7ba7bb2b" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Resources</name>
+  </compound>
+  <compound refid="dir_da19a19b80f204c2dbd311fd9a98098f" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Resources</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/wamp64/www/citations_encours/src</name>
+  </compound>
+  <compound refid="dir_08028d0a1ec603a4f21fef55113641b2" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src</name>
+  </compound>
+  <compound refid="dir_b769565b66e42beec2aa4a40b371da5a" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony</name>
+  </compound>
+  <compound refid="dir_eadab8ebae1d0050ca52721667220314" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Test</name>
+  </compound>
+  <compound refid="dir_13ea5474857458eb5eac7f8155444afd" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Test</name>
+  </compound>
+  <compound refid="dir_f6c8e6a9ccd1c44dea1ff2f5720479fc" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/tests</name>
+  </compound>
+  <compound refid="dir_550cd57fa0b307177f22075de7e5c31b" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests</name>
+  </compound>
+  <compound refid="dir_d5e474048f2a4a54a8c1c03f07ee8198" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Resources/unidata</name>
+  </compound>
+  <compound refid="dir_a6a2738c07def7011efc0d08ac829d5b" kind="dir"><name>C:/wamp64/www/citations_encours/src/App/Utilisateur</name>
+  </compound>
+  <compound refid="dir_e3f393d3ad13d008fc41e53589a4f4a4" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper</name>
+  </compound>
+  <compound refid="dir_b340b5dbf3d1e55b18f9ee3066748022" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper</name>
+  </compound>
+  <compound refid="dir_90da97247338d9e3ac7f8bf7df478e67" kind="dir"><name>C:/wamp64/www/citations_encours/src/vendor</name>
+  </compound>
+</doxygenindex>

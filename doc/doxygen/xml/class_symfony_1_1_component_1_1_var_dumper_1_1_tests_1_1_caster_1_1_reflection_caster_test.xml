@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a03ff8ab41b3d4f8afb4663932b09f2b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testReflectionCaster</definition>
+        <argsstring>()</argsstring>
+        <name>testReflectionCaster</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testReflectionCaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="27" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="27" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a49040bf075c8bce180f77ea855e156f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClosureCaster</definition>
+        <argsstring>()</argsstring>
+        <name>testClosureCaster</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testClosureCaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="65" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="65" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a59a06b0393b3ffaaf3332fe6be49b7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testFromCallableClosureCaster</definition>
+        <argsstring>()</argsstring>
+        <name>testFromCallableClosureCaster</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testFromCallableClosureCaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="88" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="88" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a4e7f814c55914b598717548d9b0bafbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClosureCasterExcludingVerbosity</definition>
+        <argsstring>()</argsstring>
+        <name>testClosureCasterExcludingVerbosity</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testClosureCasterExcludingVerbosity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="116" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="116" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1aa1c053d047134fbb4a76bbd92e5ecebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testReflectionParameter</definition>
+        <argsstring>()</argsstring>
+        <name>testReflectionParameter</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testReflectionParameter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="130" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="130" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a5b9b7f25bfbce62f6b6c47b0172c1c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testReflectionParameterScalar</definition>
+        <argsstring>()</argsstring>
+        <name>testReflectionParameterScalar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testReflectionParameterScalar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires PHP 7.0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="150" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="150" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a86167be875b8c8b181f5b65e93f02f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testReturnType</definition>
+        <argsstring>()</argsstring>
+        <name>testReturnType</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testReturnType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires PHP 7.0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="170" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="170" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a4844a1a970aa1963827617c385313480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>testGenerator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\ReflectionCasterTest\testGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires PHP 7.0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="192" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="192" bodyend="265"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>ReflectionCasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>ReflectionCasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="23" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="24" bodyend="266"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a49040bf075c8bce180f77ea855e156f4" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testClosureCaster</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a4e7f814c55914b598717548d9b0bafbd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testClosureCasterExcludingVerbosity</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a59a06b0393b3ffaaf3332fe6be49b7bc" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testFromCallableClosureCaster</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a4844a1a970aa1963827617c385313480" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testGenerator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a03ff8ab41b3d4f8afb4663932b09f2b4" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testReflectionCaster</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1aa1c053d047134fbb4a76bbd92e5ecebd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testReflectionParameter</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a5b9b7f25bfbce62f6b6c47b0172c1c4b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testReflectionParameterScalar</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test_1a86167be875b8c8b181f5b65e93f02f18" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</scope><name>testReturnType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_foo_interface_8php" kind="file" language="PHP">
+    <compoundname>FooInterface.php</compoundname>
+    <innerclass refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::FooInterface</innerclass>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures">Symfony::Component::VarDumper::Tests::Fixtures</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures" kindref="compound">Symfony\Component\VarDumper\Tests\Fixtures</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" kindref="compound">FooInterface</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface_1a79418a120498dd9cf915655654607747" kindref="member">foo</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/FooInterface.php"/>
+  </compounddef>
+</doxygen>

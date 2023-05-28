@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Cloner::Data</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAccess</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Countable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IteratorAggregate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$data</definition>
+        <argsstring></argsstring>
+        <name>$data</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\$data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="21" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$position</definition>
+        <argsstring></argsstring>
+        <name>$position</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\$position</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="22" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1aa60b0284e0dfa2463495481cf11e3cf4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$key</definition>
+        <argsstring></argsstring>
+        <name>$key</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\$key</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="23" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a9f16d8a89cf22fc718af7b8698aa5c2d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$maxDepth</definition>
+        <argsstring></argsstring>
+        <name>$maxDepth</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\$maxDepth</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="24" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a707dd9bc4792455213129c4cc63344fc" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$maxItemsPerDepth</definition>
+        <argsstring></argsstring>
+        <name>$maxItemsPerDepth</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\$maxItemsPerDepth</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="25" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a0d2be2c3608812a4c9dab40856e9a886" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$useRefHandles</definition>
+        <argsstring></argsstring>
+        <name>$useRefHandles</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\$useRefHandles</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="26" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae774ca9c47e24adfb104dabcb01156af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(array $data)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array as returned by <ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface_1a9585669ab758ae5aafa76b3b73955df3" kindref="member">ClonerInterface::cloneVar()</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="31" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a830b5c75df72b32396701bc563fbe3c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\getType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string|null The type of the value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="39" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="39" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a84aff701e28316ca4b911770b47e2827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getValue</definition>
+        <argsstring>($recursive=false)</argsstring>
+        <name>getValue</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\getValue</qualifiedname>
+        <param>
+          <declname>$recursive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametertype>bool</parametertype>
+<parametername>$recursive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether values should be resolved recursively or not</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|int|float|bool|array|Data[]|null A native representation of the original value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="70" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="70" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ac751e87b3d4c4bf2feb03bee8b092755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>count</definition>
+        <argsstring>()</argsstring>
+        <name>count</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="109" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a7a9f937c2958e6f4dd7b030f86fb70b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getIterator</definition>
+        <argsstring>()</argsstring>
+        <name>getIterator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\getIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="114" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="114" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a4537dad3b44254124991341cc91b28fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__get</definition>
+        <argsstring>($key)</argsstring>
+        <name>__get</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\__get</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="125" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="125" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae858fed7cd2822fbceac154138b68baa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__isset</definition>
+        <argsstring>($key)</argsstring>
+        <name>__isset</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\__isset</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="136" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a72b9545b16ea105298bb0d2109bd2fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>offsetExists</definition>
+        <argsstring>($key)</argsstring>
+        <name>offsetExists</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\offsetExists</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="141" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6e8e2b3128ee9bd6be930cb296c02ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>offsetGet</definition>
+        <argsstring>($key)</argsstring>
+        <name>offsetGet</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\offsetGet</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="146" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a3199adfa66a63d34fb355f3ccf39bf0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>offsetSet</definition>
+        <argsstring>($key, $value)</argsstring>
+        <name>offsetSet</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\offsetSet</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="151" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a1d11d3dade07ef846d01a397abfaf0d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>offsetUnset</definition>
+        <argsstring>($key)</argsstring>
+        <name>offsetUnset</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\offsetUnset</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="156" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a7516ca30af0db3cdbf9a7739b48ce91d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__toString</definition>
+        <argsstring>()</argsstring>
+        <name>__toString</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\__toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="161" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="161" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab2fc904496e1d2bc27e61ecd4586d7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getRawData</definition>
+        <argsstring>()</argsstring>
+        <name>getRawData</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\getRawData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array The raw data structure</para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>since version 3.3. Use array or object access instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="177" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="177" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab6fc20b3527338fa229f1ae941dc379b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>withMaxDepth</definition>
+        <argsstring>($maxDepth)</argsstring>
+        <name>withMaxDepth</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\withMaxDepth</qualifiedname>
+        <param>
+          <declname>$maxDepth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a depth limited clone of $this.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxDepth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The max dumped depth level</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>static </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="191" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a14adf4194cb5a70a8de3e5a1506d1dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>withMaxItemsPerDepth</definition>
+        <argsstring>($maxItemsPerDepth)</argsstring>
+        <name>withMaxItemsPerDepth</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\withMaxItemsPerDepth</qualifiedname>
+        <param>
+          <declname>$maxItemsPerDepth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Limits the number of elements per depth level.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxItemsPerDepth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The max number of items dumped per depth level</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>static </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="206" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="206" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1adde33a936278427c491f13634274203a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>withRefHandles</definition>
+        <argsstring>($useRefHandles)</argsstring>
+        <name>withRefHandles</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\withRefHandles</qualifiedname>
+        <param>
+          <declname>$useRefHandles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enables/disables objects&apos; identifiers tracking.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$useRefHandles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>False to hide global ref. handles</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>static </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="221" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="221" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a69752cec92060e86549366b00b25ed56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>seek</definition>
+        <argsstring>($key)</argsstring>
+        <name>seek</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\seek</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Seeks to a specific key in nested data structures.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key to seek to</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>static|null Null if the key is not set </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="236" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="236" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab56833f22a5a3949ed9b7d38190931ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dump</definition>
+        <argsstring>(DumperInterface $dumper)</argsstring>
+        <name>dump</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\dump</qualifiedname>
+        <param>
+          <type><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kindref="compound">DumperInterface</ref></type>
+          <declname>$dumper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps data with a <ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kindref="compound">DumperInterface</ref> dumper. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="280" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="280" bodyend="284"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae8c329a4bb060e56f6a3264d2e32d60b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpItem</definition>
+        <argsstring>($dumper, $cursor, &amp;$refs, $item)</argsstring>
+        <name>dumpItem</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\dumpItem</qualifiedname>
+        <param>
+          <declname>$dumper</declname>
+        </param>
+        <param>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$refs</declname>
+        </param>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Depth-first dumping of items.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kindref="compound">DumperInterface</ref></parametertype>
+<parametername>$dumper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dumper being used for dumping </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A cursor used for tracking dumper state position </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>&amp;$refs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A map of all references discovered while dumping </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref> object or the original value being dumped </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="294" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="294" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a3d4f15ea185b1cc8719a57d5a11fb5bb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpChildren</definition>
+        <argsstring>($dumper, $parentCursor, &amp;$refs, $children, $hashCut, $hashType, $dumpKeys)</argsstring>
+        <name>dumpChildren</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\dumpChildren</qualifiedname>
+        <param>
+          <declname>$dumper</declname>
+        </param>
+        <param>
+          <declname>$parentCursor</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$refs</declname>
+        </param>
+        <param>
+          <declname>$children</declname>
+        </param>
+        <param>
+          <declname>$hashCut</declname>
+        </param>
+        <param>
+          <declname>$hashType</declname>
+        </param>
+        <param>
+          <declname>$dumpKeys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps children of hash structures.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kindref="compound">DumperInterface</ref></parametertype>
+<parametername>$dumper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$parentCursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cursor of the parent hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>&amp;$refs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A map of all references discovered while dumping </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$children</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The children to dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$hashCut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items removed from the original hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$hashType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Cursor::HASH_* const </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$dumpKeys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether keys should be dumped or not</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The final number of removed items </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="402" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="402" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a8727bc74a623baa465e332af584fa579" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getStub</definition>
+        <argsstring>($item)</argsstring>
+        <name>getStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\Data\getStub</qualifiedname>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="424" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="424" bodyend="440"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ArrayAccess</label>
+      </node>
+      <node id="3">
+        <label>Countable</label>
+      </node>
+      <node id="1">
+        <label>Data</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IteratorAggregate</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ArrayAccess</label>
+      </node>
+      <node id="3">
+        <label>Countable</label>
+      </node>
+      <node id="1">
+        <label>Data</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IteratorAggregate</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" line="19" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/Data.php" bodystart="20" bodyend="441"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>$data</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1aa60b0284e0dfa2463495481cf11e3cf4" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>$key</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a9f16d8a89cf22fc718af7b8698aa5c2d" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>$maxDepth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a707dd9bc4792455213129c4cc63344fc" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>$maxItemsPerDepth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>$position</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a0d2be2c3608812a4c9dab40856e9a886" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>$useRefHandles</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae774ca9c47e24adfb104dabcb01156af" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>__construct</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a4537dad3b44254124991341cc91b28fb" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>__get</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae858fed7cd2822fbceac154138b68baa" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>__isset</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a7516ca30af0db3cdbf9a7739b48ce91d" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>__toString</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ac751e87b3d4c4bf2feb03bee8b092755" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>count</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab56833f22a5a3949ed9b7d38190931ab" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>dump</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a3d4f15ea185b1cc8719a57d5a11fb5bb" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>dumpChildren</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ae8c329a4bb060e56f6a3264d2e32d60b" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>dumpItem</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a7a9f937c2958e6f4dd7b030f86fb70b7" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>getIterator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab2fc904496e1d2bc27e61ecd4586d7e8" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>getRawData</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a8727bc74a623baa465e332af584fa579" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>getStub</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a830b5c75df72b32396701bc563fbe3c7" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>getType</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a84aff701e28316ca4b911770b47e2827" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>getValue</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a72b9545b16ea105298bb0d2109bd2fbe" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>offsetExists</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a6e8e2b3128ee9bd6be930cb296c02ac7" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>offsetGet</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a3199adfa66a63d34fb355f3ccf39bf0a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>offsetSet</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a1d11d3dade07ef846d01a397abfaf0d9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>offsetUnset</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a69752cec92060e86549366b00b25ed56" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>seek</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab6fc20b3527338fa229f1ae941dc379b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>withMaxDepth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1a14adf4194cb5a70a8de3e5a1506d1dd3" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>withMaxItemsPerDepth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1adde33a936278427c491f13634274203a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::Data</scope><name>withRefHandles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

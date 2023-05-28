@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_408e3e109cd8ba6803532e2e583521a9" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/public</compoundname>
+    <innerfile refid="index_8php">index.php</innerfile>
+    <innerfile refid="test_auteurs_8php">testAuteurs.php</innerfile>
+    <innerfile refid="test_citations_8php">testCitations.php</innerfile>
+    <innerfile refid="test_users_8php">testUsers.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/public/"/>
+  </compounddef>
+</doxygen>

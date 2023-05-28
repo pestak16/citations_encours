@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_7256be772a989a508c0c3f29eba0a140" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster</compoundname>
+    <innerfile refid="_amqp_caster_8php">AmqpCaster.php</innerfile>
+    <innerfile refid="_args_stub_8php">ArgsStub.php</innerfile>
+    <innerfile refid="_caster_8php">Caster.php</innerfile>
+    <innerfile refid="_class_stub_8php">ClassStub.php</innerfile>
+    <innerfile refid="_const_stub_8php">ConstStub.php</innerfile>
+    <innerfile refid="_cut_array_stub_8php">CutArrayStub.php</innerfile>
+    <innerfile refid="_cut_stub_8php">CutStub.php</innerfile>
+    <innerfile refid="_date_caster_8php">DateCaster.php</innerfile>
+    <innerfile refid="_doctrine_caster_8php">DoctrineCaster.php</innerfile>
+    <innerfile refid="_d_o_m_caster_8php">DOMCaster.php</innerfile>
+    <innerfile refid="_enum_stub_8php">EnumStub.php</innerfile>
+    <innerfile refid="_exception_caster_8php">ExceptionCaster.php</innerfile>
+    <innerfile refid="_frame_stub_8php">FrameStub.php</innerfile>
+    <innerfile refid="_link_stub_8php">LinkStub.php</innerfile>
+    <innerfile refid="_mongo_caster_8php">MongoCaster.php</innerfile>
+    <innerfile refid="_pdo_caster_8php">PdoCaster.php</innerfile>
+    <innerfile refid="_pg_sql_caster_8php">PgSqlCaster.php</innerfile>
+    <innerfile refid="_redis_caster_8php">RedisCaster.php</innerfile>
+    <innerfile refid="_reflection_caster_8php">ReflectionCaster.php</innerfile>
+    <innerfile refid="_resource_caster_8php">ResourceCaster.php</innerfile>
+    <innerfile refid="_spl_caster_8php">SplCaster.php</innerfile>
+    <innerfile refid="_stub_caster_8php">StubCaster.php</innerfile>
+    <innerfile refid="_symfony_caster_8php">SymfonyCaster.php</innerfile>
+    <innerfile refid="_trace_stub_8php">TraceStub.php</innerfile>
+    <innerfile refid="_xml_reader_caster_8php">XmlReaderCaster.php</innerfile>
+    <innerfile refid="_xml_resource_caster_8php">XmlResourceCaster.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/"/>
+  </compounddef>
+</doxygen>

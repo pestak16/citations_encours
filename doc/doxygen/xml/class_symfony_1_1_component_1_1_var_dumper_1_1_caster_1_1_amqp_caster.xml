@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::AmqpCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a78556f0dc6bf3c1adae410a73d632caf" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$flags</definition>
+        <argsstring></argsstring>
+        <name>$flags</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\$flags</qualifiedname>
+        <initializer>= [
+        \AMQP_DURABLE =&gt; &apos;AMQP_DURABLE&apos;,
+        \AMQP_PASSIVE =&gt; &apos;AMQP_PASSIVE&apos;,
+        \AMQP_EXCLUSIVE =&gt; &apos;AMQP_EXCLUSIVE&apos;,
+        \AMQP_AUTODELETE =&gt; &apos;AMQP_AUTODELETE&apos;,
+        \AMQP_INTERNAL =&gt; &apos;AMQP_INTERNAL&apos;,
+        \AMQP_NOLOCAL =&gt; &apos;AMQP_NOLOCAL&apos;,
+        \AMQP_AUTOACK =&gt; &apos;AMQP_AUTOACK&apos;,
+        \AMQP_IFEMPTY =&gt; &apos;AMQP_IFEMPTY&apos;,
+        \AMQP_IFUNUSED =&gt; &apos;AMQP_IFUNUSED&apos;,
+        \AMQP_MANDATORY =&gt; &apos;AMQP_MANDATORY&apos;,
+        \AMQP_IMMEDIATE =&gt; &apos;AMQP_IMMEDIATE&apos;,
+        \AMQP_MULTIPLE =&gt; &apos;AMQP_MULTIPLE&apos;,
+        \AMQP_NOWAIT =&gt; &apos;AMQP_NOWAIT&apos;,
+        \AMQP_REQUEUE =&gt; &apos;AMQP_REQUEUE&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a4a2c8e5a1c21fe764864494887c5e0bb" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$exchangeTypes</definition>
+        <argsstring></argsstring>
+        <name>$exchangeTypes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\$exchangeTypes</qualifiedname>
+        <initializer>= [
+        \AMQP_EX_TYPE_DIRECT =&gt; &apos;AMQP_EX_TYPE_DIRECT&apos;,
+        \AMQP_EX_TYPE_FANOUT =&gt; &apos;AMQP_EX_TYPE_FANOUT&apos;,
+        \AMQP_EX_TYPE_TOPIC =&gt; &apos;AMQP_EX_TYPE_TOPIC&apos;,
+        \AMQP_EX_TYPE_HEADERS =&gt; &apos;AMQP_EX_TYPE_HEADERS&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="40" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1ad3dc19f2208f87fc535edcc92c408779" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castConnection</definition>
+        <argsstring>(\AMQPConnection $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castConnection</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\castConnection</qualifiedname>
+        <param>
+          <type>\AMQPConnection</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="47" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="47" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a50d30e615b3618ca1f30cc3f329dc98e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castChannel</definition>
+        <argsstring>(\AMQPChannel $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castChannel</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\castChannel</qualifiedname>
+        <param>
+          <type>\AMQPChannel</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="80" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="80" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a74791db88f040c5bda7fe5a3696603dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castQueue</definition>
+        <argsstring>(\AMQPQueue $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castQueue</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\castQueue</qualifiedname>
+        <param>
+          <type>\AMQPQueue</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="103" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="103" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1afdab03225f10b038ce17f36f09b49a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castExchange</definition>
+        <argsstring>(\AMQPExchange $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castExchange</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\castExchange</qualifiedname>
+        <param>
+          <type>\AMQPExchange</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="126" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="126" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1ad5c26204ec1f317f7f66233824653f1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castEnvelope</definition>
+        <argsstring>(\AMQPEnvelope $c, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castEnvelope</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\castEnvelope</qualifiedname>
+        <param>
+          <type>\AMQPEnvelope</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="154" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="154" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1afcd59e7b32fd0447295f806ad56446c8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static extractFlags</definition>
+        <argsstring>($flags)</argsstring>
+        <name>extractFlags</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\AmqpCaster\extractFlags</qualifiedname>
+        <param>
+          <declname>$flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="194" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="194" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts Amqp related classes to array representation.</para>
+<para><simplesect kind="author"><para>Grégoire Pineau <ulink url="mailto:lyrixx@lyrixx.info">lyrixx@lyrixx.info</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" bodystart="22" bodyend="210"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a4a2c8e5a1c21fe764864494887c5e0bb" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>$exchangeTypes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a78556f0dc6bf3c1adae410a73d632caf" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>$flags</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a50d30e615b3618ca1f30cc3f329dc98e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>castChannel</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1ad3dc19f2208f87fc535edcc92c408779" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>castConnection</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1ad5c26204ec1f317f7f66233824653f1e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>castEnvelope</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1afdab03225f10b038ce17f36f09b49a57" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>castExchange</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1a74791db88f040c5bda7fe5a3696603dd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>castQueue</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster_1afcd59e7b32fd0447295f806ad56446c8" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::AmqpCaster</scope><name>extractFlags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

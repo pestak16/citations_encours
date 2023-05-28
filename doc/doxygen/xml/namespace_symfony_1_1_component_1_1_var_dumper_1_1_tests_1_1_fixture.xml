@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Tests::Fixture</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a88a9a25153e572ce13ac3be4ac64c398" prot="public" static="no" mutable="no">
+        <type>if(!class_exists(&apos;Symfony\Component\VarDumper\Tests\Fixture\DumbFoo&apos;))</type>
+        <definition>if (!class_exists( &apos;Symfony\Component\VarDumper\Tests\Fixture\DumbFoo&apos;)) $foo</definition>
+        <argsstring></argsstring>
+        <name>$foo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$foo</qualifiedname>
+        <initializer>= new DumbFoo()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="12" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a231cb456d9f9a869fb4d3839c0ba4b57" prot="public" static="no" mutable="no">
+        <type>$foo</type>
+        <definition>$foo bar</definition>
+        <argsstring></argsstring>
+        <name>bar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\bar</qualifiedname>
+        <initializer>= &apos;bar&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="13" column="5" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a9373e7fe0fdcf4c42f9e59cc9ede5f65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$g</definition>
+        <argsstring></argsstring>
+        <name>$g</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$g</qualifiedname>
+        <initializer>= fopen(__FILE__, &apos;r&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="15" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a9184c9cf1f1e58b87296500a3c3a9291" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var</definition>
+        <argsstring></argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= [
+    &apos;number&apos; =&gt; 1, null,
+    &apos;const&apos; =&gt; 1.1, true, false, NAN, INF, -INF, PHP_INT_MAX,
+    &apos;str&apos; =&gt; &quot;déjà\n&quot;, &quot;\xE9\x00&quot;,
+    &apos;[]&apos; =&gt; [],
+    &apos;res&apos; =&gt; $g,
+    &apos;obj&apos; =&gt; $foo,
+    &apos;closure&apos; =&gt; function ($a, \PDO &amp;$b = null) {},
+    &apos;line&apos; =&gt; __LINE__ - 1,
+    &apos;nobj&apos; =&gt; [(object) []],
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="17" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a8abe176bc41afd728f32ba8c506cbd98" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$r</definition>
+        <argsstring></argsstring>
+        <name>$r</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$r</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="29" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1add412568c7b15f2ecdfee49fb20aa0dd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$r[]</definition>
+        <argsstring>[]</argsstring>
+        <name>$r</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$r</qualifiedname>
+        <initializer>= &amp;$r</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="30" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a5f0a7d8467fd661c1f2a0d9c726aab4d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[ &apos;recurs&apos;]</definition>
+        <argsstring>[&apos;recurs&apos;]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= &amp;$r</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="32" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a162c144fcafc78998e2bd0c13fa62d75" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[]</definition>
+        <argsstring>[]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= &amp;$var[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="33" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a07ffe7515970dcc075eb5669e35fa108" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[ &apos;sobj&apos;]</definition>
+        <argsstring>[&apos;sobj&apos;]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= $var[&apos;obj&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="34" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1abb2fa9272e249c1756def604a128a5f8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[ &apos;snobj&apos;]</definition>
+        <argsstring>[&apos;snobj&apos;]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= &amp;$var[&apos;nobj&apos;][0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="35" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1aee3b9cc90a2355a214140878b20cff18" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[ &apos;snobj2&apos;]</definition>
+        <argsstring>[&apos;snobj2&apos;]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= $var[&apos;nobj&apos;][0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="36" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a7dee89130d99aac81a2d56924e5d5262" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[ &apos;file&apos;]</definition>
+        <argsstring>[&apos;file&apos;]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= __FILE__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="37" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixture_1a59718539be7642221a1dc5bde6892a8b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$var[&quot;bin-key-\xE9&quot;]</definition>
+        <argsstring>[&quot;bin-key-\xE9&quot;]</argsstring>
+        <name>$var</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixture\$var</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="38" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

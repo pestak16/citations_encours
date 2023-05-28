@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper" prot="public">Symfony::Component::VarDumper::VarDumper</innerclass>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster">Symfony::Component::VarDumper::Caster</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner">Symfony::Component::VarDumper::Cloner</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper">Symfony::Component::VarDumper::Dumper</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_exception">Symfony::Component::VarDumper::Exception</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_test">Symfony::Component::VarDumper::Test</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests">Symfony::Component::VarDumper::Tests</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" line="12" column="10"/>
+  </compounddef>
+</doxygen>

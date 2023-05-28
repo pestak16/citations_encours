@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Caster</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_amqp_caster" prot="public">Symfony::Component::VarDumper::Caster::AmqpCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub" prot="public">Symfony::Component::VarDumper::Caster::ArgsStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster" prot="public">Symfony::Component::VarDumper::Caster::Caster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_class_stub" prot="public">Symfony::Component::VarDumper::Caster::ClassStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_const_stub" prot="public">Symfony::Component::VarDumper::Caster::ConstStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_array_stub" prot="public">Symfony::Component::VarDumper::Caster::CutArrayStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_stub" prot="public">Symfony::Component::VarDumper::Caster::CutStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster" prot="public">Symfony::Component::VarDumper::Caster::DateCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster" prot="public">Symfony::Component::VarDumper::Caster::DoctrineCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster" prot="public">Symfony::Component::VarDumper::Caster::DOMCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub" prot="public">Symfony::Component::VarDumper::Caster::EnumStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster" prot="public">Symfony::Component::VarDumper::Caster::ExceptionCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" prot="public">Symfony::Component::VarDumper::Caster::FrameStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub" prot="public">Symfony::Component::VarDumper::Caster::LinkStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster" prot="public">Symfony::Component::VarDumper::Caster::MongoCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster" prot="public">Symfony::Component::VarDumper::Caster::PdoCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster" prot="public">Symfony::Component::VarDumper::Caster::PgSqlCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_redis_caster" prot="public">Symfony::Component::VarDumper::Caster::RedisCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster" prot="public">Symfony::Component::VarDumper::Caster::ReflectionCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster" prot="public">Symfony::Component::VarDumper::Caster::ResourceCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster" prot="public">Symfony::Component::VarDumper::Caster::SplCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster" prot="public">Symfony::Component::VarDumper::Caster::StubCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster" prot="public">Symfony::Component::VarDumper::Caster::SymfonyCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub" prot="public">Symfony::Component::VarDumper::Caster::TraceStub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_reader_caster" prot="public">Symfony::Component::VarDumper::Caster::XmlReaderCaster</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_xml_resource_caster" prot="public">Symfony::Component::VarDumper::Caster::XmlResourceCaster</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/AmqpCaster.php" line="12" column="10"/>
+  </compounddef>
+</doxygen>

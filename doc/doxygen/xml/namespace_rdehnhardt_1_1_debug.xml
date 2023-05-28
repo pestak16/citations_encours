@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_rdehnhardt_1_1_debug" kind="namespace" language="PHP">
+    <compoundname>Rdehnhardt::Debug</compoundname>
+    <innerclass refid="class_rdehnhardt_1_1_debug_1_1_dumper" prot="public">Rdehnhardt::Debug::Dumper</innerclass>
+    <innerclass refid="class_rdehnhardt_1_1_debug_1_1_html_dumper" prot="public">Rdehnhardt::Debug::HtmlDumper</innerclass>
+    <innerclass refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_test" prot="public">Rdehnhardt::Debug::HtmlDumperTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug/Dumper.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::MongoCaster</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster_1a7827ba486ca9a8207f2e617891de7701" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castCursor</definition>
+        <argsstring>(\MongoCursorInterface $cursor, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castCursor</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\MongoCaster\castCursor</qualifiedname>
+        <param>
+          <type>\MongoCursorInterface</type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/MongoCaster.php" line="27" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/MongoCaster.php" bodystart="27" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts classes from the MongoDb extension to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink></para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>since version 3.4, to be removed in 4.0. </para>
+</xrefdescription></xrefsect></para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/MongoCaster.php" line="25" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/MongoCaster.php" bodystart="26" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster_1a7827ba486ca9a8207f2e617891de7701" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::MongoCaster</scope><name>castCursor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

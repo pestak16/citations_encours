@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_date_time_child_8php" kind="file" language="PHP">
+    <compoundname>DateTimeChild.php</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::DateTimeChild</innerclass>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures">Symfony::Component::VarDumper::Tests::Fixtures</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures" kindref="compound">Symfony\Component\VarDumper\Tests\Fixtures</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" kindref="compound">DateTimeChild</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\DateTime</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$addedProperty<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/DateTimeChild.php"/>
+  </compounddef>
+</doxygen>

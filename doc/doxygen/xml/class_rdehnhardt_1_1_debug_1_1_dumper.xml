@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_rdehnhardt_1_1_debug_1_1_dumper" kind="class" language="PHP" prot="public">
+    <compoundname>Rdehnhardt::Debug::Dumper</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rdehnhardt_1_1_debug_1_1_dumper_1ac89652548dd2f5982d76c8de15e75df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dump</definition>
+        <argsstring>($value)</argsstring>
+        <name>dump</name>
+        <qualifiedname>Rdehnhardt\Debug\Dumper\dump</qualifiedname>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dump a value with elegance.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug/Dumper.php" line="16" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug/Dumper.php" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug/Dumper.php" line="8" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug/Dumper.php" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_rdehnhardt_1_1_debug_1_1_dumper_1ac89652548dd2f5982d76c8de15e75df7" prot="public" virt="non-virtual"><scope>Rdehnhardt::Debug::Dumper</scope><name>dump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

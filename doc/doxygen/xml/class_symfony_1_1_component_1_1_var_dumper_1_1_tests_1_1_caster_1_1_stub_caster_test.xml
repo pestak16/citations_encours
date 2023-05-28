@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1ad253b661b2ba2468461c40aa6d5f012f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testArgsStubWithDefaults</definition>
+        <argsstring>($foo=234, $bar=456)</argsstring>
+        <name>testArgsStubWithDefaults</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testArgsStubWithDefaults</qualifiedname>
+        <param>
+          <declname>$foo</declname>
+          <defval>234</defval>
+        </param>
+        <param>
+          <declname>$bar</declname>
+          <defval>456</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="27" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="27" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1ac816ec57cad2d47614ea12e6e350eba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testArgsStubWithExtraArgs</definition>
+        <argsstring>($foo=234)</argsstring>
+        <name>testArgsStubWithExtraArgs</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testArgsStubWithExtraArgs</qualifiedname>
+        <param>
+          <declname>$foo</declname>
+          <defval>234</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="42" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="42" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1abc2a7a5ead75948660eee49e97e69da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testArgsStubNoParamWithExtraArgs</definition>
+        <argsstring>()</argsstring>
+        <name>testArgsStubNoParamWithExtraArgs</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testArgsStubNoParamWithExtraArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="60" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="60" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1a7cfc72732f5e055ec37202cb32cd24dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testArgsStubWithClosure</definition>
+        <argsstring>()</argsstring>
+        <name>testArgsStubWithClosure</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testArgsStubWithClosure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="75" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="75" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1a1d35340f3a61478894488643b98534ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testLinkStub</definition>
+        <argsstring>()</argsstring>
+        <name>testLinkStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testLinkStub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="90" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="90" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1acb94f21231498c9a592c384b429ef3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testLinkStubWithNoFileLink</definition>
+        <argsstring>()</argsstring>
+        <name>testLinkStubWithNoFileLink</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testLinkStubWithNoFileLink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="111" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="111" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1aec65d704ac10390ad5d8534127f7e414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClassStub</definition>
+        <argsstring>()</argsstring>
+        <name>testClassStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testClassStub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="132" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="132" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1aecfd8c3d09b70b0078b5ad874fb11933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClassStubWithNotExistingClass</definition>
+        <argsstring>()</argsstring>
+        <name>testClassStubWithNotExistingClass</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testClassStubWithNotExistingClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="152" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="152" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1afc273d8134b93861dab3899162811035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClassStubWithNotExistingMethod</definition>
+        <argsstring>()</argsstring>
+        <name>testClassStubWithNotExistingMethod</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\StubCasterTest\testClassStubWithNotExistingMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="173" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="173" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>StubCasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>StubCasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" line="23" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" bodystart="24" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1abc2a7a5ead75948660eee49e97e69da9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testArgsStubNoParamWithExtraArgs</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1a7cfc72732f5e055ec37202cb32cd24dd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testArgsStubWithClosure</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1ad253b661b2ba2468461c40aa6d5f012f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testArgsStubWithDefaults</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1ac816ec57cad2d47614ea12e6e350eba9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testArgsStubWithExtraArgs</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1aec65d704ac10390ad5d8534127f7e414" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testClassStub</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1aecfd8c3d09b70b0078b5ad874fb11933" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testClassStubWithNotExistingClass</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1afc273d8134b93861dab3899162811035" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testClassStubWithNotExistingMethod</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1a1d35340f3a61478894488643b98534ed" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testLinkStub</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test_1acb94f21231498c9a592c384b429ef3de" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</scope><name>testLinkStubWithNoFileLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

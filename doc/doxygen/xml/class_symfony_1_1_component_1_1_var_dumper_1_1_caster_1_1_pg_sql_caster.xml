@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::PgSqlCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1ae8b8de46f59c8cbd7e7eb6de9df46807" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$paramCodes</definition>
+        <argsstring></argsstring>
+        <name>$paramCodes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\$paramCodes</qualifiedname>
+        <initializer>= [
+        &apos;server_encoding&apos;,
+        &apos;client_encoding&apos;,
+        &apos;is_superuser&apos;,
+        &apos;session_authorization&apos;,
+        &apos;DateStyle&apos;,
+        &apos;TimeZone&apos;,
+        &apos;IntervalStyle&apos;,
+        &apos;integer_datetimes&apos;,
+        &apos;application_name&apos;,
+        &apos;standard_conforming_strings&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a4e54cfe3e63a7dc7fd68c07c8a818be4" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$transactionStatus</definition>
+        <argsstring></argsstring>
+        <name>$transactionStatus</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\$transactionStatus</qualifiedname>
+        <initializer>= [
+        \PGSQL_TRANSACTION_IDLE =&gt; &apos;PGSQL_TRANSACTION_IDLE&apos;,
+        \PGSQL_TRANSACTION_ACTIVE =&gt; &apos;PGSQL_TRANSACTION_ACTIVE&apos;,
+        \PGSQL_TRANSACTION_INTRANS =&gt; &apos;PGSQL_TRANSACTION_INTRANS&apos;,
+        \PGSQL_TRANSACTION_INERROR =&gt; &apos;PGSQL_TRANSACTION_INERROR&apos;,
+        \PGSQL_TRANSACTION_UNKNOWN =&gt; &apos;PGSQL_TRANSACTION_UNKNOWN&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="36" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1af1cab3ece3ea22f271b560b019efec42" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$resultStatus</definition>
+        <argsstring></argsstring>
+        <name>$resultStatus</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\$resultStatus</qualifiedname>
+        <initializer>= [
+        \PGSQL_EMPTY_QUERY =&gt; &apos;PGSQL_EMPTY_QUERY&apos;,
+        \PGSQL_COMMAND_OK =&gt; &apos;PGSQL_COMMAND_OK&apos;,
+        \PGSQL_TUPLES_OK =&gt; &apos;PGSQL_TUPLES_OK&apos;,
+        \PGSQL_COPY_OUT =&gt; &apos;PGSQL_COPY_OUT&apos;,
+        \PGSQL_COPY_IN =&gt; &apos;PGSQL_COPY_IN&apos;,
+        \PGSQL_BAD_RESPONSE =&gt; &apos;PGSQL_BAD_RESPONSE&apos;,
+        \PGSQL_NONFATAL_ERROR =&gt; &apos;PGSQL_NONFATAL_ERROR&apos;,
+        \PGSQL_FATAL_ERROR =&gt; &apos;PGSQL_FATAL_ERROR&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="44" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a7252eb18dc6f619c14b94157e6663586" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$diagCodes</definition>
+        <argsstring></argsstring>
+        <name>$diagCodes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\$diagCodes</qualifiedname>
+        <initializer>= [
+        &apos;severity&apos; =&gt; \PGSQL_DIAG_SEVERITY,
+        &apos;sqlstate&apos; =&gt; \PGSQL_DIAG_SQLSTATE,
+        &apos;message&apos; =&gt; \PGSQL_DIAG_MESSAGE_PRIMARY,
+        &apos;detail&apos; =&gt; \PGSQL_DIAG_MESSAGE_DETAIL,
+        &apos;hint&apos; =&gt; \PGSQL_DIAG_MESSAGE_HINT,
+        &apos;statement position&apos; =&gt; \PGSQL_DIAG_STATEMENT_POSITION,
+        &apos;internal position&apos; =&gt; \PGSQL_DIAG_INTERNAL_POSITION,
+        &apos;internal query&apos; =&gt; \PGSQL_DIAG_INTERNAL_QUERY,
+        &apos;context&apos; =&gt; \PGSQL_DIAG_CONTEXT,
+        &apos;file&apos; =&gt; \PGSQL_DIAG_SOURCE_FILE,
+        &apos;line&apos; =&gt; \PGSQL_DIAG_SOURCE_LINE,
+        &apos;function&apos; =&gt; \PGSQL_DIAG_SOURCE_FUNCTION,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="55" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a25c00fd5db077a504c94e7897d005eea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castLargeObject</definition>
+        <argsstring>($lo, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castLargeObject</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\castLargeObject</qualifiedname>
+        <param>
+          <declname>$lo</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="70" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a5f97c7b27a214ff35d0d300905c70396" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castLink</definition>
+        <argsstring>($link, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castLink</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\castLink</qualifiedname>
+        <param>
+          <declname>$link</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="77" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="77" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a5a26ea3d12beace85f251a296e340148" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castResult</definition>
+        <argsstring>($result, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castResult</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PgSqlCaster\castResult</qualifiedname>
+        <param>
+          <declname>$result</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="109" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="109" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts pqsql resources to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" bodystart="22" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a7252eb18dc6f619c14b94157e6663586" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>$diagCodes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1ae8b8de46f59c8cbd7e7eb6de9df46807" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>$paramCodes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1af1cab3ece3ea22f271b560b019efec42" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>$resultStatus</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a4e54cfe3e63a7dc7fd68c07c8a818be4" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>$transactionStatus</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a25c00fd5db077a504c94e7897d005eea" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>castLargeObject</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a5f97c7b27a214ff35d0d300905c70396" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>castLink</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pg_sql_caster_1a5a26ea3d12beace85f251a296e340148" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PgSqlCaster</scope><name>castResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

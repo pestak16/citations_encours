@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="symfony_2polyfill-mbstring_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">Symfony<sp/>Polyfill<sp/>/<sp/>Mbstring</highlight></codeline>
+<codeline><highlight class="normal">===========================</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>component<sp/>provides<sp/>a<sp/>partial,<sp/>native<sp/>PHP<sp/>implementation<sp/>for<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">[Mbstring](https://php.net/mbstring)<sp/>extension.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">More<sp/>information<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">[main<sp/>Polyfill<sp/>README](https://github.com/symfony/polyfill/blob/main/README.md).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">License</highlight></codeline>
+<codeline><highlight class="normal">=======</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>library<sp/>is<sp/>released<sp/>under<sp/>the<sp/>[MIT<sp/>license](LICENSE).</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/README.md"/>
+  </compounddef>
+</doxygen>

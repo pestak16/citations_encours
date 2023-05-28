@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="constantes_8php" kind="file" language="PHP">
+    <compoundname>constantes.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="constantes_8php_1a18c0644836e196aed6d63779e14d6bd8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ROOT</definition>
+        <argsstring></argsstring>
+        <name>ROOT</name>
+        <initializer>dirname(__DIR__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fichier de configuration</para>
+<para>Ce fichier définit des constantes utilisées pour la configuration de l&apos;application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/constantes.php" line="10" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/constantes.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constantes_8php_1a758c150b67e476ecf77478f16b387c61" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <initializer>true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/constantes.php" line="13" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/constantes.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constantes_8php_1aaaa2e6597e89b01b983f8a3f71d82eca" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FROM_INDEX</definition>
+        <argsstring></argsstring>
+        <name>FROM_INDEX</name>
+        <initializer>true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/constantes.php" line="16" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/constantes.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Chemin<sp/>racine<sp/>de<sp/>l&apos;application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;ROOT&apos;</highlight><highlight class="normal">,<sp/>dirname(__DIR__));</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Mode<sp/>de<sp/>débogage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DEBUG&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Indicateur<sp/>indiquant<sp/>que<sp/>le<sp/>fichier<sp/>est<sp/>inclus<sp/>depuis<sp/>l&apos;index</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FROM_INDEX&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/conf/constantes.php"/>
+  </compounddef>
+</doxygen>

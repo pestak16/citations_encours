@@ -1,0 +1,127 @@
+\hypertarget{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface}{}\doxysection{Dumper\+Interface Interface Reference}
+\label{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface}\index{DumperInterface@{DumperInterface}}
+Inheritance diagram for Dumper\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_add42458fcc51cd6c92fbfab62bc7c5fe}{dump\+Scalar}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$type, \$value)
+\item 
+\mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a06a24429c48c30ba1f579de698fd8853}{dump\+String}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$str, \$bin, \$cut)
+\item 
+\mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a9b9ec353aaf82757fb3d8b221266759f}{enter\+Hash}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$type, \$class, \$has\+Child)
+\item 
+\mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_afe9a3bb766900568a92604df854c7658}{leave\+Hash}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} \$cursor, \$type, \$class, \$has\+Child, \$cut)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface}{Dumper\+Interface}} used by \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data}{Data}} objects.
+
+\begin{DoxyAuthor}{Author}
+Nicolas Grekas \href{mailto:p@tchwork.com}{\texttt{ p@tchwork.\+com}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_add42458fcc51cd6c92fbfab62bc7c5fe}\label{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_add42458fcc51cd6c92fbfab62bc7c5fe}} 
+\index{DumperInterface@{DumperInterface}!dumpScalar@{dumpScalar}}
+\index{dumpScalar@{dumpScalar}!DumperInterface@{DumperInterface}}
+\doxysubsubsection{\texorpdfstring{dumpScalar()}{dumpScalar()}}
+{\footnotesize\ttfamily dump\+Scalar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$type,  }\item[{}]{\$value }\end{DoxyParamCaption})}
+
+Dumps a scalar value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+string & {\em \$type} & The PHP type of the value being dumped \\
+\hline
+string | int | float | bool & {\em \$value} & The scalar value being dumped \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_add42458fcc51cd6c92fbfab62bc7c5fe}{Cli\+Dumper}}.
+
+\mbox{\Hypertarget{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a06a24429c48c30ba1f579de698fd8853}\label{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a06a24429c48c30ba1f579de698fd8853}} 
+\index{DumperInterface@{DumperInterface}!dumpString@{dumpString}}
+\index{dumpString@{dumpString}!DumperInterface@{DumperInterface}}
+\doxysubsubsection{\texorpdfstring{dumpString()}{dumpString()}}
+{\footnotesize\ttfamily dump\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$str,  }\item[{}]{\$bin,  }\item[{}]{\$cut }\end{DoxyParamCaption})}
+
+Dumps a string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+string & {\em \$str} & The string being dumped \\
+\hline
+bool & {\em \$bin} & Whether \$str is UTF-\/8 or binary encoded \\
+\hline
+int & {\em \$cut} & The number of characters \$str has been cut by \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a06a24429c48c30ba1f579de698fd8853}{Cli\+Dumper}}.
+
+\mbox{\Hypertarget{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a9b9ec353aaf82757fb3d8b221266759f}\label{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_a9b9ec353aaf82757fb3d8b221266759f}} 
+\index{DumperInterface@{DumperInterface}!enterHash@{enterHash}}
+\index{enterHash@{enterHash}!DumperInterface@{DumperInterface}}
+\doxysubsubsection{\texorpdfstring{enterHash()}{enterHash()}}
+{\footnotesize\ttfamily enter\+Hash (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$type,  }\item[{}]{\$class,  }\item[{}]{\$has\+Child }\end{DoxyParamCaption})}
+
+Dumps while entering an hash.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+int & {\em \$type} & A Cursor\+::\+HASH\+\_\+$\ast$ const for the type of hash \\
+\hline
+string | int & {\em \$class} & The object class, resource type or array count \\
+\hline
+bool & {\em \$has\+Child} & When the dump of the hash has child item \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_a9b9ec353aaf82757fb3d8b221266759f}{Cli\+Dumper}}, and \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_a9b9ec353aaf82757fb3d8b221266759f}{Html\+Dumper}}.
+
+\mbox{\Hypertarget{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_afe9a3bb766900568a92604df854c7658}\label{interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_afe9a3bb766900568a92604df854c7658}} 
+\index{DumperInterface@{DumperInterface}!leaveHash@{leaveHash}}
+\index{leaveHash@{leaveHash}!DumperInterface@{DumperInterface}}
+\doxysubsubsection{\texorpdfstring{leaveHash()}{leaveHash()}}
+{\footnotesize\ttfamily leave\+Hash (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}}}]{\$cursor,  }\item[{}]{\$type,  }\item[{}]{\$class,  }\item[{}]{\$has\+Child,  }\item[{}]{\$cut }\end{DoxyParamCaption})}
+
+Dumps while leaving an hash.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} & {\em \$cursor} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor}{Cursor}} position in the dump \\
+\hline
+int & {\em \$type} & A Cursor\+::\+HASH\+\_\+$\ast$ const for the type of hash \\
+\hline
+string | int & {\em \$class} & The object class, resource type or array count \\
+\hline
+bool & {\em \$has\+Child} & When the dump of the hash has child item \\
+\hline
+int & {\em \$cut} & The number of items the hash has been cut by \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_afe9a3bb766900568a92604df854c7658}{Cli\+Dumper}}, and \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_afe9a3bb766900568a92604df854c7658}{Html\+Dumper}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/wamp64/www/citations\+\_\+encours/src/vendor/symfony/var-\/dumper/\+Cloner/\mbox{\hyperlink{_dumper_interface_8php}{Dumper\+Interface.\+php}}\end{DoxyCompactItemize}

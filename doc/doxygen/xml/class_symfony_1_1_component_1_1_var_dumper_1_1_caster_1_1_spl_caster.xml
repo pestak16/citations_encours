@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::SplCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a0fe375faf02daafd2d6f4a94921de1a6" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$splFileObjectFlags</definition>
+        <argsstring></argsstring>
+        <name>$splFileObjectFlags</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\$splFileObjectFlags</qualifiedname>
+        <initializer>= [
+        \SplFileObject::DROP_NEW_LINE =&gt; &apos;DROP_NEW_LINE&apos;,
+        \SplFileObject::READ_AHEAD =&gt; &apos;READ_AHEAD&apos;,
+        \SplFileObject::SKIP_EMPTY =&gt; &apos;SKIP_EMPTY&apos;,
+        \SplFileObject::READ_CSV =&gt; &apos;READ_CSV&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a0349881e2e4049ae8138428e5fecad7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castArrayObject</definition>
+        <argsstring>(\ArrayObject $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castArrayObject</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castArrayObject</qualifiedname>
+        <param>
+          <type>\ArrayObject</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="30" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1acf1ccbdfb1997b249c6caa9c175cb288" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castArrayIterator</definition>
+        <argsstring>(\ArrayIterator $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castArrayIterator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castArrayIterator</qualifiedname>
+        <param>
+          <type>\ArrayIterator</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="35" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a563128e09366a0f8eee9d3c187e7534f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castHeap</definition>
+        <argsstring>(\Iterator $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castHeap</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castHeap</qualifiedname>
+        <param>
+          <type>\Iterator</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="40" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1aff227d24d6d676ecc68710c7418de5f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castDoublyLinkedList</definition>
+        <argsstring>(\SplDoublyLinkedList $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castDoublyLinkedList</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castDoublyLinkedList</qualifiedname>
+        <param>
+          <type>\SplDoublyLinkedList</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="49" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="49" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a7d7c27194e9d26a6267b542b3c39e41b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castFileInfo</definition>
+        <argsstring>(\SplFileInfo $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castFileInfo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castFileInfo</qualifiedname>
+        <param>
+          <type>\SplFileInfo</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="64" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="64" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a4c0990cc36d6d91ff6d04b422a50992c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castFileObject</definition>
+        <argsstring>(\SplFileObject $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castFileObject</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castFileObject</qualifiedname>
+        <param>
+          <type>\SplFileObject</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="148" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="148" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a34ccb4974d0aaddbe3b546470f608d6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castObjectStorage</definition>
+        <argsstring>(\SplObjectStorage $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castObjectStorage</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castObjectStorage</qualifiedname>
+        <param>
+          <type>\SplObjectStorage</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="185" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="185" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a5f9f083055757929e85e526976d324c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castOuterIterator</definition>
+        <argsstring>(\OuterIterator $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castOuterIterator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castOuterIterator</qualifiedname>
+        <param>
+          <type>\OuterIterator</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="206" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="206" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a63931e5c708d25b1561aa338c7f9df38" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castSplArray</definition>
+        <argsstring>($c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castSplArray</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SplCaster\castSplArray</qualifiedname>
+        <param>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="213" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="213" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts SPL related classes to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SplCaster.php" bodystart="22" bodyend="236"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a0fe375faf02daafd2d6f4a94921de1a6" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>$splFileObjectFlags</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1acf1ccbdfb1997b249c6caa9c175cb288" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castArrayIterator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a0349881e2e4049ae8138428e5fecad7d" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castArrayObject</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1aff227d24d6d676ecc68710c7418de5f6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castDoublyLinkedList</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a7d7c27194e9d26a6267b542b3c39e41b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castFileInfo</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a4c0990cc36d6d91ff6d04b422a50992c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castFileObject</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a563128e09366a0f8eee9d3c187e7534f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castHeap</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a34ccb4974d0aaddbe3b546470f608d6a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castObjectStorage</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a5f9f083055757929e85e526976d324c2" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castOuterIterator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_spl_caster_1a63931e5c708d25b1561aa338c7f9df38" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SplCaster</scope><name>castSplArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

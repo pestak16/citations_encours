@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['leavehash_0',['leaveHash',['../interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface.html#afe9a3bb766900568a92604df854c7658',1,'Symfony\Component\VarDumper\Cloner\DumperInterface\leaveHash()'],['../class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper.html#afe9a3bb766900568a92604df854c7658',1,'Symfony\Component\VarDumper\Dumper\CliDumper\leaveHash()'],['../class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper.html#afe9a3bb766900568a92604df854c7658',1,'Symfony\Component\VarDumper\Dumper\HtmlDumper\leaveHash()']]],
-  ['linkstub_1',['LinkStub',['../class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_link_stub.html',1,'Symfony::Component::VarDumper::Caster']]],
-  ['loadclass_2',['loadClass',['../class_composer_1_1_autoload_1_1_class_loader.html#a8326a997d0cfe76d80196f60d240d144',1,'Composer::Autoload::ClassLoader']]]
+  ['index_2ephp_0',['index.php',['../index_8php.html',1,'']]],
+  ['installed_2ephp_1',['installed.php',['../installed_8php.html',1,'']]],
+  ['installedversions_2',['InstalledVersions',['../class_composer_1_1_installed_versions.html',1,'Composer']]],
+  ['installedversions_2ephp_3',['InstalledVersions.php',['../_installed_versions_8php.html',1,'']]],
+  ['isclassmapauthoritative_4',['isClassMapAuthoritative',['../class_composer_1_1_autoload_1_1_class_loader.html#a5187f29c880def2863b3592d2cce5844',1,'Composer::Autoload::ClassLoader']]],
+  ['isinstalled_5',['isInstalled',['../class_composer_1_1_installed_versions.html#ac9863ed3d65259cb0a9a5bcc5afffa7e',1,'Composer::InstalledVersions']]]
 ];

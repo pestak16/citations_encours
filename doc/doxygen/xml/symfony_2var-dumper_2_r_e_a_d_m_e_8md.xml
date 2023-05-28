@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="symfony_2var-dumper_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">VarDumper<sp/>Component</highlight></codeline>
+<codeline><highlight class="normal">===================</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>VarDumper<sp/>component<sp/>provides<sp/>mechanisms<sp/>for<sp/>walking<sp/>through<sp/>any<sp/>arbitrary</highlight></codeline>
+<codeline><highlight class="normal">PHP<sp/>variable.<sp/>It<sp/>provides<sp/>a<sp/>better<sp/>`dump()`<sp/>function<sp/>that<sp/>you<sp/>can<sp/>use<sp/>instead</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>`var_dump`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Resources</highlight></codeline>
+<codeline><highlight class="normal">---------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>[Documentation](https://symfony.com/doc/current/components/var_dumper/introduction.html)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>[Contributing](https://symfony.com/doc/current/contributing/index.html)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>[Report<sp/>issues](https://github.com/symfony/symfony/issues)<sp/>and</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>[send<sp/>Pull<sp/>Requests](https://github.com/symfony/symfony/pulls)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>in<sp/>the<sp/>[main<sp/>Symfony<sp/>repository](https://github.com/symfony/symfony)</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/README.md"/>
+  </compounddef>
+</doxygen>

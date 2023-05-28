@@ -1,0 +1,210 @@
+\hypertarget{class_core_1_1_database_1_1_manager}{}\doxysection{Manager Class Reference}
+\label{class_core_1_1_database_1_1_manager}\index{Manager@{Manager}}
+Inheritance diagram for Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_core_1_1_database_1_1_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_a65d08ac56130a6a2c15430642afe0c27}{statement}} (string \$sql, array \$attributs=null)
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_a73a1b0348919b6755e4f69dcc70eba64}{find\+All}} ()
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_a83fd2fc7e1de07d8f06df23372477c51}{find\+By}} (array \$data)
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_a1ba50cbde423b0b17031ea550a599ae8}{find}} (int \$id)
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_a27c8282bd8a337c0d800bd2db6345bd2}{create}} (\mbox{\hyperlink{class_core_1_1_entity}{Entity}} \$entity)
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_aab788f559c9ebb763f9abd0d969face2}{delete}} (int \$id)
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_aed990bda984d72af2224e06dd61507a0}{update}} (\mbox{\hyperlink{class_core_1_1_entity}{Entity}} \$entity)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_a3172606ff70f04af88f64d235909d5dc}{get\+Entity\+Class\+Name}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_core_1_1_database_1_1_manager_ae8876a14058f368335baccf35af4a22b}{\$table}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_a27c8282bd8a337c0d800bd2db6345bd2}\label{class_core_1_1_database_1_1_manager_a27c8282bd8a337c0d800bd2db6345bd2}} 
+\index{Manager@{Manager}!create@{create}}
+\index{create@{create}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily create (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_core_1_1_entity}{Entity}}}]{\$entity }\end{DoxyParamCaption})}
+
+Méthode create
+
+Description \+: Crée un nouvel enregistrement dans la table associée à cette classe \mbox{\hyperlink{class_core_1_1_database_1_1_manager}{Manager}}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_core_1_1_entity}{Entity}} & {\em \$entity} & L\textquotesingle{}objet de l\textquotesingle{}entité à créer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed L\textquotesingle{}enregistrement créé sous forme d\textquotesingle{}objet de l\textquotesingle{}entité associée. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Si l\textquotesingle{}enregistrement existe déjà. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_aab788f559c9ebb763f9abd0d969face2}\label{class_core_1_1_database_1_1_manager_aab788f559c9ebb763f9abd0d969face2}} 
+\index{Manager@{Manager}!delete@{delete}}
+\index{delete@{delete}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily delete (\begin{DoxyParamCaption}\item[{int}]{\$id }\end{DoxyParamCaption})}
+
+Méthode delete
+
+Description \+: Supprime un enregistrement spécifique de la table associée à cette classe \mbox{\hyperlink{class_core_1_1_database_1_1_manager}{Manager}} en fonction de l\textquotesingle{}ID.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & L\textquotesingle{}ID de l\textquotesingle{}enregistrement à supprimer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True si la suppression a réussi, sinon False. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_a1ba50cbde423b0b17031ea550a599ae8}\label{class_core_1_1_database_1_1_manager_a1ba50cbde423b0b17031ea550a599ae8}} 
+\index{Manager@{Manager}!find@{find}}
+\index{find@{find}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily find (\begin{DoxyParamCaption}\item[{int}]{\$id }\end{DoxyParamCaption})}
+
+Méthode find
+
+Description \+: Récupère un enregistrement en fonction de l\textquotesingle{}ID.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & L\textquotesingle{}ID de l\textquotesingle{}enregistrement à rechercher. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed L\textquotesingle{}enregistrement correspondant sous forme d\textquotesingle{}objet de l\textquotesingle{}entité associée ou faux. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a1ba50cbde423b0b17031ea550a599ae8}{Citation\+Manager}}.
+
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_a73a1b0348919b6755e4f69dcc70eba64}\label{class_core_1_1_database_1_1_manager_a73a1b0348919b6755e4f69dcc70eba64}} 
+\index{Manager@{Manager}!findAll@{findAll}}
+\index{findAll@{findAll}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily find\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Méthode find\+All
+
+Description \+: Récupère tous les enregistrements de la table associée à cette classe \mbox{\hyperlink{class_core_1_1_database_1_1_manager}{Manager}}.
+
+\begin{DoxyReturn}{Returns}
+array Un tableau contenant tous les enregistrements sous forme d\textquotesingle{}objets de l\textquotesingle{}entité associée. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a73a1b0348919b6755e4f69dcc70eba64}{Citation\+Manager}}.
+
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_a83fd2fc7e1de07d8f06df23372477c51}\label{class_core_1_1_database_1_1_manager_a83fd2fc7e1de07d8f06df23372477c51}} 
+\index{Manager@{Manager}!findBy@{findBy}}
+\index{findBy@{findBy}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{findBy()}{findBy()}}
+{\footnotesize\ttfamily find\+By (\begin{DoxyParamCaption}\item[{array}]{\$data }\end{DoxyParamCaption})}
+
+Méthode find\+By
+
+Description \+: Récupère les enregistrements correspondant aux critères spécifiés de la table associée à cette classe \mbox{\hyperlink{class_core_1_1_database_1_1_manager}{Manager}}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & Un tableau associatif des critères de recherche. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array Un tableau contenant les enregistrements correspondants sous forme d\textquotesingle{}objets de l\textquotesingle{}entité associée. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a366015c91c87b9c498877021a3716d73}{Citation\+Manager}}.
+
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_a3172606ff70f04af88f64d235909d5dc}\label{class_core_1_1_database_1_1_manager_a3172606ff70f04af88f64d235909d5dc}} 
+\index{Manager@{Manager}!getEntityClassName@{getEntityClassName}}
+\index{getEntityClassName@{getEntityClassName}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{getEntityClassName()}{getEntityClassName()}}
+{\footnotesize\ttfamily get\+Entity\+Class\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Méthode get\+Entity\+Class\+Name
+
+Description \+: Récupère le nom de la classe de l\textquotesingle{}entité associée à cette classe \mbox{\hyperlink{class_core_1_1_database_1_1_manager}{Manager}}.
+
+\begin{DoxyReturn}{Returns}
+string Le nom de la classe de l\textquotesingle{}entité. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_a65d08ac56130a6a2c15430642afe0c27}\label{class_core_1_1_database_1_1_manager_a65d08ac56130a6a2c15430642afe0c27}} 
+\index{Manager@{Manager}!statement@{statement}}
+\index{statement@{statement}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{statement()}{statement()}}
+{\footnotesize\ttfamily statement (\begin{DoxyParamCaption}\item[{string}]{\$sql,  }\item[{array}]{\$attributs = {\ttfamily null} }\end{DoxyParamCaption})}
+
+Méthode statement
+
+Description \+: Exécute une requête SQL sur la base de données.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & La requête SQL à exécuter. \\
+\hline
+array | null & {\em \$attributs} & Les attributs à lier à la requête préparée (facultatif). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+PDOStatement Le résultat de la requête SQL. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_aed990bda984d72af2224e06dd61507a0}\label{class_core_1_1_database_1_1_manager_aed990bda984d72af2224e06dd61507a0}} 
+\index{Manager@{Manager}!update@{update}}
+\index{update@{update}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_core_1_1_entity}{Entity}}}]{\$entity }\end{DoxyParamCaption})}
+
+Méthode update
+
+Description \+: Met à jour un enregistrement existant dans la table associée à cette classe \mbox{\hyperlink{class_core_1_1_database_1_1_manager}{Manager}}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_core_1_1_entity}{Entity}} & {\em \$entity} & L\textquotesingle{}objet de l\textquotesingle{}entité à mettre à jour. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True si la mise à jour a réussi, sinon False. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Si l\textquotesingle{}enregistrement n\textquotesingle{}est pas trouvé. \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_core_1_1_database_1_1_manager_ae8876a14058f368335baccf35af4a22b}\label{class_core_1_1_database_1_1_manager_ae8876a14058f368335baccf35af4a22b}} 
+\index{Manager@{Manager}!\$table@{\$table}}
+\index{\$table@{\$table}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{\$table}{$table}}
+{\footnotesize\ttfamily \$table\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/wamp64/www/citations\+\_\+encours/src/\+Core/\+Database/\mbox{\hyperlink{_manager_8php}{Manager.\+php}}\end{DoxyCompactItemize}

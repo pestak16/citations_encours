@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Global <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data_1ab2fc904496e1d2bc27e61ecd4586d7e8" kindref="member">Data::getRawData</ref>  ()</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000003"/>since version 3.3. Use array or object access instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="class_composer_1_1_installed_versions_1a6ecee8643c03c515b55686f03d117665" kindref="member">InstalledVersions::getRawData</ref>  ()</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>Use <ref refid="class_composer_1_1_installed_versions_1a3a09ac4f4e098f4c04c31cfb88a8e256" kindref="member">getAllRawData()</ref> instead which returns all datasets for all autoloaders present in the process. getRawData only returns the first dataset loaded, which may not be what you expect.  </para>
+</listitem>
+<varlistentry><term>Class <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_mongo_caster" kindref="compound">MongoCaster</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000002"/>since version 3.4, to be removed in 4.0. </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

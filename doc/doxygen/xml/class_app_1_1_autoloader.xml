@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_app_1_1_autoloader" kind="class" language="PHP" prot="public">
+    <compoundname>App::Autoloader</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_1_1_autoloader_1a610b9c89b82e11ea426e1804874a6ef4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <qualifiedname>App\Autoloader\register</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode register</para>
+<para>Enregistre l&apos;autoloader pour charger automatiquement les classes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Autoloader.php" line="17" column="28" bodyfile="C:/wamp64/www/citations_encours/src/App/Autoloader.php" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_app_1_1_autoloader_1a30bf91b5da26f397624b25446be7fa2b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static autoload</definition>
+        <argsstring>($fqcn)</argsstring>
+        <name>autoload</name>
+        <qualifiedname>App\Autoloader\autoload</qualifiedname>
+        <param>
+          <declname>$fqcn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode autoload</para>
+<para>Charge automatiquement la classe lorsqu&apos;elle est utilisée.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fqcn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le nom complet de la classe à charger. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Autoloader.php" line="29" column="29" bodyfile="C:/wamp64/www/citations_encours/src/App/Autoloader.php" bodystart="29" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_app_1_1_autoloader" kindref="compound">Autoloader</ref></para>
+<para>Cette classe permet de charger automatiquement les classes de l&apos;application. </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/App/Autoloader.php" line="10" column="1" bodyfile="C:/wamp64/www/citations_encours/src/App/Autoloader.php" bodystart="11" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_autoloader_1a30bf91b5da26f397624b25446be7fa2b" prot="private" virt="non-virtual"><scope>App::Autoloader</scope><name>autoload</name></member>
+      <member refid="class_app_1_1_autoloader_1a610b9c89b82e11ea426e1804874a6ef4" prot="public" virt="non-virtual"><scope>App::Autoloader</scope><name>register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

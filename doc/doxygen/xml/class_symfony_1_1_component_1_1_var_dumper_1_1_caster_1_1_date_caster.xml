@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::DateCaster</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1a4e4322d94fa2e19a217cddeb05efc390" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castDateTime</definition>
+        <argsstring>(\DateTimeInterface $d, array $a, Stub $stub, $isNested, $filter)</argsstring>
+        <name>castDateTime</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\castDateTime</qualifiedname>
+        <param>
+          <type>\DateTimeInterface</type>
+          <declname>$d</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="23" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="23" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aa04d2bdacd2cad97030f08401716936a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castInterval</definition>
+        <argsstring>(\DateInterval $interval, array $a, Stub $stub, $isNested, $filter)</argsstring>
+        <name>castInterval</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\castInterval</qualifiedname>
+        <param>
+          <type>\DateInterval</type>
+          <declname>$interval</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="46" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1ae57bbd660c790dbb318f4b7371ebf263" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castTimeZone</definition>
+        <argsstring>(\DateTimeZone $timeZone, array $a, Stub $stub, $isNested, $filter)</argsstring>
+        <name>castTimeZone</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\castTimeZone</qualifiedname>
+        <param>
+          <type>\DateTimeZone</type>
+          <declname>$timeZone</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="79" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="79" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1ad03100e01be075d0eca25581fb936f0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castPeriod</definition>
+        <argsstring>(\DatePeriod $p, array $a, Stub $stub, $isNested, $filter)</argsstring>
+        <name>castPeriod</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\castPeriod</qualifiedname>
+        <param>
+          <type>\DatePeriod</type>
+          <declname>$p</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="90" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="90" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aed7aaf71d2a84a763a3db65af4487bf9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static formatInterval</definition>
+        <argsstring>(\DateInterval $i)</argsstring>
+        <name>formatInterval</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\formatInterval</qualifiedname>
+        <param>
+          <type>\DateInterval</type>
+          <declname>$i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="57" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="57" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1a4d2528eed8fb341f54871e02691d8f3a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static formatDateTime</definition>
+        <argsstring>(\DateTimeInterface $d, $extra=&apos;&apos;)</argsstring>
+        <name>formatDateTime</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\formatDateTime</qualifiedname>
+        <param>
+          <type>\DateTimeInterface</type>
+          <declname>$d</declname>
+        </param>
+        <param>
+          <declname>$extra</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="124" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aadecd9e4932ad260dcf8f0994166a68a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static formatSeconds</definition>
+        <argsstring>($s, $us)</argsstring>
+        <name>formatSeconds</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DateCaster\formatSeconds</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$us</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="129" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="129" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts DateTimeInterface related classes to array representation.</para>
+<para><simplesect kind="author"><para>Dany Maillard <ulink url="mailto:danymaillard93b@gmail.com">danymaillard93b@gmail.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DateCaster.php" bodystart="22" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1a4e4322d94fa2e19a217cddeb05efc390" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>castDateTime</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aa04d2bdacd2cad97030f08401716936a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>castInterval</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1ad03100e01be075d0eca25581fb936f0f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>castPeriod</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1ae57bbd660c790dbb318f4b7371ebf263" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>castTimeZone</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1a4d2528eed8fb341f54871e02691d8f3a" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>formatDateTime</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aed7aaf71d2a84a763a3db65af4487bf9" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>formatInterval</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_date_caster_1aadecd9e4932ad260dcf8f0994166a68a" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DateCaster</scope><name>formatSeconds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

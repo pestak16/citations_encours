@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kind="interface" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Cloner::DumperInterface</compoundname>
+    <derivedcompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper" prot="public" virt="non-virtual">AbstractDumper</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1add42458fcc51cd6c92fbfab62bc7c5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpScalar</definition>
+        <argsstring>(Cursor $cursor, $type, $value)</argsstring>
+        <name>dumpScalar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\DumperInterface\dumpScalar</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1add42458fcc51cd6c92fbfab62bc7c5fe">dumpScalar</reimplementedby>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps a scalar value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The PHP type of the value being dumped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametertype>float</parametertype>
+<parametertype>bool</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scalar value being dumped </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/DumperInterface.php" line="28" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a06a24429c48c30ba1f579de698fd8853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpString</definition>
+        <argsstring>(Cursor $cursor, $str, $bin, $cut)</argsstring>
+        <name>dumpString</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\DumperInterface\dumpString</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a06a24429c48c30ba1f579de698fd8853">dumpString</reimplementedby>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$bin</declname>
+        </param>
+        <param>
+          <declname>$cut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps a string.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string being dumped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$bin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether $str is UTF-8 or binary encoded </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of characters $str has been cut by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/DumperInterface.php" line="38" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a9b9ec353aaf82757fb3d8b221266759f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>enterHash</definition>
+        <argsstring>(Cursor $cursor, $type, $class, $hasChild)</argsstring>
+        <name>enterHash</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\DumperInterface\enterHash</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a9b9ec353aaf82757fb3d8b221266759f">enterHash</reimplementedby>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a9b9ec353aaf82757fb3d8b221266759f">enterHash</reimplementedby>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$hasChild</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps while entering an hash.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Cursor::HASH_* const for the type of hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object class, resource type or array count </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$hasChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When the dump of the hash has child item </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/DumperInterface.php" line="48" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1afe9a3bb766900568a92604df854c7658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>leaveHash</definition>
+        <argsstring>(Cursor $cursor, $type, $class, $hasChild, $cut)</argsstring>
+        <name>leaveHash</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\DumperInterface\leaveHash</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1afe9a3bb766900568a92604df854c7658">leaveHash</reimplementedby>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1afe9a3bb766900568a92604df854c7658">leaveHash</reimplementedby>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></type>
+          <declname>$cursor</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$hasChild</declname>
+        </param>
+        <param>
+          <declname>$cut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps while leaving an hash.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref></parametertype>
+<parametername>$cursor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" kindref="compound">Cursor</ref> position in the dump </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Cursor::HASH_* const for the type of hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object class, resource type or array count </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$hasChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When the dump of the hash has child item </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items the hash has been cut by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/DumperInterface.php" line="59" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" kindref="compound">DumperInterface</ref> used by <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kindref="compound">Data</ref> objects.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface"/>
+      </node>
+      <node id="5">
+        <label>HtmlDumper</label>
+        <link refid="class_rdehnhardt_1_1_debug_1_1_html_dumper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CliDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>HtmlDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/DumperInterface.php" line="19" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/DumperInterface.php" bodystart="20" bodyend="60"/>
+    <listofallmembers>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1add42458fcc51cd6c92fbfab62bc7c5fe" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::DumperInterface</scope><name>dumpScalar</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a06a24429c48c30ba1f579de698fd8853" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::DumperInterface</scope><name>dumpString</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a9b9ec353aaf82757fb3d8b221266759f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::DumperInterface</scope><name>enterHash</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1afe9a3bb766900568a92604df854c7658" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::DumperInterface</scope><name>leaveHash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

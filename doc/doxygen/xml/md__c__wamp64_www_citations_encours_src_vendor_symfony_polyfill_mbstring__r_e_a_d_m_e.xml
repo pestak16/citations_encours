@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="md__c__wamp64_www_citations_encours_src_vendor_symfony_polyfill_mbstring__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C__wamp64_www_citations_encours_src_vendor_symfony_polyfill_mbstring_README</compoundname>
+    <title>Symfony Polyfill / Mbstring</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This component provides a partial, native PHP implementation for the <ulink url="https://php.net/mbstring">Mbstring</ulink> extension.</para>
+<para>More information can be found in the <ulink url="https://github.com/symfony/polyfill/blob/main/README.md">main Polyfill README</ulink>.</para>
+<sect1 id="md__c__wamp64_www_citations_encours_src_vendor_symfony_polyfill_mbstring__r_e_a_d_m_e_1autotoc_md3">
+<title>License</title>
+<para>This library is released under the [MIT license](LICENSE). </para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/README.md"/>
+  </compounddef>
+</doxygen>

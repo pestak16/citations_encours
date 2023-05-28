@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::ResourceCaster</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1aedd36c21345a05e9bb2482c974b0ae77" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castCurl</definition>
+        <argsstring>($h, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castCurl</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castCurl</qualifiedname>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\CurlHandle</parametertype>
+<parametertype>resource</parametertype>
+<parametername>$h</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="28" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a5cdb19b40bf5f53afcbce94adbb088a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castDba</definition>
+        <argsstring>($dba, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castDba</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castDba</qualifiedname>
+        <param>
+          <declname>$dba</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="33" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1aeac1509b023eb517e38a829466680151" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castProcess</definition>
+        <argsstring>($process, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castProcess</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castProcess</qualifiedname>
+        <param>
+          <declname>$process</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="41" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a85b3c0338f96206de1caf92ab90e5778" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castStream</definition>
+        <argsstring>($stream, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castStream</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castStream</qualifiedname>
+        <param>
+          <declname>$stream</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="46" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="46" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1ab48e9bdbdb9ac340a12bc4152ae4cf80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castStreamContext</definition>
+        <argsstring>($stream, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castStreamContext</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castStreamContext</qualifiedname>
+        <param>
+          <declname>$stream</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="56" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a467477edec3e7be7ea5e61a8bfef9f51" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castGd</definition>
+        <argsstring>($gd, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castGd</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castGd</qualifiedname>
+        <param>
+          <declname>$gd</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="61" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1ad3410cf789a58fe0d3a05f8e0f8ebc34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castMysqlLink</definition>
+        <argsstring>($h, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castMysqlLink</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ResourceCaster\castMysqlLink</qualifiedname>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="69" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="69" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts common resource types to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ResourceCaster.php" bodystart="22" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1aedd36c21345a05e9bb2482c974b0ae77" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castCurl</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a5cdb19b40bf5f53afcbce94adbb088a9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castDba</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a467477edec3e7be7ea5e61a8bfef9f51" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castGd</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1ad3410cf789a58fe0d3a05f8e0f8ebc34" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castMysqlLink</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1aeac1509b023eb517e38a829466680151" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castProcess</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1a85b3c0338f96206de1caf92ab90e5778" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castStream</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_resource_caster_1ab48e9bdbdb9ac340a12bc4152ae4cf80" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ResourceCaster</scope><name>castStreamContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
