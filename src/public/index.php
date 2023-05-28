@@ -7,6 +7,7 @@ use App\Utilisateur\UtilisateurManager;
 use App\Citation\CitationManager;
 use App\Citation\CitationEntity;
 use App\Auteur\AuteurEntity;
+use Core\Main;
 
 
 require_once('../conf/constantes.php');
@@ -19,3 +20,4 @@ AppAutoloader::register();
 require_once ROOT . '/Core/Autoloader.php';
 CoreAutoloader::register();
 require_once ROOT . '/vendor/autoload.php';
+

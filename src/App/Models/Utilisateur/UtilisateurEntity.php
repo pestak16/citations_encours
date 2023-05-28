@@ -1,4 +1,4 @@
-<?php namespace App\Utilisateur;
+<?php namespace App\Models\Utilisateur;
 
 use Core\Entity;
 

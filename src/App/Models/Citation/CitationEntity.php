@@ -1,4 +1,4 @@
-<?php namespace App\Citation;
+<?php namespace App\Models\Citation;
 
 use Core\Entity;
 use App\Auteur\AuteurEntity;

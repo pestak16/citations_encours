@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Citation;
+namespace App\Models\Citation;
 
 use Core\Database\Manager;
 use Core\Entity;
-use App\Auteur\AuteurEntity;
-use App\Auteur\AuteurManager;
+use App\Models\Auteur\AuteurEntity;
+use App\Models\Auteur\AuteurManager;
 use PDO;
 
 /**
