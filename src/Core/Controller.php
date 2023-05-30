@@ -37,4 +37,12 @@ class Controller
         $data = $compact['data'];
         require_once ROOT . '/App/' . ucfirst($this->module) . '/views/' . $view;
     }
+
+
+    public static function bidon(array $params)
+    {
+        dump($params);
+    }
 }
+
+

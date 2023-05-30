@@ -22,4 +22,3 @@ require_once ROOT . '/vendor/autoload.php';
 
 $routeur = new Routeur;
 
-$routeur->rewriteUri();
