@@ -27,7 +27,7 @@ class Routeur
         $this->init();
     }
 
-    public function initback()
+    public function init()
     {
         $route = explode('/', $_GET['req']);
 
@@ -84,7 +84,7 @@ class Routeur
      *
      * @return void
      */
-    public function init()
+    public function initdqgfrzehtr()
     {
         $route = explode('/', $_GET['req']);
         $controller = array_shift($route);
