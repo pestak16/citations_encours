@@ -2,10 +2,6 @@
 
 namespace Core;
 
-
-
-
-
 class Routeur
 {
 
@@ -31,7 +27,7 @@ class Routeur
         $this->init();
     }
 
-    public function init()
+    public function initback()
     {
         $route = explode('/', $_GET['req']);
 
@@ -43,7 +39,7 @@ class Routeur
             $controllerName = '\App\\' . ucfirst($controller) . '\\' .  ucfirst($controller) . 'Controller';
             $method = array_shift($route);
             $method = is_null($method) ? 'index' : $method;
-            $params = $route===null? '' : $route;
+            $params = $route === null ? '' : $route;
             if (method_exists($controllerName, $method)) {
                 $controller = new $controllerName;
                 $controller->$method($params);
@@ -52,5 +48,57 @@ class Routeur
                 die('Mauvaise route');
             }
         }
+    }
+
+    public function initbaback()
+    {
+        $route = explode('/', $_GET['req']);
+        $controller = array_shift($route);
+
+        if ($controller === '') {
+            (new \App\Citation\CitationController)->index();
+        } else {
+            $controllerName = '\App\\' . ucfirst($controller) . '\\' .  ucfirst($controller) . 'Controller';
+            $method = array_shift($route);
+            $method = is_null($method) ? 'index' : $method;
+            $params = $route === null ? [] : $route;
+
+            if (class_exists($controllerName)) {
+                $controller = new $controllerName;
+
+                if (method_exists($controller, $method)) {
+                    call_user_func_array([$controller, $method], $params);
+                } else {
+                    http_response_code(404);
+                    die('Mauvaise route');
+                }
+            } else {
+                http_response_code(404);
+                die('Mauvaise route');
+            }
+        }
+    }
+
+    /**
+     * Initialise le routeur en appelant le contrôleur et la méthode appropriés en fonction de l'URI demandée.
+     *
+     * @return void
+     */
+    public function init()
+    {
+        $route = explode('/', $_GET['req']);
+        $controller = array_shift($route);
+
+        $controllerName = ($controller === '') ? '\App\Citation\CitationController' : '\App\\' . ucfirst($controller) . '\\' . ucfirst($controller) . 'Controller';
+        $method = array_shift($route) ?? 'index';
+        $params = $route ?? [];
+
+        if (!class_exists($controllerName) || !method_exists($controllerName, $method)) {
+            http_response_code(404);
+            die('Mauvaise route');
+        }
+
+        $controllerInstance = new $controllerName;
+        call_user_func_array([$controllerInstance, $method], $params);
     }
 }
