@@ -22,5 +22,19 @@ class Controller
 
     public function index()
     {
+        $data  = $this->manager->findAll();
+        $title = 'Mon super titre';
+        $compact['title'] = $title;
+        $compact['data'] = $data;
+        $this->render($compact, 'index.php');
+    }
+
+    public function render($compact, string $view, string $template='default')
+    {
+        
+        $template = ROOT . '/App/views/templates/' . $template . '.php';
+        $title = $compact['title'];
+        $data = $compact['data'];
+        require_once ROOT . '/App/' . ucfirst($this->module) . '/views/' . $view;
     }
 }

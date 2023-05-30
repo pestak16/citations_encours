@@ -19,7 +19,5 @@ require_once ROOT . '/Core/Autoloader.php';
 CoreAutoloader::register();
 require_once ROOT . '/vendor/autoload.php';
 
-dump(new AuteurController(), new CitationController(), new UtilisateurController());
+(new UtilisateurController)->index();
 
-$controller = new AuteurController();
-$controller->index();

@@ -19,4 +19,15 @@ abstract class Entity
      * @return self Retourne l'instance de l'entité hydratée.
      */
     public abstract function hydrate(array $data): self;
+
+    public function __get(string $key)
+    {
+        $method = 'get' . ucfirst($key);
+        if(method_exists($this, $method))
+        {
+            return $this->$method();
+        } 
+
+        throw new \Exception('La variable ' . $key . ' n\'existe pas');
+    }
 }
