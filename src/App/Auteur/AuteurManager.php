@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\Auteur;
+namespace App\Auteur;
 use Core\Database\Manager;
 
 class AuteurManager extends Manager

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\Utilisateur;
+namespace App\Utilisateur;
 use Core\Database\Manager;
 
 class UtilisateurManager extends Manager

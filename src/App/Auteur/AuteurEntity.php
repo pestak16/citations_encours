@@ -1,4 +1,4 @@
-<?php namespace App\Models\Auteur;
+<?php namespace App\Auteur;
 use Core\Entity;
 /**
  * Classe AuteurEntity
