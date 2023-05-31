@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_core_1_1_database_1_1_manager" kind="class" language="PHP" prot="public">
+    <compoundname>Core::Database::Manager</compoundname>
+    <derivedcompoundref refid="class_app_1_1_auteur_1_1_auteur_manager" prot="public" virt="non-virtual">AuteurManager</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_citation_1_1_citation_manager" prot="public" virt="non-virtual">CitationManager</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_utilisateur_1_1_utilisateur_manager" prot="public" virt="non-virtual">UtilisateurManager</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_1_1_database_1_1_manager_1ae8876a14058f368335baccf35af4a22b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <qualifiedname>Core\Database\Manager\$table</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="28" column="15" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1a65d08ac56130a6a2c15430642afe0c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>statement</definition>
+        <argsstring>(string $sql, array $attributs=null)</argsstring>
+        <name>statement</name>
+        <qualifiedname>Core\Database\Manager\statement</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$sql</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$attributs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode statement</para>
+<para>Description : Exécute une requête SQL sur la base de données.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$sql</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête SQL à exécuter. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametertype>null</parametertype>
+<parametername>$attributs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Les attributs à lier à la requête préparée (facultatif). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>PDOStatement Le résultat de la requête SQL. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="39" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="39" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1a73a1b0348919b6755e4f69dcc70eba64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>findAll</definition>
+        <argsstring>()</argsstring>
+        <name>findAll</name>
+        <qualifiedname>Core\Database\Manager\findAll</qualifiedname>
+        <reimplementedby refid="class_app_1_1_citation_1_1_citation_manager_1a73a1b0348919b6755e4f69dcc70eba64">findAll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode findAll</para>
+<para>Description : Récupère tous les enregistrements de la table associée à cette classe <ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref>.</para>
+<para><simplesect kind="return"><para>array Un tableau contenant tous les enregistrements sous forme d&apos;objets de l&apos;entité associée. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="76" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1a83fd2fc7e1de07d8f06df23372477c51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>findBy</definition>
+        <argsstring>(array $data)</argsstring>
+        <name>findBy</name>
+        <qualifiedname>Core\Database\Manager\findBy</qualifiedname>
+        <reimplementedby refid="class_app_1_1_citation_1_1_citation_manager_1a366015c91c87b9c498877021a3716d73">findBy</reimplementedby>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode findBy</para>
+<para>Description : Récupère les enregistrements correspondant aux critères spécifiés de la table associée à cette classe <ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Un tableau associatif des critères de recherche. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array Un tableau contenant les enregistrements correspondants sous forme d&apos;objets de l&apos;entité associée. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="91" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="91" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1a1ba50cbde423b0b17031ea550a599ae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>find</definition>
+        <argsstring>(int $id)</argsstring>
+        <name>find</name>
+        <qualifiedname>Core\Database\Manager\find</qualifiedname>
+        <reimplementedby refid="class_app_1_1_citation_1_1_citation_manager_1a1ba50cbde423b0b17031ea550a599ae8">find</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode find</para>
+<para>Description : Récupère un enregistrement en fonction de l&apos;ID.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;ID de l&apos;enregistrement à rechercher. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed L&apos;enregistrement correspondant sous forme d&apos;objet de l&apos;entité associée ou faux. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="113" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="113" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1a27c8282bd8a337c0d800bd2db6345bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>(Entity $entity)</argsstring>
+        <name>create</name>
+        <qualifiedname>Core\Database\Manager\create</qualifiedname>
+        <param>
+          <type><ref refid="class_core_1_1_entity" kindref="compound">Entity</ref></type>
+          <declname>$entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode create</para>
+<para>Description : Crée un nouvel enregistrement dans la table associée à cette classe <ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_core_1_1_entity" kindref="compound">Entity</ref></parametertype>
+<parametername>$entity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;objet de l&apos;entité à créer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed L&apos;enregistrement créé sous forme d&apos;objet de l&apos;entité associée. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si l&apos;enregistrement existe déjà. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="132" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="132" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1aab788f559c9ebb763f9abd0d969face2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>(int $id)</argsstring>
+        <name>delete</name>
+        <qualifiedname>Core\Database\Manager\delete</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode delete</para>
+<para>Description : Supprime un enregistrement spécifique de la table associée à cette classe <ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref> en fonction de l&apos;ID.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;ID de l&apos;enregistrement à supprimer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool True si la suppression a réussi, sinon False. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="171" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="171" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1aed990bda984d72af2224e06dd61507a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(Entity $entity)</argsstring>
+        <name>update</name>
+        <qualifiedname>Core\Database\Manager\update</qualifiedname>
+        <param>
+          <type><ref refid="class_core_1_1_entity" kindref="compound">Entity</ref></type>
+          <declname>$entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode update</para>
+<para>Description : Met à jour un enregistrement existant dans la table associée à cette classe <ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="class_core_1_1_entity" kindref="compound">Entity</ref></parametertype>
+<parametername>$entity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;objet de l&apos;entité à mettre à jour. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool True si la mise à jour a réussi, sinon False. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si l&apos;enregistrement n&apos;est pas trouvé. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="194" column="21" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="194" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_1_1_database_1_1_manager_1a3172606ff70f04af88f64d235909d5dc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getEntityClassName</definition>
+        <argsstring>()</argsstring>
+        <name>getEntityClassName</name>
+        <qualifiedname>Core\Database\Manager\getEntityClassName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getEntityClassName</para>
+<para>Description : Récupère le nom de la classe de l&apos;entité associée à cette classe <ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref>.</para>
+<para><simplesect kind="return"><para>string Le nom de la classe de l&apos;entité. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="61" column="24" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="61" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AuteurManager</label>
+        <link refid="class_app_1_1_auteur_1_1_auteur_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CitationManager</label>
+        <link refid="class_app_1_1_citation_1_1_citation_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UtilisateurManager</label>
+        <link refid="class_app_1_1_utilisateur_1_1_utilisateur_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Manager</label>
+        <link refid="class_core_1_1_database_1_1_manager"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" line="23" column="1" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Manager.php" bodystart="24" bodyend="226"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_database_1_1_manager_1ae8876a14058f368335baccf35af4a22b" prot="protected" virt="non-virtual"><scope>Core::Database::Manager</scope><name>$table</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a27c8282bd8a337c0d800bd2db6345bd2" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>create</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1aab788f559c9ebb763f9abd0d969face2" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>delete</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a1ba50cbde423b0b17031ea550a599ae8" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>find</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a73a1b0348919b6755e4f69dcc70eba64" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>findAll</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a83fd2fc7e1de07d8f06df23372477c51" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>findBy</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a3172606ff70f04af88f64d235909d5dc" prot="protected" virt="non-virtual"><scope>Core::Database::Manager</scope><name>getEntityClassName</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a65d08ac56130a6a2c15430642afe0c27" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>statement</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1aed990bda984d72af2224e06dd61507a0" prot="public" virt="non-virtual"><scope>Core::Database::Manager</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,242 @@
+\hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner}{}\doxysection{Abstract\+Cloner Class Reference}
+\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner}\index{AbstractCloner@{AbstractCloner}}
+Inheritance diagram for Abstract\+Cloner\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a53245e1418d2f78f1ac128b463086394}{\+\_\+\+\_\+construct}} (array \$casters=null)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac00193d681def5217ffa183f3874829c}{add\+Casters}} (array \$casters)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac0509f765fb4ce2a02078ee2dd752643}{set\+Max\+Items}} (\$max\+Items)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a1ec0fcbe516576a3be43fa2ff68f9722}{set\+Max\+String}} (\$max\+String)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a8cad2e561c5a12de723dd3040ecb374e}{set\+Min\+Depth}} (\$min\+Depth)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_afdec6ca56233e5dc012e14d46c6c5644}{clone\+Var}} (\$var, \$filter=0)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_addcee39d7c035bdcb6828007c3ada11a}{\$default\+Casters}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a3a5f526269ccf782728ba9330a5b68c4}{do\+Clone}} (\$var)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a96c399eba98408cf306d2707b41daeaa}{cast\+Object}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}} \$stub, \$is\+Nested)
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a6be17c682e1aacc06ae1db8ccd84e5e9}{cast\+Resource}} (\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}} \$stub, \$is\+Nested)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a7891ab712e9f07d9529a6b9a9f3ddde1}{\$max\+Items}} = 2500
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a6829eaf9f88edab12b711f69175cb227}{\$max\+String}} = -\/1
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a0f953a3be9b4f750ec8952807d67fb00}{\$min\+Depth}} = 1
+\item 
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ada19b5ede649a3d57b6ddacbb19b3c8c}{\$use\+Ext}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner}{Abstract\+Cloner}} implements a generic caster mechanism for objects and resources.
+
+\begin{DoxyAuthor}{Author}
+Nicolas Grekas \href{mailto:p@tchwork.com}{\texttt{ p@tchwork.\+com}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a53245e1418d2f78f1ac128b463086394}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a53245e1418d2f78f1ac128b463086394}} 
+\index{AbstractCloner@{AbstractCloner}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{array}]{\$casters = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+callable\mbox{[}$\,$\mbox{]} | null & {\em \$casters} & A map of casters\\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac00193d681def5217ffa183f3874829c}{add\+Casters}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac00193d681def5217ffa183f3874829c}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac00193d681def5217ffa183f3874829c}} 
+\index{AbstractCloner@{AbstractCloner}!addCasters@{addCasters}}
+\index{addCasters@{addCasters}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{addCasters()}{addCasters()}}
+{\footnotesize\ttfamily add\+Casters (\begin{DoxyParamCaption}\item[{array}]{\$casters }\end{DoxyParamCaption})}
+
+Adds casters for resources and objects.
+
+Maps resources or objects types to a callback. Types are in the key, with a callable caster for value. Resource types are to be prefixed with a {\ttfamily \+:}, see e.\+g. static\+::\$default\+Casters.
+
+
+\begin{DoxyParams}[1]{Parameters}
+callable\mbox{[}$\,$\mbox{]} & {\em \$casters} & A map of casters \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a96c399eba98408cf306d2707b41daeaa}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a96c399eba98408cf306d2707b41daeaa}} 
+\index{AbstractCloner@{AbstractCloner}!castObject@{castObject}}
+\index{castObject@{castObject}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{castObject()}{castObject()}}
+{\footnotesize\ttfamily cast\+Object (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}}}]{\$stub,  }\item[{}]{\$is\+Nested }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Casts an object to an array representation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}} & {\em \$stub} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}} for the casted object \\
+\hline
+bool & {\em \$is\+Nested} & True if the object is nested in the dumped structure\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array The object casted as array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a6be17c682e1aacc06ae1db8ccd84e5e9}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a6be17c682e1aacc06ae1db8ccd84e5e9}} 
+\index{AbstractCloner@{AbstractCloner}!castResource@{castResource}}
+\index{castResource@{castResource}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{castResource()}{castResource()}}
+{\footnotesize\ttfamily cast\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}}}]{\$stub,  }\item[{}]{\$is\+Nested }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Casts a resource to an array representation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}} & {\em \$stub} & The \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub}{Stub}} for the casted resource \\
+\hline
+bool & {\em \$is\+Nested} & True if the object is nested in the dumped structure\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array The resource casted as array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_afdec6ca56233e5dc012e14d46c6c5644}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_afdec6ca56233e5dc012e14d46c6c5644}} 
+\index{AbstractCloner@{AbstractCloner}!cloneVar@{cloneVar}}
+\index{cloneVar@{cloneVar}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{cloneVar()}{cloneVar()}}
+{\footnotesize\ttfamily clone\+Var (\begin{DoxyParamCaption}\item[{}]{\$var,  }\item[{}]{\$filter = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Clones a PHP variable.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$var} & Any PHP variable \\
+\hline
+int & {\em \$filter} & A bit field of Caster\+::\+EXCLUDE\+\_\+$\ast$ constants\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data}{Data}} The cloned variable represented by a \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data}{Data}} object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a3a5f526269ccf782728ba9330a5b68c4}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a3a5f526269ccf782728ba9330a5b68c4}} 
+\index{AbstractCloner@{AbstractCloner}!doClone@{doClone}}
+\index{doClone@{doClone}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{doClone()}{doClone()}}
+{\footnotesize\ttfamily do\+Clone (\begin{DoxyParamCaption}\item[{}]{\$var }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Effectively clones the PHP variable.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$var} & Any PHP variable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array The cloned variable represented in an array 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_a3a5f526269ccf782728ba9330a5b68c4}{Var\+Cloner}}.
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac0509f765fb4ce2a02078ee2dd752643}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ac0509f765fb4ce2a02078ee2dd752643}} 
+\index{AbstractCloner@{AbstractCloner}!setMaxItems@{setMaxItems}}
+\index{setMaxItems@{setMaxItems}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{setMaxItems()}{setMaxItems()}}
+{\footnotesize\ttfamily set\+Max\+Items (\begin{DoxyParamCaption}\item[{}]{\$max\+Items }\end{DoxyParamCaption})}
+
+Sets the maximum number of items to clone past the minimum depth in nested structures.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$max\+Items} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a1ec0fcbe516576a3be43fa2ff68f9722}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a1ec0fcbe516576a3be43fa2ff68f9722}} 
+\index{AbstractCloner@{AbstractCloner}!setMaxString@{setMaxString}}
+\index{setMaxString@{setMaxString}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{setMaxString()}{setMaxString()}}
+{\footnotesize\ttfamily set\+Max\+String (\begin{DoxyParamCaption}\item[{}]{\$max\+String }\end{DoxyParamCaption})}
+
+Sets the maximum cloned length for strings.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$max\+String} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a8cad2e561c5a12de723dd3040ecb374e}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a8cad2e561c5a12de723dd3040ecb374e}} 
+\index{AbstractCloner@{AbstractCloner}!setMinDepth@{setMinDepth}}
+\index{setMinDepth@{setMinDepth}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{setMinDepth()}{setMinDepth()}}
+{\footnotesize\ttfamily set\+Min\+Depth (\begin{DoxyParamCaption}\item[{}]{\$min\+Depth }\end{DoxyParamCaption})}
+
+Sets the minimum tree depth where we are guaranteed to clone all the items. After this depth is reached, only set\+Max\+Items items will be cloned.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$min\+Depth} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_addcee39d7c035bdcb6828007c3ada11a}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_addcee39d7c035bdcb6828007c3ada11a}} 
+\index{AbstractCloner@{AbstractCloner}!\$defaultCasters@{\$defaultCasters}}
+\index{\$defaultCasters@{\$defaultCasters}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{\$defaultCasters}{$defaultCasters}}
+{\footnotesize\ttfamily \$default\+Casters\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a7891ab712e9f07d9529a6b9a9f3ddde1}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a7891ab712e9f07d9529a6b9a9f3ddde1}} 
+\index{AbstractCloner@{AbstractCloner}!\$maxItems@{\$maxItems}}
+\index{\$maxItems@{\$maxItems}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{\$maxItems}{$maxItems}}
+{\footnotesize\ttfamily \$max\+Items = 2500\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a6829eaf9f88edab12b711f69175cb227}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a6829eaf9f88edab12b711f69175cb227}} 
+\index{AbstractCloner@{AbstractCloner}!\$maxString@{\$maxString}}
+\index{\$maxString@{\$maxString}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{\$maxString}{$maxString}}
+{\footnotesize\ttfamily \$max\+String = -\/1\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a0f953a3be9b4f750ec8952807d67fb00}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_a0f953a3be9b4f750ec8952807d67fb00}} 
+\index{AbstractCloner@{AbstractCloner}!\$minDepth@{\$minDepth}}
+\index{\$minDepth@{\$minDepth}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{\$minDepth}{$minDepth}}
+{\footnotesize\ttfamily \$min\+Depth = 1\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ada19b5ede649a3d57b6ddacbb19b3c8c}\label{class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_ada19b5ede649a3d57b6ddacbb19b3c8c}} 
+\index{AbstractCloner@{AbstractCloner}!\$useExt@{\$useExt}}
+\index{\$useExt@{\$useExt}!AbstractCloner@{AbstractCloner}}
+\doxysubsubsection{\texorpdfstring{\$useExt}{$useExt}}
+{\footnotesize\ttfamily \$use\+Ext\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/wamp64/www/citations\+\_\+encours/src/vendor/symfony/var-\/dumper/\+Cloner/\mbox{\hyperlink{_abstract_cloner_8php}{Abstract\+Cloner.\+php}}\end{DoxyCompactItemize}

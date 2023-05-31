@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::VarDumper</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1a9285a7f684c72e9bb78fdef1bcbe3fd0" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$handler</definition>
+        <argsstring></argsstring>
+        <name>$handler</name>
+        <qualifiedname>Symfony\Component\VarDumper\VarDumper\$handler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" line="26" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1af131d999535a716aff2eaf8851fbfce5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static dump</definition>
+        <argsstring>($var)</argsstring>
+        <name>dump</name>
+        <qualifiedname>Symfony\Component\VarDumper\VarDumper\dump</qualifiedname>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" line="28" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" bodystart="28" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1a4d4d68c14f3efdb26a3cdaf32fbec2a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static setHandler</definition>
+        <argsstring>(callable $callable=null)</argsstring>
+        <name>setHandler</name>
+        <qualifiedname>Symfony\Component\VarDumper\VarDumper\setHandler</qualifiedname>
+        <param>
+          <type>callable</type>
+          <declname>$callable</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" line="41" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" bodystart="41" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" line="24" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/VarDumper.php" bodystart="25" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1a9285a7f684c72e9bb78fdef1bcbe3fd0" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::VarDumper</scope><name>$handler</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1af131d999535a716aff2eaf8851fbfce5" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::VarDumper</scope><name>dump</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_var_dumper_1a4d4d68c14f3efdb26a3cdaf32fbec2a2" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::VarDumper</scope><name>setHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

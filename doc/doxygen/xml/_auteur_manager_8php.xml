@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_auteur_manager_8php" kind="file" language="PHP">
+    <compoundname>AuteurManager.php</compoundname>
+    <innerclass refid="class_app_1_1_auteur_1_1_auteur_manager" prot="public">App::Auteur::AuteurManager</innerclass>
+    <innernamespace refid="namespace_app_1_1_auteur">App::Auteur</innernamespace>
+    <innernamespace refid="namespace_core_1_1_database_1_1_manager">Core::Database::Manager</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_app_1_1_auteur" kindref="compound">App\Auteur</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Core\Database\Manager</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_app_1_1_auteur_1_1_auteur_manager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_app_1_1_auteur_1_1_auteur_manager" kindref="compound">AuteurManager</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_database_1_1_manager" kindref="compound">Manager</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_app_1_1_auteur_1_1_auteur_manager_1a095c5d389db211932136b53f25f39685" kindref="member">__construct</ref>(){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;table<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;auteurs&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/App/Auteur/AuteurManager.php"/>
+  </compounddef>
+</doxygen>

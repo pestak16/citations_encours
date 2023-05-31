@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kind="class" language="PHP" prot="public">
+    <compoundname>Core::Database::Db::PDOMysql</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PDO</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$instance</definition>
+        <argsstring></argsstring>
+        <name>$instance</name>
+        <qualifiedname>Core\Database\Db\PDOMysql\$instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" line="16" column="12" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1a095c5d389db211932136b53f25f39685" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Core\Database\Db\PDOMysql\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructeur de la classe <ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kindref="compound">PDOMysql</ref>.</para>
+<para>Initialise une connexion à la base de données MySQL en utilisant les paramètres de configuration. Configure les attributs PDO pour le mode de gestion des erreurs et le mode de récupération des résultats. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" line="24" column="22" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" bodystart="24" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ac93fbec81f07e5d15f80db907e63dc10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <qualifiedname>Core\Database\Db\PDOMysql\getInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getInstance</para>
+<para>Récupère l&apos;instance unique de la classe <ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kindref="compound">PDOMysql</ref> ou en crée une nouvelle si elle n&apos;existe pas encore.</para>
+<para><simplesect kind="return"><para><ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kindref="compound">PDOMysql</ref> L&apos;instance unique de la classe <ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kindref="compound">PDOMysql</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" line="53" column="28" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" bodystart="53" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kindref="compound">PDOMysql</ref></para>
+<para>Cette classe étend la classe PDO de PHP et représente une connexion à une base de données MySQL. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PDO</label>
+      </node>
+      <node id="1">
+        <label>PDOMysql</label>
+        <link refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PDO</label>
+      </node>
+      <node id="1">
+        <label>PDOMysql</label>
+        <link refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" line="14" column="1" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php" bodystart="15" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="public" virt="non-virtual"><scope>Core::Database::Db::PDOMysql</scope><name>$instance</name></member>
+      <member refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1a095c5d389db211932136b53f25f39685" prot="private" virt="non-virtual"><scope>Core::Database::Db::PDOMysql</scope><name>__construct</name></member>
+      <member refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ac93fbec81f07e5d15f80db907e63dc10" prot="public" virt="non-virtual"><scope>Core::Database::Db::PDOMysql</scope><name>getInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

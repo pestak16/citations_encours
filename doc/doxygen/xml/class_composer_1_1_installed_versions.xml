@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_composer_1_1_installed_versions" kind="class" language="PHP" prot="public">
+    <compoundname>Composer::InstalledVersions</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_composer_1_1_installed_versions_1abedccaa71dcf3d3f5c392fad3b3df965" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$installed</definition>
+        <argsstring></argsstring>
+        <name>$installed</name>
+        <qualifiedname>Composer\InstalledVersions\$installed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="31" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_installed_versions_1a1747f4d031d8cab56a9a542350bd8e68" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$canGetVendors</definition>
+        <argsstring></argsstring>
+        <name>$canGetVendors</name>
+        <qualifiedname>Composer\InstalledVersions\$canGetVendors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="36" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_installed_versions_1a5c2b444d0d189bf7608b3c740bed6494" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$installedByVendor</definition>
+        <argsstring></argsstring>
+        <name>$installedByVendor</name>
+        <qualifiedname>Composer\InstalledVersions\$installedByVendor</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="42" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a9cb7471a8b6134787cbd06973c4336d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstalledPackages</definition>
+        <argsstring>()</argsstring>
+        <name>getInstalledPackages</name>
+        <qualifiedname>Composer\InstalledVersions\getInstalledPackages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of all package names which are present, either by being installed, replaced or provided</para>
+<para><simplesect kind="return"><para>string[] @psalm-return list&lt;string&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="50" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1aa3ef32a5757a433a28cbe63ea9fff2df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstalledPackagesByType</definition>
+        <argsstring>($type)</argsstring>
+        <name>getInstalledPackagesByType</name>
+        <qualifiedname>Composer\InstalledVersions\getInstalledPackagesByType</qualifiedname>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of all package names with a specific type e.g. &apos;library&apos;</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string[] @psalm-return list&lt;string&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="71" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="71" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1ac9863ed3d65259cb0a9a5bcc5afffa7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static isInstalled</definition>
+        <argsstring>($packageName, $includeDevRequirements=true)</argsstring>
+        <name>isInstalled</name>
+        <qualifiedname>Composer\InstalledVersions\isInstalled</qualifiedname>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <param>
+          <declname>$includeDevRequirements</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether the given package is installed</para>
+<para>This also returns true if the package name is provided or replaced by another package</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$includeDevRequirements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="95" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="95" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a309342b07e5af8c14d76e2c50b7543d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static satisfies</definition>
+        <argsstring>(VersionParser $parser, $packageName, $constraint)</argsstring>
+        <name>satisfies</name>
+        <qualifiedname>Composer\InstalledVersions\satisfies</qualifiedname>
+        <param>
+          <type>VersionParser</type>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <param>
+          <declname>$constraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether the given package satisfies a version constraint</para>
+<para>e.g. If you want to know whether version 2.3+ of package foo/bar is installed, you would call:</para>
+<para><ref refid="namespace_composer" kindref="compound">Composer</ref>\InstalledVersions<ref refid="class_composer_1_1_installed_versions_1a309342b07e5af8c14d76e2c50b7543d4" kindref="member">satisfies</ref>(new VersionParser, &apos;foo/bar&apos;, &apos;^2.3&apos;)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>VersionParser</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Install composer/semver to have access to this class and functionality </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$constraint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A version constraint to check for, if you pass one you have to make sure composer/semver is required by your package </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="118" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="118" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a6025d8d3ea9ca84bd6e2a7409b7404a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getVersionRanges</definition>
+        <argsstring>($packageName)</argsstring>
+        <name>getVersionRanges</name>
+        <qualifiedname>Composer\InstalledVersions\getVersionRanges</qualifiedname>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a version constraint representing all the range(s) which are installed for a given package</para>
+<para>It is easier to use this via <ref refid="class_composer_1_1_installed_versions_1ac9863ed3d65259cb0a9a5bcc5afffa7e" kindref="member">isInstalled()</ref> with the $constraint argument if you need to check whether a given version of a package is installed, and not just whether it exists</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string Version constraint usable with composer/semver </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="135" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="135" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1af424daaec3a1ccfb2d1bbd55733c9121" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getVersion</definition>
+        <argsstring>($packageName)</argsstring>
+        <name>getVersion</name>
+        <qualifiedname>Composer\InstalledVersions\getVersion</qualifiedname>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|null If the package is being replaced or provided but is not really installed, null will be returned as version, use satisfies or getVersionRanges if you need to know if a given version is present </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="166" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="166" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a0e688c2f203f84ce4bddafdf3828144e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getPrettyVersion</definition>
+        <argsstring>($packageName)</argsstring>
+        <name>getPrettyVersion</name>
+        <qualifiedname>Composer\InstalledVersions\getPrettyVersion</qualifiedname>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|null If the package is being replaced or provided but is not really installed, null will be returned as version, use satisfies or getVersionRanges if you need to know if a given version is present </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="187" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="187" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1abd701ad696ab5b5b77b6cc5e46a35f36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getReference</definition>
+        <argsstring>($packageName)</argsstring>
+        <name>getReference</name>
+        <qualifiedname>Composer\InstalledVersions\getReference</qualifiedname>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|null If the package is being replaced or provided but is not really installed, null will be returned as reference </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="208" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="208" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a8ad0cf11b4859b96de3c34fd4851342f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstallPath</definition>
+        <argsstring>($packageName)</argsstring>
+        <name>getInstallPath</name>
+        <qualifiedname>Composer\InstalledVersions\getInstallPath</qualifiedname>
+        <param>
+          <declname>$packageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packageName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|null If the package is being replaced or provided but is not really installed, null will be returned as install path. Packages of type metapackages also have a null install path. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="229" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="229" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1ac82ce683d4615705dc55ed67d2804e55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getRootPackage</definition>
+        <argsstring>()</argsstring>
+        <name>getRootPackage</name>
+        <qualifiedname>Composer\InstalledVersions\getRootPackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array @psalm-return array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string, type: string} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="246" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="246" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a6ecee8643c03c515b55686f03d117665" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getRawData</definition>
+        <argsstring>()</argsstring>
+        <name>getRawData</name>
+        <qualifiedname>Composer\InstalledVersions\getRawData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the raw <ref refid="installed_8php" kindref="compound">installed.php</ref> data for custom implementations</para>
+<para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="class_composer_1_1_installed_versions_1a3a09ac4f4e098f4c04c31cfb88a8e256" kindref="member">getAllRawData()</ref> instead which returns all datasets for all autoloaders present in the process. getRawData only returns the first dataset loaded, which may not be what you expect. </para>
+</xrefdescription></xrefsect><simplesect kind="return"><para>array[] @psalm-return array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string, type: string}, versions: array&lt;string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string, type?: string}&gt;} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="260" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="260" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a3a09ac4f4e098f4c04c31cfb88a8e256" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getAllRawData</definition>
+        <argsstring>()</argsstring>
+        <name>getAllRawData</name>
+        <qualifiedname>Composer\InstalledVersions\getAllRawData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the raw data of all <ref refid="installed_8php" kindref="compound">installed.php</ref> which are currently loaded for custom implementations</para>
+<para><simplesect kind="return"><para>array[] @psalm-return list&lt;array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string, type: string}, versions: array&lt;string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string, type?: string}&gt;}&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="283" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1a01b4ca6bbbb1e3337f987c9461405985" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static reload</definition>
+        <argsstring>($data)</argsstring>
+        <name>reload</name>
+        <qualifiedname>Composer\InstalledVersions\reload</qualifiedname>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lets you reload the static array from another file</para>
+<para>This is only useful for complex integrations in which a project needs to use this class but then also needs to execute another project&apos;s autoloader in process, and wants to ensure both projects have access to their version of <ref refid="installed_8php" kindref="compound">installed.php</ref>.</para>
+<para>A typical case would be PHPUnit, where it would need to make sure it reads all the data it needs from this class, then call <ref refid="class_composer_1_1_installed_versions_1a01b4ca6bbbb1e3337f987c9461405985" kindref="member">reload()</ref> with <computeroutput>require $CWD/vendor/composer/installed.php</computeroutput> (or similar) as input to make sure the project in which it runs can then also use this class safely, without interference between PHPUnit&apos;s dependencies and the project&apos;s dependencies.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array[]</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="installed_8php" kindref="compound">vendor/composer/installed.php</ref> data set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void</para>
+</simplesect>
+@psalm-param array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string, type: string}, versions: array&lt;string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string, type?: string}&gt;} $data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="306" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="306" bodyend="310"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_composer_1_1_installed_versions_1aa6bc6a4daecd35bac0c38dba00e400c3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstalled</definition>
+        <argsstring>()</argsstring>
+        <name>getInstalled</name>
+        <qualifiedname>Composer\InstalledVersions\getInstalled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array[] @psalm-return list&lt;array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string, type: string}, versions: array&lt;string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string, type?: string}&gt;}&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="316" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="316" bodyend="349"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is copied in every <ref refid="namespace_composer" kindref="compound">Composer</ref> installed project and available to all</para>
+<para>See also <ulink url="https://getcomposer.org/doc/07-runtime.md#installed-versions">https://getcomposer.org/doc/07-runtime.md#installed-versions</ulink></para>
+<para>To require its presence, you can require <computeroutput>composer-runtime-api ^2.0</computeroutput> </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" line="25" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/InstalledVersions.php" bodystart="26" bodyend="350"/>
+    <listofallmembers>
+      <member refid="class_composer_1_1_installed_versions_1a1747f4d031d8cab56a9a542350bd8e68" prot="private" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>$canGetVendors</name></member>
+      <member refid="class_composer_1_1_installed_versions_1abedccaa71dcf3d3f5c392fad3b3df965" prot="private" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>$installed</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a5c2b444d0d189bf7608b3c740bed6494" prot="private" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>$installedByVendor</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a3a09ac4f4e098f4c04c31cfb88a8e256" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getAllRawData</name></member>
+      <member refid="class_composer_1_1_installed_versions_1aa6bc6a4daecd35bac0c38dba00e400c3" prot="private" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getInstalled</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a9cb7471a8b6134787cbd06973c4336d3" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getInstalledPackages</name></member>
+      <member refid="class_composer_1_1_installed_versions_1aa3ef32a5757a433a28cbe63ea9fff2df" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getInstalledPackagesByType</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a8ad0cf11b4859b96de3c34fd4851342f" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getInstallPath</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a0e688c2f203f84ce4bddafdf3828144e" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getPrettyVersion</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a6ecee8643c03c515b55686f03d117665" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getRawData</name></member>
+      <member refid="class_composer_1_1_installed_versions_1abd701ad696ab5b5b77b6cc5e46a35f36" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getReference</name></member>
+      <member refid="class_composer_1_1_installed_versions_1ac82ce683d4615705dc55ed67d2804e55" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getRootPackage</name></member>
+      <member refid="class_composer_1_1_installed_versions_1af424daaec3a1ccfb2d1bbd55733c9121" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getVersion</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a6025d8d3ea9ca84bd6e2a7409b7404a6" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>getVersionRanges</name></member>
+      <member refid="class_composer_1_1_installed_versions_1ac9863ed3d65259cb0a9a5bcc5afffa7e" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>isInstalled</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a01b4ca6bbbb1e3337f987c9461405985" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>reload</name></member>
+      <member refid="class_composer_1_1_installed_versions_1a309342b07e5af8c14d76e2c50b7543d4" prot="public" virt="non-virtual"><scope>Composer::InstalledVersions</scope><name>satisfies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

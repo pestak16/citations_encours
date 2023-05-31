@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_app_1_1_utilisateur_1_1_utilisateur_manager" kind="class" language="PHP" prot="public">
+    <compoundname>App::Utilisateur::UtilisateurManager</compoundname>
+    <basecompoundref refid="class_core_1_1_database_1_1_manager" prot="public" virt="non-virtual">Manager</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_manager_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Utilisateur\UtilisateurManager\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurManager.php" line="8" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurManager.php" bodystart="8" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Manager</label>
+        <link refid="class_core_1_1_database_1_1_manager"/>
+      </node>
+      <node id="1">
+        <label>UtilisateurManager</label>
+        <link refid="class_app_1_1_utilisateur_1_1_utilisateur_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Manager</label>
+        <link refid="class_core_1_1_database_1_1_manager"/>
+      </node>
+      <node id="1">
+        <label>UtilisateurManager</label>
+        <link refid="class_app_1_1_utilisateur_1_1_utilisateur_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurManager.php" line="6" column="1" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurManager.php" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_database_1_1_manager_1ae8876a14058f368335baccf35af4a22b" prot="protected" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>$table</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_manager_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>__construct</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a27c8282bd8a337c0d800bd2db6345bd2" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>create</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1aab788f559c9ebb763f9abd0d969face2" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>delete</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a1ba50cbde423b0b17031ea550a599ae8" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>find</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a73a1b0348919b6755e4f69dcc70eba64" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>findAll</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a83fd2fc7e1de07d8f06df23372477c51" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>findBy</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a3172606ff70f04af88f64d235909d5dc" prot="protected" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>getEntityClassName</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1a65d08ac56130a6a2c15430642afe0c27" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>statement</name></member>
+      <member refid="class_core_1_1_database_1_1_manager_1aed990bda984d72af2224e06dd61507a0" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurManager</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

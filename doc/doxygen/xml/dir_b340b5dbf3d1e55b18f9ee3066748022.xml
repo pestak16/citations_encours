@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_b340b5dbf3d1e55b18f9ee3066748022" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper</compoundname>
+    <innerdir refid="dir_7256be772a989a508c0c3f29eba0a140">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster</innerdir>
+    <innerdir refid="dir_7c99bc260b92ab2950b20b1df26eaff3">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner</innerdir>
+    <innerdir refid="dir_e434916e451414dded6332ef5e26baaf">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper</innerdir>
+    <innerdir refid="dir_294f542ae0dc471f2762d531c77288ad">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Exception</innerdir>
+    <innerdir refid="dir_da19a19b80f204c2dbd311fd9a98098f">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Resources</innerdir>
+    <innerdir refid="dir_eadab8ebae1d0050ca52721667220314">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Test</innerdir>
+    <innerdir refid="dir_550cd57fa0b307177f22075de7e5c31b">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests</innerdir>
+    <innerfile refid="_var_dumper_8php">VarDumper.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/"/>
+  </compounddef>
+</doxygen>

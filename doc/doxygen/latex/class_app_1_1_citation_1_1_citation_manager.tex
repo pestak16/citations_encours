@@ -1,0 +1,101 @@
+\hypertarget{class_app_1_1_citation_1_1_citation_manager}{}\doxysection{Citation\+Manager Class Reference}
+\label{class_app_1_1_citation_1_1_citation_manager}\index{CitationManager@{CitationManager}}
+Inheritance diagram for Citation\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_app_1_1_citation_1_1_citation_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a095c5d389db211932136b53f25f39685}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a73a1b0348919b6755e4f69dcc70eba64}{find\+All}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a1ba50cbde423b0b17031ea550a599ae8}{find}} (int \$id)
+\item 
+\mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager_a366015c91c87b9c498877021a3716d73}{find\+By}} (array \$conditions)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Classe Manager pour la classe \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_entity}{Citation\+Entity}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_app_1_1_citation_1_1_citation_manager_a095c5d389db211932136b53f25f39685}\label{class_app_1_1_citation_1_1_citation_manager_a095c5d389db211932136b53f25f39685}} 
+\index{CitationManager@{CitationManager}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!CitationManager@{CitationManager}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+construct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructeur de la classe \mbox{\hyperlink{class_app_1_1_citation_1_1_citation_manager}{Citation\+Manager}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_citation_1_1_citation_manager_a1ba50cbde423b0b17031ea550a599ae8}\label{class_app_1_1_citation_1_1_citation_manager_a1ba50cbde423b0b17031ea550a599ae8}} 
+\index{CitationManager@{CitationManager}!find@{find}}
+\index{find@{find}!CitationManager@{CitationManager}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily find (\begin{DoxyParamCaption}\item[{int}]{\$id }\end{DoxyParamCaption})}
+
+Méthode find
+
+Description \+: Récupère un enregistrement en fonction de l\textquotesingle{}ID. Cette méthode effectue une jointure avec la table \char`\"{}auteurs\char`\"{} pour récupérer l\textquotesingle{}auteur de la citation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & L\textquotesingle{}ID de l\textquotesingle{}enregistrement à rechercher. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed L\textquotesingle{}enregistrement correspondant sous forme d\textquotesingle{}objet de l\textquotesingle{}entité associée ou faux. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_core_1_1_database_1_1_manager_a1ba50cbde423b0b17031ea550a599ae8}{Manager}}.
+
+\mbox{\Hypertarget{class_app_1_1_citation_1_1_citation_manager_a73a1b0348919b6755e4f69dcc70eba64}\label{class_app_1_1_citation_1_1_citation_manager_a73a1b0348919b6755e4f69dcc70eba64}} 
+\index{CitationManager@{CitationManager}!findAll@{findAll}}
+\index{findAll@{findAll}!CitationManager@{CitationManager}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily find\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Méthode find\+All
+
+Description \+: Récupère tous les enregistrements de la table associée à cette classe Manager. Cette méthode effectue une jointure avec la table \char`\"{}auteurs\char`\"{} pour récupérer les auteurs des citations.
+
+\begin{DoxyReturn}{Returns}
+array Un tableau contenant tous les enregistrements sous forme d\textquotesingle{}objets de l\textquotesingle{}entité associée. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_core_1_1_database_1_1_manager_a73a1b0348919b6755e4f69dcc70eba64}{Manager}}.
+
+\mbox{\Hypertarget{class_app_1_1_citation_1_1_citation_manager_a366015c91c87b9c498877021a3716d73}\label{class_app_1_1_citation_1_1_citation_manager_a366015c91c87b9c498877021a3716d73}} 
+\index{CitationManager@{CitationManager}!findBy@{findBy}}
+\index{findBy@{findBy}!CitationManager@{CitationManager}}
+\doxysubsubsection{\texorpdfstring{findBy()}{findBy()}}
+{\footnotesize\ttfamily find\+By (\begin{DoxyParamCaption}\item[{array}]{\$conditions }\end{DoxyParamCaption})}
+
+Méthode find\+By
+
+Description\+: Récupère des enregistrement Citations en fonction des conditions passées en paramètre Cette méthode effectue une jointure avec la table \char`\"{}auteurs\char`\"{} pour récupérer l\textquotesingle{}auteur de chaque citation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$conditions} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_core_1_1_database_1_1_manager_a83fd2fc7e1de07d8f06df23372477c51}{Manager}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/wamp64/www/citations\+\_\+encours/src/\+App/\+Citation/\mbox{\hyperlink{_citation_manager_8php}{Citation\+Manager.\+php}}\end{DoxyCompactItemize}

@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::ReflectionCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1aa7000a83f84678e8369d947aa88e6f48" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$extraMap</definition>
+        <argsstring></argsstring>
+        <name>$extraMap</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\$extraMap</qualifiedname>
+        <initializer>= [
+        &apos;docComment&apos; =&gt; &apos;getDocComment&apos;,
+        &apos;extension&apos; =&gt; &apos;getExtensionName&apos;,
+        &apos;isDisabled&apos; =&gt; &apos;isDisabled&apos;,
+        &apos;isDeprecated&apos; =&gt; &apos;isDeprecated&apos;,
+        &apos;isInternal&apos; =&gt; &apos;isInternal&apos;,
+        &apos;isUserDefined&apos; =&gt; &apos;isUserDefined&apos;,
+        &apos;isGenerator&apos; =&gt; &apos;isGenerator&apos;,
+        &apos;isVariadic&apos; =&gt; &apos;isVariadic&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a8e810f7f8be03dfcad275c898e7c61c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castClosure</definition>
+        <argsstring>(\Closure $c, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castClosure</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castClosure</qualifiedname>
+        <param>
+          <type>\Closure</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="34" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="34" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1aafced1ba81a3a770dbaafeddb43acee6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castGenerator</definition>
+        <argsstring>(\Generator $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castGenerator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castGenerator</qualifiedname>
+        <param>
+          <type>\Generator</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="71" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="71" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ab34baf5966aff5aae8eb4539399be90f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castType</definition>
+        <argsstring>(\ReflectionType $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castType</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castType</qualifiedname>
+        <param>
+          <type>\ReflectionType</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="89" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="89" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a18bb10e3cdba14e14671c13c5809443c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castReflectionGenerator</definition>
+        <argsstring>(\ReflectionGenerator $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castReflectionGenerator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castReflectionGenerator</qualifiedname>
+        <param>
+          <type>\ReflectionGenerator</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="102" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="102" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1acbb50c4fdd08a416fe88374092e22ad2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castClass</definition>
+        <argsstring>(\ReflectionClass $c, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castClass</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castClass</qualifiedname>
+        <param>
+          <type>\ReflectionClass</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="139" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="139" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a0177eeaf5e2cfa96896b34b7ee221d94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castFunctionAbstract</definition>
+        <argsstring>(\ReflectionFunctionAbstract $c, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castFunctionAbstract</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castFunctionAbstract</qualifiedname>
+        <param>
+          <type>\ReflectionFunctionAbstract</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="168" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="168" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a693851ea3d046ecdef13963b3df099e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castMethod</definition>
+        <argsstring>(\ReflectionMethod $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castMethod</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castMethod</qualifiedname>
+        <param>
+          <type>\ReflectionMethod</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="227" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="227" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ac52f99b4f43996ec55e7b4a5f5144d87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castParameter</definition>
+        <argsstring>(\ReflectionParameter $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castParameter</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castParameter</qualifiedname>
+        <param>
+          <type>\ReflectionParameter</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="234" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="234" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a0eacdc2e6b79b874ad9e657b21d43409" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castProperty</definition>
+        <argsstring>(\ReflectionProperty $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castProperty</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castProperty</qualifiedname>
+        <param>
+          <type>\ReflectionProperty</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="281" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="281" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ab7e0b23f4e60908c66d97455cdb7861e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castExtension</definition>
+        <argsstring>(\ReflectionExtension $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castExtension</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castExtension</qualifiedname>
+        <param>
+          <type>\ReflectionExtension</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="289" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="289" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a483605a363f32a2dca3cc7d61d694f9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castZendExtension</definition>
+        <argsstring>(\ReflectionZendExtension $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castZendExtension</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\castZendExtension</qualifiedname>
+        <param>
+          <type>\ReflectionZendExtension</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="305" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="305" bodyend="315"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1af0ff44c374434808235d2dfff1731127" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addExtra</definition>
+        <argsstring>(&amp;$a, \Reflector $c)</argsstring>
+        <name>addExtra</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\addExtra</qualifiedname>
+        <param>
+          <type>&amp;</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type>\Reflector</type>
+          <declname>$c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="317" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="317" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a33b91cdac2a4688717d6059eb03b74d0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static addMap</definition>
+        <argsstring>(&amp;$a, \Reflector $c, $map, $prefix=Caster::PREFIX_VIRTUAL)</argsstring>
+        <name>addMap</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ReflectionCaster\addMap</qualifiedname>
+        <param>
+          <type>&amp;</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type>\Reflector</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <declname>$map</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a234d00196816918f54ad83a612574b53" kindref="member">Caster::PREFIX_VIRTUAL</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="333" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="333" bodyend="344"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts Reflector related classes to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" bodystart="22" bodyend="345"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1aa7000a83f84678e8369d947aa88e6f48" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>$extraMap</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1af0ff44c374434808235d2dfff1731127" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>addExtra</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a33b91cdac2a4688717d6059eb03b74d0" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>addMap</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1acbb50c4fdd08a416fe88374092e22ad2" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castClass</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a8e810f7f8be03dfcad275c898e7c61c7" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castClosure</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ab7e0b23f4e60908c66d97455cdb7861e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castExtension</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a0177eeaf5e2cfa96896b34b7ee221d94" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castFunctionAbstract</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1aafced1ba81a3a770dbaafeddb43acee6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castGenerator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a693851ea3d046ecdef13963b3df099e5" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castMethod</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ac52f99b4f43996ec55e7b4a5f5144d87" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castParameter</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a0eacdc2e6b79b874ad9e657b21d43409" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castProperty</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a18bb10e3cdba14e14671c13c5809443c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castReflectionGenerator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1ab34baf5966aff5aae8eb4539399be90f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castType</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_reflection_caster_1a483605a363f32a2dca3cc7d61d694f9d" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ReflectionCaster</scope><name>castZendExtension</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

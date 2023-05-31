@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Tests::Dumper</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test" prot="public">Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test" prot="public">Symfony::Component::VarDumper::Tests::Dumper::FunctionsTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_html_dumper_test" prot="public">Symfony::Component::VarDumper::Tests::Dumper::HtmlDumperTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="12" column="10"/>
+  </compounddef>
+</doxygen>

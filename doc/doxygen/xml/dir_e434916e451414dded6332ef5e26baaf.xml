@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_e434916e451414dded6332ef5e26baaf" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper</compoundname>
+    <innerfile refid="_abstract_dumper_8php">AbstractDumper.php</innerfile>
+    <innerfile refid="_cli_dumper_8php">CliDumper.php</innerfile>
+    <innerfile refid="_data_dumper_interface_8php">DataDumperInterface.php</innerfile>
+    <innerfile refid="symfony_2var-dumper_2_dumper_2_html_dumper_8php">HtmlDumper.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/"/>
+  </compounddef>
+</doxygen>

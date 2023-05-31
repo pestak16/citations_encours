@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Dumper::AbstractDumper</compoundname>
+    <basecompoundref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface" prot="public" virt="non-virtual">DataDumperInterface</basecompoundref>
+    <basecompoundref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" prot="public" virt="non-virtual">DumperInterface</basecompoundref>
+    <derivedcompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper" prot="public" virt="non-virtual">CliDumper</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3339492fcd7bb347832e8413d8a7ea4f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DUMP_LIGHT_ARRAY</definition>
+        <argsstring></argsstring>
+        <name>DUMP_LIGHT_ARRAY</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\DUMP_LIGHT_ARRAY</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="24" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1afa3ef705b42a3f556410c82d20019fad" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DUMP_STRING_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>DUMP_STRING_LENGTH</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\DUMP_STRING_LENGTH</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="25" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a439f032a2eb60ea22be786963448ab55" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DUMP_COMMA_SEPARATOR</definition>
+        <argsstring></argsstring>
+        <name>DUMP_COMMA_SEPARATOR</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\DUMP_COMMA_SEPARATOR</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="26" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cebf2da4f0de2076a23602004d1224f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DUMP_TRAILING_COMMA</definition>
+        <argsstring></argsstring>
+        <name>DUMP_TRAILING_COMMA</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\DUMP_TRAILING_COMMA</qualifiedname>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="27" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a4a780e221a0398ba659d278ae41c5bc6" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$defaultOutput</definition>
+        <argsstring></argsstring>
+        <name>$defaultOutput</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$defaultOutput</qualifiedname>
+        <initializer>= &apos;php://output&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="29" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a52f469b0182d9abac2d0f20548680c9c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$line</definition>
+        <argsstring></argsstring>
+        <name>$line</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$line</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="31" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a29cde694dda741013cc8211d5009d035" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$lineDumper</definition>
+        <argsstring></argsstring>
+        <name>$lineDumper</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$lineDumper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="32" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af3ec40ee5a0a32955027aa155b5aa0b0" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$outputStream</definition>
+        <argsstring></argsstring>
+        <name>$outputStream</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$outputStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="33" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a088698d9762b110c19feddc3e1e60050" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$decimalPoint</definition>
+        <argsstring></argsstring>
+        <name>$decimalPoint</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$decimalPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="34" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1aed0fe7774981153400848e92a85e2d64" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$indentPad</definition>
+        <argsstring></argsstring>
+        <name>$indentPad</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$indentPad</qualifiedname>
+        <initializer>= &apos;  &apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="35" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a78556f0dc6bf3c1adae410a73d632caf" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$flags</definition>
+        <argsstring></argsstring>
+        <name>$flags</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="36" column="15" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af10158dd74b75f1d337e83102d6b82ce" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$charset</definition>
+        <argsstring></argsstring>
+        <name>$charset</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\$charset</qualifiedname>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="38" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($output=null, $charset=null, $flags=0)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\__construct</qualifiedname>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd">__construct</reimplementedby>
+        <reimplementedby refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd">__construct</reimplementedby>
+        <param>
+          <declname>$output</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$charset</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametertype>resource</parametertype>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A line dumper callable, an opened stream or an output path, defaults to static::$defaultOutput </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$charset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default character encoding to use for non-UTF8 strings </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bit field of static::DUMP_* constants to fine tune dumps representation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="45" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="45" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a66f0ef8e212dc186b2efa1098c2e3eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setOutput</definition>
+        <argsstring>($output)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\setOutput</qualifiedname>
+        <param>
+          <declname>$output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the output destination of the dumps.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametertype>resource</parametertype>
+<parametertype>string</parametertype>
+<parametername>$output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A line dumper callable, an opened stream or an output path</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>callable|resource|string The previous output destination </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="64" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="64" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a81ee11b0f5fadecaece55170fea54b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCharset</definition>
+        <argsstring>($charset)</argsstring>
+        <name>setCharset</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\setCharset</qualifiedname>
+        <param>
+          <declname>$charset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default character encoding to use for non-UTF8 strings.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$charset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default character encoding to use for non-UTF8 strings</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The previous charset </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="89" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="89" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a8de92bbdcf2089dc189cefe12723efec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setIndentPad</definition>
+        <argsstring>($pad)</argsstring>
+        <name>setIndentPad</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\setIndentPad</qualifiedname>
+        <param>
+          <declname>$pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the indentation pad string.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string that will be prepended to dumped lines, repeated by nesting level</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The previous indent pad </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="108" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="108" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a336020af9d35d129f3a482d440af97c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dump</definition>
+        <argsstring>(Data $data, $output=null)</argsstring>
+        <name>dump</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\dump</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kindref="compound">Data</ref></type>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$output</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps a Data object.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Data</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Data object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametertype>resource</parametertype>
+<parametertype>string</parametertype>
+<parametertype>true</parametertype>
+<parametertype>null</parametertype>
+<parametername>$output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A line dumper callable, an opened stream, an output path or true to return the dump</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|null The dump as string when $output is true </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="124" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="124" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a5bf4d020f5980b55ae57f1cf3e4de617" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dumpLine</definition>
+        <argsstring>($depth)</argsstring>
+        <name>dumpLine</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\dumpLine</qualifiedname>
+        <param>
+          <declname>$depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps the current line.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$depth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The recursive depth in the dumped structure for the line being dumped, or -1 to signal the end-of-dump to the line dumper callable </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="167" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="167" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a68bed13831d15c2d4d08efb8c2d964d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>echoLine</definition>
+        <argsstring>($line, $depth, $indentPad)</argsstring>
+        <name>echoLine</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\echoLine</qualifiedname>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <param>
+          <declname>$depth</declname>
+        </param>
+        <param>
+          <declname>$indentPad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generic line dumper callback.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The line to write </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$depth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The recursive depth in the dumped structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$indentPad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The line indent pad </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="180" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="180" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a33104dcc52aef07d7cc5f64bf5db97bc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>utf8Encode</definition>
+        <argsstring>($s)</argsstring>
+        <name>utf8Encode</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\AbstractDumper\utf8Encode</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts a non-UTF-8 string to UTF-8.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The non-UTF-8 string to convert</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|null The string converted to UTF-8 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="194" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="194" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract mechanism for dumping a Data object.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AbstractDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>HtmlDumper</label>
+        <link refid="class_rdehnhardt_1_1_debug_1_1_html_dumper"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface"/>
+      </node>
+      <node id="4">
+        <label>CliDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DataDumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface"/>
+      </node>
+      <node id="5">
+        <label>HtmlDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AbstractDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface"/>
+      </node>
+      <node id="2">
+        <label>DataDumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" line="22" column="10" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" bodystart="23" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af10158dd74b75f1d337e83102d6b82ce" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$charset</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a088698d9762b110c19feddc3e1e60050" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$decimalPoint</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a4a780e221a0398ba659d278ae41c5bc6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$defaultOutput</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a78556f0dc6bf3c1adae410a73d632caf" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$flags</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1aed0fe7774981153400848e92a85e2d64" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$indentPad</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a52f469b0182d9abac2d0f20548680c9c" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$line</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a29cde694dda741013cc8211d5009d035" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$lineDumper</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1af3ec40ee5a0a32955027aa155b5aa0b0" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>$outputStream</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cfd1fbe1716f3d1e49dd2a0de64c8bd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>__construct</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a336020af9d35d129f3a482d440af97c6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>dump</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface_1ac42028578ae35f8c9a903043ef590585" prot="public" virt="non-virtual" ambiguityscope="Symfony::Component::VarDumper::Dumper::DataDumperInterface::"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>dump</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a439f032a2eb60ea22be786963448ab55" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>DUMP_COMMA_SEPARATOR</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3339492fcd7bb347832e8413d8a7ea4f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>DUMP_LIGHT_ARRAY</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1afa3ef705b42a3f556410c82d20019fad" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>DUMP_STRING_LENGTH</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a3cebf2da4f0de2076a23602004d1224f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>DUMP_TRAILING_COMMA</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a5bf4d020f5980b55ae57f1cf3e4de617" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>dumpLine</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1add42458fcc51cd6c92fbfab62bc7c5fe" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>dumpScalar</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a06a24429c48c30ba1f579de698fd8853" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>dumpString</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a68bed13831d15c2d4d08efb8c2d964d5" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>echoLine</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1a9b9ec353aaf82757fb3d8b221266759f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>enterHash</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface_1afe9a3bb766900568a92604df854c7658" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>leaveHash</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a81ee11b0f5fadecaece55170fea54b29" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>setCharset</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a8de92bbdcf2089dc189cefe12723efec" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>setIndentPad</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a66f0ef8e212dc186b2efa1098c2e3eeb" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>setOutput</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper_1a33104dcc52aef07d7cc5f64bf5db97bc" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::AbstractDumper</scope><name>utf8Encode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

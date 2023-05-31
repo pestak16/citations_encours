@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_____twig_template___var_dumper_fixture__u75a09" kind="class" language="PHP" prot="public">
+    <compoundname>__TwigTemplate_VarDumperFixture_u75a09</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Template</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_____twig_template___var_dumper_fixture__u75a09_1a0a4baf0b22973c07685c3981f0d17fc4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$path</definition>
+        <argsstring></argsstring>
+        <name>$path</name>
+        <qualifiedname>__TwigTemplate_VarDumperFixture_u75a09\$path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="6" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_____twig_template___var_dumper_fixture__u75a09_1adec5bdcba6da170f4af0c3827b198a57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(Twig\Environment $env=null, $path=null)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>__TwigTemplate_VarDumperFixture_u75a09\__construct</qualifiedname>
+        <param>
+          <type>Twig\Environment</type>
+          <declname>$env</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$path</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="8" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="8" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____twig_template___var_dumper_fixture__u75a09_1a621a3ccd148ed8b9e937da6959c98f39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getTemplateName</definition>
+        <argsstring>()</argsstring>
+        <name>getTemplateName</name>
+        <qualifiedname>__TwigTemplate_VarDumperFixture_u75a09\getTemplateName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="24" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____twig_template___var_dumper_fixture__u75a09_1abd0ecb0136f4228db2bd963bfc1e20d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDebugInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getDebugInfo</name>
+        <qualifiedname>__TwigTemplate_VarDumperFixture_u75a09\getDebugInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="29" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____twig_template___var_dumper_fixture__u75a09_1a38152512ea69c5f598112d1e1064e4b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSourceContext</definition>
+        <argsstring>()</argsstring>
+        <name>getSourceContext</name>
+        <qualifiedname>__TwigTemplate_VarDumperFixture_u75a09\getSourceContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="34" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_____twig_template___var_dumper_fixture__u75a09_1a63838feffe0078170623921cf966c66b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>doDisplay</definition>
+        <argsstring>(array $context, array $blocks=[])</argsstring>
+        <name>doDisplay</name>
+        <qualifiedname>__TwigTemplate_VarDumperFixture_u75a09\doDisplay</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$context</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$blocks</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="18" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Template</label>
+      </node>
+      <node id="1">
+        <label>__TwigTemplate_VarDumperFixture_u75a09</label>
+        <link refid="class_____twig_template___var_dumper_fixture__u75a09"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Template</label>
+      </node>
+      <node id="1">
+        <label>__TwigTemplate_VarDumperFixture_u75a09</label>
+        <link refid="class_____twig_template___var_dumper_fixture__u75a09"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" line="4" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" bodystart="5" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a0a4baf0b22973c07685c3981f0d17fc4" prot="private" virt="non-virtual"><scope>__TwigTemplate_VarDumperFixture_u75a09</scope><name>$path</name></member>
+      <member refid="class_____twig_template___var_dumper_fixture__u75a09_1adec5bdcba6da170f4af0c3827b198a57" prot="public" virt="non-virtual"><scope>__TwigTemplate_VarDumperFixture_u75a09</scope><name>__construct</name></member>
+      <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a63838feffe0078170623921cf966c66b" prot="protected" virt="non-virtual"><scope>__TwigTemplate_VarDumperFixture_u75a09</scope><name>doDisplay</name></member>
+      <member refid="class_____twig_template___var_dumper_fixture__u75a09_1abd0ecb0136f4228db2bd963bfc1e20d7" prot="public" virt="non-virtual"><scope>__TwigTemplate_VarDumperFixture_u75a09</scope><name>getDebugInfo</name></member>
+      <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a38152512ea69c5f598112d1e1064e4b5" prot="public" virt="non-virtual"><scope>__TwigTemplate_VarDumperFixture_u75a09</scope><name>getSourceContext</name></member>
+      <member refid="class_____twig_template___var_dumper_fixture__u75a09_1a621a3ccd148ed8b9e937da6959c98f39" prot="public" virt="non-virtual"><scope>__TwigTemplate_VarDumperFixture_u75a09</scope><name>getTemplateName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

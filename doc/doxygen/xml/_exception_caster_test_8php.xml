@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_exception_caster_test_8php" kind="file" language="PHP">
+    <compoundname>ExceptionCasterTest.php</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::ExceptionCasterTest</innerclass>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster">Symfony::Component::VarDumper::Tests::Caster</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster">Symfony::Component::VarDumper::Caster::ExceptionCaster</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub">Symfony::Component::VarDumper::Caster::FrameStub</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper">Symfony::Component::VarDumper::Dumper::HtmlDumper</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>the<sp/>Symfony<sp/>package.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>(c)<sp/>Fabien<sp/>Potencier<sp/>&lt;fabien@symfony.com&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>For<sp/>the<sp/>full<sp/>copyright<sp/>and<sp/>license<sp/>information,<sp/>please<sp/>view<sp/>the<sp/>LICENSE</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>file<sp/>that<sp/>was<sp/>distributed<sp/>with<sp/>this<sp/>source<sp/>code.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster" kindref="compound">Symfony\Component\VarDumper\Tests\Caster</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">use<sp/>PHPUnit\Framework\TestCase;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">use<sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster" kindref="compound">Symfony\Component\VarDumper\Caster\Caster</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">use<sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster" kindref="compound">Symfony\Component\VarDumper\Caster\ExceptionCaster</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">use<sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" kindref="compound">Symfony\Component\VarDumper\Caster\FrameStub</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">use<sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner" kindref="compound">Symfony\Component\VarDumper\Cloner\VarCloner</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">use<sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper" kindref="compound">Symfony\Component\VarDumper\Dumper\HtmlDumper</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">use<sp/>Symfony\Component\VarDumper\Test\VarDumperTestTrait;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test" kindref="compound">ExceptionCasterTest</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>TestCase</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>VarDumperTestTrait;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>getTestException($msg,<sp/>&amp;$ref<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>new<sp/>\Exception(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">.$msg);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a80fe3d17e658907fc75346a0ec9d6fc7" kindref="member">tearDown</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a1a3f49b24e774bdd30de52c976915754" kindref="member">ExceptionCaster::$srcContext</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac569c8f5880fbc7c14b524fb29fcc8b4" kindref="member">ExceptionCaster::$traceArgs</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a5c9613a083ede9b5078dca26eb9459e6" kindref="member">testDefaultSettings</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ref<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$e<sp/>=<sp/>$this-&gt;getTestException(</highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">,<sp/>$ref);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">Exception<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#message:<sp/>&quot;foo&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#code:<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#file:<sp/>&quot;%sExceptionCasterTest.php&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#line:<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>trace:<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:28<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>new<sp/>\Exception(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">.$msg);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:40<sp/>{<sp/>…}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">%A</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertDumpMatchesFormat($expectedDump,<sp/>$e);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertSame([</highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">],<sp/>$ref);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1ad60bb77657a9c381f792daff486c0e65" kindref="member">testSeek</ref>()</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$e<sp/>=<sp/>$this-&gt;getTestException(2);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:28<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>›<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>›<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>new<sp/>\Exception(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">.$msg);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>›<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:64<sp/>{<sp/>…}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">%A</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertStringMatchesFormat($expectedDump,<sp/>$this-&gt;getDump($e,<sp/></highlight><highlight class="stringliteral">&apos;trace&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1af0aec7a841ed56edfd5519912dd726b7" kindref="member">testNoArgs</ref>()</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$e<sp/>=<sp/>$this-&gt;getTestException(1);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac569c8f5880fbc7c14b524fb29fcc8b4" kindref="member">ExceptionCaster::$traceArgs</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">Exception<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#message:<sp/>&quot;1&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#code:<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#file:<sp/>&quot;%sExceptionCasterTest.php&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#line:<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>trace:<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>%sExceptionCasterTest.php:28<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>new<sp/>\Exception(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">.$msg);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:82<sp/>{<sp/>…}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">%A</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertDumpMatchesFormat($expectedDump,<sp/>$e);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1ab59c6a0cbd6a95fc485d4805ff179ca0" kindref="member">testNoSrcContext</ref>()</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$e<sp/>=<sp/>$this-&gt;getTestException(1);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a1a3f49b24e774bdd30de52c976915754" kindref="member">ExceptionCaster::$srcContext</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">Exception<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#message:<sp/>&quot;1&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#code:<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#file:<sp/>&quot;%sExceptionCasterTest.php&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#line:<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>trace:<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:28</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>%s%eTests%eCaster%eExceptionCasterTest.php:%d</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">%A</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertDumpMatchesFormat($expectedDump,<sp/>$e);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a8cb9a51772ca6acb4cb322c6e621330f" kindref="member">testHtmlDump</ref>()</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ini_get(</highlight><highlight class="stringliteral">&apos;xdebug.file_link_format&apos;</highlight><highlight class="normal">)<sp/>||<sp/>get_cfg_var(</highlight><highlight class="stringliteral">&apos;xdebug.file_link_format&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;markTestSkipped(</highlight><highlight class="stringliteral">&apos;A<sp/>custom<sp/>file_link_format<sp/>is<sp/>defined.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$e<sp/>=<sp/>$this-&gt;getTestException(1);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a1a3f49b24e774bdd30de52c976915754" kindref="member">ExceptionCaster::$srcContext</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$cloner<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner" kindref="compound">VarCloner</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$cloner-&gt;setMaxItems(1);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dumper<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper" kindref="compound">HtmlDumper</ref>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dumper-&gt;setDumpHeader(</highlight><highlight class="stringliteral">&apos;&lt;foo&gt;&lt;/foo&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dumper-&gt;setDumpBoundaries(</highlight><highlight class="stringliteral">&apos;&lt;bar&gt;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&lt;/bar&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dump<sp/>=<sp/>$dumper-&gt;dump($cloner-&gt;cloneVar($e)-&gt;withRefHandles(</highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">&lt;foo&gt;&lt;/foo&gt;&lt;bar&gt;&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=sf-dump-note&gt;Exception&lt;/span&gt;<sp/>{&lt;samp&gt;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#&lt;span<sp/>class=sf-dump-protected<sp/>title=&quot;Protected<sp/>property&quot;</highlight><highlight class="normal">&gt;message&lt;/span&gt;:<sp/>&quot;&lt;span<sp/>class=sf-dump-str&gt;1&lt;/span&gt;&quot;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#&lt;span<sp/>class=sf-dump-protected<sp/>title=&quot;Protected<sp/>property&quot;</highlight><highlight class="normal">&gt;code&lt;/span&gt;:<sp/>&lt;span<sp/>class=sf-dump-num&gt;0&lt;/span&gt;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#&lt;span<sp/>class=sf-dump-protected<sp/>title=&quot;Protected<sp/>property&quot;</highlight><highlight class="normal">&gt;file&lt;/span&gt;:<sp/>&quot;&lt;span<sp/>class=sf-dump-str<sp/>title=&quot;%sExceptionCasterTest.php</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">%d<sp/>characters</highlight><highlight class="stringliteral">&quot;&gt;&lt;span<sp/>class=&quot;</highlight><highlight class="normal">sf-dump-ellipsis<sp/>sf-dump-ellipsis-path</highlight><highlight class="stringliteral">&quot;&gt;%s%eVarDumper&lt;/span&gt;&lt;span<sp/>class=sf-dump-ellipsis&gt;%e&lt;/span&gt;Tests%eCaster%eExceptionCasterTest.php&lt;/span&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#&lt;span<sp/>class=sf-dump-protected<sp/>title=&quot;Protected<sp/>property&quot;</highlight><highlight class="normal">&gt;line&lt;/span&gt;:<sp/>&lt;span<sp/>class=sf-dump-num&gt;28&lt;/span&gt;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=sf-dump-meta&gt;trace&lt;/span&gt;:<sp/>{&lt;samp&gt;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=sf-dump-meta<sp/>title=</highlight><highlight class="stringliteral">&quot;%sExceptionCasterTest.php</highlight></codeline>
+<codeline lineno="149"><highlight class="stringliteral">Stack<sp/>level<sp/>%d.&quot;</highlight><highlight class="normal">&gt;&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sf-dump-ellipsis<sp/>sf-dump-ellipsis-path&quot;</highlight><highlight class="normal">&gt;%s%eVarDumper&lt;/span&gt;&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=sf-dump-ellipsis&gt;%e&lt;/span&gt;Tests%eCaster%eExceptionCasterTest.php&lt;/span&gt;:&lt;span<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=sf-dump-num&gt;28&lt;/span&gt;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>&amp;hellip;%d</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>&lt;/samp&gt;}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">&lt;/samp&gt;}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">&lt;/bar&gt;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertStringMatchesFormat($expectedDump,<sp/>$dump);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1ab24ecb8e5ac569282a2b2d334e18ebb0" kindref="member">testFrameWithTwig</ref>()</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once<sp/>\dirname(__DIR__).</highlight><highlight class="stringliteral">&apos;/Fixtures/Twig.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$f<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" kindref="compound">FrameStub</ref>([</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\dirname(__DIR__).</highlight><highlight class="stringliteral">&apos;/Fixtures/Twig.php&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;line&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>20,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;class&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;__TwigTemplate_VarDumperFixture_u75a09&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]),</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" kindref="compound">FrameStub</ref>([</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>\dirname(__DIR__).</highlight><highlight class="stringliteral">&apos;/Fixtures/Twig.php&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;line&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>21,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;class&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;__TwigTemplate_VarDumperFixture_u75a09&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;object&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>\<ref refid="class_____twig_template___var_dumper_fixture__u75a09" kindref="compound">__TwigTemplate_VarDumperFixture_u75a09</ref>(</highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>__FILE__),</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]),</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal">array:2<sp/>[</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>0<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;__TwigTemplate_VarDumperFixture_u75a09&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>src:<sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>%sTwig.php:1<sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/>foo<sp/>bar</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/><sp/><sp/>twig<sp/>source</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>1<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;__TwigTemplate_VarDumperFixture_u75a09&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>object:<sp/><ref refid="class_____twig_template___var_dumper_fixture__u75a09" kindref="compound">__TwigTemplate_VarDumperFixture_u75a09</ref><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>%A</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>src:<sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>%sExceptionCasterTest.php:2<sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/>foo<sp/>bar</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/><sp/><sp/>twig<sp/>source</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>›<sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">]</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertDumpMatchesFormat($expectedDump,<sp/>$f);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test_1a9ec7c3c26b8df44d07e7f84fff7493a5" kindref="member">testExcludeVerbosity</ref>()</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$e<sp/>=<sp/>$this-&gt;getTestException(</highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$expectedDump<sp/>=<sp/>&lt;&lt;&lt;</highlight><highlight class="stringliteral">&apos;EODUMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal">Exception<sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#message:<sp/>&quot;foo&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#code:<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#file:<sp/>&quot;%sExceptionCasterTest.php&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#line:<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">EODUMP;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertDumpMatchesFormat($expectedDump,<sp/>$e,<sp/>Caster::EXCLUDE_VERBOSE);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ExceptionCasterTest.php"/>
+  </compounddef>
+</doxygen>

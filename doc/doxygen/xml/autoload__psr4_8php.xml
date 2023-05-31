@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="autoload__psr4_8php" kind="file" language="PHP">
+    <compoundname>autoload_psr4.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$vendorDir</definition>
+        <argsstring></argsstring>
+        <name>$vendorDir</name>
+        <initializer>= dirname(dirname(__FILE__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_psr4.php" line="5" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_psr4.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="autoload__psr4_8php_1a873fc20cf44ad2f766893e95aab8df78" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$baseDir</definition>
+        <argsstring></argsstring>
+        <name>$baseDir</name>
+        <initializer>= dirname($vendorDir)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_psr4.php" line="6" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_psr4.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>autoload_psr4.php<sp/>@generated<sp/>by<sp/>Composer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" kindref="member">$vendorDir</ref><sp/>=<sp/>dirname(dirname(__FILE__));</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="autoload__psr4_8php_1a873fc20cf44ad2f766893e95aab8df78" kindref="member">$baseDir</ref><sp/>=<sp/>dirname(<ref refid="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" kindref="member">$vendorDir</ref>);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Symfony\\Polyfill\\Mbstring\\&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>array(<ref refid="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" kindref="member">$vendorDir</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/symfony/polyfill-mbstring&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Symfony\\Component\\VarDumper\\&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>array(<ref refid="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" kindref="member">$vendorDir</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/symfony/var-dumper&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Rdehnhardt\\&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>array(<ref refid="autoload__psr4_8php_1a7fbc3633c79d7461383710e09d497fb0" kindref="member">$vendorDir</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/rdehnhardt/var-dumper/src&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">);</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_psr4.php"/>
+  </compounddef>
+</doxygen>

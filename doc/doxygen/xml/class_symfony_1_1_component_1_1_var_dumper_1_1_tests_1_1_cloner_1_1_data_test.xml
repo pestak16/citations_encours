@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Cloner::DataTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1af32b7df2a730c475f5c4335dfc8cacc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testBasicData</definition>
+        <argsstring>()</argsstring>
+        <name>testBasicData</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\DataTest\testBasicData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="22" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="22" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1af76abd73a109cb7bed61ca25aa5b8bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testObject</definition>
+        <argsstring>()</argsstring>
+        <name>testObject</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\DataTest\testObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="48" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="48" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1aef075d1f6e6ee3573332781dbb818653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testArray</definition>
+        <argsstring>()</argsstring>
+        <name>testArray</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\DataTest\testArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="63" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="63" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1acf6b81351f2f015957dd412dee01942f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testStub</definition>
+        <argsstring>()</argsstring>
+        <name>testStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\DataTest\testStub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="84" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1a3d0847747346ee5dcfc3a88a2fda9736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testHardRefs</definition>
+        <argsstring>()</argsstring>
+        <name>testHardRefs</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\DataTest\testHardRefs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="94" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="94" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1a59d85d5f58ff83ee0c215b5f96fd43df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cloneVar</definition>
+        <argsstring>($value)</argsstring>
+        <name>cloneVar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\DataTest\cloneVar</qualifiedname>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="109" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="109" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DataTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DataTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" line="20" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" bodystart="21" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1a59d85d5f58ff83ee0c215b5f96fd43df" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::DataTest</scope><name>cloneVar</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1aef075d1f6e6ee3573332781dbb818653" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::DataTest</scope><name>testArray</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1af32b7df2a730c475f5c4335dfc8cacc1" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::DataTest</scope><name>testBasicData</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1a3d0847747346ee5dcfc3a88a2fda9736" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::DataTest</scope><name>testHardRefs</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1af76abd73a109cb7bed61ca25aa5b8bc2" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::DataTest</scope><name>testObject</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_data_test_1acf6b81351f2f015957dd412dee01942f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::DataTest</scope><name>testStub</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_core_1_1_entity" kind="class" language="PHP" prot="public">
+    <compoundname>Core::Entity</compoundname>
+    <derivedcompoundref refid="class_app_1_1_auteur_1_1_auteur_entity" prot="public" virt="non-virtual">AuteurEntity</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_citation_1_1_citation_entity" prot="public" virt="non-virtual">CitationEntity</derivedcompoundref>
+    <derivedcompoundref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" prot="public" virt="non-virtual">UtilisateurEntity</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>est_nouveau</definition>
+        <argsstring>()</argsstring>
+        <name>est_nouveau</name>
+        <qualifiedname>Core\Entity\est_nouveau</qualifiedname>
+        <reimplementedby refid="class_app_1_1_auteur_1_1_auteur_entity_1ae93ec1a4f6dcae36c9b3a4775d003329">est_nouveau</reimplementedby>
+        <reimplementedby refid="class_app_1_1_citation_1_1_citation_entity_1ae93ec1a4f6dcae36c9b3a4775d003329">est_nouveau</reimplementedby>
+        <reimplementedby refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae93ec1a4f6dcae36c9b3a4775d003329">est_nouveau</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vérifie si l&apos;entité est nouvelle.</para>
+<para><simplesect kind="return"><para>bool Retourne true si l&apos;entité est nouvelle, sinon false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Entity.php" line="13" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hydrate</definition>
+        <argsstring>(array $data)</argsstring>
+        <name>hydrate</name>
+        <qualifiedname>Core\Entity\hydrate</qualifiedname>
+        <reimplementedby refid="class_app_1_1_auteur_1_1_auteur_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e">hydrate</reimplementedby>
+        <reimplementedby refid="class_app_1_1_citation_1_1_citation_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e">hydrate</reimplementedby>
+        <reimplementedby refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae3d7e348ef2dbe7040f080e4f617e800">hydrate</reimplementedby>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hydrate l&apos;entité avec les données fournies.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Les données à utiliser pour l&apos;hydratation de l&apos;entité. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self Retourne l&apos;instance de l&apos;entité hydratée. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Entity.php" line="21" column="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe abstraite <ref refid="class_core_1_1_entity" kindref="compound">Entity</ref>. Représente une entité de base avec des méthodes abstraites pour la gestion des nouvelles entités et l&apos;hydratation des données. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AuteurEntity</label>
+        <link refid="class_app_1_1_auteur_1_1_auteur_entity"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CitationEntity</label>
+        <link refid="class_app_1_1_citation_1_1_citation_entity"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UtilisateurEntity</label>
+        <link refid="class_app_1_1_utilisateur_1_1_utilisateur_entity"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Entity</label>
+        <link refid="class_core_1_1_entity"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Entity.php" line="6" column="10" bodyfile="C:/wamp64/www/citations_encours/src/Core/Entity.php" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" prot="public" virt="non-virtual"><scope>Core::Entity</scope><name>est_nouveau</name></member>
+      <member refid="class_core_1_1_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" prot="public" virt="non-virtual"><scope>Core::Entity</scope><name>hydrate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::DoctrineCaster</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a9aef4e1086a2c2eeb36e257547f7fa82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castCommonProxy</definition>
+        <argsstring>(CommonProxy $proxy, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castCommonProxy</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DoctrineCaster\castCommonProxy</qualifiedname>
+        <param>
+          <type>CommonProxy</type>
+          <declname>$proxy</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" line="26" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a4bc6b34d74aab8c7fac2980ec694a5b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castOrmProxy</definition>
+        <argsstring>(OrmProxy $proxy, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castOrmProxy</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DoctrineCaster\castOrmProxy</qualifiedname>
+        <param>
+          <type>OrmProxy</type>
+          <declname>$proxy</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" line="38" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a709196b26c51a73a3e96345e1bf2d1b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castPersistentCollection</definition>
+        <argsstring>(PersistentCollection $coll, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castPersistentCollection</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DoctrineCaster\castPersistentCollection</qualifiedname>
+        <param>
+          <type>PersistentCollection</type>
+          <declname>$coll</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" line="50" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" bodystart="50" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts Doctrine related classes to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" line="24" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" bodystart="25" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a9aef4e1086a2c2eeb36e257547f7fa82" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DoctrineCaster</scope><name>castCommonProxy</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a4bc6b34d74aab8c7fac2980ec694a5b5" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DoctrineCaster</scope><name>castOrmProxy</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_doctrine_caster_1a709196b26c51a73a3e96345e1bf2d1b8" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DoctrineCaster</scope><name>castPersistentCollection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,632 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::DOMCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a3b93da793cd81d9e4667f7b3729d4f43" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$errorCodes</definition>
+        <argsstring></argsstring>
+        <name>$errorCodes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\$errorCodes</qualifiedname>
+        <initializer>= [
+        \DOM_PHP_ERR =&gt; &apos;DOM_PHP_ERR&apos;,
+        \DOM_INDEX_SIZE_ERR =&gt; &apos;DOM_INDEX_SIZE_ERR&apos;,
+        \DOMSTRING_SIZE_ERR =&gt; &apos;DOMSTRING_SIZE_ERR&apos;,
+        \DOM_HIERARCHY_REQUEST_ERR =&gt; &apos;DOM_HIERARCHY_REQUEST_ERR&apos;,
+        \DOM_WRONG_DOCUMENT_ERR =&gt; &apos;DOM_WRONG_DOCUMENT_ERR&apos;,
+        \DOM_INVALID_CHARACTER_ERR =&gt; &apos;DOM_INVALID_CHARACTER_ERR&apos;,
+        \DOM_NO_DATA_ALLOWED_ERR =&gt; &apos;DOM_NO_DATA_ALLOWED_ERR&apos;,
+        \DOM_NO_MODIFICATION_ALLOWED_ERR =&gt; &apos;DOM_NO_MODIFICATION_ALLOWED_ERR&apos;,
+        \DOM_NOT_FOUND_ERR =&gt; &apos;DOM_NOT_FOUND_ERR&apos;,
+        \DOM_NOT_SUPPORTED_ERR =&gt; &apos;DOM_NOT_SUPPORTED_ERR&apos;,
+        \DOM_INUSE_ATTRIBUTE_ERR =&gt; &apos;DOM_INUSE_ATTRIBUTE_ERR&apos;,
+        \DOM_INVALID_STATE_ERR =&gt; &apos;DOM_INVALID_STATE_ERR&apos;,
+        \DOM_SYNTAX_ERR =&gt; &apos;DOM_SYNTAX_ERR&apos;,
+        \DOM_INVALID_MODIFICATION_ERR =&gt; &apos;DOM_INVALID_MODIFICATION_ERR&apos;,
+        \DOM_NAMESPACE_ERR =&gt; &apos;DOM_NAMESPACE_ERR&apos;,
+        \DOM_INVALID_ACCESS_ERR =&gt; &apos;DOM_INVALID_ACCESS_ERR&apos;,
+        \DOM_VALIDATION_ERR =&gt; &apos;DOM_VALIDATION_ERR&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1af2bd1e22e540d79a7e17fc5dbbe098aa" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$nodeTypes</definition>
+        <argsstring></argsstring>
+        <name>$nodeTypes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\$nodeTypes</qualifiedname>
+        <initializer>= [
+        \XML_ELEMENT_NODE =&gt; &apos;XML_ELEMENT_NODE&apos;,
+        \XML_ATTRIBUTE_NODE =&gt; &apos;XML_ATTRIBUTE_NODE&apos;,
+        \XML_TEXT_NODE =&gt; &apos;XML_TEXT_NODE&apos;,
+        \XML_CDATA_SECTION_NODE =&gt; &apos;XML_CDATA_SECTION_NODE&apos;,
+        \XML_ENTITY_REF_NODE =&gt; &apos;XML_ENTITY_REF_NODE&apos;,
+        \XML_ENTITY_NODE =&gt; &apos;XML_ENTITY_NODE&apos;,
+        \XML_PI_NODE =&gt; &apos;XML_PI_NODE&apos;,
+        \XML_COMMENT_NODE =&gt; &apos;XML_COMMENT_NODE&apos;,
+        \XML_DOCUMENT_NODE =&gt; &apos;XML_DOCUMENT_NODE&apos;,
+        \XML_DOCUMENT_TYPE_NODE =&gt; &apos;XML_DOCUMENT_TYPE_NODE&apos;,
+        \XML_DOCUMENT_FRAG_NODE =&gt; &apos;XML_DOCUMENT_FRAG_NODE&apos;,
+        \XML_NOTATION_NODE =&gt; &apos;XML_NOTATION_NODE&apos;,
+        \XML_HTML_DOCUMENT_NODE =&gt; &apos;XML_HTML_DOCUMENT_NODE&apos;,
+        \XML_DTD_NODE =&gt; &apos;XML_DTD_NODE&apos;,
+        \XML_ELEMENT_DECL_NODE =&gt; &apos;XML_ELEMENT_DECL_NODE&apos;,
+        \XML_ATTRIBUTE_DECL_NODE =&gt; &apos;XML_ATTRIBUTE_DECL_NODE&apos;,
+        \XML_ENTITY_DECL_NODE =&gt; &apos;XML_ENTITY_DECL_NODE&apos;,
+        \XML_NAMESPACE_DECL_NODE =&gt; &apos;XML_NAMESPACE_DECL_NODE&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="43" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ab8b6bf6d3147d6a509bc3e3bd3af0940" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castException</definition>
+        <argsstring>(\DOMException $e, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castException</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castException</qualifiedname>
+        <param>
+          <type>\DOMException</type>
+          <declname>$e</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="64" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a76643b2a53444ee85314bb9cde749fec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castLength</definition>
+        <argsstring>($dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castLength</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castLength</qualifiedname>
+        <param>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="74" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a6ffd02e3ca59b99969464e522279c105" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castImplementation</definition>
+        <argsstring>($dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castImplementation</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castImplementation</qualifiedname>
+        <param>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="83" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="83" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ad5d0bef00669a6648c20153350a60163" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castNode</definition>
+        <argsstring>(\DOMNode $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castNode</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castNode</qualifiedname>
+        <param>
+          <type>\DOMNode</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="93" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="93" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a893e830190cd968691510846b2e7ac46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castNameSpaceNode</definition>
+        <argsstring>(\DOMNameSpaceNode $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castNameSpaceNode</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castNameSpaceNode</qualifiedname>
+        <param>
+          <type>\DOMNameSpaceNode</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="117" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="117" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a40ae8fc21b1b8043249a9a15a0768a82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castDocument</definition>
+        <argsstring>(\DOMDocument $dom, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castDocument</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castDocument</qualifiedname>
+        <param>
+          <type>\DOMDocument</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="133" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="133" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a97302c8bc169efd169174536729993a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castCharacterData</definition>
+        <argsstring>(\DOMCharacterData $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castCharacterData</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castCharacterData</qualifiedname>
+        <param>
+          <type>\DOMCharacterData</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="167" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="167" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a059538088a0cea77a298c901a2ef5573" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castAttr</definition>
+        <argsstring>(\DOMAttr $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castAttr</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castAttr</qualifiedname>
+        <param>
+          <type>\DOMAttr</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="177" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="177" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ae9236c35b302dc5f6d915607ae676a6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castElement</definition>
+        <argsstring>(\DOMElement $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castElement</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castElement</qualifiedname>
+        <param>
+          <type>\DOMElement</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="190" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="190" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1abb3daa64216530041f90d4ca7dd8c094" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castText</definition>
+        <argsstring>(\DOMText $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castText</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castText</qualifiedname>
+        <param>
+          <type>\DOMText</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="200" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="200" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a5c6178dcb4611d4c181c7af2c18c0600" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castTypeinfo</definition>
+        <argsstring>(\DOMTypeinfo $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castTypeinfo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castTypeinfo</qualifiedname>
+        <param>
+          <type>\DOMTypeinfo</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="209" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="209" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ae1633c0aedf9fc5f5c8e3ed213827803" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castDomError</definition>
+        <argsstring>(\DOMDomError $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castDomError</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castDomError</qualifiedname>
+        <param>
+          <type>\DOMDomError</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="219" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="219" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a00323a87352177aa327afd87a44cb261" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castLocator</definition>
+        <argsstring>(\DOMLocator $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castLocator</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castLocator</qualifiedname>
+        <param>
+          <type>\DOMLocator</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="233" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="233" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a72a16fbbd31f5e98f01f2089fabdd6b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castDocumentType</definition>
+        <argsstring>(\DOMDocumentType $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castDocumentType</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castDocumentType</qualifiedname>
+        <param>
+          <type>\DOMDocumentType</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="246" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="246" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a1c3d4b935d60bc93ef8bc230dc6c3ff7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castNotation</definition>
+        <argsstring>(\DOMNotation $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castNotation</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castNotation</qualifiedname>
+        <param>
+          <type>\DOMNotation</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="260" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="260" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1adb8ca56f0140c51d754b8ea313da5d39" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castEntity</definition>
+        <argsstring>(\DOMEntity $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castEntity</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castEntity</qualifiedname>
+        <param>
+          <type>\DOMEntity</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="270" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="270" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a0e98f12e83aa8ddccc90e3c8ca9409a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castProcessingInstruction</definition>
+        <argsstring>(\DOMProcessingInstruction $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castProcessingInstruction</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castProcessingInstruction</qualifiedname>
+        <param>
+          <type>\DOMProcessingInstruction</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="284" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="284" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1aea61526b86c932658306db4eff2a8946" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castXPath</definition>
+        <argsstring>(\DOMXPath $dom, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castXPath</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\DOMCaster\castXPath</qualifiedname>
+        <param>
+          <type>\DOMXPath</type>
+          <declname>$dom</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="294" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="294" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts DOM related classes to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/DOMCaster.php" bodystart="22" bodyend="302"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a3b93da793cd81d9e4667f7b3729d4f43" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>$errorCodes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1af2bd1e22e540d79a7e17fc5dbbe098aa" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>$nodeTypes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a059538088a0cea77a298c901a2ef5573" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castAttr</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a97302c8bc169efd169174536729993a9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castCharacterData</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a40ae8fc21b1b8043249a9a15a0768a82" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castDocument</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a72a16fbbd31f5e98f01f2089fabdd6b6" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castDocumentType</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ae1633c0aedf9fc5f5c8e3ed213827803" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castDomError</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ae9236c35b302dc5f6d915607ae676a6e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castElement</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1adb8ca56f0140c51d754b8ea313da5d39" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castEntity</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ab8b6bf6d3147d6a509bc3e3bd3af0940" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castException</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a6ffd02e3ca59b99969464e522279c105" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castImplementation</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a76643b2a53444ee85314bb9cde749fec" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castLength</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a00323a87352177aa327afd87a44cb261" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castLocator</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a893e830190cd968691510846b2e7ac46" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castNameSpaceNode</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1ad5d0bef00669a6648c20153350a60163" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castNode</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a1c3d4b935d60bc93ef8bc230dc6c3ff7" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castNotation</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a0e98f12e83aa8ddccc90e3c8ca9409a2" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castProcessingInstruction</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1abb3daa64216530041f90d4ca7dd8c094" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castText</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1a5c6178dcb4611d4c181c7af2c18c0600" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castTypeinfo</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_d_o_m_caster_1aea61526b86c932658306db4eff2a8946" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::DOMCaster</scope><name>castXPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_7c99bc260b92ab2950b20b1df26eaff3" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner</compoundname>
+    <innerfile refid="_abstract_cloner_8php">AbstractCloner.php</innerfile>
+    <innerfile refid="_cloner_interface_8php">ClonerInterface.php</innerfile>
+    <innerfile refid="_cursor_8php">Cursor.php</innerfile>
+    <innerfile refid="_data_8php">Data.php</innerfile>
+    <innerfile refid="_dumper_interface_8php">DumperInterface.php</innerfile>
+    <innerfile refid="_stub_8php">Stub.php</innerfile>
+    <innerfile refid="_var_cloner_8php">VarCloner.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Tests::Caster</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_bad_spl_file_info" prot="public">Symfony::Component::VarDumper::Tests::Caster::BadSplFileInfo</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::CasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_date_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::DateCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_exception_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::ExceptionCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_my_array_iterator" prot="public">Symfony::Component::VarDumper::Tests::Caster::MyArrayIterator</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_pdo_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::PdoCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_redis_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::RedisCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_reflection_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::ReflectionCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_spl_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::SplCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_stub_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::StubCasterTest</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test" prot="public">Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1ab40554452e660886f23446429d20394d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>reflectionParameterFixture</definition>
+        <argsstring>(NotLoadableClass $arg1=null, $arg2)</argsstring>
+        <name>reflectionParameterFixture</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\reflectionParameterFixture</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" kindref="compound">NotLoadableClass</ref></type>
+          <declname>$arg1</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" line="268" column="10" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" bodystart="268" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" line="12" column="10"/>
+  </compounddef>
+</doxygen>

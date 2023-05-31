@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Polyfill::Mbstring::Mbstring</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a75524db562c45e6d46a7ca4bc6988aa5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MB_CASE_FOLD</definition>
+        <argsstring></argsstring>
+        <name>MB_CASE_FOLD</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\MB_CASE_FOLD</qualifiedname>
+        <initializer>= \PHP_INT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="70" column="18" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1abd306ef64d41b78b18f3c5eb3a737c96" prot="private" static="no" mutable="no">
+        <type>const</type>
+        <definition>const CASE_FOLD</definition>
+        <argsstring></argsstring>
+        <name>CASE_FOLD</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\CASE_FOLD</qualifiedname>
+        <initializer>= [
+        [&apos;µ&apos;, &apos;ſ&apos;, &quot;\xCD\x85&quot;, &apos;ς&apos;, &quot;\xCF\x90&quot;, &quot;\xCF\x91&quot;, &quot;\xCF\x95&quot;, &quot;\xCF\x96&quot;, &quot;\xCF\xB0&quot;, &quot;\xCF\xB1&quot;, &quot;\xCF\xB5&quot;, &quot;\xE1\xBA\x9B&quot;, &quot;\xE1\xBE\xBE&quot;],
+        [&apos;μ&apos;, &apos;s&apos;, &apos;ι&apos;,        &apos;σ&apos;, &apos;β&apos;,        &apos;θ&apos;,        &apos;φ&apos;,        &apos;π&apos;,        &apos;κ&apos;,        &apos;ρ&apos;,        &apos;ε&apos;,        &quot;\xE1\xB9\xA1&quot;, &apos;ι&apos;],
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="72" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a7188b31a7f68d7970b4c9cfa12ffc44b" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$encodingList</definition>
+        <argsstring></argsstring>
+        <name>$encodingList</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\$encodingList</qualifiedname>
+        <initializer>= [&apos;ASCII&apos;, &apos;UTF-8&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="77" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a83170d318260a5a2e2a79dccdd371b10" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$language</definition>
+        <argsstring></argsstring>
+        <name>$language</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\$language</qualifiedname>
+        <initializer>= &apos;neutral&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="78" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9b4630229a2b87ca0f1fef552d1bd921" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$internalEncoding</definition>
+        <argsstring></argsstring>
+        <name>$internalEncoding</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\$internalEncoding</qualifiedname>
+        <initializer>= &apos;UTF-8&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="79" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a84d99dd1d7d8820af71edae7d97eb866" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_convert_encoding</definition>
+        <argsstring>($s, $toEncoding, $fromEncoding=null)</argsstring>
+        <name>mb_convert_encoding</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_convert_encoding</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$toEncoding</declname>
+        </param>
+        <param>
+          <declname>$fromEncoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="81" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="81" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a97f34c70f1a60e8329657ca02004671f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_convert_variables</definition>
+        <argsstring>($toEncoding, $fromEncoding, &amp;... $vars)</argsstring>
+        <name>mb_convert_variables</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_convert_variables</qualifiedname>
+        <param>
+          <declname>$toEncoding</declname>
+        </param>
+        <param>
+          <declname>$fromEncoding</declname>
+        </param>
+        <param>
+          <type>&amp;...</type>
+          <declname>$vars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="119" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="119" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a59fca468dcbbab7c0d4cebce410553c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_decode_mimeheader</definition>
+        <argsstring>($s)</argsstring>
+        <name>mb_decode_mimeheader</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_decode_mimeheader</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="131" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa67f9cc753f3e241d00609d9b5ae02de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_encode_mimeheader</definition>
+        <argsstring>($s, $charset=null, $transferEncoding=null, $linefeed=null, $indent=null)</argsstring>
+        <name>mb_encode_mimeheader</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_encode_mimeheader</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$charset</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$transferEncoding</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$linefeed</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$indent</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="136" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a3b8ae2be3e3b9c621b15bbefe0132746" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_decode_numericentity</definition>
+        <argsstring>($s, $convmap, $encoding=null)</argsstring>
+        <name>mb_decode_numericentity</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_decode_numericentity</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$convmap</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="141" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="141" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a58adb7a1d0e7aa7eaa1d2a3e4d7fd446" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_encode_numericentity</definition>
+        <argsstring>($s, $convmap, $encoding=null, $is_hex=false)</argsstring>
+        <name>mb_encode_numericentity</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_encode_numericentity</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$convmap</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$is_hex</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="201" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="201" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a95a646eeac9e6ebf48c150a62526f2c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_convert_case</definition>
+        <argsstring>($s, $mode, $encoding=null)</argsstring>
+        <name>mb_convert_case</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_convert_case</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="271" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="271" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a67ac58e6c2555b1d7797f7e473a0fb33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_internal_encoding</definition>
+        <argsstring>($encoding=null)</argsstring>
+        <name>mb_internal_encoding</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_internal_encoding</qualifiedname>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="349" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="349" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a99ab75b3eee86651a314e0c6d22b5f7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_language</definition>
+        <argsstring>($lang=null)</argsstring>
+        <name>mb_language</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_language</qualifiedname>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="370" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="370" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8545f48c9859d5067686aaf1fd40ff79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_list_encodings</definition>
+        <argsstring>()</argsstring>
+        <name>mb_list_encodings</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_list_encodings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="391" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="391" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ae18ef9f92abf7edf6c53ccf88e662ef3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_encoding_aliases</definition>
+        <argsstring>($encoding)</argsstring>
+        <name>mb_encoding_aliases</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_encoding_aliases</qualifiedname>
+        <param>
+          <declname>$encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="396" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="396" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a6757acdc010a4c72638af822d2342bbe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_check_encoding</definition>
+        <argsstring>($var=null, $encoding=null)</argsstring>
+        <name>mb_check_encoding</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_check_encoding</qualifiedname>
+        <param>
+          <declname>$var</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="407" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="407" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aad01538b14f3efa0d9c5cea4cd4c507d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_detect_encoding</definition>
+        <argsstring>($str, $encodingList=null, $strict=false)</argsstring>
+        <name>mb_detect_encoding</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_detect_encoding</qualifiedname>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$encodingList</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$strict</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="419" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="419" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aceb5dad7107f3937cbcfd16104add294" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_detect_order</definition>
+        <argsstring>($encodingList=null)</argsstring>
+        <name>mb_detect_order</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_detect_order</qualifiedname>
+        <param>
+          <declname>$encodingList</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="455" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="455" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ab852281314426dd75499a0673c85db87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strlen</definition>
+        <argsstring>($s, $encoding=null)</argsstring>
+        <name>mb_strlen</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strlen</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="484" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="484" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a24124a5eaea8ede2e7d44d8fd84b4058" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strpos</definition>
+        <argsstring>($haystack, $needle, $offset=0, $encoding=null)</argsstring>
+        <name>mb_strpos</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strpos</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="494" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="494" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1afe50237ad9c1ed920a8166a5458ae1cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strrpos</definition>
+        <argsstring>($haystack, $needle, $offset=0, $encoding=null)</argsstring>
+        <name>mb_strrpos</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strrpos</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="515" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="515" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa9cdb52e5d4f8e9f2763d3f54858f407" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_str_split</definition>
+        <argsstring>($string, $split_length=1, $encoding=null)</argsstring>
+        <name>mb_str_split</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_str_split</qualifiedname>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$split_length</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="542" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="542" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a7bdc9beffa5b1ba23c203987acba05fb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strtolower</definition>
+        <argsstring>($s, $encoding=null)</argsstring>
+        <name>mb_strtolower</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strtolower</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="585" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="585" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a6e59eada26c79194acf7a139701041fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strtoupper</definition>
+        <argsstring>($s, $encoding=null)</argsstring>
+        <name>mb_strtoupper</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strtoupper</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="590" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="590" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ad48dc100280736ad272fc923f01fa1be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_substitute_character</definition>
+        <argsstring>($c=null)</argsstring>
+        <name>mb_substitute_character</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_substitute_character</qualifiedname>
+        <param>
+          <declname>$c</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="595" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="595" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ade00c2aedaee40ae772eec3e055262be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_substr</definition>
+        <argsstring>($s, $start, $length=null, $encoding=null)</argsstring>
+        <name>mb_substr</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_substr</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$start</declname>
+        </param>
+        <param>
+          <declname>$length</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="613" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="613" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a26967603570e1dd43b65c27c2856ff6f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_stripos</definition>
+        <argsstring>($haystack, $needle, $offset=0, $encoding=null)</argsstring>
+        <name>mb_stripos</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_stripos</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="639" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="639" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a5aef53f68586028a78f894b7f923681c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_stristr</definition>
+        <argsstring>($haystack, $needle, $part=false, $encoding=null)</argsstring>
+        <name>mb_stristr</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_stristr</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$part</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="647" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="647" bodyend="652"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ad561e330e70cb4f2a233e7c2cb624c91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strrchr</definition>
+        <argsstring>($haystack, $needle, $part=false, $encoding=null)</argsstring>
+        <name>mb_strrchr</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strrchr</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$part</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="654" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="654" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1acd39b3830028a508b06080f8a38d5403" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strrichr</definition>
+        <argsstring>($haystack, $needle, $part=false, $encoding=null)</argsstring>
+        <name>mb_strrichr</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strrichr</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$part</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="667" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="667" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9056dcc9df1d477cb03001adbb8a9497" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strripos</definition>
+        <argsstring>($haystack, $needle, $offset=0, $encoding=null)</argsstring>
+        <name>mb_strripos</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strripos</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="675" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="675" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a05052e4e0bab49cfe3a0c6dad91f66c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strstr</definition>
+        <argsstring>($haystack, $needle, $part=false, $encoding=null)</argsstring>
+        <name>mb_strstr</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strstr</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$part</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="683" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="683" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9fdfc07707533f6258415211559b1034" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_get_info</definition>
+        <argsstring>($type=&apos;all&apos;)</argsstring>
+        <name>mb_get_info</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_get_info</qualifiedname>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;all&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="696" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="696" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa9e130c2420821c3fcf6ad2645a63efe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_http_input</definition>
+        <argsstring>($type=&apos;&apos;)</argsstring>
+        <name>mb_http_input</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_http_input</qualifiedname>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="725" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="725" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a387494572e7ce41ee7f0d5c99b72df4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_http_output</definition>
+        <argsstring>($encoding=null)</argsstring>
+        <name>mb_http_output</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_http_output</qualifiedname>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="730" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="730" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1afc98384ebc04d26f6e8a1abb88cce3af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_strwidth</definition>
+        <argsstring>($s, $encoding=null)</argsstring>
+        <name>mb_strwidth</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_strwidth</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="735" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="735" bodyend="746"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a0e1557ace6c7748126cc4e08067bdba2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_substr_count</definition>
+        <argsstring>($haystack, $needle, $encoding=null)</argsstring>
+        <name>mb_substr_count</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_substr_count</qualifiedname>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$needle</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="748" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="748" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a1b552cf101641e067fffed656fd91179" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_output_handler</definition>
+        <argsstring>($contents, $status)</argsstring>
+        <name>mb_output_handler</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_output_handler</qualifiedname>
+        <param>
+          <declname>$contents</declname>
+        </param>
+        <param>
+          <declname>$status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="753" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="753" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ae97531bdf938906edbb3d2fc524e6e63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_chr</definition>
+        <argsstring>($code, $encoding=null)</argsstring>
+        <name>mb_chr</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_chr</qualifiedname>
+        <param>
+          <declname>$code</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="758" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="758" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8984c6a38ccef2cf6a6bde439458e7b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static mb_ord</definition>
+        <argsstring>($s, $encoding=null)</argsstring>
+        <name>mb_ord</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\mb_ord</qualifiedname>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="777" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="777" bodyend="799"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a09d03e2bf8be82679647040966ea29ea" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getSubpart</definition>
+        <argsstring>($pos, $part, $haystack, $encoding)</argsstring>
+        <name>getSubpart</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\getSubpart</qualifiedname>
+        <param>
+          <declname>$pos</declname>
+        </param>
+        <param>
+          <declname>$part</declname>
+        </param>
+        <param>
+          <declname>$haystack</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="801" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="801" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a19e4787009836784c8dc12452009dbec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static html_encoding_callback</definition>
+        <argsstring>(array $m)</argsstring>
+        <name>html_encoding_callback</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\html_encoding_callback</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="813" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="813" bodyend="836"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a00afe186880af74e59b8dc9d017a9365" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static title_case</definition>
+        <argsstring>(array $s)</argsstring>
+        <name>title_case</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\title_case</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="838" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="838" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8a395460c6344ac2acf4341f84243f65" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getData</definition>
+        <argsstring>($file)</argsstring>
+        <name>getData</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\getData</qualifiedname>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="843" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="843" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a317be02caaa69e9f3f80c69053b98dc9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getEncoding</definition>
+        <argsstring>($encoding)</argsstring>
+        <name>getEncoding</name>
+        <qualifiedname>Symfony\Polyfill\Mbstring\Mbstring\getEncoding</qualifiedname>
+        <param>
+          <declname>$encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="852" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="852" bodyend="873"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Partial mbstring implementation in PHP, iconv based, UTF-8 centric.</para>
+<para>Implemented:<itemizedlist>
+<listitem><para>mb_chr - Returns a specific character from its Unicode code point</para>
+</listitem><listitem><para>mb_convert_encoding - Convert character encoding</para>
+</listitem><listitem><para>mb_convert_variables - Convert character code in variable(s)</para>
+</listitem><listitem><para>mb_decode_mimeheader - Decode string in MIME header field</para>
+</listitem><listitem><para>mb_encode_mimeheader - Encode string for MIME header XXX NATIVE IMPLEMENTATION IS REALLY BUGGED</para>
+</listitem><listitem><para>mb_decode_numericentity - Decode HTML numeric string reference to character</para>
+</listitem><listitem><para>mb_encode_numericentity - Encode character to HTML numeric string reference</para>
+</listitem><listitem><para>mb_convert_case - Perform case folding on a string</para>
+</listitem><listitem><para>mb_detect_encoding - Detect character encoding</para>
+</listitem><listitem><para>mb_get_info - Get internal settings of mbstring</para>
+</listitem><listitem><para>mb_http_input - Detect HTTP input character encoding</para>
+</listitem><listitem><para>mb_http_output - Set/Get HTTP output character encoding</para>
+</listitem><listitem><para>mb_internal_encoding - Set/Get internal character encoding</para>
+</listitem><listitem><para>mb_list_encodings - Returns an array of all supported encodings</para>
+</listitem><listitem><para>mb_ord - Returns the Unicode code point of a character</para>
+</listitem><listitem><para>mb_output_handler - Callback function converts character encoding in output buffer</para>
+</listitem><listitem><para>mb_scrub - Replaces ill-formed byte sequences with substitute characters</para>
+</listitem><listitem><para>mb_strlen - Get string length</para>
+</listitem><listitem><para>mb_strpos - Find position of first occurrence of string in a string</para>
+</listitem><listitem><para>mb_strrpos - Find position of last occurrence of a string in a string</para>
+</listitem><listitem><para>mb_str_split - Convert a string to an array</para>
+</listitem><listitem><para>mb_strtolower - Make a string lowercase</para>
+</listitem><listitem><para>mb_strtoupper - Make a string uppercase</para>
+</listitem><listitem><para>mb_substitute_character - Set/Get substitution character</para>
+</listitem><listitem><para>mb_substr - Get part of string</para>
+</listitem><listitem><para>mb_stripos - Finds position of first occurrence of a string within another, case insensitive</para>
+</listitem><listitem><para>mb_stristr - Finds first occurrence of a string within another, case insensitive</para>
+</listitem><listitem><para>mb_strrchr - Finds the last occurrence of a character in a string within another</para>
+</listitem><listitem><para>mb_strrichr - Finds the last occurrence of a character in a string within another, case insensitive</para>
+</listitem><listitem><para>mb_strripos - Finds position of last occurrence of a string within another, case insensitive</para>
+</listitem><listitem><para>mb_strstr - Finds first occurrence of a string within another</para>
+</listitem><listitem><para>mb_strwidth - Return width of string</para>
+</listitem><listitem><para>mb_substr_count - Count the number of substring occurrences</para>
+</listitem></itemizedlist>
+</para>
+<para>Not implemented:<itemizedlist>
+<listitem><para>mb_convert_kana - Convert &quot;kana&quot; one from another (&quot;zen-kaku&quot;, &quot;han-kaku&quot; and more)</para>
+</listitem><listitem><para>mb_ereg_* - Regular expression with multibyte support</para>
+</listitem><listitem><para>mb_parse_str - Parse GET/POST/COOKIE data and set global variable</para>
+</listitem><listitem><para>mb_preferred_mime_name - Get MIME charset string</para>
+</listitem><listitem><para>mb_regex_encoding - Returns current encoding for multibyte regex as string</para>
+</listitem><listitem><para>mb_regex_set_options - Set/Get the default options for mbregex functions</para>
+</listitem><listitem><para>mb_send_mail - Send encoded mail</para>
+</listitem><listitem><para>mb_split - Split multibyte string using regular expression</para>
+</listitem><listitem><para>mb_strcut - Get part of string</para>
+</listitem><listitem><para>mb_strimwidth - Get truncated string with specified width</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" line="68" column="6" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Mbstring.php" bodystart="69" bodyend="874"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a7188b31a7f68d7970b4c9cfa12ffc44b" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>$encodingList</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9b4630229a2b87ca0f1fef552d1bd921" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>$internalEncoding</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a83170d318260a5a2e2a79dccdd371b10" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>$language</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1abd306ef64d41b78b18f3c5eb3a737c96" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>CASE_FOLD</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8a395460c6344ac2acf4341f84243f65" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>getData</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a317be02caaa69e9f3f80c69053b98dc9" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>getEncoding</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a09d03e2bf8be82679647040966ea29ea" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>getSubpart</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a19e4787009836784c8dc12452009dbec" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>html_encoding_callback</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a75524db562c45e6d46a7ca4bc6988aa5" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>MB_CASE_FOLD</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a6757acdc010a4c72638af822d2342bbe" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_check_encoding</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ae97531bdf938906edbb3d2fc524e6e63" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_chr</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a95a646eeac9e6ebf48c150a62526f2c2" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_convert_case</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a84d99dd1d7d8820af71edae7d97eb866" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_convert_encoding</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a97f34c70f1a60e8329657ca02004671f" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_convert_variables</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a59fca468dcbbab7c0d4cebce410553c9" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_decode_mimeheader</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a3b8ae2be3e3b9c621b15bbefe0132746" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_decode_numericentity</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aad01538b14f3efa0d9c5cea4cd4c507d" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_detect_encoding</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aceb5dad7107f3937cbcfd16104add294" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_detect_order</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa67f9cc753f3e241d00609d9b5ae02de" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_encode_mimeheader</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a58adb7a1d0e7aa7eaa1d2a3e4d7fd446" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_encode_numericentity</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ae18ef9f92abf7edf6c53ccf88e662ef3" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_encoding_aliases</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9fdfc07707533f6258415211559b1034" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_get_info</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa9e130c2420821c3fcf6ad2645a63efe" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_http_input</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a387494572e7ce41ee7f0d5c99b72df4d" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_http_output</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a67ac58e6c2555b1d7797f7e473a0fb33" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_internal_encoding</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a99ab75b3eee86651a314e0c6d22b5f7e" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_language</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8545f48c9859d5067686aaf1fd40ff79" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_list_encodings</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a8984c6a38ccef2cf6a6bde439458e7b2" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_ord</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a1b552cf101641e067fffed656fd91179" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_output_handler</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1aa9cdb52e5d4f8e9f2763d3f54858f407" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_str_split</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a26967603570e1dd43b65c27c2856ff6f" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_stripos</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a5aef53f68586028a78f894b7f923681c" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_stristr</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ab852281314426dd75499a0673c85db87" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strlen</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a24124a5eaea8ede2e7d44d8fd84b4058" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strpos</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ad561e330e70cb4f2a233e7c2cb624c91" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strrchr</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1acd39b3830028a508b06080f8a38d5403" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strrichr</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a9056dcc9df1d477cb03001adbb8a9497" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strripos</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1afe50237ad9c1ed920a8166a5458ae1cf" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strrpos</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a05052e4e0bab49cfe3a0c6dad91f66c8" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strstr</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a7bdc9beffa5b1ba23c203987acba05fb" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strtolower</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a6e59eada26c79194acf7a139701041fe" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strtoupper</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1afc98384ebc04d26f6e8a1abb88cce3af" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_strwidth</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ad48dc100280736ad272fc923f01fa1be" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_substitute_character</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1ade00c2aedaee40ae772eec3e055262be" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_substr</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a0e1557ace6c7748126cc4e08067bdba2" prot="public" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>mb_substr_count</name></member>
+      <member refid="class_symfony_1_1_polyfill_1_1_mbstring_1_1_mbstring_1a00afe186880af74e59b8dc9d017a9365" prot="private" virt="non-virtual"><scope>Symfony::Polyfill::Mbstring::Mbstring</scope><name>title_case</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

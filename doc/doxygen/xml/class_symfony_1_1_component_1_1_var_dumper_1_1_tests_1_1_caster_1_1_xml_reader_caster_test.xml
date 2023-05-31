@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a56ac4227ed0f1f20fd1d31918f3bd2ff" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$reader</definition>
+        <argsstring></argsstring>
+        <name>$reader</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\XmlReaderCasterTest\$reader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="25" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a0bc688732d2b3b162ffebaf7812e78da" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\XmlReaderCasterTest\setUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="27" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a80fe3d17e658907fc75346a0ec9d6fc7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\XmlReaderCasterTest\tearDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="33" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a6e1c029a423de58a1293650a9c18fd9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testParserProperty</definition>
+        <argsstring>()</argsstring>
+        <name>testParserProperty</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\XmlReaderCasterTest\testParserProperty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="38" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="38" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a0749b10dd03deedef73586f5f2a196a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testNodes</definition>
+        <argsstring>($seek, $expectedDump)</argsstring>
+        <name>testNodes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\XmlReaderCasterTest\testNodes</qualifiedname>
+        <param>
+          <declname>$seek</declname>
+        </param>
+        <param>
+          <declname>$expectedDump</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@dataProvider provideNodes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="59" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a2759294e7fc45f7834ca2692c1ea6773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideNodes</definition>
+        <argsstring>()</argsstring>
+        <name>provideNodes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\XmlReaderCasterTest\provideNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="67" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="67" bodyend="247"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Baptiste Clavié <ulink url="mailto:clavie.b@gmail.com">clavie.b@gmail.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>XmlReaderCasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>XmlReaderCasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" line="20" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" bodystart="21" bodyend="248"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a56ac4227ed0f1f20fd1d31918f3bd2ff" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</scope><name>$reader</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a2759294e7fc45f7834ca2692c1ea6773" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</scope><name>provideNodes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a0bc688732d2b3b162ffebaf7812e78da" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</scope><name>setUp</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a80fe3d17e658907fc75346a0ec9d6fc7" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</scope><name>tearDown</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a0749b10dd03deedef73586f5f2a196a4" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</scope><name>testNodes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_xml_reader_caster_test_1a6e1c029a423de58a1293650a9c18fd9d" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::XmlReaderCasterTest</scope><name>testParserProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" kind="interface" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Fixtures::FooInterface</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface_1a79418a120498dd9cf915655654607747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>foo</definition>
+        <argsstring>()</argsstring>
+        <name>foo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\FooInterface\foo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hello. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/FooInterface.php" line="10" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/FooInterface.php" line="5" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/FooInterface.php" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface_1a79418a120498dd9cf915655654607747" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::FooInterface</scope><name>foo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

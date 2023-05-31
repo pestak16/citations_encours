@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_550cd57fa0b307177f22075de7e5c31b" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests</compoundname>
+    <innerdir refid="dir_ba656d27230afbedf18ef293dfa9a95c">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster</innerdir>
+    <innerdir refid="dir_6f74c5483a7ce2c3ea309d1fcb0d261e">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner</innerdir>
+    <innerdir refid="dir_d11fd84a0c68b2a7e2c3b07342630d2a">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper</innerdir>
+    <innerdir refid="dir_0e874e6153d86b291a72bd5a1750959a">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures</innerdir>
+    <innerdir refid="dir_13ea5474857458eb5eac7f8155444afd">C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/"/>
+  </compounddef>
+</doxygen>

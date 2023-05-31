@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::PdoCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a8788ffd3318ae0ae7e54f85e830f96d9" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$pdoAttributes</definition>
+        <argsstring></argsstring>
+        <name>$pdoAttributes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PdoCaster\$pdoAttributes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a9b3c003aa64e23de20e9763214822d98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castPdo</definition>
+        <argsstring>(\PDO $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castPdo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PdoCaster\castPdo</qualifiedname>
+        <param>
+          <type>\PDO</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" line="60" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" bodystart="60" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a31bcd424274a3373464e3b3f6b089948" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castPdoStatement</definition>
+        <argsstring>(\PDOStatement $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castPdoStatement</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\PdoCaster\castPdoStatement</qualifiedname>
+        <param>
+          <type>\PDOStatement</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" line="109" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" bodystart="109" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts PDO related classes to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/PdoCaster.php" bodystart="22" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a8788ffd3318ae0ae7e54f85e830f96d9" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PdoCaster</scope><name>$pdoAttributes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a9b3c003aa64e23de20e9763214822d98" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PdoCaster</scope><name>castPdo</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_pdo_caster_1a31bcd424274a3373464e3b3f6b089948" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::PdoCaster</scope><name>castPdoStatement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

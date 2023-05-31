@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::ArgsStub</compoundname>
+    <basecompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub" prot="public" virt="non-virtual">EnumStub</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1ab79d246480c4ac3a0db6bbceca92ad32" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$parameters</definition>
+        <argsstring></argsstring>
+        <name>$parameters</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ArgsStub\$parameters</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" line="23" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1a11c3029cf7d6055fe7ced24897daa372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(array $args, $function, $class)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ArgsStub\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$args</declname>
+        </param>
+        <param>
+          <declname>$function</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" line="25" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" bodystart="25" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1a39921b7018849fc494b9b099ee10ed69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getParameters</definition>
+        <argsstring>($function, $class)</argsstring>
+        <name>getParameters</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ArgsStub\getParameters</qualifiedname>
+        <param>
+          <declname>$function</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" line="52" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" bodystart="52" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a list of function arguments.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ArgsStub</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EnumStub</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Stub</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ArgsStub</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EnumStub</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Stub</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ArgsStub.php" bodystart="22" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a0b41385738b43ee6b8668650e7a4c990" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$attr</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a252ba022809910ea710a068fc1bab657" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$class</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a5924770f076ba8a4bba0bd2a802a9d65" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$cut</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub_1ad5e394667575c3c1f1e1cafb4123df8c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$dumpKeys</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ad86c3fbc5672e1deeafc5229012b0b5d" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$handle</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1ab79d246480c4ac3a0db6bbceca92ad32" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$parameters</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$position</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ab1b6a30b6cc567c5b453c8039e10ca71" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$refCount</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a9a4a6fba2208984cabb3afacadf33919" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$type</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a0f298096f322952a72a50f98a74c7b60" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>$value</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1a11c3029cf7d6055fe7ced24897daa372" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>__construct</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub_1a5b7d0892cbb9feb7254ce37f1973208a" prot="public" virt="non-virtual" ambiguityscope="Symfony::Component::VarDumper::Caster::EnumStub::"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>__construct</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1aaf11785905da71774e052912d784e3b4" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>__sleep</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a09964fa54a00a9c7db2654b0ab0b9d24" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>ARRAY_ASSOC</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a89b7b7fe9e45b3c8cd52de21e497c2f9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>ARRAY_INDEXED</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_args_stub_1a39921b7018849fc494b9b099ee10ed69" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>getParameters</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ad83ea6fcca51b069b97f9c81a05069bf" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>STRING_BINARY</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a402b096553ff833218be412fae69da11" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>STRING_UTF8</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a11563c517f16ce832ff4fed40928a12b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>TYPE_ARRAY</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a2365fd1fb1e6d6e994238955ce32a8ec" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>TYPE_OBJECT</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a595346b7017a4bd48c2ff9557a00f7e9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>TYPE_REF</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1ad07ab1c1105bca21101d66c32159b192" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>TYPE_RESOURCE</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub_1a7b176bd55450d1c25a421b13dd484b4e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ArgsStub</scope><name>TYPE_STRING</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

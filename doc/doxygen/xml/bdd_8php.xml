@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="bdd_8php" kind="file" language="PHP">
+    <compoundname>bdd.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="bdd_8php_1a293363d7988627f671958e2d908c202a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_HOST</definition>
+        <argsstring></argsstring>
+        <name>DB_HOST</name>
+        <initializer>&apos;localhost&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fichier de configuration de la base de données</para>
+<para>Ce fichier définit les informations de connexion à la base de données.</para>
+<para>Droit UNIX à placer 640 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/bdd.php" line="12" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/bdd.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bdd_8php_1ab5db0d3504f917f268614c50b02c53e2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_NAME</definition>
+        <argsstring></argsstring>
+        <name>DB_NAME</name>
+        <initializer>&apos;citations&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/bdd.php" line="15" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/bdd.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bdd_8php_1a1d1d99f8e08f387d84fe9848f3357156" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_USER</definition>
+        <argsstring></argsstring>
+        <name>DB_USER</name>
+        <initializer>&apos;root&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/bdd.php" line="18" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/bdd.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bdd_8php_1a8bb9c4546d91667cfa61879d83127a92" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DB_PASS</definition>
+        <argsstring></argsstring>
+        <name>DB_PASS</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/conf/bdd.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/conf/bdd.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Hôte<sp/>de<sp/>la<sp/>base<sp/>de<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DB_HOST&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;localhost&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Nom<sp/>de<sp/>la<sp/>base<sp/>de<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DB_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;citations&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Nom<sp/>d&apos;utilisateur<sp/>de<sp/>la<sp/>base<sp/>de<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DB_USER&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;root&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Mot<sp/>de<sp/>passe<sp/>de<sp/>la<sp/>base<sp/>de<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DB_PASS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/conf/bdd.php"/>
+  </compounddef>
+</doxygen>

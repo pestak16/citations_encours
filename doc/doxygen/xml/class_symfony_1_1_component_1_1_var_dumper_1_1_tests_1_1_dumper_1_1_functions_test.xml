@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Dumper::FunctionsTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1ab1932eac1cea1c78bc3cda8adde440a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testDumpReturnsFirstArg</definition>
+        <argsstring>()</argsstring>
+        <name>testDumpReturnsFirstArg</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\FunctionsTest\testDumpReturnsFirstArg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" line="21" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" bodystart="21" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1a1ee7559a9a8964119d1bf559f4fc57c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testDumpReturnsAllArgsInArray</definition>
+        <argsstring>()</argsstring>
+        <name>testDumpReturnsAllArgsInArray</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\FunctionsTest\testDumpReturnsAllArgsInArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" line="34" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" bodystart="34" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1aca65f250c64f5afe76afb51dfb89f0a2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setupVarDumper</definition>
+        <argsstring>()</argsstring>
+        <name>setupVarDumper</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\FunctionsTest\setupVarDumper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" line="49" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" bodystart="49" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FunctionsTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FunctionsTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" line="19" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" bodystart="20" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1aca65f250c64f5afe76afb51dfb89f0a2" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::FunctionsTest</scope><name>setupVarDumper</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1a1ee7559a9a8964119d1bf559f4fc57c5" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::FunctionsTest</scope><name>testDumpReturnsAllArgsInArray</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_functions_test_1ab1932eac1cea1c78bc3cda8adde440a9" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::FunctionsTest</scope><name>testDumpReturnsFirstArg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

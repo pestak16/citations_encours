@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::ExceptionCaster</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a1a3f49b24e774bdd30de52c976915754" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$srcContext</definition>
+        <argsstring></argsstring>
+        <name>$srcContext</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\$srcContext</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="25" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac569c8f5880fbc7c14b524fb29fcc8b4" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$traceArgs</definition>
+        <argsstring></argsstring>
+        <name>$traceArgs</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\$traceArgs</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="26" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a8f09d17eed751ed811e11c17c70e4d83" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$errorTypes</definition>
+        <argsstring></argsstring>
+        <name>$errorTypes</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\$errorTypes</qualifiedname>
+        <initializer>= [
+        \E_DEPRECATED =&gt; &apos;E_DEPRECATED&apos;,
+        \E_USER_DEPRECATED =&gt; &apos;E_USER_DEPRECATED&apos;,
+        \E_RECOVERABLE_ERROR =&gt; &apos;E_RECOVERABLE_ERROR&apos;,
+        \E_ERROR =&gt; &apos;E_ERROR&apos;,
+        \E_WARNING =&gt; &apos;E_WARNING&apos;,
+        \E_PARSE =&gt; &apos;E_PARSE&apos;,
+        \E_NOTICE =&gt; &apos;E_NOTICE&apos;,
+        \E_CORE_ERROR =&gt; &apos;E_CORE_ERROR&apos;,
+        \E_CORE_WARNING =&gt; &apos;E_CORE_WARNING&apos;,
+        \E_COMPILE_ERROR =&gt; &apos;E_COMPILE_ERROR&apos;,
+        \E_COMPILE_WARNING =&gt; &apos;E_COMPILE_WARNING&apos;,
+        \E_USER_ERROR =&gt; &apos;E_USER_ERROR&apos;,
+        \E_USER_WARNING =&gt; &apos;E_USER_WARNING&apos;,
+        \E_USER_NOTICE =&gt; &apos;E_USER_NOTICE&apos;,
+        \E_STRICT =&gt; &apos;E_STRICT&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="27" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a2313a3d9a901a46815afd937ce4916b5" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$framesCache</definition>
+        <argsstring></argsstring>
+        <name>$framesCache</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\$framesCache</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="45" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aaa9cd278e434b73a29a256eca436af8a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castError</definition>
+        <argsstring>(\Error $e, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castError</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castError</qualifiedname>
+        <param>
+          <type>\Error</type>
+          <declname>$e</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="47" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a47f718563047392fb0fdf0dcf4119a5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castException</definition>
+        <argsstring>(\Exception $e, array $a, Stub $stub, $isNested, $filter=0)</argsstring>
+        <name>castException</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castException</qualifiedname>
+        <param>
+          <type>\Exception</type>
+          <declname>$e</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="52" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a820b890ebeba01c47889510189a1f35e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castErrorException</definition>
+        <argsstring>(\ErrorException $e, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castErrorException</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castErrorException</qualifiedname>
+        <param>
+          <type>\ErrorException</type>
+          <declname>$e</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="57" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a9109c518dfbf985fb19e36b66558a792" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castThrowingCasterException</definition>
+        <argsstring>(ThrowingCasterException $e, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castThrowingCasterException</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castThrowingCasterException</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_exception_1_1_throwing_caster_exception" kindref="compound">ThrowingCasterException</ref></type>
+          <declname>$e</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="66" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="66" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a6574b0ae564fe747b4f0f2da921d331a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castSilencedErrorContext</definition>
+        <argsstring>(SilencedErrorContext $e, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castSilencedErrorContext</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castSilencedErrorContext</qualifiedname>
+        <param>
+          <type>SilencedErrorContext</type>
+          <declname>$e</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="83" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="83" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ad7b5fd48a137f9c3b6177c825c2d1035" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castTraceStub</definition>
+        <argsstring>(TraceStub $trace, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castTraceStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castTraceStub</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_trace_stub" kindref="compound">TraceStub</ref></type>
+          <declname>$trace</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="110" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="110" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aed28b0e9af9acc87f67d916374176361" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castFrameStub</definition>
+        <argsstring>(FrameStub $frame, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castFrameStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\castFrameStub</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_frame_stub" kindref="compound">FrameStub</ref></type>
+          <declname>$frame</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="184" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="184" bodyend="260"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a62bb3e709c0391b427756685343cba97" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static filterExceptionArray</definition>
+        <argsstring>($xClass, array $a, $xPrefix, $filter)</argsstring>
+        <name>filterExceptionArray</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\filterExceptionArray</qualifiedname>
+        <param>
+          <declname>$xClass</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <declname>$xPrefix</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="262" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="262" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aacb216b8abcda950596454abf99106c2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static traceUnshift</definition>
+        <argsstring>(&amp;$trace, $class, $file, $line)</argsstring>
+        <name>traceUnshift</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\traceUnshift</qualifiedname>
+        <param>
+          <type>&amp;</type>
+          <declname>$trace</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="289" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="289" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac88a09ceb5c992adfc4222de77678c83" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static extractSource</definition>
+        <argsstring>($srcLines, $line, $srcContext, $title, $lang, $file=null)</argsstring>
+        <name>extractSource</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\ExceptionCaster\extractSource</qualifiedname>
+        <param>
+          <declname>$srcLines</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <param>
+          <declname>$srcContext</declname>
+        </param>
+        <param>
+          <declname>$title</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+        </param>
+        <param>
+          <declname>$file</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="301" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="301" bodyend="348"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts common <ref refid="namespace_symfony_1_1_component_1_1_var_dumper_1_1_exception" kindref="compound">Exception</ref> classes to array representation.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" line="23" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" bodystart="24" bodyend="349"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a8f09d17eed751ed811e11c17c70e4d83" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>$errorTypes</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a2313a3d9a901a46815afd937ce4916b5" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>$framesCache</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a1a3f49b24e774bdd30de52c976915754" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>$srcContext</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac569c8f5880fbc7c14b524fb29fcc8b4" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>$traceArgs</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aaa9cd278e434b73a29a256eca436af8a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castError</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a820b890ebeba01c47889510189a1f35e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castErrorException</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a47f718563047392fb0fdf0dcf4119a5e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castException</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aed28b0e9af9acc87f67d916374176361" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castFrameStub</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a6574b0ae564fe747b4f0f2da921d331a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castSilencedErrorContext</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a9109c518dfbf985fb19e36b66558a792" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castThrowingCasterException</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ad7b5fd48a137f9c3b6177c825c2d1035" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>castTraceStub</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1ac88a09ceb5c992adfc4222de77678c83" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>extractSource</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1a62bb3e709c0391b427756685343cba97" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>filterExceptionArray</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_exception_caster_1aacb216b8abcda950596454abf99106c2" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::ExceptionCaster</scope><name>traceUnshift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

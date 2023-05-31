@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_cloner" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Cloner</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner" prot="public">Symfony::Component::VarDumper::Cloner::AbstractCloner</innerclass>
+    <innerclass refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface" prot="public">Symfony::Component::VarDumper::Cloner::ClonerInterface</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cursor" prot="public">Symfony::Component::VarDumper::Cloner::Cursor</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" prot="public">Symfony::Component::VarDumper::Cloner::Data</innerclass>
+    <innerclass refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_dumper_interface" prot="public">Symfony::Component::VarDumper::Cloner::DumperInterface</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" prot="public">Symfony::Component::VarDumper::Cloner::Stub</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner" prot="public">Symfony::Component::VarDumper::Cloner::VarCloner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" line="12" column="10"/>
+  </compounddef>
+</doxygen>

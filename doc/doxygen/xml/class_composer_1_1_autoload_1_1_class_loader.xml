@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_composer_1_1_autoload_1_1_class_loader" kind="class" language="PHP" prot="public">
+    <compoundname>Composer::Autoload::ClassLoader</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a7fbc3633c79d7461383710e09d497fb0" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$vendorDir</definition>
+        <argsstring></argsstring>
+        <name>$vendorDir</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$vendorDir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="46" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a8a73e9adb9ac5eb77041801645646ff3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$prefixLengthsPsr4</definition>
+        <argsstring></argsstring>
+        <name>$prefixLengthsPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$prefixLengthsPsr4</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="53" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a923378483704151b859f5398efa4cb5b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$prefixDirsPsr4</definition>
+        <argsstring></argsstring>
+        <name>$prefixDirsPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$prefixDirsPsr4</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="58" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a51bda3aa8f4ff0d15f78f9c1e5e9a645" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$fallbackDirsPsr4</definition>
+        <argsstring></argsstring>
+        <name>$fallbackDirsPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$fallbackDirsPsr4</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="63" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a585a4d160be80e548731fd58b6483a36" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$prefixesPsr0</definition>
+        <argsstring></argsstring>
+        <name>$prefixesPsr0</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$prefixesPsr0</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="70" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a9edca20eb483c964c957d715ba77da50" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$fallbackDirsPsr0</definition>
+        <argsstring></argsstring>
+        <name>$fallbackDirsPsr0</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$fallbackDirsPsr0</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="75" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a1b45628b8a3e511c445d836d2f5da08f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$useIncludePath</definition>
+        <argsstring></argsstring>
+        <name>$useIncludePath</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$useIncludePath</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="78" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1adc083f7e1f2dd14ca2ddbaa63c2faf46" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$classMap</definition>
+        <argsstring></argsstring>
+        <name>$classMap</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$classMap</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="84" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a94320b00b1d01dc8c9f9f8d8e6599b20" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$classMapAuthoritative</definition>
+        <argsstring></argsstring>
+        <name>$classMapAuthoritative</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$classMapAuthoritative</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="87" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a90261e0d3cfd6840f5e306ac62c8ac4d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$missingClasses</definition>
+        <argsstring></argsstring>
+        <name>$missingClasses</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$missingClasses</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="93" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a7880f6cc65bb910c9eedd57b631a306f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$apcuPrefix</definition>
+        <argsstring></argsstring>
+        <name>$apcuPrefix</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$apcuPrefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="96" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_class_loader_1a5aeb07934b31aecbc0dbb2306b883070" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$registeredLoaders</definition>
+        <argsstring></argsstring>
+        <name>$registeredLoaders</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\$registeredLoaders</qualifiedname>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="101" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1ae3b73b1b7333e81be32ceeaf622945f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($vendorDir=null)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\__construct</qualifiedname>
+        <param>
+          <declname>$vendorDir</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>?string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>$vendorDir </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="106" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a102069675f7a94f8917f44acc2390687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPrefixes</definition>
+        <argsstring>()</argsstring>
+        <name>getPrefixes</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getPrefixes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string[] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="114" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="114" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1aa51c60813356de68739dbc9047976ceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPrefixesPsr4</definition>
+        <argsstring>()</argsstring>
+        <name>getPrefixesPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getPrefixesPsr4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array[] @psalm-return array&lt;string, array&lt;int, string&gt;&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="127" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1ae15bf208c8df574932ed0db749d5447b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFallbackDirs</definition>
+        <argsstring>()</argsstring>
+        <name>getFallbackDirs</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getFallbackDirs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array[] @psalm-return array&lt;string, string&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="136" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a1f1f85b44a8d01987ad2b6cd78f268bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFallbackDirsPsr4</definition>
+        <argsstring>()</argsstring>
+        <name>getFallbackDirsPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getFallbackDirsPsr4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array[] @psalm-return array&lt;string, string&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="145" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a7e9a9730c400820ee2b1c995cd5134fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getClassMap</definition>
+        <argsstring>()</argsstring>
+        <name>getClassMap</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getClassMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string[] Array of classname =&gt; path @psalm-return array&lt;string, string&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="154" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a164966b8bcb9bf5470152bb5707a28af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addClassMap</definition>
+        <argsstring>(array $classMap)</argsstring>
+        <name>addClassMap</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\addClassMap</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$classMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string[]</parametertype>
+<parametername>$classMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Class to filename map @psalm-param array&lt;string, string&gt; $classMap</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="165" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="165" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a5c0f76dc6dde6d1209d78b2fa27db0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add</definition>
+        <argsstring>($prefix, $paths, $prepend=false)</argsstring>
+        <name>add</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\add</qualifiedname>
+        <param>
+          <declname>$prefix</declname>
+        </param>
+        <param>
+          <declname>$paths</declname>
+        </param>
+        <param>
+          <declname>$prepend</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers a set of PSR-0 directories for a given prefix, either appending or prepending to the ones previously set for this prefix.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prefix </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string[]</parametertype>
+<parametertype>string</parametertype>
+<parametername>$paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The PSR-0 root directories </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$prepend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to prepend the directories</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="184" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="184" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a264d8845526646ebc3725f219949baca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addPsr4</definition>
+        <argsstring>($prefix, $paths, $prepend=false)</argsstring>
+        <name>addPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\addPsr4</qualifiedname>
+        <param>
+          <declname>$prefix</declname>
+        </param>
+        <param>
+          <declname>$paths</declname>
+        </param>
+        <param>
+          <declname>$prepend</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers a set of PSR-4 directories for a given namespace, either appending or prepending to the ones previously set for this namespace.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prefix/namespace, with trailing &apos;\&apos; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string[]</parametertype>
+<parametertype>string</parametertype>
+<parametername>$paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The PSR-4 base directories </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$prepend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to prepend the directories</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+InvalidArgumentException</para>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="233" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="233" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a558e395314f41f94b501b189ae74dcae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set</definition>
+        <argsstring>($prefix, $paths)</argsstring>
+        <name>set</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\set</qualifiedname>
+        <param>
+          <declname>$prefix</declname>
+        </param>
+        <param>
+          <declname>$paths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers a set of PSR-0 directories for a given prefix, replacing any others previously set for this prefix.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prefix </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string[]</parametertype>
+<parametertype>string</parametertype>
+<parametername>$paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The PSR-0 base directories</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="280" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="280" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a7f92172519c08357430e7da877a88995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPsr4</definition>
+        <argsstring>($prefix, $paths)</argsstring>
+        <name>setPsr4</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\setPsr4</qualifiedname>
+        <param>
+          <declname>$prefix</declname>
+        </param>
+        <param>
+          <declname>$paths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers a set of PSR-4 directories for a given namespace, replacing any others previously set for this namespace.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$prefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prefix/namespace, with trailing &apos;\&apos; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string[]</parametertype>
+<parametertype>string</parametertype>
+<parametername>$paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The PSR-4 base directories</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+InvalidArgumentException</para>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="300" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="300" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1aed3e96782322ebc7352f1e62de1cc38c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setUseIncludePath</definition>
+        <argsstring>($useIncludePath)</argsstring>
+        <name>setUseIncludePath</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\setUseIncludePath</qualifiedname>
+        <param>
+          <declname>$useIncludePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Turns on searching the include path for class files.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$useIncludePath</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="321" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="321" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a21c8a2ce47b9ab8184cce5949496414c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUseIncludePath</definition>
+        <argsstring>()</argsstring>
+        <name>getUseIncludePath</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getUseIncludePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Can be used to check if the autoloader uses the include path to check for classes.</para>
+<para><simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="332" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1aa3d6610396da6f5bef836d4fc5547816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setClassMapAuthoritative</definition>
+        <argsstring>($classMapAuthoritative)</argsstring>
+        <name>setClassMapAuthoritative</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\setClassMapAuthoritative</qualifiedname>
+        <param>
+          <declname>$classMapAuthoritative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Turns off searching the prefix and fallback directories for classes that have not been registered with the class map.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$classMapAuthoritative</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="345" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="345" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a5187f29c880def2863b3592d2cce5844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isClassMapAuthoritative</definition>
+        <argsstring>()</argsstring>
+        <name>isClassMapAuthoritative</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\isClassMapAuthoritative</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should class lookup fail if not found in the current class map?</para>
+<para><simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="355" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1aad0640d28c755d32a9c4d13322959848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setApcuPrefix</definition>
+        <argsstring>($apcuPrefix)</argsstring>
+        <name>setApcuPrefix</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\setApcuPrefix</qualifiedname>
+        <param>
+          <declname>$apcuPrefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>APCu prefix to use to cache found/not-found classes, if the extension is enabled.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$apcuPrefix</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="367" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="367" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a570c1269e2a739a2849b7e579e7d83b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getApcuPrefix</definition>
+        <argsstring>()</argsstring>
+        <name>getApcuPrefix</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getApcuPrefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The APCu prefix in use, or null if APCu caching is not enabled.</para>
+<para><simplesect kind="return"><para>string|null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="377" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="377" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a3968965f178f6a5ef212b31b72231e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>register</definition>
+        <argsstring>($prepend=false)</argsstring>
+        <name>register</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\register</qualifiedname>
+        <param>
+          <declname>$prepend</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers this instance as an autoloader.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$prepend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to prepend the autoloader or not</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="389" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="389" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a501cedfa611556a0100e024a0e102d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unregister</definition>
+        <argsstring>()</argsstring>
+        <name>unregister</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\unregister</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unregisters this instance as an autoloader.</para>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="410" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="410" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a8326a997d0cfe76d80196f60d240d144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>loadClass</definition>
+        <argsstring>($class)</argsstring>
+        <name>loadClass</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\loadClass</qualifiedname>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads the given class or interface.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the class </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true|null True if loaded, null otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="425" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="425" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a4f8534c9205630e4b9c61e47ebf2867a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>findFile</definition>
+        <argsstring>($class)</argsstring>
+        <name>findFile</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\findFile</qualifiedname>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the path to the file where the class is defined.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the class</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|false The path if found, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="443" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="443" bodyend="476"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1a738068f1e3ab7211bee77d49db47c0fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getRegisteredLoaders</definition>
+        <argsstring>()</argsstring>
+        <name>getRegisteredLoaders</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\getRegisteredLoaders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the currently registered loaders indexed by their corresponding vendor directories.</para>
+<para><simplesect kind="return"><para>self[] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="483" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="483" bodyend="486"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_class_loader_1aec97617fc6dcb26a5219ba08e6ecec93" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>findFileWithExtension</definition>
+        <argsstring>($class, $ext)</argsstring>
+        <name>findFileWithExtension</name>
+        <qualifiedname>Composer\Autoload\ClassLoader\findFileWithExtension</qualifiedname>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="493" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="493" bodyend="557"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_composer_1_1_autoload_1_1_class_loader" kindref="compound">ClassLoader</ref> implements a PSR-0, PSR-4 and classmap class loader. <verbatim>$loader = new \Composer\Autoload\ClassLoader();
+
+// register classes with namespaces
+$loader-&gt;add(&apos;Symfony\Component&apos;, __DIR__.&apos;/component&apos;);
+$loader-&gt;add(&apos;Symfony&apos;,           __DIR__.&apos;/framework&apos;);
+
+// activate the autoloader
+$loader-&gt;register();
+
+// to enable searching the include path (eg. for PEAR packages)
+$loader-&gt;setUseIncludePath(true);
+</verbatim> In this example, if you try to use a class in the Symfony\Component namespace or one of its children (Symfony\Component\Console for instance), the autoloader will first look for the class under the component/ directory, and it will then fallback to the framework/ directory if not found before giving up.</para>
+<para>This class is loosely based on the Symfony UniversalClassLoader.</para>
+<para><simplesect kind="author"><para>Fabien Potencier <ulink url="mailto:fabien@symfony.com">fabien@symfony.com</ulink> </para>
+</simplesect>
+<simplesect kind="author"><para>Jordi Boggiano <ulink url="mailto:j.boggiano@seld.be">j.boggiano@seld.be</ulink> </para>
+</simplesect>
+<simplesect kind="see"><para><ulink url="https://www.php-fig.org/psr/psr-0/">https://www.php-fig.org/psr/psr-0/</ulink> </para>
+</simplesect>
+<simplesect kind="see"><para><ulink url="https://www.php-fig.org/psr/psr-4/">https://www.php-fig.org/psr/psr-4/</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="43" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="44" bodyend="558"/>
+    <listofallmembers>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7880f6cc65bb910c9eedd57b631a306f" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$apcuPrefix</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1adc083f7e1f2dd14ca2ddbaa63c2faf46" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$classMap</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a94320b00b1d01dc8c9f9f8d8e6599b20" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$classMapAuthoritative</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a9edca20eb483c964c957d715ba77da50" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$fallbackDirsPsr0</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a51bda3aa8f4ff0d15f78f9c1e5e9a645" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$fallbackDirsPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a90261e0d3cfd6840f5e306ac62c8ac4d" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$missingClasses</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a923378483704151b859f5398efa4cb5b" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$prefixDirsPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a585a4d160be80e548731fd58b6483a36" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$prefixesPsr0</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a8a73e9adb9ac5eb77041801645646ff3" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$prefixLengthsPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a5aeb07934b31aecbc0dbb2306b883070" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$registeredLoaders</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a1b45628b8a3e511c445d836d2f5da08f" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$useIncludePath</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7fbc3633c79d7461383710e09d497fb0" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>$vendorDir</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1ae3b73b1b7333e81be32ceeaf622945f9" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>__construct</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a5c0f76dc6dde6d1209d78b2fa27db0af" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>add</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a164966b8bcb9bf5470152bb5707a28af" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>addClassMap</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a264d8845526646ebc3725f219949baca" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>addPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a4f8534c9205630e4b9c61e47ebf2867a" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>findFile</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1aec97617fc6dcb26a5219ba08e6ecec93" prot="private" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>findFileWithExtension</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a570c1269e2a739a2849b7e579e7d83b9" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getApcuPrefix</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7e9a9730c400820ee2b1c995cd5134fe" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getClassMap</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1ae15bf208c8df574932ed0db749d5447b" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getFallbackDirs</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a1f1f85b44a8d01987ad2b6cd78f268bd" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getFallbackDirsPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a102069675f7a94f8917f44acc2390687" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getPrefixes</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1aa51c60813356de68739dbc9047976ceb" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getPrefixesPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a738068f1e3ab7211bee77d49db47c0fc" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getRegisteredLoaders</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a21c8a2ce47b9ab8184cce5949496414c" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>getUseIncludePath</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a5187f29c880def2863b3592d2cce5844" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>isClassMapAuthoritative</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a8326a997d0cfe76d80196f60d240d144" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>loadClass</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a3968965f178f6a5ef212b31b72231e69" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>register</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a558e395314f41f94b501b189ae74dcae" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>set</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1aad0640d28c755d32a9c4d13322959848" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>setApcuPrefix</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1aa3d6610396da6f5bef836d4fc5547816" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>setClassMapAuthoritative</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a7f92172519c08357430e7da877a88995" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>setPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1aed3e96782322ebc7352f1e62de1cc38c" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>setUseIncludePath</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_class_loader_1a501cedfa611556a0100e024a0e102d9d" prot="public" virt="non-virtual"><scope>Composer::Autoload::ClassLoader</scope><name>unregister</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

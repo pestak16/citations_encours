@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_app_1_1_utilisateur_1_1_utilisateur_entity" kind="class" language="PHP" prot="public">
+    <compoundname>App::Utilisateur::UtilisateurEntity</compoundname>
+    <basecompoundref refid="class_core_1_1_entity" prot="public" virt="non-virtual">Entity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a3587bd00e5602c1800515b6f9ffbebc5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int $id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$id</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="12" column="17" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a202a88cc870edb6739ae922fd69c5178" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $prenom</definition>
+        <argsstring></argsstring>
+        <name>$prenom</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$prenom</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="13" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a0598dee0822971aef0f6a79d648943de" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $nom</definition>
+        <argsstring></argsstring>
+        <name>$nom</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$nom</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="14" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a31d8a4d4253ee1ddf2fea7fcae213091" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $mail</definition>
+        <argsstring></argsstring>
+        <name>$mail</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$mail</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="15" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1aaf7f59b862dced9b5e5b3574d3224b64" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $mot_de_passe</definition>
+        <argsstring></argsstring>
+        <name>$mot_de_passe</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$mot_de_passe</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="16" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1af985479c8cdcf813023872277f14f7bd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $date_modif</definition>
+        <argsstring></argsstring>
+        <name>$date_modif</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$date_modif</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="17" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1aefa280e5a5586c9671664c695016babd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $token</definition>
+        <argsstring></argsstring>
+        <name>$token</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$token</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="18" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a54235935852c246c3ecd7b256402f059" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool $is_admin</definition>
+        <argsstring></argsstring>
+        <name>$is_admin</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\$is_admin</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="20" column="18" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a1782381c34a158d42933ce2225c94791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(array $data=null)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructeur de la classe <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Les données à utiliser pour l&apos;hydratation de l&apos;entité. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="27" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1afcf35c44eee557afedc89984465feff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>est_admin</definition>
+        <argsstring>()</argsstring>
+        <name>est_admin</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\est_admin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode est_admin</para>
+<para>Indique si l&apos;utilisateur est un administrateur.</para>
+<para><simplesect kind="return"><para>bool True si l&apos;utilisateur est un administrateur, false sinon. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="42" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae3d7e348ef2dbe7040f080e4f617e800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hydrate</definition>
+        <argsstring>(array $data=null)</argsstring>
+        <name>hydrate</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\hydrate</qualifiedname>
+        <reimplements refid="class_core_1_1_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e">hydrate</reimplements>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode hydrate</para>
+<para>Hydrate l&apos;entité avec les données fournies.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Les données à utiliser pour l&apos;hydratation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> hydraté. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="55" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="55" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>est_nouveau</definition>
+        <argsstring>()</argsstring>
+        <name>est_nouveau</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\est_nouveau</qualifiedname>
+        <reimplements refid="class_core_1_1_entity_1ae93ec1a4f6dcae36c9b3a4775d003329">est_nouveau</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode est_nouveau</para>
+<para>Indique si l&apos;utilisateur est nouveau (non enregistré en base de données).</para>
+<para><simplesect kind="return"><para>bool True si l&apos;utilisateur est nouveau, false sinon. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="75" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getId</para>
+<para>Obtient l&apos;identifiant de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>int|null L&apos;identifiant de l&apos;utilisateur, ou null si non défini. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="87" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1af8e956b8b0343ff7d1b955c26cb0c780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setId</definition>
+        <argsstring>(int $id)</argsstring>
+        <name>setId</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setId</para>
+<para>Définit l&apos;identifiant de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;identifiant de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="100" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="100" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a2a243ff78ccebcd417fd644325f44701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPrenom</definition>
+        <argsstring>()</argsstring>
+        <name>getPrenom</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getPrenom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getPrenom</para>
+<para>Obtient le prénom de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>string|null Le prénom de l&apos;utilisateur, ou null si non défini. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="119" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a66191aa280b6a403dc96bf77cd6e7f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPrenom</definition>
+        <argsstring>(?string $prenom)</argsstring>
+        <name>setPrenom</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setPrenom</qualifiedname>
+        <param>
+          <type>?string</type>
+          <declname>$prenom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setPrenom</para>
+<para>Définit le prénom de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$prenom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le prénom de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="132" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a184f2299ee4553fa0782ea87c9aed362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getNom</definition>
+        <argsstring>()</argsstring>
+        <name>getNom</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getNom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getNom</para>
+<para>Obtient le nom de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>string|null Le nom de l&apos;utilisateur, ou null si non défini. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="145" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a688e64a03eec368478de11c53761caf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setNom</definition>
+        <argsstring>(?string $nom)</argsstring>
+        <name>setNom</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setNom</qualifiedname>
+        <param>
+          <type>?string</type>
+          <declname>$nom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setNom</para>
+<para>Définit le nom de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$nom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le nom de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="158" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="158" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae4923d9ec6cf4408080fc1c37e20e0ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMail</definition>
+        <argsstring>()</argsstring>
+        <name>getMail</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getMail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getMail</para>
+<para>Obtient l&apos;adresse e-mail de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>string|null L&apos;adresse e-mail de l&apos;utilisateur, ou null si non définie. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="171" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ad5ba083b208ed11aa16938a8ba87a78c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setMail</definition>
+        <argsstring>(string $mail)</argsstring>
+        <name>setMail</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setMail</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$mail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setMail</para>
+<para>Définit l&apos;adresse e-mail de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;adresse e-mail de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="184" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="184" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a0f3207dea00a5841f089daca73e543e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMot_de_passe</definition>
+        <argsstring>()</argsstring>
+        <name>getMot_de_passe</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getMot_de_passe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getMot_de_passe</para>
+<para>Obtient le mot de passe de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>string|null Le mot de passe de l&apos;utilisateur, ou null si non défini. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="203" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a94caeec42c1a2f9c83131e8f4d433de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setMot_de_passe</definition>
+        <argsstring>(string $mot_de_passe)</argsstring>
+        <name>setMot_de_passe</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setMot_de_passe</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$mot_de_passe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setMot_de_passe</para>
+<para>Définit le mot de passe de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mot_de_passe</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le mot de passe de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="216" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="216" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a244f6a5c0e365a080da30e632f8e9fd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDate_modif</definition>
+        <argsstring>()</argsstring>
+        <name>getDate_modif</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getDate_modif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getDate_modif</para>
+<para>Obtient la date de modification de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>string|null La date de modification de l&apos;utilisateur, ou null si non définie. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="229" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a2d51fcc108c2c24d6f55c23f13bbda61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDate_modif</definition>
+        <argsstring>(string $date_modif)</argsstring>
+        <name>setDate_modif</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setDate_modif</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$date_modif</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setDate_modif</para>
+<para>Définit la date de modification de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$date_modif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La date de modification de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="242" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="242" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getToken</para>
+<para>Obtient le token de l&apos;utilisateur.</para>
+<para><simplesect kind="return"><para>string|null Le token de l&apos;utilisateur, ou null si non défini. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="255" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae2a509b9803e3cea8668d8a1d2f3d8d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setToken</definition>
+        <argsstring>(string $token)</argsstring>
+        <name>setToken</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setToken</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setToken</para>
+<para>Définit le token de l&apos;utilisateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le token de l&apos;utilisateur. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="268" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="268" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a28460d5e7205720080c821a325ffeb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getIs_admin</definition>
+        <argsstring>()</argsstring>
+        <name>getIs_admin</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\getIs_admin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getIs_admin</para>
+<para>Indique si l&apos;utilisateur est un administrateur.</para>
+<para><simplesect kind="return"><para>bool True si l&apos;utilisateur est un administrateur, false sinon. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="281" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ac7f54f93f9fba600ba9245ec50c91f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setIs_admin</definition>
+        <argsstring>(bool $admin)</argsstring>
+        <name>setIs_admin</name>
+        <qualifiedname>App\Utilisateur\UtilisateurEntity\setIs_admin</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>$admin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode setIs_admin</para>
+<para>Définit si l&apos;utilisateur est un administrateur.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$admin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True si l&apos;utilisateur est un administrateur, false sinon. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self L&apos;objet <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref> mis à jour. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="294" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="294" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">UtilisateurEntity</ref></para>
+<para>Représente l&apos;entité <ref refid="namespace_app_1_1_utilisateur" kindref="compound">Utilisateur</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Entity</label>
+        <link refid="class_core_1_1_entity"/>
+      </node>
+      <node id="1">
+        <label>UtilisateurEntity</label>
+        <link refid="class_app_1_1_utilisateur_1_1_utilisateur_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Entity</label>
+        <link refid="class_core_1_1_entity"/>
+      </node>
+      <node id="1">
+        <label>UtilisateurEntity</label>
+        <link refid="class_app_1_1_utilisateur_1_1_utilisateur_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" line="10" column="1" bodyfile="C:/wamp64/www/citations_encours/src/App/Utilisateur/UtilisateurEntity.php" bodystart="11" bodyend="299"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1af985479c8cdcf813023872277f14f7bd" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$date_modif</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a3587bd00e5602c1800515b6f9ffbebc5" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$id</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a54235935852c246c3ecd7b256402f059" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$is_admin</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a31d8a4d4253ee1ddf2fea7fcae213091" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$mail</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1aaf7f59b862dced9b5e5b3574d3224b64" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$mot_de_passe</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a0598dee0822971aef0f6a79d648943de" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$nom</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a202a88cc870edb6739ae922fd69c5178" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$prenom</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1aefa280e5a5586c9671664c695016babd" prot="private" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>$token</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a1782381c34a158d42933ce2225c94791" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1afcf35c44eee557afedc89984465feff4" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>est_admin</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>est_nouveau</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a244f6a5c0e365a080da30e632f8e9fd5" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getDate_modif</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getId</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a28460d5e7205720080c821a325ffeb78" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getIs_admin</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae4923d9ec6cf4408080fc1c37e20e0ba" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getMail</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a0f3207dea00a5841f089daca73e543e0" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getMot_de_passe</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a184f2299ee4553fa0782ea87c9aed362" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getNom</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a2a243ff78ccebcd417fd644325f44701" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getPrenom</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>getToken</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae3d7e348ef2dbe7040f080e4f617e800" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>hydrate</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a2d51fcc108c2c24d6f55c23f13bbda61" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setDate_modif</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1af8e956b8b0343ff7d1b955c26cb0c780" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setId</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ac7f54f93f9fba600ba9245ec50c91f66" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setIs_admin</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ad5ba083b208ed11aa16938a8ba87a78c" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setMail</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a94caeec42c1a2f9c83131e8f4d433de2" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setMot_de_passe</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a688e64a03eec368478de11c53761caf0" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setNom</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1a66191aa280b6a403dc96bf77cd6e7f15" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setPrenom</name></member>
+      <member refid="class_app_1_1_utilisateur_1_1_utilisateur_entity_1ae2a509b9803e3cea8668d8a1d2f3d8d1" prot="public" virt="non-virtual"><scope>App::Utilisateur::UtilisateurEntity</scope><name>setToken</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

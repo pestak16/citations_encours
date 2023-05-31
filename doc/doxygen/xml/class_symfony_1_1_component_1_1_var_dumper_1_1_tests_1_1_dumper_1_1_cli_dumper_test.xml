@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ac2d7c7125d2d3749e9ede4aa2ba6ba3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testGet</definition>
+        <argsstring>()</argsstring>
+        <name>testGet</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testGet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="29" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="29" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad9fdcbcd2813e1c3a85a8215ef43b990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testDumpWithCommaFlag</definition>
+        <argsstring>($expected, $flags)</argsstring>
+        <name>testDumpWithCommaFlag</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testDumpWithCommaFlag</qualifiedname>
+        <param>
+          <declname>$expected</declname>
+        </param>
+        <param>
+          <declname>$flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@dataProvider provideDumpWithCommaFlagTests </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="117" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="117" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a12ac9e06b073b6aa8a13f3bbf7f3e285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testDumpWithCommaFlagsAndExceptionCodeExcerpt</definition>
+        <argsstring>()</argsstring>
+        <name>testDumpWithCommaFlagsAndExceptionCodeExcerpt</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testDumpWithCommaFlagsAndExceptionCodeExcerpt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="134" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="134" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a3fd58e52899689894bb2b448d0ec2f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideDumpWithCommaFlagTests</definition>
+        <argsstring>()</argsstring>
+        <name>provideDumpWithCommaFlagTests</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\provideDumpWithCommaFlagTests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="164" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="164" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1abc9a0f557041a77e67363e82b7fbca0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testXmlResource</definition>
+        <argsstring>()</argsstring>
+        <name>testXmlResource</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testXmlResource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires extension xml @requires PHP &lt; 8.0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="209" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="209" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ab860a852cfc04505b79fbe868211e2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testJsonCast</definition>
+        <argsstring>()</argsstring>
+        <name>testJsonCast</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testJsonCast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="227" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="227" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a0fb70daf6319ea40eb432d6ef5f30a23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testObjectCast</definition>
+        <argsstring>()</argsstring>
+        <name>testObjectCast</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testObjectCast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="264" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="264" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a4ad5e0a3d6877e1899f1946f3c446a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClosedResource</definition>
+        <argsstring>()</argsstring>
+        <name>testClosedResource</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testClosedResource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="293" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="293" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aafb504be2037fbb131ff329dc2e47472" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testFlags</definition>
+        <argsstring>()</argsstring>
+        <name>testFlags</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testFlags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="322" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="322" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aef712d12de79a56009b87abb6c04b03d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testThrowingCaster</definition>
+        <argsstring>()</argsstring>
+        <name>testThrowingCaster</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testThrowingCaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires function Twig\Template::getSourceContext </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="357" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="357" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a136b7581a65b69d39a4393738fdb2121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testRefsInProperties</definition>
+        <argsstring>()</argsstring>
+        <name>testRefsInProperties</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testRefsInProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="422" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="422" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a3c65fad7e8e618f1490ba86e6ebce325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testSpecialVars56</definition>
+        <argsstring>()</argsstring>
+        <name>testSpecialVars56</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testSpecialVars56</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@runInSeparateProcess @preserveGlobalState disabled @requires PHP 5.6 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="453" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="453" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad05c5c02b220a427231b571428ef8c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testGlobalsNoExt</definition>
+        <argsstring>()</argsstring>
+        <name>testGlobalsNoExt</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testGlobalsNoExt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@runInSeparateProcess @preserveGlobalState disabled </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="482" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="482" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad291cdda0712a3e7506c9aadedd416c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testBuggyRefs</definition>
+        <argsstring>()</argsstring>
+        <name>testBuggyRefs</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testBuggyRefs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@runInSeparateProcess @preserveGlobalState disabled </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="524" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="524" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ae07e23c992613b036162970f42d8f672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testIncompleteClass</definition>
+        <argsstring>()</argsstring>
+        <name>testIncompleteClass</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testIncompleteClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="561" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="561" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ac4b2b554d0fb0512f9e502ca7540bc3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideDumpArrayWithColor</definition>
+        <argsstring>()</argsstring>
+        <name>provideDumpArrayWithColor</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\provideDumpArrayWithColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="576" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="576" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aee8992165119c55d9890e16d62676ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testDumpArrayWithColor</definition>
+        <argsstring>($value, $flags, $expectedOut)</argsstring>
+        <name>testDumpArrayWithColor</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\testDumpArrayWithColor</qualifiedname>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$flags</declname>
+        </param>
+        <param>
+          <declname>$expectedOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@dataProvider provideDumpArrayWithColor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="608" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="608" bodyend="625"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ace2d22a772c6a4bda9328d21c45d93a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSpecialVars</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecialVars</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Dumper\CliDumperTest\getSpecialVars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="627" column="22" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="627" bodyend="643"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CliDumperTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CliDumperTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" line="25" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" bodystart="26" bodyend="644"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ace2d22a772c6a4bda9328d21c45d93a2" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>getSpecialVars</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ac4b2b554d0fb0512f9e502ca7540bc3c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>provideDumpArrayWithColor</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a3fd58e52899689894bb2b448d0ec2f06" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>provideDumpWithCommaFlagTests</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad291cdda0712a3e7506c9aadedd416c3" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testBuggyRefs</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a4ad5e0a3d6877e1899f1946f3c446a39" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testClosedResource</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aee8992165119c55d9890e16d62676ec8" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testDumpArrayWithColor</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad9fdcbcd2813e1c3a85a8215ef43b990" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testDumpWithCommaFlag</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a12ac9e06b073b6aa8a13f3bbf7f3e285" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testDumpWithCommaFlagsAndExceptionCodeExcerpt</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aafb504be2037fbb131ff329dc2e47472" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testFlags</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ac2d7c7125d2d3749e9ede4aa2ba6ba3b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testGet</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ad05c5c02b220a427231b571428ef8c5f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testGlobalsNoExt</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ae07e23c992613b036162970f42d8f672" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testIncompleteClass</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1ab860a852cfc04505b79fbe868211e2bd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testJsonCast</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a0fb70daf6319ea40eb432d6ef5f30a23" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testObjectCast</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a136b7581a65b69d39a4393738fdb2121" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testRefsInProperties</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1a3c65fad7e8e618f1490ba86e6ebce325" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testSpecialVars56</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1aef712d12de79a56009b87abb6c04b03d" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testThrowingCaster</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_dumper_1_1_cli_dumper_test_1abc9a0f557041a77e67363e82b7fbca0e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Dumper::CliDumperTest</scope><name>testXmlResource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_composer_1_1_autoload" kind="namespace" language="PHP">
+    <compoundname>Composer::Autoload</compoundname>
+    <innerclass refid="class_composer_1_1_autoload_1_1_class_loader" prot="public">Composer::Autoload::ClassLoader</innerclass>
+    <innerclass refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a" prot="public">Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_composer_1_1_autoload_1ade0eb3081a1b30224fd6201805c0ff0c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>includeFile</definition>
+        <argsstring>($file)</argsstring>
+        <name>includeFile</name>
+        <qualifiedname>Composer\Autoload\includeFile</qualifiedname>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scope isolated include.</para>
+<para>Prevents access to $this/self from included files.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" line="569" column="10" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/ClassLoader.php" bodystart="569" bodyend="572"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="5" column="10"/>
+  </compounddef>
+</doxygen>

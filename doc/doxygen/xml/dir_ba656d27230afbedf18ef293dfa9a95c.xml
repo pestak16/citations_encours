@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_ba656d27230afbedf18ef293dfa9a95c" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster</compoundname>
+    <innerfile refid="_caster_test_8php">CasterTest.php</innerfile>
+    <innerfile refid="_date_caster_test_8php">DateCasterTest.php</innerfile>
+    <innerfile refid="_exception_caster_test_8php">ExceptionCasterTest.php</innerfile>
+    <innerfile refid="_pdo_caster_test_8php">PdoCasterTest.php</innerfile>
+    <innerfile refid="_redis_caster_test_8php">RedisCasterTest.php</innerfile>
+    <innerfile refid="_reflection_caster_test_8php">ReflectionCasterTest.php</innerfile>
+    <innerfile refid="_spl_caster_test_8php">SplCasterTest.php</innerfile>
+    <innerfile refid="_stub_caster_test_8php">StubCasterTest.php</innerfile>
+    <innerfile refid="_xml_reader_caster_test_8php">XmlReaderCasterTest.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/"/>
+  </compounddef>
+</doxygen>

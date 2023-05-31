@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Fixtures::Php74</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1a5037c6a7971fe210d4d6c3a856d9df49" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$p1</definition>
+        <argsstring></argsstring>
+        <name>$p1</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\Php74\$p1</qualifiedname>
+        <initializer>= 123</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" line="7" column="12" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1ab98e40bf6f16089bcc38cdfe30fd1b7b" prot="public" static="no" mutable="no">
+        <type>stdClass</type>
+        <definition>stdClass $p2</definition>
+        <argsstring></argsstring>
+        <name>$p2</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\Php74\$p2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" line="8" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\Php74\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" line="10" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" line="5" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/Php74.php" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1a5037c6a7971fe210d4d6c3a856d9df49" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::Php74</scope><name>$p1</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1ab98e40bf6f16089bcc38cdfe30fd1b7b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::Php74</scope><name>$p2</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::Php74</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

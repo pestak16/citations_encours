@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Caster::CasterTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a778327744af6fb1060e30cca03ad84d5" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$referenceArray</definition>
+        <argsstring></argsstring>
+        <name>$referenceArray</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\CasterTest\$referenceArray</qualifiedname>
+        <initializer>= [
+        &apos;null&apos; =&gt; null,
+        &apos;empty&apos; =&gt; false,
+        &apos;public&apos; =&gt; &apos;pub&apos;,
+        &quot;\0~\0virtual&quot; =&gt; &apos;virt&apos;,
+        &quot;\0+\0dynamic&quot; =&gt; &apos;dyn&apos;,
+        &quot;\0*\0protected&quot; =&gt; &apos;prot&apos;,
+        &quot;\0Foo\0private&quot; =&gt; &apos;priv&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" line="25" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a4744fbc7823dfbcff194ae88ed9bfce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testFilter</definition>
+        <argsstring>($filter, $expectedDiff, $listedProperties=null)</argsstring>
+        <name>testFilter</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\CasterTest\testFilter</qualifiedname>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <param>
+          <declname>$expectedDiff</declname>
+        </param>
+        <param>
+          <declname>$listedProperties</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@dataProvider provideFilter </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" line="38" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a625b2fd9d011cbf9d304642420972244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideFilter</definition>
+        <argsstring>()</argsstring>
+        <name>provideFilter</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\CasterTest\provideFilter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" line="49" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" bodystart="49" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a33d281014940834327e33bb3760b888b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testAnonymousClass</definition>
+        <argsstring>()</argsstring>
+        <name>testAnonymousClass</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Caster\CasterTest\testAnonymousClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires PHP 7.0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" line="157" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" bodystart="157" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CasterTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" bodystart="22" bodyend="181"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a778327744af6fb1060e30cca03ad84d5" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::CasterTest</scope><name>$referenceArray</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a625b2fd9d011cbf9d304642420972244" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::CasterTest</scope><name>provideFilter</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a33d281014940834327e33bb3760b888b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::CasterTest</scope><name>testAnonymousClass</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_caster_1_1_caster_test_1a4744fbc7823dfbcff194ae88ed9bfce8" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Caster::CasterTest</scope><name>testFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

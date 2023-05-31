@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_d5e474048f2a4a54a8c1c03f07ee8198" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Resources/unidata</compoundname>
+    <innerfile refid="lower_case_8php">lowerCase.php</innerfile>
+    <innerfile refid="title_case_regexp_8php">titleCaseRegexp.php</innerfile>
+    <innerfile refid="upper_case_8php">upperCase.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Resources/unidata/"/>
+  </compounddef>
+</doxygen>

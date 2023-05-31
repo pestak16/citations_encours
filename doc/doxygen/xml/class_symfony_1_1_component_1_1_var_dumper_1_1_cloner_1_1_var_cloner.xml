@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Cloner::VarCloner</compoundname>
+    <basecompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner" prot="public" virt="non-virtual">AbstractCloner</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a1b557ed232d0fbd11a858f1b60271a8d" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$gid</definition>
+        <argsstring></argsstring>
+        <name>$gid</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\VarCloner\$gid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="19" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a5f4874fa791886067a52dedaf7ef6123" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$hashMask</definition>
+        <argsstring></argsstring>
+        <name>$hashMask</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\VarCloner\$hashMask</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="20" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1ab7316924655489883ff43d9fa9fd2f17" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$hashOffset</definition>
+        <argsstring></argsstring>
+        <name>$hashOffset</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\VarCloner\$hashOffset</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="21" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a11239b91fc640dfe49331b989fd0019a" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$arrayCache</definition>
+        <argsstring></argsstring>
+        <name>$arrayCache</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\VarCloner\$arrayCache</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="22" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a3a5f526269ccf782728ba9330a5b68c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>doClone</definition>
+        <argsstring>($var)</argsstring>
+        <name>doClone</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\VarCloner\doClone</qualifiedname>
+        <reimplements refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a3a5f526269ccf782728ba9330a5b68c4">doClone</reimplements>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para>Effectively clones the PHP variable.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$var</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any PHP variable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array The cloned variable represented in an array</para>
+</simplesect>
+</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="27" column="24" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="27" bodyend="307"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a4fa7632f1fd5b4229aa8d9481ef1f574" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static initHashMask</definition>
+        <argsstring>()</argsstring>
+        <name>initHashMask</name>
+        <qualifiedname>Symfony\Component\VarDumper\Cloner\VarCloner\initHashMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="309" column="29" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="309" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AbstractCloner</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ClonerInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface"/>
+      </node>
+      <node id="1">
+        <label>VarCloner</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AbstractCloner</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ClonerInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface"/>
+      </node>
+      <node id="1">
+        <label>VarCloner</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" line="17" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Cloner/VarCloner.php" bodystart="18" bodyend="335"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a11239b91fc640dfe49331b989fd0019a" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$arrayCache</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1addcee39d7c035bdcb6828007c3ada11a" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$defaultCasters</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a1b557ed232d0fbd11a858f1b60271a8d" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$gid</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a5f4874fa791886067a52dedaf7ef6123" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$hashMask</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1ab7316924655489883ff43d9fa9fd2f17" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$hashOffset</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a7891ab712e9f07d9529a6b9a9f3ddde1" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$maxItems</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a6829eaf9f88edab12b711f69175cb227" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$maxString</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a0f953a3be9b4f750ec8952807d67fb00" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$minDepth</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1ada19b5ede649a3d57b6ddacbb19b3c8c" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>$useExt</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a53245e1418d2f78f1ac128b463086394" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>__construct</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1ac00193d681def5217ffa183f3874829c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>addCasters</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a96c399eba98408cf306d2707b41daeaa" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>castObject</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a6be17c682e1aacc06ae1db8ccd84e5e9" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>castResource</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1afdec6ca56233e5dc012e14d46c6c5644" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>cloneVar</name></member>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_cloner_interface_1a9585669ab758ae5aafa76b3b73955df3" prot="public" virt="non-virtual" ambiguityscope="Symfony::Component::VarDumper::Cloner::ClonerInterface::"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>cloneVar</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a3a5f526269ccf782728ba9330a5b68c4" prot="protected" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>doClone</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_var_cloner_1a4fa7632f1fd5b4229aa8d9481ef1f574" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>initHashMask</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1ac0509f765fb4ce2a02078ee2dd752643" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>setMaxItems</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a1ec0fcbe516576a3be43fa2ff68f9722" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>setMaxString</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_abstract_cloner_1a8cad2e561c5a12de723dd3040ecb374e" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Cloner::VarCloner</scope><name>setMinDepth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

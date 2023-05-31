@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface" kind="interface" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Dumper::DataDumperInterface</compoundname>
+    <derivedcompoundref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper" prot="public" virt="non-virtual">AbstractDumper</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface_1ac42028578ae35f8c9a903043ef590585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dump</definition>
+        <argsstring>(Data $data)</argsstring>
+        <name>dump</name>
+        <qualifiedname>Symfony\Component\VarDumper\Dumper\DataDumperInterface\dump</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_data" kindref="compound">Data</ref></type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" line="23" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface" kindref="compound">DataDumperInterface</ref> for dumping Data objects.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DataDumperInterface</label>
+        <link refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface"/>
+      </node>
+      <node id="5">
+        <label>HtmlDumper</label>
+        <link refid="class_rdehnhardt_1_1_debug_1_1_html_dumper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_abstract_dumper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CliDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_cli_dumper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>HtmlDumper</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_html_dumper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" line="21" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" bodystart="22" bodyend="24"/>
+    <listofallmembers>
+      <member refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_dumper_1_1_data_dumper_interface_1ac42028578ae35f8c9a903043ef590585" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Dumper::DataDumperInterface</scope><name>dump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="index_8php" kind="file" language="PHP">
+    <compoundname>index.php</compoundname>
+    <innernamespace refid="namespace_app_1_1_utilisateur_1_1_utilisateur_entity">App::Utilisateur::UtilisateurEntity</innernamespace>
+    <innernamespace refid="namespace_app_1_1_utilisateur_1_1_utilisateur_manager">App::Utilisateur::UtilisateurManager</innernamespace>
+    <innernamespace refid="namespace_app_1_1_citation_1_1_citation_manager">App::Citation::CitationManager</innernamespace>
+    <innernamespace refid="namespace_app_1_1_citation_1_1_citation_entity">App::Citation::CitationEntity</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">use<sp/><ref refid="class_app_1_1_autoloader" kindref="compound">App\Autoloader</ref><sp/>as<sp/>AppAutoloader;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="class_core_1_1_autoloader" kindref="compound">Core\Autoloader</ref><sp/>as<sp/>CoreAutoloader;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_app_1_1_utilisateur_1_1_utilisateur_entity" kindref="compound">App\Utilisateur\UtilisateurEntity</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="class_app_1_1_utilisateur_1_1_utilisateur_manager" kindref="compound">App\Utilisateur\UtilisateurManager</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="class_app_1_1_citation_1_1_citation_manager" kindref="compound">App\Citation\CitationManager</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="class_app_1_1_citation_1_1_citation_entity" kindref="compound">App\Citation\CitationEntity</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="class_app_1_1_auteur_1_1_auteur_entity" kindref="compound">App\Auteur\AuteurEntity</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">require_once(</highlight><highlight class="stringliteral">&apos;../conf/constantes.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//Autoloaders</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">require_once<sp/><ref refid="constantes_8php_1a18c0644836e196aed6d63779e14d6bd8" kindref="member">ROOT</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/App/Autoloader.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="class_app_1_1_autoloader_1a610b9c89b82e11ea426e1804874a6ef4" kindref="member">AppAutoloader::register</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">require_once<sp/><ref refid="constantes_8php_1a18c0644836e196aed6d63779e14d6bd8" kindref="member">ROOT</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/Core/Autoloader.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="class_core_1_1_autoloader_1a610b9c89b82e11ea426e1804874a6ef4" kindref="member">CoreAutoloader::register</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">require_once<sp/><ref refid="constantes_8php_1a18c0644836e196aed6d63779e14d6bd8" kindref="member">ROOT</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/vendor/autoload.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/public/index.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a" kind="class" language="PHP" prot="public">
+    <compoundname>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1ab832f4c463ee1c9ba2e9464265f7ea3b" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$loader</definition>
+        <argsstring></argsstring>
+        <name>$loader</name>
+        <qualifiedname>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a\$loader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" line="7" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a3ab1fc00c945e73b85a36acbb5d21530" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static loadClassLoader</definition>
+        <argsstring>($class)</argsstring>
+        <name>loadClassLoader</name>
+        <qualifiedname>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a\loadClassLoader</qualifiedname>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" line="9" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a4f29c9e935451ce6ea4e4b9821ba6280" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getLoader</definition>
+        <argsstring>()</argsstring>
+        <name>getLoader</name>
+        <qualifiedname>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a\getLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>\Composer\Autoload\ClassLoader </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" line="19" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" bodystart="19" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" line="5" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_real.php" bodystart="6" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1ab832f4c463ee1c9ba2e9464265f7ea3b" prot="private" virt="non-virtual"><scope>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>$loader</name></member>
+      <member refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a4f29c9e935451ce6ea4e4b9821ba6280" prot="public" virt="non-virtual"><scope>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>getLoader</name></member>
+      <member refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a3ab1fc00c945e73b85a36acbb5d21530" prot="public" virt="non-virtual"><scope>ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>loadClassLoader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

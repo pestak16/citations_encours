@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_dumper_test_8php" kind="file" language="PHP">
+    <compoundname>DumperTest.php</compoundname>
+    <innerclass refid="class_dumper_test" prot="public">DumperTest</innerclass>
+    <innernamespace refid="namespace_p_h_p_unit_1_1_framework_1_1_test_case">PHPUnit::Framework::TestCase</innernamespace>
+    <innernamespace refid="namespace_rdehnhardt_1_1_debug_1_1_dumper">Rdehnhardt::Debug::Dumper</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">use<sp/>PHPUnit\Framework\TestCase;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="class_rdehnhardt_1_1_debug_1_1_dumper" kindref="compound">Rdehnhardt\Debug\Dumper</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_dumper_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dumper_test" kindref="compound">DumperTest</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>TestCase</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_dumper_test_1a70fa663f2a48a640373aaba0415800c1" kindref="member">testClassExists</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;assertTrue(class_exists(Dumper::class));</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/tests/DumperTest.php"/>
+  </compounddef>
+</doxygen>

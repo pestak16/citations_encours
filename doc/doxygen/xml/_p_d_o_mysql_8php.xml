@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_p_d_o_mysql_8php" kind="file" language="PHP">
+    <compoundname>PDOMysql.php</compoundname>
+    <innerclass refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" prot="public">Core::Database::Db::PDOMysql</innerclass>
+    <innernamespace refid="namespace_core_1_1_database_1_1_db">Core::Database::Db</innernamespace>
+    <innernamespace refid="namespace_p_d_o_exception">PDOException</innernamespace>
+    <innernamespace refid="namespace_p_d_o_statement">PDOStatement</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_core_1_1_database_1_1_db" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_core_1_1_database_1_1_db" kindref="compound">Core\Database\Db</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>PDO;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>PDOException;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>PDOStatement;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql" kindref="compound">PDOMysql</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>PDO</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ad9d7ce33ebb142b70e58b68052ca0ea8" kindref="member">$instance</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Inclusion<sp/>du<sp/>fichier<sp/>de<sp/>configuration<sp/>de<sp/>la<sp/>base<sp/>de<sp/>données</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once<sp/><ref refid="constantes_8php_1a18c0644836e196aed6d63779e14d6bd8" kindref="member">ROOT</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/conf/bdd.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Construction<sp/>de<sp/>la<sp/>chaîne<sp/>de<sp/>connexion<sp/>DSN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dsn<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;mysql:host=&apos;</highlight><highlight class="normal"><sp/>.<sp/><ref refid="bdd_8php_1a293363d7988627f671958e2d908c202a" kindref="member">DB_HOST</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&apos;;dbname=&apos;</highlight><highlight class="normal"><sp/>.<sp/><ref refid="bdd_8php_1ab5db0d3504f917f268614c50b02c53e2" kindref="member">DB_NAME</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Appel<sp/>du<sp/>constructeur<sp/>de<sp/>la<sp/>classe<sp/>PDO<sp/>parent<sp/>avec<sp/>la<sp/>chaîne<sp/>de<sp/>connexion<sp/>et<sp/>les<sp/>informations<sp/>d&apos;identification</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct($dsn,<sp/><ref refid="bdd_8php_1a1d1d99f8e08f387d84fe9848f3357156" kindref="member">DB_USER</ref>,<sp/><ref refid="bdd_8php_1a8bb9c4546d91667cfa61879d83127a92" kindref="member">DB_PASS</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Configuration<sp/>des<sp/>attributs<sp/>PDO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="constantes_8php_1a758c150b67e476ecf77478f16b387c61" kindref="member">DEBUG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setAttribute(PDO::ATTR_ERRMODE,<sp/>PDO::ERRMODE_EXCEPTION);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setAttribute(PDO::ATTR_ERRMODE,<sp/>PDO::ERRMODE_SILENT);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,<sp/>PDO::FETCH_OBJ);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setAttribute(PDO::MYSQL_ATTR_INIT_COMMAND,<sp/></highlight><highlight class="stringliteral">&apos;SET<sp/>NAMES<sp/>utf8&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ac93fbec81f07e5d15f80db907e63dc10" kindref="member">getInstance</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(self::$instance<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::$instance<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_database_1_1_db_1_1_p_d_o_mysql_1ad9d7ce33ebb142b70e58b68052ca0ea8" kindref="member">self::$instance</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Database/Db/PDOMysql.php"/>
+  </compounddef>
+</doxygen>

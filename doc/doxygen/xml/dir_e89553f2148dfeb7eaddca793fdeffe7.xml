@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_e89553f2148dfeb7eaddca793fdeffe7" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug</compoundname>
+    <innerfile refid="_dumper_8php">Dumper.php</innerfile>
+    <innerfile refid="rdehnhardt_2var-dumper_2src_2_debug_2_html_dumper_8php">HtmlDumper.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/src/Debug/"/>
+  </compounddef>
+</doxygen>

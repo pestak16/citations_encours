@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::StubCaster</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1a0cfcba3e9cc5d87fb16ba11b6e551839" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castStub</definition>
+        <argsstring>(Stub $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castStub</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\StubCaster\castStub</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" line="23" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" bodystart="23" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1aa3b496aaaaa27b3a0f2e4b5a5e374ebe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castCutArray</definition>
+        <argsstring>(CutArrayStub $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castCutArray</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\StubCaster\castCutArray</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_cut_array_stub" kindref="compound">CutArrayStub</ref></type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" line="44" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1ac6c8b2578df2669a222d11c85901ced3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static cutInternals</definition>
+        <argsstring>($obj, array $a, Stub $stub, $isNested)</argsstring>
+        <name>cutInternals</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\StubCaster\cutInternals</qualifiedname>
+        <param>
+          <declname>$obj</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" line="49" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" bodystart="49" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1a30d65a8585217a00914a5a4b0ff03a11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castEnum</definition>
+        <argsstring>(EnumStub $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castEnum</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\StubCaster\castEnum</qualifiedname>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_enum_stub" kindref="compound">EnumStub</ref></type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" line="60" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" bodystart="60" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Casts a caster&apos;s Stub.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/StubCaster.php" bodystart="22" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1aa3b496aaaaa27b3a0f2e4b5a5e374ebe" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::StubCaster</scope><name>castCutArray</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1a30d65a8585217a00914a5a4b0ff03a11" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::StubCaster</scope><name>castEnum</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1a0cfcba3e9cc5d87fb16ba11b6e551839" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::StubCaster</scope><name>castStub</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_stub_caster_1ac6c8b2578df2669a222d11c85901ced3" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::StubCaster</scope><name>cutInternals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

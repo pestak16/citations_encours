@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_core" kind="namespace" language="PHP">
+    <compoundname>Core</compoundname>
+    <innerclass refid="class_core_1_1_autoloader" prot="public">Core::Autoloader</innerclass>
+    <innerclass refid="class_core_1_1_debug" prot="public">Core::Debug</innerclass>
+    <innerclass refid="class_core_1_1_entity" prot="public">Core::Entity</innerclass>
+    <innernamespace refid="namespace_core_1_1_database">Core::Database</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe Manager</para>
+<para>Description : Cette classe est responsable de la gestion des opérations de base de données. Elle permet d&apos;effectuer des requêtes SQL, récupérer des données à partir de la base de données, et effectuer des opérations de création.</para>
+<para>\Database </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Autoloader.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

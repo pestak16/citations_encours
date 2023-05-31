@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_exception" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Exception</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_exception_1_1_throwing_caster_exception" prot="public">Symfony::Component::VarDumper::Exception::ThrowingCasterException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" line="12" column="10"/>
+  </compounddef>
+</doxygen>

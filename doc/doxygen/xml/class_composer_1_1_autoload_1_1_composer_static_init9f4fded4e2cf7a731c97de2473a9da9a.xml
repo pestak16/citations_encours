@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a" kind="class" language="PHP" prot="public">
+    <compoundname>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a9590b15215a21e9b42eb546aeef79704" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$files</definition>
+        <argsstring></argsstring>
+        <name>$files</name>
+        <qualifiedname>Composer\Autoload\ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a\$files</qualifiedname>
+        <initializer>= array (
+        &apos;0e6d7bf4a5811bfa5cf40c5ccd6fae6a&apos; =&gt; __DIR__ . &apos;/..&apos; . &apos;/symfony/polyfill-mbstring/bootstrap.php&apos;,
+        &apos;667aeda72477189d0494fecd327c3641&apos; =&gt; __DIR__ . &apos;/..&apos; . &apos;/symfony/var-dumper/Resources/functions/dump.php&apos;,
+        &apos;c54a042052c6ad40aae887be4b8ad691&apos; =&gt; __DIR__ . &apos;/..&apos; . &apos;/rdehnhardt/var-dumper/src/helpers.php&apos;,
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="9" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a8a73e9adb9ac5eb77041801645646ff3" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$prefixLengthsPsr4</definition>
+        <argsstring></argsstring>
+        <name>$prefixLengthsPsr4</name>
+        <qualifiedname>Composer\Autoload\ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a\$prefixLengthsPsr4</qualifiedname>
+        <initializer>= array (
+        &apos;S&apos; =&gt; 
+        array (
+            &apos;Symfony\\Polyfill\\Mbstring\\&apos; =&gt; 26,
+            &apos;Symfony\\Component\\VarDumper\\&apos; =&gt; 28,
+        ),
+        &apos;R&apos; =&gt; 
+        array (
+            &apos;Rdehnhardt\\&apos; =&gt; 11,
+        ),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="15" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a923378483704151b859f5398efa4cb5b" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$prefixDirsPsr4</definition>
+        <argsstring></argsstring>
+        <name>$prefixDirsPsr4</name>
+        <qualifiedname>Composer\Autoload\ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a\$prefixDirsPsr4</qualifiedname>
+        <initializer>= array (
+        &apos;Symfony\\Polyfill\\Mbstring\\&apos; =&gt; 
+        array (
+            0 =&gt; __DIR__ . &apos;/..&apos; . &apos;/symfony/polyfill-mbstring&apos;,
+        ),
+        &apos;Symfony\\Component\\VarDumper\\&apos; =&gt; 
+        array (
+            0 =&gt; __DIR__ . &apos;/..&apos; . &apos;/symfony/var-dumper&apos;,
+        ),
+        &apos;Rdehnhardt\\&apos; =&gt; 
+        array (
+            0 =&gt; __DIR__ . &apos;/..&apos; . &apos;/rdehnhardt/var-dumper/src&apos;,
+        ),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="27" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1adc083f7e1f2dd14ca2ddbaa63c2faf46" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$classMap</definition>
+        <argsstring></argsstring>
+        <name>$classMap</name>
+        <qualifiedname>Composer\Autoload\ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a\$classMap</qualifiedname>
+        <initializer>= array (
+        &apos;Composer\\InstalledVersions&apos; =&gt; __DIR__ . &apos;/..&apos; . &apos;/composer/InstalledVersions.php&apos;,
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="42" column="19" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a43dabec9d94d3a81ef6434b0377bf161" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInitializer</definition>
+        <argsstring>(ClassLoader $loader)</argsstring>
+        <name>getInitializer</name>
+        <qualifiedname>Composer\Autoload\ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a\getInitializer</qualifiedname>
+        <param>
+          <type><ref refid="class_composer_1_1_autoload_1_1_class_loader" kindref="compound">ClassLoader</ref></type>
+          <declname>$loader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="46" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" bodystart="46" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" line="7" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/composer/autoload_static.php" bodystart="8" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1adc083f7e1f2dd14ca2ddbaa63c2faf46" prot="public" virt="non-virtual"><scope>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>$classMap</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a9590b15215a21e9b42eb546aeef79704" prot="public" virt="non-virtual"><scope>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>$files</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a923378483704151b859f5398efa4cb5b" prot="public" virt="non-virtual"><scope>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>$prefixDirsPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a8a73e9adb9ac5eb77041801645646ff3" prot="public" virt="non-virtual"><scope>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>$prefixLengthsPsr4</name></member>
+      <member refid="class_composer_1_1_autoload_1_1_composer_static_init9f4fded4e2cf7a731c97de2473a9da9a_1a43dabec9d94d3a81ef6434b0377bf161" prot="public" virt="non-virtual"><scope>Composer::Autoload::ComposerStaticInit9f4fded4e2cf7a731c97de2473a9da9a</scope><name>getInitializer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

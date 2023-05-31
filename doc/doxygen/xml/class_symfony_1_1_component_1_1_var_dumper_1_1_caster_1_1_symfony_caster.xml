@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::SymfonyCaster</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster_1a677c7339efb09b98075c4d70654eb7f4" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$requestGetters</definition>
+        <argsstring></argsstring>
+        <name>$requestGetters</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SymfonyCaster\$requestGetters</qualifiedname>
+        <initializer>= [
+        &apos;pathInfo&apos; =&gt; &apos;getPathInfo&apos;,
+        &apos;requestUri&apos; =&gt; &apos;getRequestUri&apos;,
+        &apos;baseUrl&apos; =&gt; &apos;getBaseUrl&apos;,
+        &apos;basePath&apos; =&gt; &apos;getBasePath&apos;,
+        &apos;method&apos; =&gt; &apos;getMethod&apos;,
+        &apos;format&apos; =&gt; &apos;getRequestFormat&apos;,
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" line="19" column="20" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster_1ad117bd49689971efa38d57956dba2b5c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castRequest</definition>
+        <argsstring>(Request $request, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castRequest</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\SymfonyCaster\castRequest</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" line="28" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" bodystart="28" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" line="17" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" bodystart="18" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster_1a677c7339efb09b98075c4d70654eb7f4" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SymfonyCaster</scope><name>$requestGetters</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_symfony_caster_1ad117bd49689971efa38d57956dba2b5c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::SymfonyCaster</scope><name>castRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

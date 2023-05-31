@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C__wamp64_www_citations_encours_src_vendor_symfony_var_dumper_README</compoundname>
+    <title>VarDumper Component</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The VarDumper component provides mechanisms for walking through any arbitrary PHP variable. It provides a better <computeroutput>dump()</computeroutput> function that you can use instead of <computeroutput>var_dump</computeroutput>.</para>
+<sect1 id="md__c__wamp64_www_citations_encours_src_vendor_symfony_var_dumper__r_e_a_d_m_e_1autotoc_md6">
+<title>Resources</title>
+<para><itemizedlist>
+<listitem><para><ulink url="https://symfony.com/doc/current/components/var_dumper/introduction.html">Documentation</ulink></para>
+</listitem><listitem><para><ulink url="https://symfony.com/doc/current/contributing/index.html">Contributing</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/symfony/symfony/issues">Report issues</ulink> and <ulink url="https://github.com/symfony/symfony/pulls">send Pull Requests</ulink> in the <ulink url="https://github.com/symfony/symfony">main Symfony repository</ulink> </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_core_1_1_database" kind="namespace" language="PHP">
+    <compoundname>Core::Database</compoundname>
+    <innerclass refid="class_core_1_1_database_1_1_db_factory" prot="public">Core::Database::DbFactory</innerclass>
+    <innerclass refid="class_core_1_1_database_1_1_db_tools" prot="public">Core::Database::DbTools</innerclass>
+    <innerclass refid="class_core_1_1_database_1_1_manager" prot="public">Core::Database::Manager</innerclass>
+    <innernamespace refid="namespace_core_1_1_database_1_1_db">Core::Database::Db</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbFactory.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

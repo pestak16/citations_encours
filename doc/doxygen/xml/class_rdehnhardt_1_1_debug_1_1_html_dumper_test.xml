@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_rdehnhardt_1_1_debug_1_1_html_dumper_test" kind="class" language="PHP" prot="public">
+    <compoundname>Rdehnhardt::Debug::HtmlDumperTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rdehnhardt_1_1_debug_1_1_html_dumper_test_1a70fa663f2a48a640373aaba0415800c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClassExists</definition>
+        <argsstring>()</argsstring>
+        <name>testClassExists</name>
+        <qualifiedname>Rdehnhardt\Debug\HtmlDumperTest\testClassExists</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/tests/HtmlDumperTest.php" line="9" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/tests/HtmlDumperTest.php" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HtmlDumperTest</label>
+        <link refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HtmlDumperTest</label>
+        <link refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/tests/HtmlDumperTest.php" line="7" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/rdehnhardt/var-dumper/tests/HtmlDumperTest.php" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_rdehnhardt_1_1_debug_1_1_html_dumper_test_1a70fa663f2a48a640373aaba0415800c1" prot="public" virt="non-virtual"><scope>Rdehnhardt::Debug::HtmlDumperTest</scope><name>testClassExists</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

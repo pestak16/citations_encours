@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a74df5e2e228ca2aa4a56643c50fcfd3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testMaxIntBoundary</definition>
+        <argsstring>()</argsstring>
+        <name>testMaxIntBoundary</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\VarClonerTest\testMaxIntBoundary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="23" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="23" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a169cda78ec381a09d398c510c1f14341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testClone</definition>
+        <argsstring>()</argsstring>
+        <name>testClone</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\VarClonerTest\testClone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="62" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="62" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a468ad76bc6517f39c725ae15cbb36a5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testLimits</definition>
+        <argsstring>()</argsstring>
+        <name>testLimits</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\VarClonerTest\testLimits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="150" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="150" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1ab860a852cfc04505b79fbe868211e2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testJsonCast</definition>
+        <argsstring>()</argsstring>
+        <name>testJsonCast</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\VarClonerTest\testJsonCast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="318" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="318" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1ae508e7894aa69fa8dbf910627a678796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testCaster</definition>
+        <argsstring>()</argsstring>
+        <name>testCaster</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\VarClonerTest\testCaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="383" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="383" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a1e1340a2ee9729858238744593532ddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testPhp74</definition>
+        <argsstring>()</argsstring>
+        <name>testPhp74</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Cloner\VarClonerTest\testPhp74</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@requires PHP 7.4 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="442" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="442" bodyend="504"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>VarClonerTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>VarClonerTest</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" line="21" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" bodystart="22" bodyend="505"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1ae508e7894aa69fa8dbf910627a678796" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</scope><name>testCaster</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a169cda78ec381a09d398c510c1f14341" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</scope><name>testClone</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1ab860a852cfc04505b79fbe868211e2bd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</scope><name>testJsonCast</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a468ad76bc6517f39c725ae15cbb36a5c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</scope><name>testLimits</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a74df5e2e228ca2aa4a56643c50fcfd3c" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</scope><name>testMaxIntBoundary</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_cloner_1_1_var_cloner_test_1a1e1340a2ee9729858238744593532ddd" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Cloner::VarClonerTest</scope><name>testPhp74</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

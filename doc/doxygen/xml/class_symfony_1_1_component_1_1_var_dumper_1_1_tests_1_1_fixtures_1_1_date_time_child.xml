@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Fixtures::DateTimeChild</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DateTime</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child_1a6112f329e74aad8aa66d974983faee54" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$addedProperty</definition>
+        <argsstring></argsstring>
+        <name>$addedProperty</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\DateTimeChild\$addedProperty</qualifiedname>
+        <initializer>= &apos;foo&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/DateTimeChild.php" line="7" column="13" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/DateTimeChild.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DateTime</label>
+      </node>
+      <node id="1">
+        <label>DateTimeChild</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DateTime</label>
+      </node>
+      <node id="1">
+        <label>DateTimeChild</label>
+        <link refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/DateTimeChild.php" line="5" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/DateTimeChild.php" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child_1a6112f329e74aad8aa66d974983faee54" prot="private" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::DateTimeChild</scope><name>$addedProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

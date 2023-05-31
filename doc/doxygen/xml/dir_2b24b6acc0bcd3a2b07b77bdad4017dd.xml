@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_2b24b6acc0bcd3a2b07b77bdad4017dd" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/conf</compoundname>
+    <innerfile refid="bdd_8php">bdd.php</innerfile>
+    <innerfile refid="constantes_8php">constantes.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/conf/"/>
+  </compounddef>
+</doxygen>

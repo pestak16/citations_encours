@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures" kind="namespace" language="PHP">
+    <compoundname>Symfony::Component::VarDumper::Tests::Fixtures</compoundname>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_date_time_child" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::DateTimeChild</innerclass>
+    <innerclass refid="interface_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_foo_interface" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::FooInterface</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::GeneratorDemo</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_not_loadable_class" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::NotLoadableClass</innerclass>
+    <innerclass refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_php74" prot="public">Symfony::Component::VarDumper::Tests::Fixtures::Php74</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1ad2e199af8a32cd5a9a5ba591aac8431c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bar</definition>
+        <argsstring>()</argsstring>
+        <name>bar</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\bar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" line="18" column="10" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/DateTimeChild.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

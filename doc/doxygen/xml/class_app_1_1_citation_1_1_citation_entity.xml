@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_app_1_1_citation_1_1_citation_entity" kind="class" language="PHP" prot="public">
+    <compoundname>App::Citation::CitationEntity</compoundname>
+    <basecompoundref refid="class_core_1_1_entity" prot="public" virt="non-virtual">Entity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_app_1_1_citation_1_1_citation_entity_1a3587bd00e5602c1800515b6f9ffbebc5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int $id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <qualifiedname>App\Citation\CitationEntity\$id</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="19" column="17" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_citation_1_1_citation_entity_1a1e7377ceebe23508faf7f0378fdc3be9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $citation</definition>
+        <argsstring></argsstring>
+        <name>$citation</name>
+        <qualifiedname>App\Citation\CitationEntity\$citation</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="26" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_citation_1_1_citation_entity_1a55b6030886a684c6b1588a26e65caf6a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $explication</definition>
+        <argsstring></argsstring>
+        <name>$explication</name>
+        <qualifiedname>App\Citation\CitationEntity\$explication</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="33" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_citation_1_1_citation_entity_1af985479c8cdcf813023872277f14f7bd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string $date_modif</definition>
+        <argsstring></argsstring>
+        <name>$date_modif</name>
+        <qualifiedname>App\Citation\CitationEntity\$date_modif</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="40" column="20" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_citation_1_1_citation_entity_1ae1a8681141cce1ea881d2557e2873fcf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int $auteurs_id</definition>
+        <argsstring></argsstring>
+        <name>$auteurs_id</name>
+        <qualifiedname>App\Citation\CitationEntity\$auteurs_id</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="43" column="17" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_app_1_1_citation_1_1_citation_entity_1a7ca6ee0652b7e1b559adeba5b614bf3b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_app_1_1_auteur_1_1_auteur_entity" kindref="compound">AuteurEntity</ref></type>
+        <definition>AuteurEntity $auteur</definition>
+        <argsstring></argsstring>
+        <name>$auteur</name>
+        <qualifiedname>App\Citation\CitationEntity\$auteur</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="50" column="26" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1aec047a4c71fbfb67e1784b86c63ccf7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(?array $data=null)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>App\Citation\CitationEntity\__construct</qualifiedname>
+        <param>
+          <type>?array</type>
+          <declname>$data</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructeur de la classe <ref refid="class_app_1_1_citation_1_1_citation_entity" kindref="compound">CitationEntity</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametertype>null</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Données à utiliser pour l&apos;hydratation de l&apos;entité. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="57" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hydrate</definition>
+        <argsstring>(array $data)</argsstring>
+        <name>hydrate</name>
+        <qualifiedname>App\Citation\CitationEntity\hydrate</qualifiedname>
+        <reimplements refid="class_core_1_1_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e">hydrate</reimplements>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode d&apos;hydratation de l&apos;entité avec les données fournies.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Données à utiliser pour l&apos;hydratation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="70" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="70" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>est_nouveau</definition>
+        <argsstring>()</argsstring>
+        <name>est_nouveau</name>
+        <qualifiedname>App\Citation\CitationEntity\est_nouveau</qualifiedname>
+        <reimplements refid="class_core_1_1_entity_1ae93ec1a4f6dcae36c9b3a4775d003329">est_nouveau</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vérifie si l&apos;entité est nouvelle (non persistée en base de données).</para>
+<para><simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="86" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <qualifiedname>App\Citation\CitationEntity\getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retourne l&apos;identifiant de la citation.</para>
+<para><simplesect kind="return"><para>int|null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="96" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1a02a5667ab1839b99445c63ed76e3eb39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setId</definition>
+        <argsstring>(?int $id)</argsstring>
+        <name>setId</name>
+        <qualifiedname>App\Citation\CitationEntity\setId</qualifiedname>
+        <param>
+          <type>?int</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Définit l&apos;identifiant de la citation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametertype>null</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifiant de la citation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="107" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1add1135415ad93d53f557ce386d60af7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCitation</definition>
+        <argsstring>()</argsstring>
+        <name>getCitation</name>
+        <qualifiedname>App\Citation\CitationEntity\getCitation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retourne le contenu de la citation.</para>
+<para><simplesect kind="return"><para>string|null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="118" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1ac7c6106446d1f7692516d7563948f088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCitation</definition>
+        <argsstring>(?string $citation)</argsstring>
+        <name>setCitation</name>
+        <qualifiedname>App\Citation\CitationEntity\setCitation</qualifiedname>
+        <param>
+          <type>?string</type>
+          <declname>$citation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Définit le contenu de la citation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$citation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contenu de la citation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="129" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1a621f1329a507d66037f8cd5e96031eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getExplication</definition>
+        <argsstring>()</argsstring>
+        <name>getExplication</name>
+        <qualifiedname>App\Citation\CitationEntity\getExplication</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retourne l&apos;explication de la citation.</para>
+<para><simplesect kind="return"><para>string|null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="140" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1a4c4a4be37b6c36d0549d835b017cc175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setExplication</definition>
+        <argsstring>(?string $explication)</argsstring>
+        <name>setExplication</name>
+        <qualifiedname>App\Citation\CitationEntity\setExplication</qualifiedname>
+        <param>
+          <type>?string</type>
+          <declname>$explication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Définit l&apos;explication de la citation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$explication</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Explication de la citation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="151" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1a244f6a5c0e365a080da30e632f8e9fd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDate_modif</definition>
+        <argsstring>()</argsstring>
+        <name>getDate_modif</name>
+        <qualifiedname>App\Citation\CitationEntity\getDate_modif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retourne la date de modification de la citation.</para>
+<para><simplesect kind="return"><para>string|null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="162" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1af5914eea38197bd9a318165c89a603ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDate_modif</definition>
+        <argsstring>(?string $date_modif)</argsstring>
+        <name>setDate_modif</name>
+        <qualifiedname>App\Citation\CitationEntity\setDate_modif</qualifiedname>
+        <param>
+          <type>?string</type>
+          <declname>$date_modif</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Définit la date de modification de la citation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$date_modif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Date de modification de la citation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="173" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="173" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1af1137068838d1eaeae59c9dabb9a90ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getAuteurs_id</definition>
+        <argsstring>()</argsstring>
+        <name>getAuteurs_id</name>
+        <qualifiedname>App\Citation\CitationEntity\getAuteurs_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="180" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1accd4d2efeb943b07aced5e17fcf74e85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setAuteurs_id</definition>
+        <argsstring>(?int $id)</argsstring>
+        <name>setAuteurs_id</name>
+        <qualifiedname>App\Citation\CitationEntity\setAuteurs_id</qualifiedname>
+        <param>
+          <type>?int</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="185" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="185" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1ad9cbe4cd4561e831bf6a59bdf8571a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getAuteur</definition>
+        <argsstring>()</argsstring>
+        <name>getAuteur</name>
+        <qualifiedname>App\Citation\CitationEntity\getAuteur</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retourne l&apos;auteur de la citation.</para>
+<para><simplesect kind="return"><para>AuteurEntity </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="199" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_1_1_citation_1_1_citation_entity_1adad178376033296444a0efeff41bfb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setAuteur</definition>
+        <argsstring>(AuteurEntity $auteur)</argsstring>
+        <name>setAuteur</name>
+        <qualifiedname>App\Citation\CitationEntity\setAuteur</qualifiedname>
+        <param>
+          <type><ref refid="class_app_1_1_auteur_1_1_auteur_entity" kindref="compound">AuteurEntity</ref></type>
+          <declname>$auteur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Définit l&apos;auteur de la citation.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>AuteurEntity</parametertype>
+<parametername>$auteur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="namespace_app_1_1_auteur" kindref="compound">Auteur</ref> de la citation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>self </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="210" column="21" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="210" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CitationEntity</label>
+        <link refid="class_app_1_1_citation_1_1_citation_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Entity</label>
+        <link refid="class_core_1_1_entity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CitationEntity</label>
+        <link refid="class_app_1_1_citation_1_1_citation_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Entity</label>
+        <link refid="class_core_1_1_entity"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" line="12" column="1" bodyfile="C:/wamp64/www/citations_encours/src/App/Citation/CitationEntity.php" bodystart="13" bodyend="215"/>
+    <listofallmembers>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a7ca6ee0652b7e1b559adeba5b614bf3b" prot="private" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>$auteur</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1ae1a8681141cce1ea881d2557e2873fcf" prot="private" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>$auteurs_id</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a1e7377ceebe23508faf7f0378fdc3be9" prot="private" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>$citation</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1af985479c8cdcf813023872277f14f7bd" prot="private" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>$date_modif</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a55b6030886a684c6b1588a26e65caf6a" prot="private" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>$explication</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a3587bd00e5602c1800515b6f9ffbebc5" prot="private" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>$id</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1aec047a4c71fbfb67e1784b86c63ccf7c" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>__construct</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1ae93ec1a4f6dcae36c9b3a4775d003329" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>est_nouveau</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1ad9cbe4cd4561e831bf6a59bdf8571a3b" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>getAuteur</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1af1137068838d1eaeae59c9dabb9a90ac" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>getAuteurs_id</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1add1135415ad93d53f557ce386d60af7d" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>getCitation</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a244f6a5c0e365a080da30e632f8e9fd5" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>getDate_modif</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a621f1329a507d66037f8cd5e96031eff" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>getExplication</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>getId</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a4ffd29b37acdf3a126f9d79d63f1e04e" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>hydrate</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1adad178376033296444a0efeff41bfb81" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>setAuteur</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1accd4d2efeb943b07aced5e17fcf74e85" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>setAuteurs_id</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1ac7c6106446d1f7692516d7563948f088" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>setCitation</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1af5914eea38197bd9a318165c89a603ba" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>setDate_modif</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a4c4a4be37b6c36d0549d835b017cc175" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>setExplication</name></member>
+      <member refid="class_app_1_1_citation_1_1_citation_entity_1a02a5667ab1839b99445c63ed76e3eb39" prot="public" virt="non-virtual"><scope>App::Citation::CitationEntity</scope><name>setId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

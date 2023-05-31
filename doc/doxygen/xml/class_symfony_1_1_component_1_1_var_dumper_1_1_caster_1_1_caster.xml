@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Caster::Caster</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aad33c911ea989e3d2bdea48a6b1cfaf5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_VERBOSE</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_VERBOSE</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_VERBOSE</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="25" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a56d6d30318d1cd0fdc22d6d8695adcdb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_VIRTUAL</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_VIRTUAL</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_VIRTUAL</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="26" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a848fd0689d189bd196060cfa8fc6d5a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_DYNAMIC</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_DYNAMIC</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_DYNAMIC</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="27" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a9cd2df28c08724d99ab6d30cce0b644f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_PUBLIC</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_PUBLIC</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_PUBLIC</qualifiedname>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="28" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1acfccb18d43528b55f1311a14c76e4c44" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_PROTECTED</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_PROTECTED</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_PROTECTED</qualifiedname>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="29" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aef732b9643baf9a3e70006cad07d8cec" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_PRIVATE</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_PRIVATE</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_PRIVATE</qualifiedname>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="30" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a343aa097ba13005dfc43c8d9aa392b18" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_NULL</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_NULL</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_NULL</qualifiedname>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="31" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a49e2e1bd4a1d569f291951778ac78884" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_EMPTY</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_EMPTY</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_EMPTY</qualifiedname>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="32" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a96493de580706d318bef76fc00c50015" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_NOT_IMPORTANT</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_NOT_IMPORTANT</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_NOT_IMPORTANT</qualifiedname>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="33" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a0aaddfb25e2288bc8fa42261eecd8868" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXCLUDE_STRICT</definition>
+        <argsstring></argsstring>
+        <name>EXCLUDE_STRICT</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\EXCLUDE_STRICT</qualifiedname>
+        <initializer>= 512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="34" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a234d00196816918f54ad83a612574b53" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PREFIX_VIRTUAL</definition>
+        <argsstring></argsstring>
+        <name>PREFIX_VIRTUAL</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\PREFIX_VIRTUAL</qualifiedname>
+        <initializer>= &quot;\0~\0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="36" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aaab0636212652299287443cb9fca0256" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PREFIX_DYNAMIC</definition>
+        <argsstring></argsstring>
+        <name>PREFIX_DYNAMIC</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\PREFIX_DYNAMIC</qualifiedname>
+        <initializer>= &quot;\0+\0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="37" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a155c777333d953a544f610075ab4d183" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PREFIX_PROTECTED</definition>
+        <argsstring></argsstring>
+        <name>PREFIX_PROTECTED</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\PREFIX_PROTECTED</qualifiedname>
+        <initializer>= &quot;\0*\0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="38" column="11" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1abfb90c113bb72da4380cd238aa0322e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castObject</definition>
+        <argsstring>($obj, $class, $hasDebugInfo=false, $debugClass=null)</argsstring>
+        <name>castObject</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\castObject</qualifiedname>
+        <param>
+          <declname>$obj</declname>
+        </param>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$hasDebugInfo</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$debugClass</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Casts objects to arrays and adds the dynamic property prefix.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>object</parametertype>
+<parametername>$obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to cast </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class of the object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$hasDebugInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the __debugInfo method exists on $obj or not</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array The array-cast of the object, with prefixed dynamic properties </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="49" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="49" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a0e19abbf48c519d4c3d006baff1cc9eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static filter</definition>
+        <argsstring>(array $a, $filter, array $listedProperties=[], &amp;$count=0)</argsstring>
+        <name>filter</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\filter</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <declname>$filter</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$listedProperties</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$count</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters out the specified properties.</para>
+<para>By default, a single match in the $filter bit field filters properties out, following an &quot;or&quot; logic. When EXCLUDE_STRICT is set, an &quot;and&quot; logic is applied: all bits must match for a property to be removed.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array containing the properties to filter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A bit field of Caster::EXCLUDE_* constants specifying which properties to filter out </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string[]</parametertype>
+<parametername>$listedProperties</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of properties to exclude when <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aad33c911ea989e3d2bdea48a6b1cfaf5" kindref="member">Caster::EXCLUDE_VERBOSE</ref> is set, and to preserve when <ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a96493de580706d318bef76fc00c50015" kindref="member">Caster::EXCLUDE_NOT_IMPORTANT</ref> is set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>&amp;$count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to the number of removed properties</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array The filtered array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="142" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="142" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1abf36ec1da500a607e0aada265ab1b62b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static castPhpIncompleteClass</definition>
+        <argsstring>(\__PHP_Incomplete_Class $c, array $a, Stub $stub, $isNested)</argsstring>
+        <name>castPhpIncompleteClass</name>
+        <qualifiedname>Symfony\Component\VarDumper\Caster\Caster\castPhpIncompleteClass</qualifiedname>
+        <param>
+          <type>\__PHP_Incomplete_Class</type>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_symfony_1_1_component_1_1_var_dumper_1_1_cloner_1_1_stub" kindref="compound">Stub</ref></type>
+          <declname>$stub</declname>
+        </param>
+        <param>
+          <declname>$isNested</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="183" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="183" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper for filtering out properties in casters.</para>
+<para><simplesect kind="author"><para>Nicolas Grekas <ulink url="mailto:p@tchwork.com">p@tchwork.com</ulink></para>
+</simplesect>
+@final </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" line="23" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Caster/Caster.php" bodystart="24" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1abfb90c113bb72da4380cd238aa0322e8" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>castObject</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1abf36ec1da500a607e0aada265ab1b62b" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>castPhpIncompleteClass</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a848fd0689d189bd196060cfa8fc6d5a8" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_DYNAMIC</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a49e2e1bd4a1d569f291951778ac78884" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_EMPTY</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a96493de580706d318bef76fc00c50015" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_NOT_IMPORTANT</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a343aa097ba13005dfc43c8d9aa392b18" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_NULL</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aef732b9643baf9a3e70006cad07d8cec" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_PRIVATE</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1acfccb18d43528b55f1311a14c76e4c44" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_PROTECTED</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a9cd2df28c08724d99ab6d30cce0b644f" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_PUBLIC</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a0aaddfb25e2288bc8fa42261eecd8868" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_STRICT</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aad33c911ea989e3d2bdea48a6b1cfaf5" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_VERBOSE</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a56d6d30318d1cd0fdc22d6d8695adcdb" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>EXCLUDE_VIRTUAL</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a0e19abbf48c519d4c3d006baff1cc9eb" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>filter</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1aaab0636212652299287443cb9fca0256" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>PREFIX_DYNAMIC</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a155c777333d953a544f610075ab4d183" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>PREFIX_PROTECTED</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_caster_1_1_caster_1a234d00196816918f54ad83a612574b53" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Caster::Caster</scope><name>PREFIX_VIRTUAL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

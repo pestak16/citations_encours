@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo" kind="class" language="PHP" prot="public">
+    <compoundname>Symfony::Component::VarDumper::Tests::Fixtures::GeneratorDemo</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo_1a3e3ffac9937b208f616f34f76e1dfd46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static foo</definition>
+        <argsstring>()</argsstring>
+        <name>foo</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\GeneratorDemo\foo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" line="7" column="28" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo_1ae7a58e6eb64e3fa0d88ff421f558d8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>baz</definition>
+        <argsstring>()</argsstring>
+        <name>baz</name>
+        <qualifiedname>Symfony\Component\VarDumper\Tests\Fixtures\GeneratorDemo\baz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" line="12" column="21" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" line="5" column="1" bodyfile="C:/wamp64/www/citations_encours/src/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" bodystart="6" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo_1ae7a58e6eb64e3fa0d88ff421f558d8f4" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::GeneratorDemo</scope><name>baz</name></member>
+      <member refid="class_symfony_1_1_component_1_1_var_dumper_1_1_tests_1_1_fixtures_1_1_generator_demo_1a3e3ffac9937b208f616f34f76e1dfd46" prot="public" virt="non-virtual"><scope>Symfony::Component::VarDumper::Tests::Fixtures::GeneratorDemo</scope><name>foo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

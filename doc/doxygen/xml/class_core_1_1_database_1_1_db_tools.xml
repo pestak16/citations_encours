@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_core_1_1_database_1_1_db_tools" kind="class" language="PHP" prot="public">
+    <compoundname>Core::Database::DbTools</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1_1_database_1_1_db_tools_1a39a3209ef61c44c6b947d19c23ebc630" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getFields</definition>
+        <argsstring>($table)</argsstring>
+        <name>getFields</name>
+        <qualifiedname>Core\Database\DbTools\getFields</qualifiedname>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Méthode getFields</para>
+<para>Récupère les noms des champs d&apos;une table donnée.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$table</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le nom de la table. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array Les noms des champs de la table. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbTools.php" line="22" column="28" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/DbTools.php" bodystart="22" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_core_1_1_database_1_1_db_tools" kindref="compound">DbTools</ref></para>
+<para>Cette classe fournit des outils pour interagir avec la base de données. </para>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/Core/Database/DbTools.php" line="12" column="1" bodyfile="C:/wamp64/www/citations_encours/src/Core/Database/DbTools.php" bodystart="13" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_database_1_1_db_tools_1a39a3209ef61c44c6b947d19c23ebc630" prot="public" virt="non-virtual"><scope>Core::Database::DbTools</scope><name>getFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_931bc5a5251aa6d320e21fcd86a752ee" kind="dir">
+    <compoundname>C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring</compoundname>
+    <innerdir refid="dir_96687c57906eb968bfb30d2f7ba7bb2b">C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/Resources</innerdir>
+    <innerfile refid="bootstrap_8php">bootstrap.php</innerfile>
+    <innerfile refid="bootstrap80_8php">bootstrap80.php</innerfile>
+    <innerfile refid="_mbstring_8php">Mbstring.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/symfony/polyfill-mbstring/"/>
+  </compounddef>
+</doxygen>

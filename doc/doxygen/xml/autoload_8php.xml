@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="autoload_8php" kind="file" language="PHP">
+    <compoundname>autoload.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>autoload.php<sp/>@generated<sp/>by<sp/>Composer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">require_once<sp/>__DIR__<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/composer/autoload_real.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_composer_autoloader_init9f4fded4e2cf7a731c97de2473a9da9a_1a4f29c9e935451ce6ea4e4b9821ba6280" kindref="member">ComposerAutoloaderInit9f4fded4e2cf7a731c97de2473a9da9a::getLoader</ref>();</highlight></codeline>
+    </programlisting>
+    <location file="C:/wamp64/www/citations_encours/src/vendor/autoload.php"/>
+  </compounddef>
+</doxygen>
