@@ -38,13 +38,14 @@ class Controller
         require_once ROOT . '/App/' . ucfirst($this->module) . '/views/' . $view;
     }
 
+
     public function supprimer(array $data)
     {
+        /* if (count($params) == 1 && is_int($params[0])) {
+            $params = $params[0];
+        } */
         $this->manager->delete($data[0]);
-
-        //laisse un objet
-       header('Location: /' . $this->module);
-        
+        header('Location: /' . $this->module);
     }
 }
 

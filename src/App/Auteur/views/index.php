@@ -5,7 +5,7 @@
 ob_start();
 
 ?>
-<a href="/auteur/ajouter" class='btn btn-primary'>Ajouter un auteur</a>
+<a href="/auteur/ajouter" class="btn btn-primary">Ajouter un auteur</a>
 <div class="container cards">
     <?php foreach($data as $auteur): ?>
         <div class="card w-40 m-2 p-3">

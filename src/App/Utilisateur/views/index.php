@@ -5,6 +5,7 @@
 ob_start();
 
 ?>
+<a href="/utilisateur/ajouter" class="btn btn-primary">Ajouter un utilisateur</a>
 <div class="container cards">
     <?php foreach($data as $utilisateur): ?>
         <div class="card w-40 m-2 p-3">
