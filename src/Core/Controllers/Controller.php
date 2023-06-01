@@ -3,11 +3,16 @@
 namespace Core\Controllers;
 
 use Core\Database\Manager;
+use Twig\Environment;
+use Twig\Loader\FilesystemLoader;
 
 class Controller
 {
     protected string $module;
     protected Manager $manager;
+
+    protected $loader;
+    protected $twig;
 
     public function __construct()
     {
@@ -18,6 +23,9 @@ class Controller
         $this->module = strtolower($model);
         $managerName = 'App\\' . ucfirst($this->module) . '\\' . ucfirst($this->module) . 'Manager';
         $this->manager = new $managerName();
+
+        $this->loader = new FilesystemLoader(ROOT. '/App/views/templates');
+        $this->twig = new Environment($this->loader);
     }
 
     public function index()
@@ -26,8 +34,12 @@ class Controller
         $title = 'Mon super titre';
         $compact['title'] = $title;
         $compact['data'] = $data;
-        $this->render($compact, 'index.php');
+       // $this->render($compact, 'index.php');
+
+       $this->twig->display($this->module. '.index.twig', $compact);
     }
+
+    
 
     public function render($compact, string $view, string $template='default')
     {

@@ -1,6 +1,7 @@
 {
     "require": {
         "rdehnhardt/var-dumper": "^1.3",
-        "altorouter/altorouter": "^2.0"
+        "altorouter/altorouter": "^2.0",
+        "twig/twig": "^3.6"
     }
 }

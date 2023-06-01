@@ -1,0 +1,32 @@
+{% extends "base.template.twig" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h2 class="display-5">{{ title }}</h2>
+
+    <div class="cards">
+        {% for item in data %}
+        <div class="card mb-2 p-4">
+            <h3 class="card-title">{{item.auteur}}</h3>
+            <div class="card-text">
+                {% set max_length = 150 %}
+                {% set bio = item.bio %}
+                {% if bio|length > max_length %}
+                {% set final_string = bio|slice(0, max_length)|trim ~ '...' %}
+                {% else %}
+                {% set final_string = bio %}
+                {% endif %}
+                {{ final_string }}
+            </div>
+            <div class="actions ms-auto">
+                <a href="/auteur/modifier/{{item.id}}" class="card-link">Modif</a>
+                <a href="/auteur/supprimer/{{item.id}}" class="card-link">Supp</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
