@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Core\HTTP;
 
 require ROOT . '/vendor/autoload.php';
 $uri = $_SERVER['REQUEST_URI'];

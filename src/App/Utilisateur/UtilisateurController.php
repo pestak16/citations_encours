@@ -2,7 +2,7 @@
 
 namespace App\Utilisateur;
 
-use Core\Controller;
+use Core\Controllers\Controller;
 
 class UtilisateurController extends Controller
 {

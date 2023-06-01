@@ -2,7 +2,7 @@
 
 namespace App\Auteur;
 
-use Core\Controller;
+use Core\Controllers\Controller;
 
 class AuteurController extends Controller
 {
