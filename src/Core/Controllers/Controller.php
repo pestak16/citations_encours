@@ -41,22 +41,14 @@ class Controller
 
     
 
-    public function render($compact, string $view, string $template='default')
-    {
-        
-        $template = ROOT . '/App/views/templates/' . $template . '.php';
-        $title = $compact['title'];
-        $data = $compact['data'];
-        require_once ROOT . '/App/' . ucfirst($this->module) . '/views/' . $view;
-    }
 
 
-    public function supprimer(array $data)
+    public function supprimer(int $id)
     {
         /* if (count($params) == 1 && is_int($params[0])) {
             $params = $params[0];
         } */
-        $this->manager->delete($data[0]);
+        $this->manager->delete($id);
         header('Location: /' . $this->module);
     }
 }

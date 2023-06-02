@@ -1,0 +1,14 @@
+{% extends "base.template.twig" %}
+
+{% block title %}{{title}}{% endblock %}
+{% block style %}
+<style>
+    label{display:block}
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+{{form|raw}}
+</div>
+{% endblock %}
