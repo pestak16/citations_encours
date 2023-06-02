@@ -77,8 +77,12 @@ class Manager
     {
         $sql = 'SELECT * FROM ' . $this->table;
         $q = $this->statement($sql);
-        return $q->fetchAll(PDO::FETCH_CLASS, $this->getEntityClassName());
+            
+                return $q->fetchAll(PDO::FETCH_CLASS, $this->getEntityClassName());
+          
+         
     }
+        
 
     /**
      * Méthode findBy

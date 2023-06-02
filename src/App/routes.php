@@ -25,6 +25,14 @@ $routeur->map( 'POST|GET', '/auteur/modifier/[i:id]', function($id) {
     ControllerFactory::getController('Auteur')->modifier($id);
 });
 
+$routeur->map( 'GET', '/api/auteurs', function() {
+    ControllerFactory::getController('Api')->getAuteurs();
+});
+$routeur->map( 'GET', '/api/citations', function() {
+    ControllerFactory::getController('Api')->getCitations();
+});
+
+
 
 
 
